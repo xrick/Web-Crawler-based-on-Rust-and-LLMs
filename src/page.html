@@ -5,18 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{TITLE}} | Rust Crawler</title>
 <style>
-:root { color-scheme: light; --nav:#203447; --accent:#176b87; --muted:#586b7c; --line:#dce4eb; }
+:root { color-scheme: light; --nav:#203447; --accent:#176b87; --muted:#586b7c; --line:#dce4eb; --canvas:#f7f9fc; --sidebar:#edf3f8; --nav-hover:#e2edf5; --nav-active:#d7e8f3; }
 * { box-sizing:border-box; }
-body { margin:0; background:#f3f6f9; color:var(--nav); font:16px/1.7 system-ui,"PingFang TC",sans-serif; }
-.sidebar { position:fixed; inset:0 auto 0 0; width:272px; background:var(--nav); color:white; display:flex; flex-direction:column; padding:32px 20px; }
+body { margin:0; background:var(--canvas); color:var(--nav); font:16px/1.7 system-ui,"PingFang TC",sans-serif; }
+.sidebar { position:fixed; inset:0 auto 0 0; width:272px; background:var(--sidebar); color:var(--nav); border-right:1px solid var(--line); display:flex; flex-direction:column; padding:32px 20px; }
 .brand { font:700 23px/1.3 ui-monospace,monospace; letter-spacing:-1px; }
-.subtitle { color:#bbcedc; font-size:13px; margin:8px 0 40px; }
-.nav-label { color:#bbcedc; font-size:12px; margin:0 12px 12px; }
+.subtitle { color:var(--muted); font-size:13px; margin:8px 0 40px; }
 nav { display:grid; gap:8px; }
-nav a { color:#dbe6ee; text-decoration:none; padding:14px 16px; border-radius:6px; border-left:3px solid transparent; }
-nav a:hover { background:#2a445b; }
-nav a[aria-current="page"] { background:#304f66; color:white; border-left-color:#79cee4; }
-.sidebar footer { margin-top:auto; padding-top:32px; color:#bbcedc; font-size:12px; }
+nav a { color:var(--nav); text-decoration:none; padding:14px 16px; border-radius:6px; border-left:3px solid transparent; }
+nav a:hover { background:var(--nav-hover); }
+nav a[aria-current="page"] { background:var(--nav-active); color:var(--accent); border-left-color:var(--accent); }
+.sidebar footer { margin-top:auto; padding-top:32px; color:var(--muted); font-size:12px; }
 main { margin-left:272px; padding:48px clamp(24px,5vw,80px); max-width:1600px; }
 .eyebrow { color:var(--accent); font:600 12px/1.5 ui-monospace,monospace; letter-spacing:2px; }
 h1 { font-size:clamp(24px,3vw,34px); line-height:1.4; margin:12px 0; }
@@ -33,7 +32,7 @@ h2 { font-size:19px; margin:0; } p { color:var(--muted); }
 .note { font-size:14px; margin-top:24px; }
 :focus-visible { outline:3px solid #d29424; outline-offset:4px; }
 .skip { position:absolute; top:-100px; left:16px; z-index:2; background:white; padding:12px; } .skip:focus { top:12px; }
-@media(max-width:720px) { .sidebar { position:static; width:100%; padding:24px 20px; } .subtitle { margin-bottom:20px; } .nav-label,.sidebar footer { display:none; } main { margin-left:0; padding:28px 20px; } .details div { flex-direction:column; gap:4px; } }
+@media(max-width:720px) { .sidebar { position:static; width:100%; padding:24px 20px; } .subtitle { margin-bottom:20px; } .sidebar footer { display:none; } main { margin-left:0; padding:28px 20px; } .details div { flex-direction:column; gap:4px; } }
 button,input,select { font:inherit; } button { border:0; cursor:pointer; } button:disabled { opacity:.5; cursor:wait; }
 input[type=number],select { padding:10px; border:1px solid var(--line); border-radius:5px; width:100%; background:white; }
 fieldset { border:1px solid var(--line); margin:20px 0; padding:20px; } legend { font-weight:600; }
@@ -53,7 +52,6 @@ pre { white-space:pre-wrap; overflow-wrap:anywhere; font:14px/1.7 system-ui,sans
 <aside class="sidebar">
 <div class="brand">Rust Crawler</div>
 <p class="subtitle">LLM 網頁爬蟲管理</p>
-<p class="nav-label">工作空間</p>
 <nav aria-label="主要導覽">
 <a href="/" {{DASHBOARD_CURRENT}}>爬蟲目前工作狀態 dashboard</a>
 <a href="/settings" {{SETTINGS_CURRENT}}>爬蟲設定</a>
