@@ -18,10 +18,12 @@ fn mutation_allowed(req: &HttpRequest) -> bool {
     req.headers()
         .get("x-crawler-request")
         .is_some_and(|v| v == "1")
-        && req
-            .headers()
-            .get("origin")
-            .is_none_or(|v| v == "http://127.0.0.1:8080" || v == "http://localhost:8080")
+        && req.headers().get("origin").is_none_or(|v| {
+            crate::server_port().is_ok_and(|port| {
+                v == format!("http://127.0.0.1:{port}").as_str()
+                    || v == format!("http://localhost:{port}").as_str()
+            })
+        })
 }
 async fn get_settings(state: State) -> HttpResponse {
     match state.store.settings() {

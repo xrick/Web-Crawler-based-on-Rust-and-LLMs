@@ -164,6 +164,7 @@ pub fn blocks(html: &str) -> Vec<Block> {
             // A shared colspan stays unassigned: don't guess that it applies to every model.
             let hint = if headers.len() == count
                 && cell.value().attr("aria-colspan").unwrap_or("1") == "1"
+                && cell.value().attr("colspan").unwrap_or("1") == "1"
             {
                 headers
                     .get(i)
@@ -180,12 +181,23 @@ pub fn blocks(html: &str) -> Vec<Block> {
             });
         }
     }
-    if out.is_empty() {
+    {
+        let model_pattern =
+            regex::Regex::new(r"[0-9]+ 個連接埠機型(?: [0-9]+)?").expect("static pattern");
         for section in doc.select(&sel("main section")) {
-            // Keep only leaf sections, avoiding duplicate nested content.
-            if section.select(&sel("section")).next().is_some() {
-                continue;
+            // Each section owns only its direct content. Rows and child sections
+            // are extracted separately; remove them from this temporary copy.
+            let mut section_html = Html::parse_fragment(&section.html());
+            let represented: Vec<_> = section_html
+                .select(&sel(".techspecs-row, tr, .techspecs-header-row, [role=columnheader], section section"))
+                .map(|e| e.id())
+                .collect();
+            for id in represented {
+                if let Some(mut node) = section_html.tree.get_mut(id) {
+                    node.detach();
+                }
             }
+            let section = section_html.root_element();
             let value = text(section);
             if value.is_empty() {
                 continue;
@@ -201,8 +213,6 @@ pub fn blocks(html: &str) -> Vec<Block> {
             let grid_cells: Vec<_> = section
                 .select(&sel(".grid-container > .grid-item"))
                 .collect();
-            let model_pattern =
-                regex::Regex::new(r"[0-9]+ 個連接埠機型(?: [0-9]+)?").expect("static pattern");
             if grid_cells.len() > 1 && grid_cells.iter().any(|c| model_pattern.is_match(&text(*c)))
             {
                 for cell in grid_cells {

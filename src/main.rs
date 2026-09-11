@@ -1,9 +1,11 @@
 mod api;
 mod apple;
 mod crawler;
+mod crawlers;
 mod llm;
 mod models;
 mod network;
+mod services;
 mod storage;
 
 use actix_web::{App, HttpResponse, HttpServer, Result, error, web};
@@ -111,8 +113,9 @@ fn routes(config: &mut web::ServiceConfig) {
 async fn main() -> std::io::Result<()> {
     // Create state OUTSIDE the factory so all server workers share the same list.
     let todos = web::Data::new(Mutex::new(Vec::<Todo>::new()));
-    let listener = std::net::TcpListener::bind(("127.0.0.1", 8080))?;
-    let root = std::env::var("CRAWLER_DATA_DIR").unwrap_or_else(|_| "data".into());
+    let port = server_port()?;
+    let listener = std::net::TcpListener::bind(("127.0.0.1", port))?;
+    let root = std::env::var("CRAWLER_DATA_DIR").unwrap_or_else(|_| "crawler_data/apple".into());
     let store = storage::Store::open(std::path::Path::new(&root)).map_err(std::io::Error::other)?;
     store.recover().map_err(std::io::Error::other)?;
     let engine = web::Data::new(std::sync::Arc::new(crawler::Engine::new(store)));
@@ -124,7 +127,7 @@ async fn main() -> std::io::Result<()> {
             .configure(api::routes)
     })
     .listen(listener)?;
-    println!("Open http://127.0.0.1:8080 — press Ctrl+C to stop.");
+    println!("Open http://127.0.0.1:{port} — press Ctrl+C to stop.");
     server.run().await
 }
 
@@ -167,4 +170,23 @@ async fn index() -> HttpResponse {
 }
 async fn settings() -> HttpResponse {
     crawler_page(true)
+}
+
+#[cfg(test)]
+mod integration_tests;
+
+fn server_port() -> std::io::Result<u16> {
+    std::env::var("CRAWLER_PORT")
+        .unwrap_or_else(|_| "8080".into())
+        .parse::<u16>()
+        .map_err(std::io::Error::other)
+        .and_then(|p| {
+            if p > 0 {
+                Ok(p)
+            } else {
+                Err(std::io::Error::other(
+                    "CRAWLER_PORT must be between 1 and 65535",
+                ))
+            }
+        })
 }

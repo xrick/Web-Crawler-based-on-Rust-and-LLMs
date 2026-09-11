@@ -1,0 +1,12 @@
+/target/
+/data/
+/output/verification/*-quality.json
+/output/verification/*.json
+!/output/verification/initial_run.json
+.DS_Store
+__pycache__/
+*.pyc
+.venv*/
+
+/crawler/
+/crawler_data/

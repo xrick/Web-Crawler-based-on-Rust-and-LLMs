@@ -88,6 +88,9 @@ pub struct Downloader {
     client: Client,
     pub robots: Robots,
     cancel: CancellationToken,
+    retry_delay: Duration,
+    #[cfg(test)]
+    test_origin: Option<String>,
 }
 impl Downloader {
     pub fn new(cancel: CancellationToken) -> Result<Self, String> {
@@ -101,17 +104,19 @@ impl Downloader {
             client,
             robots: Robots::default(),
             cancel,
+            retry_delay: Duration::from_secs(1),
+            #[cfg(test)]
+            test_origin: None,
         })
-    }
-    pub async fn load_robots(&mut self) -> Result<String, String> {
-        let (_, body) = self.get("https://www.apple.com/robots.txt").await?;
-        self.robots = Robots::parse(&body);
-        Ok(body)
     }
     pub async fn get(&self, initial: &str) -> Result<(String, String), String> {
         let mut url = Url::parse(initial).map_err(|e| e.to_string())?;
         for _ in 0..6 {
-            if !allowed(&url) {
+            let permitted = allowed(&url);
+            #[cfg(test)]
+            let permitted = permitted
+                || self.test_origin.as_deref() == Some(url.origin().ascii_serialization().as_str());
+            if !permitted {
                 return Err(format!("拒絕非 Apple 台灣 URL: {url}"));
             }
             if !self.robots.permits(url.path()) {
@@ -119,7 +124,7 @@ impl Downloader {
             }
             let mut response = None;
             for attempt in 0..3 {
-                tokio::select! { _ = self.cancel.cancelled() => return Err("cancelled".into()), _ = tokio::time::sleep(Duration::from_secs(1 << attempt)) => {} }
+                tokio::select! { _ = self.cancel.cancelled() => return Err("cancelled".into()), _ = tokio::time::sleep(self.retry_delay * (1 << attempt)) => {} }
                 let result = tokio::select! { _ = self.cancel.cancelled() => return Err("cancelled".into()), r = self.client.get(url.clone()).send() => r };
                 match result {
                     Ok(r)
@@ -175,5 +180,104 @@ impl Downloader {
                 .map_err(|e| e.to_string());
         }
         Err("重新導向次數超過上限".into())
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use actix_web::{App, HttpResponse, HttpServer, web};
+    use std::sync::{
+        Arc,
+        atomic::{AtomicUsize, Ordering},
+    };
+
+    async fn server(
+        mode: &'static str,
+    ) -> (String, actix_web::dev::ServerHandle, Arc<AtomicUsize>) {
+        let listener = std::net::TcpListener::bind("127.0.0.1:0").unwrap();
+        let address = listener.local_addr().unwrap();
+        let calls = Arc::new(AtomicUsize::new(0));
+        let state = calls.clone();
+        let server = HttpServer::new(move || {
+            let state = state.clone();
+            App::new().default_service(web::to(move || {
+                let count = state.fetch_add(1, Ordering::SeqCst);
+                async move {
+                    match mode {
+                        "retry" if count < 2 => HttpResponse::ServiceUnavailable().finish(),
+                        "rate" if count < 1 => HttpResponse::TooManyRequests().finish(),
+                        "timeout" => {
+                            tokio::time::sleep(Duration::from_millis(600)).await;
+                            HttpResponse::Ok().content_type("text/html").body("late")
+                        }
+                        "redirect" => HttpResponse::Found()
+                            .insert_header(("location", "http://outside.invalid/"))
+                            .finish(),
+                        "missing" => HttpResponse::NotFound().finish(),
+                        _ => HttpResponse::Ok().content_type("text/html").body("fixture"),
+                    }
+                }
+            }))
+        })
+        .workers(1)
+        .listen(listener)
+        .unwrap()
+        .run();
+        let handle = server.handle();
+        actix_web::rt::spawn(server);
+        (format!("http://{address}"), handle, calls)
+    }
+    fn downloader(origin: &str) -> Downloader {
+        let mut net = Downloader::new(CancellationToken::new()).unwrap();
+        net.client = Client::builder()
+            .timeout(Duration::from_millis(200))
+            .redirect(reqwest::redirect::Policy::none())
+            .build()
+            .unwrap();
+        net.retry_delay = Duration::from_millis(1);
+        net.test_origin = Some(origin.into());
+        net
+    }
+    #[actix_web::test]
+    async fn transient_errors_retry_but_permanent_errors_do_not() {
+        for (mode, expected, success) in
+            [("retry", 3, true), ("rate", 2, true), ("missing", 1, false)]
+        {
+            let (origin, handle, calls) = server(mode).await;
+            let result = downloader(&origin).get(&origin).await;
+            handle.stop(false).await;
+            assert_eq!(result.is_ok(), success);
+            assert_eq!(calls.load(Ordering::SeqCst), expected);
+        }
+    }
+    #[actix_web::test]
+    async fn timeouts_exhaust_three_attempts() {
+        let (origin, handle, calls) = server("timeout").await;
+        let result = downloader(&origin).get(&origin).await;
+        handle.stop(false).await;
+        assert!(result.is_err());
+        assert_eq!(calls.load(Ordering::SeqCst), 3);
+    }
+    #[actix_web::test]
+    async fn redirected_host_is_rejected_before_following() {
+        let (origin, handle, calls) = server("redirect").await;
+        let result = downloader(&origin).get(&origin).await;
+        handle.stop(false).await;
+        assert!(result.unwrap_err().contains("拒絕"));
+        assert_eq!(calls.load(Ordering::SeqCst), 1);
+    }
+    #[actix_web::test]
+    async fn cancellation_interrupts_retry_wait() {
+        let (origin, handle, calls) = server("retry").await;
+        let mut net = downloader(&origin);
+        net.retry_delay = Duration::from_secs(60);
+        net.cancel.cancel();
+        let result = tokio::time::timeout(Duration::from_millis(100), net.get(&origin))
+            .await
+            .unwrap();
+        handle.stop(false).await;
+        assert_eq!(result.unwrap_err(), "cancelled");
+        assert_eq!(calls.load(Ordering::SeqCst), 0);
     }
 }

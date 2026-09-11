@@ -282,3 +282,47 @@ async fn crawler_invalid_settings_and_invented_condition() {
     assert!(specs[0].conditions.is_none());
     assert_eq!(specs[0].status, "needs_review");
 }
+
+#[actix_web::test]
+async fn crawler_mixed_layout_preserves_sections_without_duplicate_cells() {
+    let blocks = crate::apple::blocks(include_str!("../tests/fixtures/mixed_specs.html"));
+    let text = blocks
+        .iter()
+        .map(|b| b.text.as_str())
+        .collect::<Vec<_>>()
+        .join("\n");
+    assert_eq!(text.matches("256GB").count(), 1);
+    assert_eq!(text.matches("512GB").count(), 1);
+    assert!(text.contains("容量依設定而異"));
+    assert!(text.contains("最長可達 18 小時"));
+}
+
+#[actix_web::test]
+async fn crawler_native_colspan_is_never_assigned_to_one_model() {
+    let html = "<table><tr><th role='columnheader'>A</th><th role='columnheader'>B</th></tr><tr><td colspan='2'>shared</td><td>other</td></tr></table>";
+    let blocks = crate::apple::blocks(html);
+    assert!(blocks[0].model_hint.is_none());
+}
+
+#[actix_web::test]
+async fn crawler_nested_sections_preserve_parent_text_once() {
+    let blocks = crate::apple::blocks(
+        "<main><section><h2>外層</h2><p>parent qualifier</p><section><h3>內層</h3><p>child value</p></section></section></main>",
+    );
+    let text = blocks
+        .iter()
+        .map(|b| b.text.as_str())
+        .collect::<Vec<_>>()
+        .join("\n");
+    assert_eq!(text.matches("parent qualifier").count(), 1);
+    assert_eq!(text.matches("child value").count(), 1);
+}
+
+#[actix_web::test]
+async fn crawler_table_only_section_does_not_emit_header_only_fallback() {
+    let fixture = include_str!("../tests/fixtures/specs.html")
+        .replace("<h1>Sample 技術規格</h1>", "")
+        .replace("<main>", "<main><section><h2>規格</h2>")
+        .replace("</main>", "</section></main>");
+    assert_eq!(crate::apple::blocks(&fixture).len(), 3);
+}

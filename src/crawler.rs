@@ -1,5 +1,11 @@
 //! Background orchestration. Durable snapshots are saved after each meaningful step.
-use crate::{apple, llm, models::*, network::Downloader, storage::Store};
+use crate::{
+    crawlers::{AppleTaiwanCrawler, Crawler},
+    llm,
+    models::*,
+    services::{Annotator, AppleDownloads, DownloadFactory, Fetcher, Ollama},
+    storage::Store,
+};
 use sha2::{Digest, Sha256};
 use std::{
     collections::{BTreeMap, HashMap, HashSet},
@@ -9,12 +15,31 @@ use tokio_util::sync::CancellationToken;
 
 pub struct Engine {
     pub store: Store,
+    crawler: Arc<dyn Crawler>,
+    downloads: Arc<dyn DownloadFactory>,
+    annotator: Arc<dyn Annotator>,
     active: Mutex<Option<(String, CancellationToken)>>,
 }
 impl Engine {
     pub fn new(store: Store) -> Self {
+        Self::with_components(
+            store,
+            Arc::new(AppleTaiwanCrawler),
+            Arc::new(AppleDownloads),
+            Arc::new(Ollama),
+        )
+    }
+    pub fn with_components(
+        store: Store,
+        crawler: Arc<dyn Crawler>,
+        downloads: Arc<dyn DownloadFactory>,
+        annotator: Arc<dyn Annotator>,
+    ) -> Self {
         Self {
             store,
+            crawler,
+            downloads,
+            annotator,
             active: Mutex::new(None),
         }
     }
@@ -81,7 +106,7 @@ impl Engine {
     async fn fetch(
         &self,
         job: &mut Job,
-        net: &Downloader,
+        net: &dyn Fetcher,
         url: &str,
         kind: &str,
         category: &str,
@@ -96,13 +121,13 @@ impl Engine {
         job.current_url = url.into();
         self.store.save(job)?;
         let (final_url, html) = net.get(url).await?;
-        let dir = self.store.root.join("runs").join(&job.id);
+        let dir = self.store.root.join(category).join(&job.id);
         std::fs::create_dir_all(&dir).map_err(|e| e.to_string())?;
         let n = job.pages.len();
-        let html_name = format!("runs/{}/page-{n}.html", job.id);
-        let text_name = format!("runs/{}/page-{n}.txt", job.id);
+        let html_name = format!("{category}/{}/page-{n}.html", job.id);
+        let text_name = format!("{category}/{}/page-{n}.txt", job.id);
         std::fs::write(self.store.root.join(&html_name), &html).map_err(|e| e.to_string())?;
-        std::fs::write(self.store.root.join(&text_name), apple::plain(&html))
+        std::fs::write(self.store.root.join(&text_name), self.crawler.plain(&html))
             .map_err(|e| e.to_string())?;
         job.pages.push(PageRecord {
             url: final_url.clone(),
@@ -119,13 +144,19 @@ impl Engine {
         Ok(html)
     }
     async fn work(&self, job: &mut Job, cancel: &CancellationToken) -> Result<(), String> {
-        let mut net = Downloader::new(cancel.clone())?;
-        let robots = net.load_robots().await?;
+        let mut net = self.downloads.create(cancel.clone())?;
+        let robots = net.robots(self.crawler.robots_url()).await?;
         let dir = self.store.root.join("runs").join(&job.id);
         std::fs::create_dir_all(&dir).map_err(|e| e.to_string())?;
         std::fs::write(dir.join("robots.txt"), robots).map_err(|e| e.to_string())?;
-        if !job.options.discovery_only && !llm::models().await?.contains(&job.settings.model) {
-            return Err("設定模型不在 Ollama 已安裝清單中".into());
+        if !job.options.discovery_only {
+            let models = tokio::select! {
+                _ = cancel.cancelled() => return Err("cancelled".into()),
+                result = self.annotator.models() => result?,
+            };
+            if !models.contains(&job.settings.model) {
+                return Err("設定模型不在 Ollama 已安裝清單中".into());
+            }
         }
         let mut cache = HashMap::new();
         job.phase = "探索產品入口".into();
@@ -135,16 +166,14 @@ impl Engine {
             if cancel.is_cancelled() {
                 return Err("cancelled".into());
             }
-            let url = format!("https://www.apple.com/tw/{category}/");
+            let url = self.crawler.entry_url(&category);
             match self
-                .fetch(job, &net, &url, "category", &category, &mut cache)
+                .fetch(job, net.as_ref(), &url, "category", &category, &mut cache)
                 .await
             {
                 Ok(html) => {
-                    for link in apple::links(&html, &url) {
-                        if apple::category_for(&link) == Some(category.as_str())
-                            && seen.insert(link.clone())
-                        {
+                    for link in self.crawler.candidates(&html, &url, &category) {
+                        if seen.insert(link.clone()) {
                             job.candidates.push(Candidate {
                                 category: category.clone(),
                                 url: link,
@@ -179,29 +208,18 @@ impl Engine {
             }
             let c = job.candidates[i].clone();
             match self
-                .fetch(job, &net, &c.url, "product", &c.category, &mut cache)
+                .fetch(
+                    job,
+                    net.as_ref(),
+                    &c.url,
+                    "product",
+                    &c.category,
+                    &mut cache,
+                )
                 .await
             {
                 Ok(html) => {
-                    let links = apple::links(&html, &c.url);
-                    let prefix = c.url.trim_end_matches('/');
-                    job.candidates[i].specs_url = links
-                        .iter()
-                        .find(|s| {
-                            s.starts_with(&format!("{prefix}/"))
-                                && (s.ends_with("/specs/") || s.ends_with("/specs"))
-                        })
-                        .cloned();
-                    // Some Apple product families place the specs at tech-specs instead.
-                    if job.candidates[i].specs_url.is_none() {
-                        job.candidates[i].specs_url = links
-                            .iter()
-                            .find(|s| {
-                                s.starts_with(&format!("{prefix}/")) && s.contains("tech-specs")
-                            })
-                            .cloned();
-                    }
-                    job.candidates[i].buy_url = apple::buy_link(&html, &c.url);
+                    self.crawler.resolve(&html, &mut job.candidates[i]);
                     if job.candidates[i].specs_url.is_none() {
                         job.issue(&c.url, "探索", "未找到直接技術規格連結");
                     }
@@ -230,7 +248,7 @@ impl Engine {
             *count += 1;
             job.processed += 1;
             match self
-                .extract(job, &net, &c, specs_url, cancel, &mut cache)
+                .extract(job, net.as_ref(), &c, specs_url, cancel, &mut cache)
                 .await
             {
                 Ok(product) => {
@@ -249,7 +267,7 @@ impl Engine {
     async fn extract(
         &self,
         job: &mut Job,
-        net: &Downloader,
+        net: &dyn Fetcher,
         c: &Candidate,
         specs_url: &str,
         cancel: &CancellationToken,
@@ -258,17 +276,19 @@ impl Engine {
         let html = self
             .fetch(job, net, specs_url, "specs", &c.category, cache)
             .await?;
-        let blocks = apple::blocks(&html);
+        let blocks = self.crawler.blocks(&html);
         if blocks.is_empty() {
             return Err("HTML 無可讀規格；可能需要瀏覽器或解析器更新".into());
         }
-        let name = apple::product_name(&html);
-        let mut starting_price = cache.get(&c.url).and_then(|h| apple::price(h, &c.url));
+        let name = self.crawler.name(&html);
+        let mut starting_price = cache
+            .get(&c.url)
+            .and_then(|h| self.crawler.price(h, &c.url));
         if starting_price.is_none()
             && let Some(buy) = &c.buy_url
         {
             match self.fetch(job, net, buy, "price", &c.category, cache).await {
-                Ok(h) => starting_price = apple::price(&h, buy),
+                Ok(h) => starting_price = self.crawler.price(&h, buy),
                 Err(e) => job.issue(buy, "售價", e),
             }
         }
@@ -295,7 +315,7 @@ impl Engine {
         let folder = self
             .store
             .root
-            .join("runs")
+            .join(&c.category)
             .join(&job.id)
             .join(format!("product-{}", job.processed));
         std::fs::create_dir_all(&folder).map_err(|e| e.to_string())?;
@@ -324,15 +344,17 @@ impl Engine {
             job.phase = format!("LLM 整理 {}（{}/{}）", product.name, i + 1, batches.len());
             job.current_url = specs_url.into();
             self.store.save(job)?;
-            match llm::annotate(
-                &job.settings.model,
-                &product.name,
-                batch,
-                cancel,
-                &folder,
-                i,
-            )
-            .await
+            match self
+                .annotator
+                .annotate(
+                    &job.settings.model,
+                    &product.name,
+                    batch,
+                    cancel,
+                    &folder,
+                    i,
+                )
+                .await
             {
                 Ok((specs, calls, ms)) => {
                     product.specs.extend(specs);

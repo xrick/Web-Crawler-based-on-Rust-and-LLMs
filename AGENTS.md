@@ -2,19 +2,20 @@
 
 ## Project Structure & Module Organization
 
-This Rust 2024 application crawls Apple Taiwan product specifications and uses local Ollama models for classification.
+Rust 2024 crawler for Apple Taiwan specifications, using local Ollama classification.
 
 - `src/main.rs`: Actix server startup, shared pages, and the `/todos` example.
 - `src/api.rs` and `src/crawler.rs`: HTTP endpoints and background job orchestration.
+- `src/crawlers.rs` and `src/services.rs`: crawler capability traits and injectable download/model services.
 - `src/network.rs`, `src/apple.rs`, and `src/llm.rs`: fetch policies, specification extraction, and model integration.
 - `src/models.rs` and `src/storage.rs`: shared data types and SQLite persistence.
 - `src/*.html` and `src/app.js`: embedded browser assets; rebuild and restart after edits.
 - `src/tests.rs` and `tests/fixtures/`: automated tests and HTML fixtures.
-- `scripts/verify_live.py`: live verification; writes snapshots to `output/verification/`.
+- `scripts/verify_live.py`: live verification; writes snapshots to `crawler_data/apple/verification/`.
 
 ## Build, Test, and Development Commands
 
-Run commands from the repository root using a Rust toolchain supporting edition 2024.
+Run from the repository root with Rust 2024 support.
 
 - `cargo build`: compile the application.
 - `cargo run`: start the server at `http://127.0.0.1:8080`.
@@ -30,12 +31,12 @@ Use rustfmt defaults and four-space Rust indentation. Name functions/modules in 
 
 ## Testing Guidelines
 
-Tests use Cargo's test harness and `#[actix_web::test]`. Add descriptive snake_case cases in `src/tests.rs` and deterministic HTML fixtures under `tests/fixtures/`. Cover extraction, source preservation, URL boundaries, validation, persistence, and cancellation when affected. No numeric coverage threshold is configured. Run formatting, linting, and tests before submitting changes.
+Tests use Cargo's test harness and `#[actix_web::test]`. Add descriptive snake_case cases in `src/tests.rs`, pipeline tests in `src/integration_tests.rs`, and HTML fixtures under `tests/fixtures/`. Run verifier tests with `python3 -m unittest discover -s scripts -p 'test_*.py'`. Downloader tests require local loopback sockets. Cover extraction, source preservation, URL boundaries, validation, persistence, and cancellation when affected. Run formatting, linting, and tests before submitting changes.
 
 ## Commit & Pull Request Guidelines
 
-History contains only `Initial commit` and `add`; no formal convention is established. Use concise imperative subjects, such as `Fix model grouping for shared table cells`. Keep changes focused. PRs should explain behavior changes, link relevant issues, report validation commands/results, and include screenshots for UI changes.
+History (`Initial commit`, `add`) establishes no formal convention. Use imperative subjects, such as `Fix model grouping for shared table cells`. PRs should explain changes, link issues, report validation, and include UI screenshots.
 
 ## Configuration & Data Handling
 
-Set `CRAWLER_DATA_DIR` to isolate runtime data; the default is `data/`, containing SQLite and `runs/{job_id}/` artifacts. Keep generated data and `target/` out of new commits. Preserve localhost access controls, Apple Taiwan URL restrictions, robots handling, and source-backed specification values.
+Set `CRAWLER_DATA_DIR` to isolate runtime data; the default is `crawler_data/apple/`, containing SQLite and `{category}/{job_id}/` artifacts. Keep generated data and `target/` out of new commits. Preserve localhost restrictions, Apple scope, robots rules, and source evidence.

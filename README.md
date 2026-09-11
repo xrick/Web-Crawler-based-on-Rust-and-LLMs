@@ -77,8 +77,8 @@ cargo run
 
 ## 資料位置與限制
 
-- `data/crawler.sqlite3`：SQLite，設定與工作 JSON 快照。
-- `data/runs/{job_id}/`：原始 HTML、純文字、robots.txt、LLM 請求／回應與產品結果。
+- `crawler_data/apple/crawler.sqlite3`：SQLite，設定與工作 JSON 快照。
+- `crawler_data/apple/{category}/{job_id}/`：原始 HTML、純文字、LLM 請求／回應與產品結果；共用 robots.txt 位於 `crawler_data/apple/runs/{job_id}/`。
 - 可用 `CRAWLER_DATA_DIR` 指定資料根目錄。資料與測試快取不納入 Git。
 - 僅本機單人用途；無帳號、排程、雲端部署或自動恢復。每次執行重新抓取；工作內相同 URL 才重用快取。
 - 限 `https://www.apple.com/tw/`，不抓歷史支援頁、教育商店、一般配件或海外頁面。網站若改版、拒絕存取或必須執行 JS，記錄缺漏。
@@ -101,14 +101,55 @@ python3 scripts/verify_live.py --mode sample
 python3 scripts/verify_live.py --mode full
 ```
 
-測試涵蓋來源保留、多欄位、价格排除、robots 規則、URL 邊界、LLM 格式與型號驗證、持久化、中斷恢復、單工作互斥及取消。實際連網證據放在 `output/verification/`，PDF 位於 `output/pdf/apple_tw_crawler_report.pdf`。
+測試涵蓋來源保留、多欄位、价格排除、robots 規則、URL 邊界、LLM 格式與型號驗證、持久化、中斷恢復、單工作互斥及取消。新連網驗證證據放在 `crawler_data/apple/verification/`（歷史範例仍在 `output/verification/`），PDF 位於 `output/pdf/apple_tw_crawler_report.pdf`。
 
-PDF 產生方式（需要系統繁體中文字型；本機使用 Arial Unicode）：
-
-```sh
-uv venv .venv-report
-uv pip install --python .venv-report/bin/python reportlab pymupdf pypdf
-.venv-report/bin/python scripts/build_report.py
-```
+舊報告產生器 `scripts/build_report.py` 目前未包含於儲存庫；上述 PDF 為既有報告。
 
 參考：[Actix state](https://actix.rs/docs/application/)、[Ollama structured outputs](https://docs.ollama.com/capabilities/structured-outputs)、[Apple robots.txt](https://www.apple.com/robots.txt)。原始 Rust 教學基於所附書籍第 5–7 章，爬蟲為本專案新增實作。
+
+## 開發與擴充爬蟲
+
+Rust 以 trait 組合表達爬蟲能力階層，避免將網站規則放入工作控制器：
+
+- `src/crawlers.rs`：`Discovery` 定義入口、候選產品及規格／購買連結探索；`Extraction` 定義規格、名稱、價格與純文字擷取。`Crawler: Discovery + Extraction` 結合兩者並指定 robots URL，`AppleTaiwanCrawler` 是目前的實作。
+- `src/crawler.rs`：`Engine` 負責單一工作、取消、頁數限制、LLM 批次與持久化。`Engine::with_components` 接受爬蟲、下載工廠及分類器。
+- `src/services.rs`：`DownloadFactory`／`Fetcher` 與 `Annotator` 隔離外部 I/O；正式環境使用 `AppleDownloads` 與 `Ollama`，測試使用固定資料與可控制的失敗。
+
+新增不同擷取策略時，實作 `Discovery`、`Extraction`、`Crawler`，再於建立 Engine 時注入。新增其他網站還需提供相應下載範圍／robots 政策與設定類別；預設下載器仍只允許 Apple 台灣，介面目前只提供 Apple 類別。
+
+```sh
+cargo test --locked
+cargo fmt --check
+cargo clippy --locked --all-targets -- -D warnings
+python3 -m unittest discover -s scripts -p 'test_*.py'
+```
+
+GitHub Actions 自動執行上述檢查。Rust 測試使用 HTML fixtures、臨時 SQLite 與本機隨機連接埠的 HTTP 測試伺服器，不需 Apple 網路或 Ollama。涵蓋混合／巢狀版面、原生 colspan、重試、逾時、推論中取消、頁數限制及儲存失敗。
+
+連網驗證另存 `{job_id}-quality.json`。`discovery` 要求每個選定類別都有規格連結；`sample` 要求每類至少一個產品；`full` 要求每個候選產品都已抽取。驗證也檢查 block ID 唯一性、完整原文對應與 LLM 失敗，未達標時以非零狀態結束。`needs_review` 數量會列於報告，仍需人工確認分類。使用 `--job` 時，`--mode` 必須符合該工作的原始選項。
+
+`target/`、`data/`、`crawler/`、`crawler_data/` 與新驗證快照由 `.gitignore` 排除；`tests/fixtures/` 與既有 `initial_run.json` 保留供參考。
+
+### 爬取資料目錄
+
+預設資料根目錄為 `crawler_data/apple/`，`CRAWLER_DATA_DIR` 可覆寫完整根路徑。
+
+```text
+crawler_data/apple/
+  crawler.sqlite3
+  runs/{job_id}/robots.txt
+  iphone/{job_id}/page-0.html
+  iphone/{job_id}/page-0.txt
+  iphone/{job_id}/product-1/result.json
+  iphone/{job_id}/product-1/llm-0-0-request.json
+  mac/{job_id}/...
+  ipad/{job_id}/...
+  watch/{job_id}/...
+  airpods/{job_id}/...
+```
+
+類別子目錄依實際下載建立；每次工作使用獨立 ID，避免覆蓋歷史資料。各產品資料夾保存 LLM 請求／回應及結果；共用 robots 檔案保存在 `runs/`。舊 `data/` 資料保留原處，不自動搬移；若需查看舊工作，可使用 `CRAWLER_DATA_DIR=data cargo run`。
+
+若 8080 已被使用，可用 `CRAWLER_PORT=8081 cargo run` 啟動，並以 `python3 scripts/verify_live.py --base-url http://127.0.0.1:8081 --mode sample` 驗證。
+
+驗證腳本的快照與品質報告預設寫入 `crawler_data/apple/verification/`，也可用 `--output-dir` 指定；若伺服器使用自訂 `CRAWLER_DATA_DIR`，請讓腳本使用同一環境變數或明確指定輸出目錄。
