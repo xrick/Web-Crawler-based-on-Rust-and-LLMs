@@ -1,0 +1,383 @@
+{
+  "category": "airpods",
+  "name": "AirPods 4",
+  "product_url": "https://www.apple.com/tw/airpods-4/",
+  "specs_url": "https://www.apple.com/tw/airpods-4/specs/",
+  "fetched_at": "2026-09-09T03:53:27.836311+00:00",
+  "model": "qwen2.5-coder:14b",
+  "variants": [],
+  "starting_price": {
+    "amount": 4490.0,
+    "currency": "TWD",
+    "source_url": "https://www.apple.com/tw/shop/goto/buy_airpods/airpods_4",
+    "source_name": "AirPods&nbsp;4",
+    "evidence": "{\"@type\":\"Offer\",\"hasMerchantReturnPolicy\":{\"@type\":\"MerchantReturnPolicy\",\"applicableCountry\":\"TW\",\"merchantReturnDays\":14,\"returnFees\":\"https://schema.org/FreeReturn\",\"returnMethod\":\"https://schema.org/ReturnByMail\",\"returnPolicyCategory\":\"https://schema.org/MerchantReturnFiniteReturnWindow\"},\"price\":4490.0,\"priceCurrency\":\"TWD\",\"shippingDetails\":{\"@type\":\"OfferShippingDetails\",\"shippingRate\":{\"@type\":\"MonetaryAmount\",\"currency\":\"TWD\",\"value\":0}},\"sku\":\"MXP63TA/A\"}",
+    "scope": "官網此商品頁起售價；不代表每個選配型號的售價"
+  },
+  "specs": [
+    {
+      "block_id": 0,
+      "section": "其他規格",
+      "label": "其他規格",
+      "value": "AirPods 4",
+      "model": null,
+      "conditions": null,
+      "evidence": "AirPods 4",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 1,
+      "section": "其他規格",
+      "label": "其他規格",
+      "value": "AirPods 4主動式降噪款",
+      "model": null,
+      "conditions": null,
+      "evidence": "AirPods 4主動式降噪款",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 2,
+      "section": "其他規格",
+      "label": "其他規格",
+      "value": "AirPods 4",
+      "model": null,
+      "conditions": null,
+      "evidence": "AirPods 4",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 3,
+      "section": "其他規格",
+      "label": "其他規格",
+      "value": "AirPods 4主動式降噪款",
+      "model": null,
+      "conditions": null,
+      "evidence": "AirPods 4主動式降噪款",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 4,
+      "section": "音訊技術",
+      "label": "音訊技術",
+      "value": "特製的長衝程 Apple 驅動單體\n特製的高動態範圍放大器\n語音隔離\n個人化空間音訊具備動態頭部追蹤功能\n適應性等化\n透氣系統可維持壓力均衡",
+      "model": null,
+      "conditions": null,
+      "evidence": "特製的長衝程 Apple 驅動單體\n特製的高動態範圍放大器\n語音隔離\n個人化空間音訊具備動態頭部追蹤功能\n適應性等化\n透氣系統可維持壓力均衡",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 5,
+      "section": "音訊技術",
+      "label": "音訊技術",
+      "value": "特製的長衝程 Apple 驅動單體\n特製的高動態範圍放大器\n主動式降噪\n適應性音訊\n通透模式\n對話感知功能\n語音隔離\n個人化空間音訊具備動態頭部追蹤功能\n適應性等化\n透氣系統可維持壓力均衡",
+      "model": null,
+      "conditions": null,
+      "evidence": "特製的長衝程 Apple 驅動單體\n特製的高動態範圍放大器\n主動式降噪\n適應性音訊\n通透模式\n對話感知功能\n語音隔離\n個人化空間音訊具備動態頭部追蹤功能\n適應性等化\n透氣系統可維持壓力均衡",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 6,
+      "section": "即時翻譯",
+      "label": "即時翻譯",
+      "value": "AirPods 4 主動式降噪款\n即時翻譯可跨越不同語言溝通交流",
+      "model": null,
+      "conditions": null,
+      "evidence": "AirPods 4 主動式降噪款\n即時翻譯可跨越不同語言溝通交流",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 7,
+      "section": "感測器",
+      "label": "感測器",
+      "value": "波束成形雙麥克風\n內向式麥克風\n光學入耳感測器\n動作偵測加速度計\n語音偵測加速度計\n力度感測器",
+      "model": null,
+      "conditions": null,
+      "evidence": "波束成形雙麥克風\n內向式麥克風\n光學入耳感測器\n動作偵測加速度計\n語音偵測加速度計\n力度感測器",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 8,
+      "section": "晶片",
+      "label": "晶片",
+      "value": "H2 耳機晶片",
+      "model": null,
+      "conditions": null,
+      "evidence": "H2 耳機晶片",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 9,
+      "section": "控制項目",
+      "label": "控制項目",
+      "value": "按一下即可播放或暫停媒體\n按一下即可接聽電話、靜音或解除靜音\n按一下即可使用相機遙控器\n按兩下即可結束通話\n按兩下即可跳至下一首曲目\n按三下即可跳回上一首曲目\n按住即可使用 Siri\n說聲「嘿 Siri」 即可播放歌曲、撥打電話或取得路線指引等\n有了 Siri 互動功能，當 Siri 問你要不要接聽來電、聽取簡訊、管理通知等，點頭說好，或輕輕搖頭表示不好，Siri 都能理解",
+      "model": null,
+      "conditions": null,
+      "evidence": "按一下即可播放或暫停媒體\n按一下即可接聽電話、靜音或解除靜音\n按一下即可使用相機遙控器\n按兩下即可結束通話\n按兩下即可跳至下一首曲目\n按三下即可跳回上一首曲目\n按住即可使用 Siri\n說聲「嘿 Siri」 即可播放歌曲、撥打電話或取得路線指引等\n有了 Siri 互動功能，當 Siri 問你要不要接聽來電、聽取簡訊、管理通知等，點頭說好，或輕輕搖頭表示不好，Siri 都能理解",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 10,
+      "section": "防塵與抗汗抗水",
+      "label": "防塵與抗汗抗水",
+      "value": "防塵與抗汗抗水功能 (IP54)",
+      "model": null,
+      "conditions": null,
+      "evidence": "防塵與抗汗抗水功能 (IP54)",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 11,
+      "section": "尺寸與重量 (單個)",
+      "label": "尺寸與重量 (單個)",
+      "value": "18.3 公釐 (0.72 吋)\n30.2 公釐\n(1.19 吋)\n高度：30.2 公釐\n(1.19 吋)\n寬度：18.3 公釐 (0.72 吋)\n厚度：18.1 公釐 (0.71 吋)\n重量：4.3 公克 (0.15 盎司)\n50.1 公釐 (1.97 吋)\n46.2 公釐 (1.82 吋)\n21.2 公釐 (0.83 吋)\n高度：46.2 公釐 (1.82 吋)\n寬度：50.1 公釐 (1.97 吋)\n厚度：21.2 公釐 (0.83 吋)\n重量 (AirPods 4)：32.3 公克 (1.14 盎司)\n重量 (AirPods 4 主動式降噪款)： 34.7 公克 (1.22 盎司)",
+      "model": null,
+      "conditions": null,
+      "evidence": "18.3 公釐 (0.72 吋)\n30.2 公釐\n(1.19 吋)\n高度：30.2 公釐\n(1.19 吋)\n寬度：18.3 公釐 (0.72 吋)\n厚度：18.1 公釐 (0.71 吋)\n重量：4.3 公克 (0.15 盎司)\n50.1 公釐 (1.97 吋)\n46.2 公釐 (1.82 吋)\n21.2 公釐 (0.83 吋)\n高度：46.2 公釐 (1.82 吋)\n寬度：50.1 公釐 (1.97 吋)\n厚度：21.2 公釐 (0.83 吋)\n重量 (AirPods 4)：32.3 公克 (1.14 盎司)\n重量 (AirPods 4 主動式降噪款)： 34.7 公克 (1.22 盎司)",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 12,
+      "section": "充電盒",
+      "label": "充電盒",
+      "value": "可使用 USB-C 連接器充電",
+      "model": null,
+      "conditions": null,
+      "evidence": "可使用 USB-C 連接器充電",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 13,
+      "section": "充電盒",
+      "label": "充電盒",
+      "value": "可使用 USB-C 連接器、Apple Watch 充電器或 Qi 認證充電器充電\n內建揚聲器支援「尋找」功能",
+      "model": null,
+      "conditions": null,
+      "evidence": "可使用 USB-C 連接器、Apple Watch 充電器或 Qi 認證充電器充電\n內建揚聲器支援「尋找」功能",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 14,
+      "section": "電池",
+      "label": "電池",
+      "value": "AirPods 4\n充電一次的聆聽時間最長可達 5 小時\nAirPods 4 搭配充電盒 (USB‑C)\n聆聽時間最長可達 30 小時\n置入充電盒內 5 分鐘，能提供約 1 小時的聆聽時間",
+      "model": null,
+      "conditions": "充電一次的聆聽時間最長可達 5 小時",
+      "evidence": "AirPods 4\n充電一次的聆聽時間最長可達 5 小時\nAirPods 4 搭配充電盒 (USB‑C)\n聆聽時間最長可達 30 小時\n置入充電盒內 5 分鐘，能提供約 1 小時的聆聽時間",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 15,
+      "section": "電池",
+      "label": "電池",
+      "value": "AirPods 4 主動式降噪款\n充電一次的聆聽時間最長可達 4 小時 (啟用主動式降噪時)\n充電一次的聆聽時間最長可達 5 小時 (關閉噪音控制時)\nAirPods 4 主動式降噪款搭配充電盒 (USB‑C)\n聆聽時間最長可達 20 小時 (啟用主動式降噪時)\n聆聽時間最長可達 30 小時 (關閉噪音控制時)\n置入充電盒內 5 分鐘，能提供約 1 小時的聆聽時間",
+      "model": null,
+      "conditions": "充電一次的聆聽時間最長可達 4 小時 (啟用主動式降噪時)",
+      "evidence": "AirPods 4 主動式降噪款\n充電一次的聆聽時間最長可達 4 小時 (啟用主動式降噪時)\n充電一次的聆聽時間最長可達 5 小時 (關閉噪音控制時)\nAirPods 4 主動式降噪款搭配充電盒 (USB‑C)\n聆聽時間最長可達 20 小時 (啟用主動式降噪時)\n聆聽時間最長可達 30 小時 (關閉噪音控制時)\n置入充電盒內 5 分鐘，能提供約 1 小時的聆聽時間",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 16,
+      "section": "連線方式",
+      "label": "無線技術",
+      "value": "藍牙 5.3 無線技術",
+      "model": null,
+      "conditions": null,
+      "evidence": "藍牙 5.3 無線技術",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 17,
+      "section": "包裝盒內容",
+      "label": "包裝內容",
+      "value": "AirPods 4\n充電盒 (USB-C)\n說明文件\nUSB-C 充電連接線另售",
+      "model": null,
+      "conditions": null,
+      "evidence": "AirPods 4\n充電盒 (USB-C)\n說明文件\nUSB-C 充電連接線另售",
+      "status": "needs_review"
+    },
+    {
+      "block_id": 18,
+      "section": "包裝盒內容",
+      "label": "包裝內容",
+      "value": "AirPods 4 主動式降噪款\n充電盒 (USB-C) 內建揚聲器\n說明文件\nUSB-C 充電連接線另售",
+      "model": null,
+      "conditions": null,
+      "evidence": "AirPods 4 主動式降噪款\n充電盒 (USB-C) 內建揚聲器\n說明文件\nUSB-C 充電連接線另售",
+      "status": "needs_review"
+    },
+    {
+      "block_id": 19,
+      "section": "輔助使用",
+      "label": "輔助功能",
+      "value": "眾多輔助使用功能可幫助身心障礙人士，盡情發揮全新 AirPods 的精彩。\n各項功能包括：\n即時聆聽音訊\n耳機音量調控\n耳機調節",
+      "model": null,
+      "conditions": null,
+      "evidence": "眾多輔助使用功能可幫助身心障礙人士，盡情發揮全新 AirPods 的精彩。\n各項功能包括：\n即時聆聽音訊\n耳機音量調控\n耳機調節",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 20,
+      "section": "系統需求",
+      "label": "系統需求",
+      "value": "搭載最新版本 iOS 的 iPhone 機型\n搭載最新版本 iPadOS 的 iPad 機型\n搭載最新版本 watchOS 的 Apple Watch 錶款\n搭載最新版本 macOS 的 Mac 機型\n搭載最新版本 tvOS 的 Apple TV 機型\n搭載最新版本 visionOS 的 Apple Vision Pro\nAirPods 可搭配 Apple 裝置 (搭載較早版本軟體) 與非 Apple 裝置，作為無線藍牙耳機使用，但功能可能會有所限制。",
+      "model": null,
+      "conditions": null,
+      "evidence": "搭載最新版本 iOS 的 iPhone 機型\n搭載最新版本 iPadOS 的 iPad 機型\n搭載最新版本 watchOS 的 Apple Watch 錶款\n搭載最新版本 macOS 的 Mac 機型\n搭載最新版本 tvOS 的 Apple TV 機型\n搭載最新版本 visionOS 的 Apple Vision Pro\nAirPods 可搭配 Apple 裝置 (搭載較早版本軟體) 與非 Apple 裝置，作為無線藍牙耳機使用，但功能可能會有所限制。",
+      "status": "source_matched"
+    }
+  ],
+  "blocks": [
+    {
+      "id": 0,
+      "section": "其他規格",
+      "model_hint": null,
+      "context": "",
+      "text": "AirPods 4"
+    },
+    {
+      "id": 1,
+      "section": "其他規格",
+      "model_hint": null,
+      "context": "",
+      "text": "AirPods 4主動式降噪款"
+    },
+    {
+      "id": 2,
+      "section": "其他規格",
+      "model_hint": null,
+      "context": "",
+      "text": "AirPods 4"
+    },
+    {
+      "id": 3,
+      "section": "其他規格",
+      "model_hint": null,
+      "context": "",
+      "text": "AirPods 4主動式降噪款"
+    },
+    {
+      "id": 4,
+      "section": "音訊技術",
+      "model_hint": null,
+      "context": "",
+      "text": "特製的長衝程 Apple 驅動單體\n特製的高動態範圍放大器\n語音隔離\n個人化空間音訊具備動態頭部追蹤功能\n適應性等化\n透氣系統可維持壓力均衡"
+    },
+    {
+      "id": 5,
+      "section": "音訊技術",
+      "model_hint": null,
+      "context": "",
+      "text": "特製的長衝程 Apple 驅動單體\n特製的高動態範圍放大器\n主動式降噪\n適應性音訊\n通透模式\n對話感知功能\n語音隔離\n個人化空間音訊具備動態頭部追蹤功能\n適應性等化\n透氣系統可維持壓力均衡"
+    },
+    {
+      "id": 6,
+      "section": "即時翻譯",
+      "model_hint": null,
+      "context": "",
+      "text": "AirPods 4 主動式降噪款\n即時翻譯可跨越不同語言溝通交流"
+    },
+    {
+      "id": 7,
+      "section": "感測器",
+      "model_hint": null,
+      "context": "",
+      "text": "波束成形雙麥克風\n內向式麥克風\n光學入耳感測器\n動作偵測加速度計\n語音偵測加速度計\n力度感測器"
+    },
+    {
+      "id": 8,
+      "section": "晶片",
+      "model_hint": null,
+      "context": "",
+      "text": "H2 耳機晶片"
+    },
+    {
+      "id": 9,
+      "section": "控制項目",
+      "model_hint": null,
+      "context": "",
+      "text": "按一下即可播放或暫停媒體\n按一下即可接聽電話、靜音或解除靜音\n按一下即可使用相機遙控器\n按兩下即可結束通話\n按兩下即可跳至下一首曲目\n按三下即可跳回上一首曲目\n按住即可使用 Siri\n說聲「嘿 Siri」 即可播放歌曲、撥打電話或取得路線指引等\n有了 Siri 互動功能，當 Siri 問你要不要接聽來電、聽取簡訊、管理通知等，點頭說好，或輕輕搖頭表示不好，Siri 都能理解"
+    },
+    {
+      "id": 10,
+      "section": "防塵與抗汗抗水",
+      "model_hint": null,
+      "context": "",
+      "text": "防塵與抗汗抗水功能 (IP54)"
+    },
+    {
+      "id": 11,
+      "section": "尺寸與重量 (單個)",
+      "model_hint": null,
+      "context": "",
+      "text": "18.3 公釐 (0.72 吋)\n30.2 公釐\n(1.19 吋)\n高度：30.2 公釐\n(1.19 吋)\n寬度：18.3 公釐 (0.72 吋)\n厚度：18.1 公釐 (0.71 吋)\n重量：4.3 公克 (0.15 盎司)\n50.1 公釐 (1.97 吋)\n46.2 公釐 (1.82 吋)\n21.2 公釐 (0.83 吋)\n高度：46.2 公釐 (1.82 吋)\n寬度：50.1 公釐 (1.97 吋)\n厚度：21.2 公釐 (0.83 吋)\n重量 (AirPods 4)：32.3 公克 (1.14 盎司)\n重量 (AirPods 4 主動式降噪款)： 34.7 公克 (1.22 盎司)"
+    },
+    {
+      "id": 12,
+      "section": "充電盒",
+      "model_hint": null,
+      "context": "",
+      "text": "可使用 USB-C 連接器充電"
+    },
+    {
+      "id": 13,
+      "section": "充電盒",
+      "model_hint": null,
+      "context": "",
+      "text": "可使用 USB-C 連接器、Apple Watch 充電器或 Qi 認證充電器充電\n內建揚聲器支援「尋找」功能"
+    },
+    {
+      "id": 14,
+      "section": "電池",
+      "model_hint": null,
+      "context": "",
+      "text": "AirPods 4\n充電一次的聆聽時間最長可達 5 小時\nAirPods 4 搭配充電盒 (USB‑C)\n聆聽時間最長可達 30 小時\n置入充電盒內 5 分鐘，能提供約 1 小時的聆聽時間"
+    },
+    {
+      "id": 15,
+      "section": "電池",
+      "model_hint": null,
+      "context": "",
+      "text": "AirPods 4 主動式降噪款\n充電一次的聆聽時間最長可達 4 小時 (啟用主動式降噪時)\n充電一次的聆聽時間最長可達 5 小時 (關閉噪音控制時)\nAirPods 4 主動式降噪款搭配充電盒 (USB‑C)\n聆聽時間最長可達 20 小時 (啟用主動式降噪時)\n聆聽時間最長可達 30 小時 (關閉噪音控制時)\n置入充電盒內 5 分鐘，能提供約 1 小時的聆聽時間"
+    },
+    {
+      "id": 16,
+      "section": "連線方式",
+      "model_hint": null,
+      "context": "",
+      "text": "藍牙 5.3 無線技術"
+    },
+    {
+      "id": 17,
+      "section": "包裝盒內容",
+      "model_hint": null,
+      "context": "",
+      "text": "AirPods 4\n充電盒 (USB-C)\n說明文件\nUSB-C 充電連接線另售"
+    },
+    {
+      "id": 18,
+      "section": "包裝盒內容",
+      "model_hint": null,
+      "context": "",
+      "text": "AirPods 4 主動式降噪款\n充電盒 (USB-C) 內建揚聲器\n說明文件\nUSB-C 充電連接線另售"
+    },
+    {
+      "id": 19,
+      "section": "輔助使用",
+      "model_hint": null,
+      "context": "",
+      "text": "眾多輔助使用功能可幫助身心障礙人士，盡情發揮全新 AirPods 的精彩。\n各項功能包括：\n即時聆聽音訊\n耳機音量調控\n耳機調節"
+    },
+    {
+      "id": 20,
+      "section": "系統需求",
+      "model_hint": null,
+      "context": "",
+      "text": "搭載最新版本 iOS 的 iPhone 機型\n搭載最新版本 iPadOS 的 iPad 機型\n搭載最新版本 watchOS 的 Apple Watch 錶款\n搭載最新版本 macOS 的 Mac 機型\n搭載最新版本 tvOS 的 Apple TV 機型\n搭載最新版本 visionOS 的 Apple Vision Pro\nAirPods 可搭配 Apple 裝置 (搭載較早版本軟體) 與非 Apple 裝置，作為無線藍牙耳機使用，但功能可能會有所限制。"
+    }
+  ],
+  "llm_calls": 2,
+  "llm_ms": 63556,
+  "warnings": [
+    "部分區塊未能唯一對應型號，保留於未分配規格；未複製到各型號"
+  ]
+}

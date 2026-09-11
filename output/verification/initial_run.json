@@ -1,0 +1,3146 @@
+{
+  "id": "bddb484c-e756-4cc1-976e-274736c1cfbe",
+  "status": "completed_with_errors",
+  "phase": "完成",
+  "started_at": "2026-09-09T03:46:22.163655+00:00",
+  "finished_at": "2026-09-09T03:55:40.843047+00:00",
+  "settings": {
+    "categories": [
+      "iphone",
+      "mac",
+      "ipad",
+      "watch",
+      "airpods"
+    ],
+    "model": "qwen2.5-coder:14b",
+    "max_pages": 100
+  },
+  "options": {
+    "discovery_only": false,
+    "products_per_category": 1
+  },
+  "discovered": 22,
+  "processed": 5,
+  "succeeded": 5,
+  "failed": 0,
+  "current_url": "https://www.apple.com/tw/apple-watch-se-3/specs/",
+  "pages": [
+    {
+      "url": "https://www.apple.com/tw/iphone/",
+      "kind": "category",
+      "category": "iphone",
+      "fetched_at": "2026-09-09T03:47:35.536348+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-0.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-0.txt",
+      "sha256": "b9808caa3cce5ded2a8d3aa7128d60862c8061262158afb5a0688064d6f7a4ed"
+    },
+    {
+      "url": "https://www.apple.com/tw/mac/",
+      "kind": "category",
+      "category": "mac",
+      "fetched_at": "2026-09-09T03:47:38.242887+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-1.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-1.txt",
+      "sha256": "4ce1c64e18d4817c5cce376323e6a679553f5841abaa4837aa213a2f0b7c26ac"
+    },
+    {
+      "url": "https://www.apple.com/tw/ipad/",
+      "kind": "category",
+      "category": "ipad",
+      "fetched_at": "2026-09-09T03:47:40.649535+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-2.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-2.txt",
+      "sha256": "f0fcc1e6742b35351c46a6fec67b4bbfdb89e3564d7621bb11e810535bd3bbac"
+    },
+    {
+      "url": "https://www.apple.com/tw/watch/",
+      "kind": "category",
+      "category": "watch",
+      "fetched_at": "2026-09-09T03:47:42.448650+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-3.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-3.txt",
+      "sha256": "517bf8046a72be8ea4c8a4014cf2c2adb5f154b158c49518da3536c30261c536"
+    },
+    {
+      "url": "https://www.apple.com/tw/airpods/",
+      "kind": "category",
+      "category": "airpods",
+      "fetched_at": "2026-09-09T03:47:44.048448+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-4.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-4.txt",
+      "sha256": "9c177cafd30e421ea0f82f2f4335fc48b4d058d1734445f14304a98ec97e6326"
+    },
+    {
+      "url": "https://www.apple.com/tw/iphone-17-pro/",
+      "kind": "product",
+      "category": "iphone",
+      "fetched_at": "2026-09-09T03:47:46.487186+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-5.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-5.txt",
+      "sha256": "5fd377b140eb5542a0782b441074edc6049b7c137dc678a55b77b36bf7aa2c34"
+    },
+    {
+      "url": "https://www.apple.com/tw/imac/",
+      "kind": "product",
+      "category": "mac",
+      "fetched_at": "2026-09-09T03:47:48.410385+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-6.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-6.txt",
+      "sha256": "9e4a9123431fedc04837c47d5c7a52ae8e5ebe4035359ad715f55c35b4aa3543"
+    },
+    {
+      "url": "https://www.apple.com/tw/ipad-11/",
+      "kind": "product",
+      "category": "ipad",
+      "fetched_at": "2026-09-09T03:47:50.217849+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-7.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-7.txt",
+      "sha256": "59b40c379556725838108bcb6747dd0eb522705317a704c5a78611e60df4a378"
+    },
+    {
+      "url": "https://www.apple.com/tw/apple-watch-for-your-kids/",
+      "kind": "product",
+      "category": "watch",
+      "fetched_at": "2026-09-09T03:47:52.142576+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-8.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-8.txt",
+      "sha256": "717600c299e50c0d208cff80c6c72cf6122377d9398862d260e788de15bc8286"
+    },
+    {
+      "url": "https://www.apple.com/tw/airpods-4/",
+      "kind": "product",
+      "category": "airpods",
+      "fetched_at": "2026-09-09T03:47:53.575086+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-9.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-9.txt",
+      "sha256": "f21a5f6799bf9c5648a285b17efa8669616083f306e58f17c002102b6a2ab02b"
+    },
+    {
+      "url": "https://www.apple.com/tw/iphone-17/",
+      "kind": "product",
+      "category": "iphone",
+      "fetched_at": "2026-09-09T03:47:55.248719+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-10.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-10.txt",
+      "sha256": "3aad6e182f1c6abd9b2afd489644f176691eea7eea54f9e02f788b7bfc6b7056"
+    },
+    {
+      "url": "https://www.apple.com/tw/mac-mini/",
+      "kind": "product",
+      "category": "mac",
+      "fetched_at": "2026-09-09T03:47:56.941648+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-11.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-11.txt",
+      "sha256": "e677cb5017684f7ded77b2a1fb14ca9b639597fb0b7e80e88dce9088d2213920"
+    },
+    {
+      "url": "https://www.apple.com/tw/ipad-air/",
+      "kind": "product",
+      "category": "ipad",
+      "fetched_at": "2026-09-09T03:47:58.625601+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-12.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-12.txt",
+      "sha256": "3d50d53dc4de4cb30b23f18c9171b02419cff61e556e4a416468b19d1aad4f9f"
+    },
+    {
+      "url": "https://www.apple.com/tw/apple-watch-se-3/",
+      "kind": "product",
+      "category": "watch",
+      "fetched_at": "2026-09-09T03:48:00.385624+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-13.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-13.txt",
+      "sha256": "b1b0ddee1201bcf5c6e755c2f81b657d1282dffdf88c51c09e3ef3be969509da"
+    },
+    {
+      "url": "https://www.apple.com/tw/airpods-max/",
+      "kind": "product",
+      "category": "airpods",
+      "fetched_at": "2026-09-09T03:48:01.812824+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-14.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-14.txt",
+      "sha256": "9044ce4656671e6d3f94c2c21fd206f2c2de338356d8e5e666618f5b6117f866"
+    },
+    {
+      "url": "https://www.apple.com/tw/iphone-17e/",
+      "kind": "product",
+      "category": "iphone",
+      "fetched_at": "2026-09-09T03:48:03.119608+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-15.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-15.txt",
+      "sha256": "e4ee7068b20df31f5e2a182709991fcf344bc5f22ac4def882a149742a8f41b3"
+    },
+    {
+      "url": "https://www.apple.com/tw/mac-studio/",
+      "kind": "product",
+      "category": "mac",
+      "fetched_at": "2026-09-09T03:48:04.423633+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-16.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-16.txt",
+      "sha256": "f60b38634fccb3eadc6b4eddf8330a0138fb65289c707460999f5ed1a989e4dc"
+    },
+    {
+      "url": "https://www.apple.com/tw/ipad-keyboards/",
+      "kind": "product",
+      "category": "ipad",
+      "fetched_at": "2026-09-09T03:48:05.608763+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-17.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-17.txt",
+      "sha256": "1b93909f8bfd1adbf667cf9d875ca1e7a143173808f5ba436a343125289b3422"
+    },
+    {
+      "url": "https://www.apple.com/tw/apple-watch-series-11/",
+      "kind": "product",
+      "category": "watch",
+      "fetched_at": "2026-09-09T03:48:06.974743+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-18.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-18.txt",
+      "sha256": "8c9675d712b7c99ac3aae59281e1f32a00b1e63593556049e59696d662a2e28e"
+    },
+    {
+      "url": "https://www.apple.com/tw/airpods-pro/",
+      "kind": "product",
+      "category": "airpods",
+      "fetched_at": "2026-09-09T03:48:08.323793+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-19.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-19.txt",
+      "sha256": "c85bae560623d76876cede52f046094e2ef86842c8dab656e81e98691f387c82"
+    },
+    {
+      "url": "https://www.apple.com/tw/iphone-air/",
+      "kind": "product",
+      "category": "iphone",
+      "fetched_at": "2026-09-09T03:48:09.710769+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-20.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-20.txt",
+      "sha256": "9c990a18c829cb1b0fe11307108b40e78b29aa19ecea40ae191d29f8f88fd49f"
+    },
+    {
+      "url": "https://www.apple.com/tw/macbook-air/",
+      "kind": "product",
+      "category": "mac",
+      "fetched_at": "2026-09-09T03:48:11.128133+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-21.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-21.txt",
+      "sha256": "430af5e16116ff4e01f14d29d4f86749abadcf7192c873332167ef90f08b8140"
+    },
+    {
+      "url": "https://www.apple.com/tw/ipad-mini/",
+      "kind": "product",
+      "category": "ipad",
+      "fetched_at": "2026-09-09T03:48:12.427170+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-22.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-22.txt",
+      "sha256": "034c57b4a8cd479901a2f856a657fdf11e7c858d7e03f09bd8da051edaa79950"
+    },
+    {
+      "url": "https://www.apple.com/tw/apple-watch-ultra-3/",
+      "kind": "product",
+      "category": "watch",
+      "fetched_at": "2026-09-09T03:48:13.809156+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-23.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-23.txt",
+      "sha256": "ff46ac24768220e3f21d23ab5b8e946447935e9872bee1d24ae14678f12eb1f0"
+    },
+    {
+      "url": "https://www.apple.com/tw/macbook-neo/",
+      "kind": "product",
+      "category": "mac",
+      "fetched_at": "2026-09-09T03:48:15.170127+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-24.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-24.txt",
+      "sha256": "2776066889ddeac4ddc913aea7b15cf1c91e608022051c3f0580d1eb4386d9e6"
+    },
+    {
+      "url": "https://www.apple.com/tw/ipad-pro/",
+      "kind": "product",
+      "category": "ipad",
+      "fetched_at": "2026-09-09T03:48:16.585543+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-25.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-25.txt",
+      "sha256": "e6c4c1bb359956764d592fd7523994983ba0646335975d73e737c6346c7eb934"
+    },
+    {
+      "url": "https://www.apple.com/tw/macbook-pro/",
+      "kind": "product",
+      "category": "mac",
+      "fetched_at": "2026-09-09T03:48:18.042876+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-26.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-26.txt",
+      "sha256": "e0415cb12041ccc7509025cbdef53f1527ca51e92e3733fd55400ff0ed0ff7a4"
+    },
+    {
+      "url": "https://www.apple.com/tw/iphone-17-pro/specs/",
+      "kind": "specs",
+      "category": "iphone",
+      "fetched_at": "2026-09-09T03:48:19.789271+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-27.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-27.txt",
+      "sha256": "e6745917b2c9d8425298266c8960cdde7e35281f98fbdefa7b79d5730e32e043"
+    },
+    {
+      "url": "https://www.apple.com/tw/shop/buy-iphone/iphone-17-pro",
+      "kind": "price",
+      "category": "iphone",
+      "fetched_at": "2026-09-09T03:48:24.423499+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-28.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-28.txt",
+      "sha256": "c9a05ea98183d3ba36d74aaec32b398e0b1750831aad4ac4ee9add6d05bd91ed"
+    },
+    {
+      "url": "https://www.apple.com/tw/imac/specs/",
+      "kind": "specs",
+      "category": "mac",
+      "fetched_at": "2026-09-09T03:50:17.557229+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-29.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-29.txt",
+      "sha256": "8b084108c68187e126d987d97ea1f2eb1e4c4ea269019be162f591211667bbb1"
+    },
+    {
+      "url": "https://www.apple.com/tw/shop/buy-mac/imac",
+      "kind": "price",
+      "category": "mac",
+      "fetched_at": "2026-09-09T03:50:22.179341+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-30.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-30.txt",
+      "sha256": "ba7c9325a4f2233f290dfc88b286e1f2cd769dcd175f91fbc645b8bf4dd8b42f"
+    },
+    {
+      "url": "https://www.apple.com/tw/ipad-11/specs/",
+      "kind": "specs",
+      "category": "ipad",
+      "fetched_at": "2026-09-09T03:51:37.838701+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-31.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-31.txt",
+      "sha256": "7178ec05ba2bd1eb93c6c7924b57b55af2709fffe2f45b43de8ec1fc3cad0029"
+    },
+    {
+      "url": "https://www.apple.com/tw/airpods-4/specs/",
+      "kind": "specs",
+      "category": "airpods",
+      "fetched_at": "2026-09-09T03:53:23.633469+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-32.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-32.txt",
+      "sha256": "247cc848e2d74b13d2d02a2d81c6a9e5ddae60d0ebdea96a870d03d2989704f6"
+    },
+    {
+      "url": "https://www.apple.com/tw/shop/buy-airpods/airpods-4",
+      "kind": "price",
+      "category": "airpods",
+      "fetched_at": "2026-09-09T03:53:27.802378+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-33.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-33.txt",
+      "sha256": "1fbb555deece06227a70f758ad64a3347429bad235b969836482a631adf174b5"
+    },
+    {
+      "url": "https://www.apple.com/tw/apple-watch-se-3/specs/",
+      "kind": "specs",
+      "category": "watch",
+      "fetched_at": "2026-09-09T03:54:32.913660+00:00",
+      "html_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-34.html",
+      "text_file": "runs/bddb484c-e756-4cc1-976e-274736c1cfbe/page-34.txt",
+      "sha256": "0a29c988a253e3ec62f1ff171b982baba1a9507689ff7d09889a7d2200d1e13c"
+    }
+  ],
+  "candidates": [
+    {
+      "category": "iphone",
+      "url": "https://www.apple.com/tw/iphone-17-pro/",
+      "specs_url": "https://www.apple.com/tw/iphone-17-pro/specs/",
+      "buy_url": "https://www.apple.com/tw/shop/goto/buy_iphone/iphone_17_pro"
+    },
+    {
+      "category": "mac",
+      "url": "https://www.apple.com/tw/imac/",
+      "specs_url": "https://www.apple.com/tw/imac/specs/",
+      "buy_url": "https://www.apple.com/tw/shop/goto/buy_mac/imac"
+    },
+    {
+      "category": "ipad",
+      "url": "https://www.apple.com/tw/ipad-11/",
+      "specs_url": "https://www.apple.com/tw/ipad-11/specs/",
+      "buy_url": null
+    },
+    {
+      "category": "watch",
+      "url": "https://www.apple.com/tw/apple-watch-for-your-kids/",
+      "specs_url": null,
+      "buy_url": null
+    },
+    {
+      "category": "airpods",
+      "url": "https://www.apple.com/tw/airpods-4/",
+      "specs_url": "https://www.apple.com/tw/airpods-4/specs/",
+      "buy_url": "https://www.apple.com/tw/shop/goto/buy_airpods/airpods_4"
+    },
+    {
+      "category": "iphone",
+      "url": "https://www.apple.com/tw/iphone-17/",
+      "specs_url": "https://www.apple.com/tw/iphone-17/specs/",
+      "buy_url": "https://www.apple.com/tw/shop/goto/buy_iphone/iphone_17"
+    },
+    {
+      "category": "mac",
+      "url": "https://www.apple.com/tw/mac-mini/",
+      "specs_url": "https://www.apple.com/tw/mac-mini/specs/",
+      "buy_url": "https://www.apple.com/tw/shop/goto/buy_mac/mac_mini"
+    },
+    {
+      "category": "ipad",
+      "url": "https://www.apple.com/tw/ipad-air/",
+      "specs_url": "https://www.apple.com/tw/ipad-air/specs/",
+      "buy_url": "https://www.apple.com/tw/shop/goto/buy_ipad/ipad_air"
+    },
+    {
+      "category": "watch",
+      "url": "https://www.apple.com/tw/apple-watch-se-3/",
+      "specs_url": "https://www.apple.com/tw/apple-watch-se-3/specs/",
+      "buy_url": null
+    },
+    {
+      "category": "airpods",
+      "url": "https://www.apple.com/tw/airpods-max/",
+      "specs_url": "https://www.apple.com/tw/airpods-max/specs/",
+      "buy_url": "https://www.apple.com/tw/shop/goto/buy_airpods/airpods_max_2"
+    },
+    {
+      "category": "iphone",
+      "url": "https://www.apple.com/tw/iphone-17e/",
+      "specs_url": "https://www.apple.com/tw/iphone-17e/specs/",
+      "buy_url": "https://www.apple.com/tw/shop/goto/buy_iphone/iphone_17e"
+    },
+    {
+      "category": "mac",
+      "url": "https://www.apple.com/tw/mac-studio/",
+      "specs_url": "https://www.apple.com/tw/mac-studio/specs/",
+      "buy_url": "https://www.apple.com/tw/shop/goto/buy_mac/mac_studio"
+    },
+    {
+      "category": "ipad",
+      "url": "https://www.apple.com/tw/ipad-keyboards/",
+      "specs_url": null,
+      "buy_url": null
+    },
+    {
+      "category": "watch",
+      "url": "https://www.apple.com/tw/apple-watch-series-11/",
+      "specs_url": "https://www.apple.com/tw/apple-watch-series-11/specs/",
+      "buy_url": "https://www.apple.com/tw/shop/goto/buy_watch/apple_watch_series_11"
+    },
+    {
+      "category": "airpods",
+      "url": "https://www.apple.com/tw/airpods-pro/",
+      "specs_url": "https://www.apple.com/tw/airpods-pro/specs/",
+      "buy_url": "https://www.apple.com/tw/shop/goto/buy_airpods/airpods_pro_3"
+    },
+    {
+      "category": "iphone",
+      "url": "https://www.apple.com/tw/iphone-air/",
+      "specs_url": "https://www.apple.com/tw/iphone-air/specs/",
+      "buy_url": "https://www.apple.com/tw/shop/goto/buy_iphone/iphone_air"
+    },
+    {
+      "category": "mac",
+      "url": "https://www.apple.com/tw/macbook-air/",
+      "specs_url": "https://www.apple.com/tw/macbook-air/specs/",
+      "buy_url": "https://www.apple.com/tw/shop/goto/buy_mac/macbook_air"
+    },
+    {
+      "category": "ipad",
+      "url": "https://www.apple.com/tw/ipad-mini/",
+      "specs_url": "https://www.apple.com/tw/ipad-mini/specs/",
+      "buy_url": "https://www.apple.com/tw/shop/goto/buy_ipad/ipad_mini"
+    },
+    {
+      "category": "watch",
+      "url": "https://www.apple.com/tw/apple-watch-ultra-3/",
+      "specs_url": "https://www.apple.com/tw/apple-watch-ultra-3/specs/",
+      "buy_url": "https://www.apple.com/tw/shop/goto/buy_watch/apple_watch_ultra_3"
+    },
+    {
+      "category": "mac",
+      "url": "https://www.apple.com/tw/macbook-neo/",
+      "specs_url": "https://www.apple.com/tw/macbook-neo/specs/",
+      "buy_url": "https://www.apple.com/tw/shop/goto/buy_mac/macbook_neo"
+    },
+    {
+      "category": "ipad",
+      "url": "https://www.apple.com/tw/ipad-pro/",
+      "specs_url": "https://www.apple.com/tw/ipad-pro/specs/",
+      "buy_url": null
+    },
+    {
+      "category": "mac",
+      "url": "https://www.apple.com/tw/macbook-pro/",
+      "specs_url": "https://www.apple.com/tw/macbook-pro/specs/",
+      "buy_url": "https://www.apple.com/tw/shop/goto/buy_mac/macbook_pro"
+    }
+  ],
+  "products": [
+    {
+      "category": "iphone",
+      "name": "iPhone 17 Pro",
+      "product_url": "https://www.apple.com/tw/iphone-17-pro/",
+      "specs_url": "https://www.apple.com/tw/iphone-17-pro/specs/",
+      "fetched_at": "2026-09-09T03:48:24.470361+00:00",
+      "model": "qwen2.5-coder:14b",
+      "variants": [
+        "iPhone 17 Pro",
+        "iPhone 17 Pro Max"
+      ],
+      "starting_price": {
+        "amount": 39900.0,
+        "currency": "TWD",
+        "source_url": "https://www.apple.com/tw/shop/goto/buy_iphone/iphone_17_pro",
+        "source_name": "iPhone 17 Pro",
+        "evidence": "{\"@type\":\"AggregateOffer\",\"hasMerchantReturnPolicy\":{\"@type\":\"MerchantReturnPolicy\",\"applicableCountry\":\"TW\",\"merchantReturnDays\":14,\"returnFees\":\"https://schema.org/FreeReturn\",\"returnMethod\":\"https://schema.org/ReturnByMail\",\"returnPolicyCategory\":\"https://schema.org/MerchantReturnFiniteReturnWindow\"},\"highPrice\":53900.0,\"lowPrice\":39900.0,\"priceCurrency\":\"TWD\",\"shippingDetails\":{\"@type\":\"OfferShippingDetails\",\"shippingRate\":{\"@type\":\"MonetaryAmount\",\"currency\":\"TWD\",\"value\":0}}}",
+        "scope": "官網此商品頁起售價；不代表每個選配型號的售價"
+      },
+      "specs": [
+        {
+          "block_id": 0,
+          "section": "外觀",
+          "label": "顏色",
+          "value": "iPhone 17 Pro\n銀色、宇宙橙色、藏藍色\n鋁金屬一體成型設計\n超瓷晶盾 2 面板\n超瓷晶盾背板",
+          "model": "iPhone 17 Pro",
+          "conditions": null,
+          "evidence": "iPhone 17 Pro\n銀色、宇宙橙色、藏藍色\n鋁金屬一體成型設計\n超瓷晶盾 2 面板\n超瓷晶盾背板",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 1,
+          "section": "外觀",
+          "label": "顏色",
+          "value": "iPhone 17 Pro Max\n銀色、宇宙橙色、藏藍色\n鋁金屬一體成型設計\n超瓷晶盾 2 面板\n超瓷晶盾背板",
+          "model": "iPhone 17 Pro Max",
+          "conditions": null,
+          "evidence": "iPhone 17 Pro Max\n銀色、宇宙橙色、藏藍色\n鋁金屬一體成型設計\n超瓷晶盾 2 面板\n超瓷晶盾背板",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 2,
+          "section": "容量",
+          "label": "容量",
+          "value": "iPhone 17 Pro\n256GB\n512GB\n1TB",
+          "model": "iPhone 17 Pro",
+          "conditions": null,
+          "evidence": "iPhone 17 Pro\n256GB\n512GB\n1TB",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 3,
+          "section": "容量",
+          "label": "容量",
+          "value": "iPhone 17 Pro Max\n256GB\n512GB\n1TB\n2TB",
+          "model": "iPhone 17 Pro Max",
+          "conditions": null,
+          "evidence": "iPhone 17 Pro Max\n256GB\n512GB\n1TB\n2TB",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 4,
+          "section": "尺寸與重量",
+          "label": "尺寸與重量",
+          "value": "寬度：\n71.9 公釐\n(2.83 吋)\n高度：\n150.0 公釐\n(5.91 吋)\n厚度：\n8.75 公釐\n(0.34 吋)\niPhone 17 Pro\n重量：\n204 公克 (7.20 盎司)",
+          "model": "iPhone 17 Pro",
+          "conditions": null,
+          "evidence": "寬度：\n71.9 公釐\n(2.83 吋)\n高度：\n150.0 公釐\n(5.91 吋)\n厚度：\n8.75 公釐\n(0.34 吋)\niPhone 17 Pro\n重量：\n204 公克 (7.20 盎司)",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 5,
+          "section": "尺寸與重量",
+          "label": "尺寸與重量",
+          "value": "寬度：\n78.0 公釐\n(3.07 吋)\n高度：\n163.4 公釐\n(6.43 吋)\n厚度：\n8.75 公釐\n(0.34 吋)\niPhone 17 Pro Max\n重量：\n231 公克 (8.15 盎司)",
+          "model": "iPhone 17 Pro Max",
+          "conditions": null,
+          "evidence": "寬度：\n78.0 公釐\n(3.07 吋)\n高度：\n163.4 公釐\n(6.43 吋)\n厚度：\n8.75 公釐\n(0.34 吋)\niPhone 17 Pro Max\n重量：\n231 公克 (8.15 盎司)",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 6,
+          "section": "顯示器",
+          "label": "顯示器",
+          "value": "iPhone 17 Pro\n超 Retina XDR 顯示器\n6.3 吋 (對角線) 全螢幕 OLED 顯示器\n2622 x 1206 像素，460 ppi 解析度\niPhone 17 Pro 顯示器的圓角具有優美的曲線設計，並呈現在一個標準矩形之內。以標準矩形量測時，螢幕的對角線長度為 6.27 吋 (實際可視區較小)。",
+          "model": "iPhone 17 Pro",
+          "conditions": null,
+          "evidence": "iPhone 17 Pro\n超 Retina XDR 顯示器\n6.3 吋 (對角線) 全螢幕 OLED 顯示器\n2622 x 1206 像素，460 ppi 解析度\niPhone 17 Pro 顯示器的圓角具有優美的曲線設計，並呈現在一個標準矩形之內。以標準矩形量測時，螢幕的對角線長度為 6.27 吋 (實際可視區較小)。",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 7,
+          "section": "顯示器",
+          "label": "顯示器",
+          "value": "iPhone 17 Pro Max\n超 Retina XDR 顯示器\n6.9 吋 (對角線) 全螢幕 OLED 顯示器\n2868 x 1320 像素，460 ppi 解析度\niPhone 17 Pro Max 顯示器的圓角具有優美的曲線設計，並呈現在一個標準矩形之內。以標準矩形量測時，螢幕的對角線長度為 6.86 吋 (實際可視區較小)。",
+          "model": "iPhone 17 Pro Max",
+          "conditions": null,
+          "evidence": "iPhone 17 Pro Max\n超 Retina XDR 顯示器\n6.9 吋 (對角線) 全螢幕 OLED 顯示器\n2868 x 1320 像素，460 ppi 解析度\niPhone 17 Pro Max 顯示器的圓角具有優美的曲線設計，並呈現在一個標準矩形之內。以標準矩形量測時，螢幕的對角線長度為 6.86 吋 (實際可視區較小)。",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 8,
+          "section": "其他規格",
+          "label": "其他規格",
+          "value": "兩款機型均具備\n動態島\n永遠顯示\nProMotion 技術，支援最高達 120Hz 自動適應更新頻率\nHDR 顯示\n原彩顯示\n廣色域 (P3)\n觸覺回饋觸控\n2,000,000:1 對比度 (標準)\n1000 尼特最大亮度 (標準)；1600 尼特峰值亮度 (HDR)；3000 尼特峰值亮度 (室外)；1 尼特最低亮度\n防指印疏油外膜\n抗反射鍍膜\n支援同時顯示多種語言文字",
+          "model": null,
+          "conditions": null,
+          "evidence": "兩款機型均具備\n動態島\n永遠顯示\nProMotion 技術，支援最高達 120Hz 自動適應更新頻率\nHDR 顯示\n原彩顯示\n廣色域 (P3)\n觸覺回饋觸控\n2,000,000:1 對比度 (標準)\n1000 尼特最大亮度 (標準)；1600 尼特峰值亮度 (HDR)；3000 尼特峰值亮度 (室外)；1 尼特最低亮度\n防指印疏油外膜\n抗反射鍍膜\n支援同時顯示多種語言文字",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 9,
+          "section": "防潑、抗水與防塵",
+          "label": "防潑、抗水與防塵",
+          "value": "達到 IEC 60529 標準的 IP68 等級 (在最深達 6 公尺水中最長可達 30 分鐘)",
+          "model": null,
+          "conditions": null,
+          "evidence": "達到 IEC 60529 標準的 IP68 等級 (在最深達 6 公尺水中最長可達 30 分鐘)",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 10,
+          "section": "Apple Intelligence",
+          "label": "Apple Intelligence",
+          "value": "Apple Intelligence 已整合至你的 app 和體驗中，助你盡情溝通、表達自我，輕鬆完成各種任務。具備創新突破的隱私權保護功能，確保其他人無法存取你的資料，即使 Apple 也不例外，讓你倍感安心。\n進一步了解 Apple Intelligence",
+          "model": null,
+          "conditions": null,
+          "evidence": "Apple Intelligence 已整合至你的 app 和體驗中，助你盡情溝通、表達自我，輕鬆完成各種任務。具備創新突破的隱私權保護功能，確保其他人無法存取你的資料，即使 Apple 也不例外，讓你倍感安心。\n進一步了解 Apple Intelligence",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 11,
+          "section": "晶片",
+          "label": "晶片",
+          "value": "A19 Pro 晶片\n6 核心 CPU 配備 2 個效能核心與 4 個節能核心\n6 核心 GPU 配備神經網路加速器\n16 核心神經網路引擎\n硬體加速光線追蹤",
+          "model": null,
+          "conditions": null,
+          "evidence": "A19 Pro 晶片\n6 核心 CPU 配備 2 個效能核心與 4 個節能核心\n6 核心 GPU 配備神經網路加速器\n16 核心神經網路引擎\n硬體加速光線追蹤",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 12,
+          "section": "相機",
+          "label": "相機",
+          "value": "4800 萬像素 Pro 融合相機系統\n4800 萬像素融合主相機：24 公釐、ƒ/1.78 光圈、第 2 代感光元件位移式光學影像穩定功能、100% Focus Pixels，支援超高解析度照片 (2400 萬像素與 4800 萬像素)\n同時支援 1200 萬像素光學品質 2 倍望遠：48 公釐、ƒ/1.78 光圈、第 2 代感光元件位移式光學影像穩定功能、100% Focus Pixels\n4800 萬像素融合超廣角：13 公釐、ƒ/2.2 光圈與 120° 視角、Hybrid Focus Pixels、超高解析度照片 (4800 萬像素)\n4800 萬像素融合望遠：100 公釐 (4 倍)、ƒ/2.8 光圈、Hybrid Focus Pixels、3D 感光元件位移式光學影像穩定功能與自動對焦、四重反射稜鏡設計\n同時支援 1200 萬像素光學品質 8 倍望遠：200 公釐、ƒ/2.8 光圈、Hybrid Focus Pixels、3D 感光元件位移式光學影像穩定功能與自動對焦、四重反射稜鏡設計\n8 倍光學變焦放大，2 倍光學變焦縮小；16 倍光學變焦範圍\n最高可達 40 倍數位變焦\n可自訂的預設鏡頭 (融合主相機)\n藍寶石玻璃保護鏡\n適應性原彩閃光燈\n光像引擎\n深度融合\n智慧型 HDR 5\n新一代人像照具備焦點控制與景深控制\n人像光線具備六種效果\n夜間模式\n全景模式 (最高可達 6300 萬像素)\n最新一代攝影風格\n空間照片\n4800 萬像素微距攝影\nProRAW\n拍攝廣色域的照片與原況照片\n鏡頭校正 (融合超廣角)\n先進的紅眼校正功能\n自動影像穩定功能\n連拍模式\n照片地理位置標記\n影像拍攝格式：HEIF、JPEG 與 DNG",
+          "model": null,
+          "conditions": null,
+          "evidence": "4800 萬像素 Pro 融合相機系統\n4800 萬像素融合主相機：24 公釐、ƒ/1.78 光圈、第 2 代感光元件位移式光學影像穩定功能、100% Focus Pixels，支援超高解析度照片 (2400 萬像素與 4800 萬像素)\n同時支援 1200 萬像素光學品質 2 倍望遠：48 公釐、ƒ/1.78 光圈、第 2 代感光元件位移式光學影像穩定功能、100% Focus Pixels\n4800 萬像素融合超廣角：13 公釐、ƒ/2.2 光圈與 120° 視角、Hybrid Focus Pixels、超高解析度照片 (4800 萬像素)\n4800 萬像素融合望遠：100 公釐 (4 倍)、ƒ/2.8 光圈、Hybrid Focus Pixels、3D 感光元件位移式光學影像穩定功能與自動對焦、四重反射稜鏡設計\n同時支援 1200 萬像素光學品質 8 倍望遠：200 公釐、ƒ/2.8 光圈、Hybrid Focus Pixels、3D 感光元件位移式光學影像穩定功能與自動對焦、四重反射稜鏡設計\n8 倍光學變焦放大，2 倍光學變焦縮小；16 倍光學變焦範圍\n最高可達 40 倍數位變焦\n可自訂的預設鏡頭 (融合主相機)\n藍寶石玻璃保護鏡\n適應性原彩閃光燈\n光像引擎\n深度融合\n智慧型 HDR 5\n新一代人像照具備焦點控制與景深控制\n人像光線具備六種效果\n夜間模式\n全景模式 (最高可達 6300 萬像素)\n最新一代攝影風格\n空間照片\n4800 萬像素微距攝影\nProRAW\n拍攝廣色域的照片與原況照片\n鏡頭校正 (融合超廣角)\n先進的紅眼校正功能\n自動影像穩定功能\n連拍模式\n照片地理位置標記\n影像拍攝格式：HEIF、JPEG 與 DNG",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 13,
+          "section": "錄影",
+          "label": "錄影",
+          "value": "4K 杜比視界錄影，24 fps、25 fps、30 fps、60 fps、100 fps (融合主相機) 或 120 fps (融合主相機)\n1080p 杜比視界錄影，25 fps、30 fps、60 fps 或 120 fps (融合主相機)\n720p 杜比視界錄影，30 fps\n電影級模式，最高可達 4K 杜比視界 (30 fps)\n動作模式，最高可達 2.8K 杜比視界 (60 fps)\n空間影片錄製，1080p (30 fps)\nProRes 錄影，配合外接儲存最高可達 4K (120 fps)\nProRes RAW\n學院色彩編碼系統 (ACES)\nApple Log 2\n支援 Genlock\n微距錄影，包括慢動作與縮時攝影\n支援 1080p，最高可達 240 fps 和 4K 杜比視界，最高可達 120 fps (融合主相機) 的慢動作影片\n雙向同拍，最高可達 4K 杜比視界 (30 fps)\n具備視訊穩定功能的縮時攝影\n夜間模式縮時攝影\n影片快錄功能 (支援杜比視界錄影，最高可達 4K，60 fps)\n適用於錄影的第 2 代感光元件位移式光學影像穩定功能 (融合主相機)\n適用於錄影的 3D 感光元件位移式光學影像穩定功能與自動對焦 (融合望遠)\n最高可達 15 倍數位變焦\n音訊變焦\n原彩閃光燈\n電影級視訊穩定功能 (4K、1080p 與 720p)\n連續自動對焦錄影\n錄製 4K 影片時可拍攝 800 萬像素靜照\n縮放播放\n影片錄製格式：HEVC、H.264、ProRes 與 ProRes RAW\n空間音訊與立體聲錄音\n錄音室等級四麥克風\n降低風切聲\n混音功能",
+          "model": null,
+          "conditions": null,
+          "evidence": "4K 杜比視界錄影，24 fps、25 fps、30 fps、60 fps、100 fps (融合主相機) 或 120 fps (融合主相機)\n1080p 杜比視界錄影，25 fps、30 fps、60 fps 或 120 fps (融合主相機)\n720p 杜比視界錄影，30 fps\n電影級模式，最高可達 4K 杜比視界 (30 fps)\n動作模式，最高可達 2.8K 杜比視界 (60 fps)\n空間影片錄製，1080p (30 fps)\nProRes 錄影，配合外接儲存最高可達 4K (120 fps)\nProRes RAW\n學院色彩編碼系統 (ACES)\nApple Log 2\n支援 Genlock\n微距錄影，包括慢動作與縮時攝影\n支援 1080p，最高可達 240 fps 和 4K 杜比視界，最高可達 120 fps (融合主相機) 的慢動作影片\n雙向同拍，最高可達 4K 杜比視界 (30 fps)\n具備視訊穩定功能的縮時攝影\n夜間模式縮時攝影\n影片快錄功能 (支援杜比視界錄影，最高可達 4K，60 fps)\n適用於錄影的第 2 代感光元件位移式光學影像穩定功能 (融合主相機)\n適用於錄影的 3D 感光元件位移式光學影像穩定功能與自動對焦 (融合望遠)\n最高可達 15 倍數位變焦\n音訊變焦\n原彩閃光燈\n電影級視訊穩定功能 (4K、1080p 與 720p)\n連續自動對焦錄影\n錄製 4K 影片時可拍攝 800 萬像素靜照\n縮放播放\n影片錄製格式：HEVC、H.264、ProRes 與 ProRes RAW\n空間音訊與立體聲錄音\n錄音室等級四麥克風\n降低風切聲\n混音功能",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 14,
+          "section": "前置相機",
+          "label": "前置相機",
+          "value": "1800 萬像素 Center Stage 相機\nƒ/1.9 光圈\n自動對焦，採用 Focus Pixels\nRetina 閃光燈\n點一下縮放和旋轉\n拍照人物居中\n超穩定錄影\n雙向同拍\n視訊通話人物居中\n光像引擎\n深度融合\n智慧型 HDR 5\n新一代人像照具備焦點控制與景深控制\n人像光線具備六種效果\nAnimoji 與 Memoji\n夜間模式\n最新一代攝影風格\nProRAW\n拍攝廣色域的照片與原況照片\n鏡頭校正\n自動影像穩定功能\n連拍模式\n4K 杜比視界錄影，24 fps、25 fps、30 fps 或 60 fps\n1080p 杜比視界錄影，25 fps、30 fps 或 60 fps\n電影級模式，最高可達 4K 杜比視界 (30 fps)\nProRes 錄影，配合外接儲存最高可達 4K (60 fps)\nProRes RAW\n學院色彩編碼系統 (ACES)\nApple Log 2\n支援 1080p (120 fps) 的慢動作影片\n具備視訊穩定功能的縮時攝影\n夜間模式縮時攝影\n影片快錄功能 (支援杜比視界錄影，最高可達 4K，60 fps)\n電影級視訊穩定功能 (4K、1080p 與 720p)\n空間音訊與立體聲錄音\n降低風切聲\n混音功能",
+          "model": null,
+          "conditions": null,
+          "evidence": "1800 萬像素 Center Stage 相機\nƒ/1.9 光圈\n自動對焦，採用 Focus Pixels\nRetina 閃光燈\n點一下縮放和旋轉\n拍照人物居中\n超穩定錄影\n雙向同拍\n視訊通話人物居中\n光像引擎\n深度融合\n智慧型 HDR 5\n新一代人像照具備焦點控制與景深控制\n人像光線具備六種效果\nAnimoji 與 Memoji\n夜間模式\n最新一代攝影風格\nProRAW\n拍攝廣色域的照片與原況照片\n鏡頭校正\n自動影像穩定功能\n連拍模式\n4K 杜比視界錄影，24 fps、25 fps、30 fps 或 60 fps\n1080p 杜比視界錄影，25 fps、30 fps 或 60 fps\n電影級模式，最高可達 4K 杜比視界 (30 fps)\nProRes 錄影，配合外接儲存最高可達 4K (60 fps)\nProRes RAW\n學院色彩編碼系統 (ACES)\nApple Log 2\n支援 1080p (120 fps) 的慢動作影片\n具備視訊穩定功能的縮時攝影\n夜間模式縮時攝影\n影片快錄功能 (支援杜比視界錄影，最高可達 4K，60 fps)\n電影級視訊穩定功能 (4K、1080p 與 720p)\n空間音訊與立體聲錄音\n降低風切聲\n混音功能",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 15,
+          "section": "電源與電池",
+          "label": "電源與電池",
+          "value": "iPhone 17 Pro\n影片播放時間\n最長可達 31 小時\n影片串流播放時間\n最長可達 28 小時",
+          "model": "iPhone 17 Pro",
+          "conditions": "最長可達 31 小時",
+          "evidence": "iPhone 17 Pro\n影片播放時間\n最長可達 31 小時\n影片串流播放時間\n最長可達 28 小時",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 16,
+          "section": "電源與電池",
+          "label": "電池續航",
+          "value": "iPhone 17 Pro Max\n影片播放時間\n最長可達 37 小時\n影片串流播放時間\n最長可達 33 小時",
+          "model": "iPhone 17 Pro Max",
+          "conditions": "最長可達 37 小時",
+          "evidence": "iPhone 17 Pro Max\n影片播放時間\n最長可達 37 小時\n影片串流播放時間\n最長可達 33 小時",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 17,
+          "section": "其他規格",
+          "label": "快速充電",
+          "value": "兩款機型均具備\n內建充電式鋰離子電池\n支援快速充電：\n充電 20 分鐘最高可達 50% 電量，須使用 40W 或更高功率的電源轉接器 (另外有售)，並搭配 USB-C 充電連接線\n充電 30 分鐘最高可達 50% 電量，須使用 30W 或更高功率的電源轉接器，並搭配 MagSafe 充電器 (皆另外有售)",
+          "model": null,
+          "conditions": "充電 20 分鐘最高可達 50% 電量",
+          "evidence": "兩款機型均具備\n內建充電式鋰離子電池\n支援快速充電：\n充電 20 分鐘最高可達 50% 電量，須使用 40W 或更高功率的電源轉接器 (另外有售)，並搭配 USB-C 充電連接線\n充電 30 分鐘最高可達 50% 電量，須使用 30W 或更高功率的電源轉接器，並搭配 MagSafe 充電器 (皆另外有售)",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 18,
+          "section": "Face ID",
+          "label": "Face ID",
+          "value": "透過 Center Stage 前置相機的原深感測技術啟用",
+          "model": null,
+          "conditions": null,
+          "evidence": "透過 Center Stage 前置相機的原深感測技術啟用",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 19,
+          "section": "安全功能",
+          "label": "安全功能",
+          "value": "SOS 緊急服務\n車禍偵測功能",
+          "model": null,
+          "conditions": null,
+          "evidence": "SOS 緊急服務\n車禍偵測功能",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 20,
+          "section": "行動網路與\n無線技術",
+          "label": "行動網路與無線技術",
+          "value": "型號 A3523 與 A3526*\nFDD-5G NR (頻段 n1、n2、n3、n5、n7、n8、n12、n20、n25、n26、n28、n30、n66、n70、n75)\nTDD-5G NR (頻段 n38、n40、n41、n48、n53、n77、n78、n79)\nFDD-LTE (頻段 1、2、3、4、5、7、8、12、13、17、18、19、20、25、26、28、30、32、66)\nTDD-LTE (頻段 34、38、39、40、41、42、48、53)\nUMTS/HSPA+/DC-HSDPA (850、900、1700/2100、1900、2100 MHz)\nGSM/EDGE (850、900、1800、1900 MHz)\n5G (sub‑6 GHz)，具 4x4 MIMO 技術\nGigabit LTE，具 4x4 MIMO 技術\nApple N1 無線網路晶片\nWi‑Fi 7 (802.11be)，具 2x2 MIMO 技術\n藍牙 6\nThread 網路技術\nApple 第 2 代超寬頻晶片\nNFC 具備讀取模式\n可使用備用電量的快速卡",
+          "model": null,
+          "conditions": null,
+          "evidence": "型號 A3523 與 A3526*\nFDD-5G NR (頻段 n1、n2、n3、n5、n7、n8、n12、n20、n25、n26、n28、n30、n66、n70、n75)\nTDD-5G NR (頻段 n38、n40、n41、n48、n53、n77、n78、n79)\nFDD-LTE (頻段 1、2、3、4、5、7、8、12、13、17、18、19、20、25、26、28、30、32、66)\nTDD-LTE (頻段 34、38、39、40、41、42、48、53)\nUMTS/HSPA+/DC-HSDPA (850、900、1700/2100、1900、2100 MHz)\nGSM/EDGE (850、900、1800、1900 MHz)\n5G (sub‑6 GHz)，具 4x4 MIMO 技術\nGigabit LTE，具 4x4 MIMO 技術\nApple N1 無線網路晶片\nWi‑Fi 7 (802.11be)，具 2x2 MIMO 技術\n藍牙 6\nThread 網路技術\nApple 第 2 代超寬頻晶片\nNFC 具備讀取模式\n可使用備用電量的快速卡",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 21,
+          "section": "定位功能",
+          "label": "定位功能",
+          "value": "精準的雙頻 GPS (GPS、GLONASS、Galileo、QZSS、北斗定位系統與 NavIC)\n數位指南針\nWi-Fi\n行動網路\niBeacon 微型定位服務",
+          "model": null,
+          "conditions": null,
+          "evidence": "精準的雙頻 GPS (GPS、GLONASS、Galileo、QZSS、北斗定位系統與 NavIC)\n數位指南針\nWi-Fi\n行動網路\niBeacon 微型定位服務",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 22,
+          "section": "外部按鈕與連接器",
+          "label": "外部按鈕與連接器",
+          "value": "音量\n調高/低\n動作\n按鈕\n相機\n控制\n側邊\n按鈕\n內建立體聲揚聲器\n內建麥克風\nUSB‑C 連接器\n內建\n麥克風\n內建立體聲\n揚聲器",
+          "model": null,
+          "conditions": null,
+          "evidence": "音量\n調高/低\n動作\n按鈕\n相機\n控制\n側邊\n按鈕\n內建立體聲揚聲器\n內建麥克風\nUSB‑C 連接器\n內建\n麥克風\n內建立體聲\n揚聲器",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 23,
+          "section": "其他規格",
+          "label": "其他規格",
+          "value": "動作按鈕功能\n靜音模式、專注模式、相機、視覺智慧、手電筒、語音備忘錄、辨識音樂、翻譯、放大鏡、控制項目、捷徑或輔助使用",
+          "model": null,
+          "conditions": null,
+          "evidence": "動作按鈕功能\n靜音模式、專注模式、相機、視覺智慧、手電筒、語音備忘錄、辨識音樂、翻譯、放大鏡、控制項目、捷徑或輔助使用",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 24,
+          "section": "其他規格",
+          "label": "其他規格",
+          "value": "相機控制\n曝光、景深、縮放、相機、風格、色調",
+          "model": null,
+          "conditions": null,
+          "evidence": "相機控制\n曝光、景深、縮放、相機、風格、色調",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 25,
+          "section": "充電與擴充",
+          "label": "充電與擴充",
+          "value": "USB‑C 連接器支援:\n充電\nDisplayPort\nUSB 3 (速度最快可達 10Gb/s)",
+          "model": null,
+          "conditions": null,
+          "evidence": "USB‑C 連接器支援:\n充電\nDisplayPort\nUSB 3 (速度最快可達 10Gb/s)",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 26,
+          "section": "MagSafe 與無線充電",
+          "label": "MagSafe 與無線充電",
+          "value": "MagSafe 無線充電最高可達 25W\nQi2 無線充電最高可達 25W\n磁石陣列\n磁石對位\n配件識別 NFC\n磁力儀",
+          "model": null,
+          "conditions": "MagSafe 無線充電最高可達 25W",
+          "evidence": "MagSafe 無線充電最高可達 25W\nQi2 無線充電最高可達 25W\n磁石陣列\n磁石對位\n配件識別 NFC\n磁力儀",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 27,
+          "section": "感測器",
+          "label": "感測器",
+          "value": "Face ID\n光學雷達掃描儀\n氣壓計\n高動態範圍陀螺儀\n高 g 值加速度計\n接近感測器\n雙環境光度感測器",
+          "model": null,
+          "conditions": null,
+          "evidence": "Face ID\n光學雷達掃描儀\n氣壓計\n高動態範圍陀螺儀\n高 g 值加速度計\n接近感測器\n雙環境光度感測器",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 28,
+          "section": "SIM 卡",
+          "label": "SIM 卡",
+          "value": "雙 SIM 卡 (nano‑SIM 與 eSIM)\n支援雙 eSIM\n進一步了解 eSIM\n進一步了解出國時使用 eSIM",
+          "model": null,
+          "conditions": null,
+          "evidence": "雙 SIM 卡 (nano‑SIM 與 eSIM)\n支援雙 eSIM\n進一步了解 eSIM\n進一步了解出國時使用 eSIM",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 29,
+          "section": "Apple Pay",
+          "label": "Apple Pay",
+          "value": "在店內、app 內及網頁上，使用 Face ID 以 iPhone 付款\n輔助你在 Mac 上以 Apple Pay 完成購買\n進一步了解 Apple Pay",
+          "model": null,
+          "conditions": null,
+          "evidence": "在店內、app 內及網頁上，使用 Face ID 以 iPhone 付款\n輔助你在 Mac 上以 Apple Pay 完成購買\n進一步了解 Apple Pay",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 30,
+          "section": "視訊通話",
+          "label": "視訊通話",
+          "value": "透過行動網路或 Wi-Fi 進行 FaceTime 視訊通話\n透過 5G 或 Wi-Fi 進行 FaceTime HD (1080p) 視訊通話\n視訊通話人物居中\n同播共享\n螢幕共享\nFaceTime 視訊支援人像模式\n空間音訊\n語音隔離和寬廣頻譜麥克風模式\n後置相機支援光學變焦",
+          "model": null,
+          "conditions": null,
+          "evidence": "透過行動網路或 Wi-Fi 進行 FaceTime 視訊通話\n透過 5G 或 Wi-Fi 進行 FaceTime HD (1080p) 視訊通話\n視訊通話人物居中\n同播共享\n螢幕共享\nFaceTime 視訊支援人像模式\n空間音訊\n語音隔離和寬廣頻譜麥克風模式\n後置相機支援光學變焦",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 31,
+          "section": "音訊通話",
+          "label": "音訊通話",
+          "value": "FaceTime 語音\nVoice over LTE (VoLTE)\nWi-Fi 通話\n同播共享\n螢幕共享\n空間音訊\n語音隔離和寬廣頻譜麥克風模式",
+          "model": null,
+          "conditions": null,
+          "evidence": "FaceTime 語音\nVoice over LTE (VoLTE)\nWi-Fi 通話\n同播共享\n螢幕共享\n空間音訊\n語音隔離和寬廣頻譜麥克風模式",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 32,
+          "section": "音訊播放",
+          "label": "音訊播放",
+          "value": "支援的格式包括 AAC、APAC、MP3、Apple 保真壓縮、FLAC、杜比數位、杜比數位+ 與杜比全景聲\n空間音訊播放\n使用者可自行設定最大音量限制",
+          "model": null,
+          "conditions": "使用者可自行設定最大音量限制",
+          "evidence": "支援的格式包括 AAC、APAC、MP3、Apple 保真壓縮、FLAC、杜比數位、杜比數位+ 與杜比全景聲\n空間音訊播放\n使用者可自行設定最大音量限制",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 33,
+          "section": "影片播放",
+          "label": "影片播放",
+          "value": "支援的格式包括 HEVC、H.264、AV1 與 ProRes\nHDR 支援杜比視界、HDR10+/HDR10 與 HLG\nAirPlay 鏡像輸出、照片與視訊輸出至 Apple TV (第 2 代或後續機型) 或支援 AirPlay 的智慧型電視，最高可達 4K HDR\n支援視訊鏡像輸出與視訊輸出：透過 USB‑C 或 USB‑C 數位 AV 轉接器支援原生 DisplayPort 輸出，最高可達 4K HDR (轉接器型號 A2119；另售)",
+          "model": null,
+          "conditions": "最高可達 4K HDR",
+          "evidence": "支援的格式包括 HEVC、H.264、AV1 與 ProRes\nHDR 支援杜比視界、HDR10+/HDR10 與 HLG\nAirPlay 鏡像輸出、照片與視訊輸出至 Apple TV (第 2 代或後續機型) 或支援 AirPlay 的智慧型電視，最高可達 4K HDR\n支援視訊鏡像輸出與視訊輸出：透過 USB‑C 或 USB‑C 數位 AV 轉接器支援原生 DisplayPort 輸出，最高可達 4K HDR (轉接器型號 A2119；另售)",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 34,
+          "section": "Siri",
+          "label": "Siri",
+          "value": "協助處理傳送訊息、設定提醒事項等日常事務\n用你的聲音說出「嘿 Siri」才能免持啟用，或使用輸入來與 Siri 對話功能\n提供最強隱私權保護的智慧助理\n由 Apple Intelligence 驅動的 Siri，更自然、更實用\n進一步了解 Siri",
+          "model": null,
+          "conditions": null,
+          "evidence": "協助處理傳送訊息、設定提醒事項等日常事務\n用你的聲音說出「嘿 Siri」才能免持啟用，或使用輸入來與 Siri 對話功能\n提供最強隱私權保護的智慧助理\n由 Apple Intelligence 驅動的 Siri，更自然、更實用\n進一步了解 Siri",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 35,
+          "section": "作業系統",
+          "label": "作業系統",
+          "value": "iOS 26\niOS 是全世界最個人化和最安全的行動作業系統，滿載強大的功能，並且專為保護你的隱私而設計。",
+          "model": null,
+          "conditions": null,
+          "evidence": "iOS 26\niOS 是全世界最個人化和最安全的行動作業系統，滿載強大的功能，並且專為保護你的隱私而設計。",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 36,
+          "section": "隱私權",
+          "label": "隱私權",
+          "value": "iPhone 的設計初衷，就是要保護你的個人資訊。每部 iPhone 均具備安全的臉部認證功能。各款 app 必須先獲得你的同意，才能追蹤你在其他公司的 app 或網站上的活動。你的 iMessage 和 FaceTime 視訊通話，都經過端對端加密。好用之處，還有更多。\n進一步了解隱私權功能",
+          "model": null,
+          "conditions": null,
+          "evidence": "iPhone 的設計初衷，就是要保護你的個人資訊。每部 iPhone 均具備安全的臉部認證功能。各款 app 必須先獲得你的同意，才能追蹤你在其他公司的 app 或網站上的活動。你的 iMessage 和 FaceTime 視訊通話，都經過端對端加密。好用之處，還有更多。\n進一步了解隱私權功能",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 37,
+          "section": "輔助使用",
+          "label": "輔助使用",
+          "value": "內建眾多輔助使用功能，可支援視覺、活動能力、聽覺、語音和認知方面的需求，助你以最得心應手的方式，盡情發揮 iPhone 的精彩。\n進一步了解\n各項功能包括:\n旁白\n縮放\n放大鏡\n語音控制\n切換控制\n輔助觸控\n眼球追蹤\n隱藏式字幕\n個人聲音\n即時語音\n輸入來與 Siri 對話\n語音捷徑\n語音內容",
+          "model": null,
+          "conditions": null,
+          "evidence": "內建眾多輔助使用功能，可支援視覺、活動能力、聽覺、語音和認知方面的需求，助你以最得心應手的方式，盡情發揮 iPhone 的精彩。\n進一步了解\n各項功能包括:\n旁白\n縮放\n放大鏡\n語音控制\n切換控制\n輔助觸控\n眼球追蹤\n隱藏式字幕\n個人聲音\n即時語音\n輸入來與 Siri 對話\n語音捷徑\n語音內容",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 38,
+          "section": "內建 App",
+          "label": "內建 App",
+          "value": "App Store\n書籍\n計算機\n行事曆\n相機\n時鐘\n指南針\n聯絡人\nFaceTime\n檔案\n尋找\n健身\n無邊記\n遊戲\nGarageBand\n健康\n家庭\niMovie\niTunes Store\n日誌\nKeynote\n放大鏡\n郵件\n地圖\n測距儀\n訊息\n音樂\n備忘錄\nNumbers\nPages\n密碼\n電話\n照片\nPodcast\n預覽\n提醒事項\nSafari\n設定\n捷徑\n股市\n提示\n翻譯\nTV\n語音備忘錄\n錢包\nWatch\n天氣\n有關適用於 iPhone 的各款 Apple app，請前往 apple.com/tw/apps 查看完整列表。",
+          "model": null,
+          "conditions": null,
+          "evidence": "App Store\n書籍\n計算機\n行事曆\n相機\n時鐘\n指南針\n聯絡人\nFaceTime\n檔案\n尋找\n健身\n無邊記\n遊戲\nGarageBand\n健康\n家庭\niMovie\niTunes Store\n日誌\nKeynote\n放大鏡\n郵件\n地圖\n測距儀\n訊息\n音樂\n備忘錄\nNumbers\nPages\n密碼\n電話\n照片\nPodcast\n預覽\n提醒事項\nSafari\n設定\n捷徑\n股市\n提示\n翻譯\nTV\n語音備忘錄\n錢包\nWatch\n天氣\n有關適用於 iPhone 的各款 Apple app，請前往 apple.com/tw/apps 查看完整列表。",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 39,
+          "section": "助聽輔具等級",
+          "label": "助聽輔具等級",
+          "value": "相容的助聽器",
+          "model": null,
+          "conditions": null,
+          "evidence": "相容的助聽器",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 40,
+          "section": "系統需求",
+          "label": "系統需求",
+          "value": "Apple 帳號 (部分功能需要)\n網際網路連線\n在 Mac 或 PC 上進行同步需要：\n在 macOS Catalina 10.15 或以上版本中使用 Finder\n在 macOS High Sierra 10.13 至 macOS Mojave 10.14.6 中使用 iTunes 12.8 或以上版本\nWindows 10 或以上版本使用 iTunes 12.12.10 或以上版本 (可自 apple.com/tw/itunes/download 免費下載)",
+          "model": null,
+          "conditions": null,
+          "evidence": "Apple 帳號 (部分功能需要)\n網際網路連線\n在 Mac 或 PC 上進行同步需要：\n在 macOS Catalina 10.15 或以上版本中使用 Finder\n在 macOS High Sierra 10.13 至 macOS Mojave 10.14.6 中使用 iTunes 12.8 或以上版本\nWindows 10 或以上版本使用 iTunes 12.12.10 或以上版本 (可自 apple.com/tw/itunes/download 免費下載)",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 41,
+          "section": "環境需求",
+          "label": "環境需求",
+          "value": "作業環境溫度：\n0° 至 35° C (32° 至 95° F)\n非作業溫度：\n−20° 至 45° C (−4° 至 113° F)\n相對濕度：\n5% 至 95%，非冷凝狀態\n作業高度：\n目前測試最高可達 3,000 公尺 (10,000 呎)",
+          "model": null,
+          "conditions": null,
+          "evidence": "作業環境溫度：\n0° 至 35° C (32° 至 95° F)\n非作業溫度：\n−20° 至 45° C (−4° 至 113° F)\n相對濕度：\n5% 至 95%，非冷凝狀態\n作業高度：\n目前測試最高可達 3,000 公尺 (10,000 呎)",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 42,
+          "section": "語言版本",
+          "label": "語言版本",
+          "value": "語言支援\n英文 (澳洲、英國、美國)、中文 (簡體、繁體、香港繁體)、法文 (加拿大、法國)、德文、義大利文、日文、韓文、西班牙文 (拉丁美洲、西班牙)、阿拉伯文、保加利亞文、加泰蘭文、克羅埃西亞文、捷克文、丹麥文、荷蘭文、芬蘭文、希臘文、希伯來文、印地文、匈牙利文、印尼文、哈薩克文、馬來文、挪威文、波蘭文、葡萄牙文 (巴西、葡萄牙)、羅馬尼亞文、俄文、斯洛伐克文、瑞典文、泰文、土耳其文、烏克蘭文、越南文\n進一步了解功能特色適用範圍",
+          "model": null,
+          "conditions": null,
+          "evidence": "語言支援\n英文 (澳洲、英國、美國)、中文 (簡體、繁體、香港繁體)、法文 (加拿大、法國)、德文、義大利文、日文、韓文、西班牙文 (拉丁美洲、西班牙)、阿拉伯文、保加利亞文、加泰蘭文、克羅埃西亞文、捷克文、丹麥文、荷蘭文、芬蘭文、希臘文、希伯來文、印地文、匈牙利文、印尼文、哈薩克文、馬來文、挪威文、波蘭文、葡萄牙文 (巴西、葡萄牙)、羅馬尼亞文、俄文、斯洛伐克文、瑞典文、泰文、土耳其文、烏克蘭文、越南文\n進一步了解功能特色適用範圍",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 43,
+          "section": "包裝盒內容",
+          "label": "包裝盒內容",
+          "value": "搭載 iOS 26 的 iPhone\nUSB‑C 充電連接線 (1 公尺)\n說明文件",
+          "model": null,
+          "conditions": null,
+          "evidence": "搭載 iOS 26 的 iPhone\nUSB‑C 充電連接線 (1 公尺)\n說明文件",
+          "status": "source_matched"
+        }
+      ],
+      "blocks": [
+        {
+          "id": 0,
+          "section": "外觀",
+          "model_hint": "iPhone 17 Pro",
+          "context": "",
+          "text": "iPhone 17 Pro\n銀色、宇宙橙色、藏藍色\n鋁金屬一體成型設計\n超瓷晶盾 2 面板\n超瓷晶盾背板"
+        },
+        {
+          "id": 1,
+          "section": "外觀",
+          "model_hint": "iPhone 17 Pro Max",
+          "context": "",
+          "text": "iPhone 17 Pro Max\n銀色、宇宙橙色、藏藍色\n鋁金屬一體成型設計\n超瓷晶盾 2 面板\n超瓷晶盾背板"
+        },
+        {
+          "id": 2,
+          "section": "容量",
+          "model_hint": "iPhone 17 Pro",
+          "context": "",
+          "text": "iPhone 17 Pro\n256GB\n512GB\n1TB"
+        },
+        {
+          "id": 3,
+          "section": "容量",
+          "model_hint": "iPhone 17 Pro Max",
+          "context": "",
+          "text": "iPhone 17 Pro Max\n256GB\n512GB\n1TB\n2TB"
+        },
+        {
+          "id": 4,
+          "section": "尺寸與重量",
+          "model_hint": "iPhone 17 Pro",
+          "context": "",
+          "text": "寬度：\n71.9 公釐\n(2.83 吋)\n高度：\n150.0 公釐\n(5.91 吋)\n厚度：\n8.75 公釐\n(0.34 吋)\niPhone 17 Pro\n重量：\n204 公克 (7.20 盎司)"
+        },
+        {
+          "id": 5,
+          "section": "尺寸與重量",
+          "model_hint": "iPhone 17 Pro Max",
+          "context": "",
+          "text": "寬度：\n78.0 公釐\n(3.07 吋)\n高度：\n163.4 公釐\n(6.43 吋)\n厚度：\n8.75 公釐\n(0.34 吋)\niPhone 17 Pro Max\n重量：\n231 公克 (8.15 盎司)"
+        },
+        {
+          "id": 6,
+          "section": "顯示器",
+          "model_hint": "iPhone 17 Pro",
+          "context": "",
+          "text": "iPhone 17 Pro\n超 Retina XDR 顯示器\n6.3 吋 (對角線) 全螢幕 OLED 顯示器\n2622 x 1206 像素，460 ppi 解析度\niPhone 17 Pro 顯示器的圓角具有優美的曲線設計，並呈現在一個標準矩形之內。以標準矩形量測時，螢幕的對角線長度為 6.27 吋 (實際可視區較小)。"
+        },
+        {
+          "id": 7,
+          "section": "顯示器",
+          "model_hint": "iPhone 17 Pro Max",
+          "context": "",
+          "text": "iPhone 17 Pro Max\n超 Retina XDR 顯示器\n6.9 吋 (對角線) 全螢幕 OLED 顯示器\n2868 x 1320 像素，460 ppi 解析度\niPhone 17 Pro Max 顯示器的圓角具有優美的曲線設計，並呈現在一個標準矩形之內。以標準矩形量測時，螢幕的對角線長度為 6.86 吋 (實際可視區較小)。"
+        },
+        {
+          "id": 8,
+          "section": "其他規格",
+          "model_hint": null,
+          "context": "",
+          "text": "兩款機型均具備\n動態島\n永遠顯示\nProMotion 技術，支援最高達 120Hz 自動適應更新頻率\nHDR 顯示\n原彩顯示\n廣色域 (P3)\n觸覺回饋觸控\n2,000,000:1 對比度 (標準)\n1000 尼特最大亮度 (標準)；1600 尼特峰值亮度 (HDR)；3000 尼特峰值亮度 (室外)；1 尼特最低亮度\n防指印疏油外膜\n抗反射鍍膜\n支援同時顯示多種語言文字"
+        },
+        {
+          "id": 9,
+          "section": "防潑、抗水與防塵",
+          "model_hint": null,
+          "context": "",
+          "text": "達到 IEC 60529 標準的 IP68 等級 (在最深達 6 公尺水中最長可達 30 分鐘)"
+        },
+        {
+          "id": 10,
+          "section": "Apple Intelligence",
+          "model_hint": null,
+          "context": "",
+          "text": "Apple Intelligence 已整合至你的 app 和體驗中，助你盡情溝通、表達自我，輕鬆完成各種任務。具備創新突破的隱私權保護功能，確保其他人無法存取你的資料，即使 Apple 也不例外，讓你倍感安心。\n進一步了解 Apple Intelligence"
+        },
+        {
+          "id": 11,
+          "section": "晶片",
+          "model_hint": null,
+          "context": "",
+          "text": "A19 Pro 晶片\n6 核心 CPU 配備 2 個效能核心與 4 個節能核心\n6 核心 GPU 配備神經網路加速器\n16 核心神經網路引擎\n硬體加速光線追蹤"
+        },
+        {
+          "id": 12,
+          "section": "相機",
+          "model_hint": null,
+          "context": "",
+          "text": "4800 萬像素 Pro 融合相機系統\n4800 萬像素融合主相機：24 公釐、ƒ/1.78 光圈、第 2 代感光元件位移式光學影像穩定功能、100% Focus Pixels，支援超高解析度照片 (2400 萬像素與 4800 萬像素)\n同時支援 1200 萬像素光學品質 2 倍望遠：48 公釐、ƒ/1.78 光圈、第 2 代感光元件位移式光學影像穩定功能、100% Focus Pixels\n4800 萬像素融合超廣角：13 公釐、ƒ/2.2 光圈與 120° 視角、Hybrid Focus Pixels、超高解析度照片 (4800 萬像素)\n4800 萬像素融合望遠：100 公釐 (4 倍)、ƒ/2.8 光圈、Hybrid Focus Pixels、3D 感光元件位移式光學影像穩定功能與自動對焦、四重反射稜鏡設計\n同時支援 1200 萬像素光學品質 8 倍望遠：200 公釐、ƒ/2.8 光圈、Hybrid Focus Pixels、3D 感光元件位移式光學影像穩定功能與自動對焦、四重反射稜鏡設計\n8 倍光學變焦放大，2 倍光學變焦縮小；16 倍光學變焦範圍\n最高可達 40 倍數位變焦\n可自訂的預設鏡頭 (融合主相機)\n藍寶石玻璃保護鏡\n適應性原彩閃光燈\n光像引擎\n深度融合\n智慧型 HDR 5\n新一代人像照具備焦點控制與景深控制\n人像光線具備六種效果\n夜間模式\n全景模式 (最高可達 6300 萬像素)\n最新一代攝影風格\n空間照片\n4800 萬像素微距攝影\nProRAW\n拍攝廣色域的照片與原況照片\n鏡頭校正 (融合超廣角)\n先進的紅眼校正功能\n自動影像穩定功能\n連拍模式\n照片地理位置標記\n影像拍攝格式：HEIF、JPEG 與 DNG"
+        },
+        {
+          "id": 13,
+          "section": "錄影",
+          "model_hint": null,
+          "context": "",
+          "text": "4K 杜比視界錄影，24 fps、25 fps、30 fps、60 fps、100 fps (融合主相機) 或 120 fps (融合主相機)\n1080p 杜比視界錄影，25 fps、30 fps、60 fps 或 120 fps (融合主相機)\n720p 杜比視界錄影，30 fps\n電影級模式，最高可達 4K 杜比視界 (30 fps)\n動作模式，最高可達 2.8K 杜比視界 (60 fps)\n空間影片錄製，1080p (30 fps)\nProRes 錄影，配合外接儲存最高可達 4K (120 fps)\nProRes RAW\n學院色彩編碼系統 (ACES)\nApple Log 2\n支援 Genlock\n微距錄影，包括慢動作與縮時攝影\n支援 1080p，最高可達 240 fps 和 4K 杜比視界，最高可達 120 fps (融合主相機) 的慢動作影片\n雙向同拍，最高可達 4K 杜比視界 (30 fps)\n具備視訊穩定功能的縮時攝影\n夜間模式縮時攝影\n影片快錄功能 (支援杜比視界錄影，最高可達 4K，60 fps)\n適用於錄影的第 2 代感光元件位移式光學影像穩定功能 (融合主相機)\n適用於錄影的 3D 感光元件位移式光學影像穩定功能與自動對焦 (融合望遠)\n最高可達 15 倍數位變焦\n音訊變焦\n原彩閃光燈\n電影級視訊穩定功能 (4K、1080p 與 720p)\n連續自動對焦錄影\n錄製 4K 影片時可拍攝 800 萬像素靜照\n縮放播放\n影片錄製格式：HEVC、H.264、ProRes 與 ProRes RAW\n空間音訊與立體聲錄音\n錄音室等級四麥克風\n降低風切聲\n混音功能"
+        },
+        {
+          "id": 14,
+          "section": "前置相機",
+          "model_hint": null,
+          "context": "",
+          "text": "1800 萬像素 Center Stage 相機\nƒ/1.9 光圈\n自動對焦，採用 Focus Pixels\nRetina 閃光燈\n點一下縮放和旋轉\n拍照人物居中\n超穩定錄影\n雙向同拍\n視訊通話人物居中\n光像引擎\n深度融合\n智慧型 HDR 5\n新一代人像照具備焦點控制與景深控制\n人像光線具備六種效果\nAnimoji 與 Memoji\n夜間模式\n最新一代攝影風格\nProRAW\n拍攝廣色域的照片與原況照片\n鏡頭校正\n自動影像穩定功能\n連拍模式\n4K 杜比視界錄影，24 fps、25 fps、30 fps 或 60 fps\n1080p 杜比視界錄影，25 fps、30 fps 或 60 fps\n電影級模式，最高可達 4K 杜比視界 (30 fps)\nProRes 錄影，配合外接儲存最高可達 4K (60 fps)\nProRes RAW\n學院色彩編碼系統 (ACES)\nApple Log 2\n支援 1080p (120 fps) 的慢動作影片\n具備視訊穩定功能的縮時攝影\n夜間模式縮時攝影\n影片快錄功能 (支援杜比視界錄影，最高可達 4K，60 fps)\n電影級視訊穩定功能 (4K、1080p 與 720p)\n空間音訊與立體聲錄音\n降低風切聲\n混音功能"
+        },
+        {
+          "id": 15,
+          "section": "電源與電池",
+          "model_hint": "iPhone 17 Pro",
+          "context": "",
+          "text": "iPhone 17 Pro\n影片播放時間\n最長可達 31 小時\n影片串流播放時間\n最長可達 28 小時"
+        },
+        {
+          "id": 16,
+          "section": "電源與電池",
+          "model_hint": "iPhone 17 Pro Max",
+          "context": "",
+          "text": "iPhone 17 Pro Max\n影片播放時間\n最長可達 37 小時\n影片串流播放時間\n最長可達 33 小時"
+        },
+        {
+          "id": 17,
+          "section": "其他規格",
+          "model_hint": null,
+          "context": "",
+          "text": "兩款機型均具備\n內建充電式鋰離子電池\n支援快速充電：\n充電 20 分鐘最高可達 50% 電量，須使用 40W 或更高功率的電源轉接器 (另外有售)，並搭配 USB-C 充電連接線\n充電 30 分鐘最高可達 50% 電量，須使用 30W 或更高功率的電源轉接器，並搭配 MagSafe 充電器 (皆另外有售)"
+        },
+        {
+          "id": 18,
+          "section": "Face ID",
+          "model_hint": null,
+          "context": "",
+          "text": "透過 Center Stage 前置相機的原深感測技術啟用"
+        },
+        {
+          "id": 19,
+          "section": "安全功能",
+          "model_hint": null,
+          "context": "",
+          "text": "SOS 緊急服務\n車禍偵測功能"
+        },
+        {
+          "id": 20,
+          "section": "行動網路與\n無線技術",
+          "model_hint": null,
+          "context": "",
+          "text": "型號 A3523 與 A3526*\nFDD-5G NR (頻段 n1、n2、n3、n5、n7、n8、n12、n20、n25、n26、n28、n30、n66、n70、n75)\nTDD-5G NR (頻段 n38、n40、n41、n48、n53、n77、n78、n79)\nFDD-LTE (頻段 1、2、3、4、5、7、8、12、13、17、18、19、20、25、26、28、30、32、66)\nTDD-LTE (頻段 34、38、39、40、41、42、48、53)\nUMTS/HSPA+/DC-HSDPA (850、900、1700/2100、1900、2100 MHz)\nGSM/EDGE (850、900、1800、1900 MHz)\n5G (sub‑6 GHz)，具 4x4 MIMO 技術\nGigabit LTE，具 4x4 MIMO 技術\nApple N1 無線網路晶片\nWi‑Fi 7 (802.11be)，具 2x2 MIMO 技術\n藍牙 6\nThread 網路技術\nApple 第 2 代超寬頻晶片\nNFC 具備讀取模式\n可使用備用電量的快速卡"
+        },
+        {
+          "id": 21,
+          "section": "定位功能",
+          "model_hint": null,
+          "context": "",
+          "text": "精準的雙頻 GPS (GPS、GLONASS、Galileo、QZSS、北斗定位系統與 NavIC)\n數位指南針\nWi-Fi\n行動網路\niBeacon 微型定位服務"
+        },
+        {
+          "id": 22,
+          "section": "外部按鈕與連接器",
+          "model_hint": null,
+          "context": "",
+          "text": "音量\n調高/低\n動作\n按鈕\n相機\n控制\n側邊\n按鈕\n內建立體聲揚聲器\n內建麥克風\nUSB‑C 連接器\n內建\n麥克風\n內建立體聲\n揚聲器"
+        },
+        {
+          "id": 23,
+          "section": "其他規格",
+          "model_hint": null,
+          "context": "",
+          "text": "動作按鈕功能\n靜音模式、專注模式、相機、視覺智慧、手電筒、語音備忘錄、辨識音樂、翻譯、放大鏡、控制項目、捷徑或輔助使用"
+        },
+        {
+          "id": 24,
+          "section": "其他規格",
+          "model_hint": null,
+          "context": "",
+          "text": "相機控制\n曝光、景深、縮放、相機、風格、色調"
+        },
+        {
+          "id": 25,
+          "section": "充電與擴充",
+          "model_hint": null,
+          "context": "",
+          "text": "USB‑C 連接器支援:\n充電\nDisplayPort\nUSB 3 (速度最快可達 10Gb/s)"
+        },
+        {
+          "id": 26,
+          "section": "MagSafe 與無線充電",
+          "model_hint": null,
+          "context": "",
+          "text": "MagSafe 無線充電最高可達 25W\nQi2 無線充電最高可達 25W\n磁石陣列\n磁石對位\n配件識別 NFC\n磁力儀"
+        },
+        {
+          "id": 27,
+          "section": "感測器",
+          "model_hint": null,
+          "context": "",
+          "text": "Face ID\n光學雷達掃描儀\n氣壓計\n高動態範圍陀螺儀\n高 g 值加速度計\n接近感測器\n雙環境光度感測器"
+        },
+        {
+          "id": 28,
+          "section": "SIM 卡",
+          "model_hint": null,
+          "context": "",
+          "text": "雙 SIM 卡 (nano‑SIM 與 eSIM)\n支援雙 eSIM\n進一步了解 eSIM\n進一步了解出國時使用 eSIM"
+        },
+        {
+          "id": 29,
+          "section": "Apple Pay",
+          "model_hint": null,
+          "context": "",
+          "text": "在店內、app 內及網頁上，使用 Face ID 以 iPhone 付款\n輔助你在 Mac 上以 Apple Pay 完成購買\n進一步了解 Apple Pay"
+        },
+        {
+          "id": 30,
+          "section": "視訊通話",
+          "model_hint": null,
+          "context": "",
+          "text": "透過行動網路或 Wi-Fi 進行 FaceTime 視訊通話\n透過 5G 或 Wi-Fi 進行 FaceTime HD (1080p) 視訊通話\n視訊通話人物居中\n同播共享\n螢幕共享\nFaceTime 視訊支援人像模式\n空間音訊\n語音隔離和寬廣頻譜麥克風模式\n後置相機支援光學變焦"
+        },
+        {
+          "id": 31,
+          "section": "音訊通話",
+          "model_hint": null,
+          "context": "",
+          "text": "FaceTime 語音\nVoice over LTE (VoLTE)\nWi-Fi 通話\n同播共享\n螢幕共享\n空間音訊\n語音隔離和寬廣頻譜麥克風模式"
+        },
+        {
+          "id": 32,
+          "section": "音訊播放",
+          "model_hint": null,
+          "context": "",
+          "text": "支援的格式包括 AAC、APAC、MP3、Apple 保真壓縮、FLAC、杜比數位、杜比數位+ 與杜比全景聲\n空間音訊播放\n使用者可自行設定最大音量限制"
+        },
+        {
+          "id": 33,
+          "section": "影片播放",
+          "model_hint": null,
+          "context": "",
+          "text": "支援的格式包括 HEVC、H.264、AV1 與 ProRes\nHDR 支援杜比視界、HDR10+/HDR10 與 HLG\nAirPlay 鏡像輸出、照片與視訊輸出至 Apple TV (第 2 代或後續機型) 或支援 AirPlay 的智慧型電視，最高可達 4K HDR\n支援視訊鏡像輸出與視訊輸出：透過 USB‑C 或 USB‑C 數位 AV 轉接器支援原生 DisplayPort 輸出，最高可達 4K HDR (轉接器型號 A2119；另售)"
+        },
+        {
+          "id": 34,
+          "section": "Siri",
+          "model_hint": null,
+          "context": "",
+          "text": "協助處理傳送訊息、設定提醒事項等日常事務\n用你的聲音說出「嘿 Siri」才能免持啟用，或使用輸入來與 Siri 對話功能\n提供最強隱私權保護的智慧助理\n由 Apple Intelligence 驅動的 Siri，更自然、更實用\n進一步了解 Siri"
+        },
+        {
+          "id": 35,
+          "section": "作業系統",
+          "model_hint": null,
+          "context": "",
+          "text": "iOS 26\niOS 是全世界最個人化和最安全的行動作業系統，滿載強大的功能，並且專為保護你的隱私而設計。"
+        },
+        {
+          "id": 36,
+          "section": "隱私權",
+          "model_hint": null,
+          "context": "",
+          "text": "iPhone 的設計初衷，就是要保護你的個人資訊。每部 iPhone 均具備安全的臉部認證功能。各款 app 必須先獲得你的同意，才能追蹤你在其他公司的 app 或網站上的活動。你的 iMessage 和 FaceTime 視訊通話，都經過端對端加密。好用之處，還有更多。\n進一步了解隱私權功能"
+        },
+        {
+          "id": 37,
+          "section": "輔助使用",
+          "model_hint": null,
+          "context": "",
+          "text": "內建眾多輔助使用功能，可支援視覺、活動能力、聽覺、語音和認知方面的需求，助你以最得心應手的方式，盡情發揮 iPhone 的精彩。\n進一步了解\n各項功能包括:\n旁白\n縮放\n放大鏡\n語音控制\n切換控制\n輔助觸控\n眼球追蹤\n隱藏式字幕\n個人聲音\n即時語音\n輸入來與 Siri 對話\n語音捷徑\n語音內容"
+        },
+        {
+          "id": 38,
+          "section": "內建 App",
+          "model_hint": null,
+          "context": "",
+          "text": "App Store\n書籍\n計算機\n行事曆\n相機\n時鐘\n指南針\n聯絡人\nFaceTime\n檔案\n尋找\n健身\n無邊記\n遊戲\nGarageBand\n健康\n家庭\niMovie\niTunes Store\n日誌\nKeynote\n放大鏡\n郵件\n地圖\n測距儀\n訊息\n音樂\n備忘錄\nNumbers\nPages\n密碼\n電話\n照片\nPodcast\n預覽\n提醒事項\nSafari\n設定\n捷徑\n股市\n提示\n翻譯\nTV\n語音備忘錄\n錢包\nWatch\n天氣\n有關適用於 iPhone 的各款 Apple app，請前往 apple.com/tw/apps 查看完整列表。"
+        },
+        {
+          "id": 39,
+          "section": "助聽輔具等級",
+          "model_hint": null,
+          "context": "",
+          "text": "相容的助聽器"
+        },
+        {
+          "id": 40,
+          "section": "系統需求",
+          "model_hint": null,
+          "context": "",
+          "text": "Apple 帳號 (部分功能需要)\n網際網路連線\n在 Mac 或 PC 上進行同步需要：\n在 macOS Catalina 10.15 或以上版本中使用 Finder\n在 macOS High Sierra 10.13 至 macOS Mojave 10.14.6 中使用 iTunes 12.8 或以上版本\nWindows 10 或以上版本使用 iTunes 12.12.10 或以上版本 (可自 apple.com/tw/itunes/download 免費下載)"
+        },
+        {
+          "id": 41,
+          "section": "環境需求",
+          "model_hint": null,
+          "context": "",
+          "text": "作業環境溫度：\n0° 至 35° C (32° 至 95° F)\n非作業溫度：\n−20° 至 45° C (−4° 至 113° F)\n相對濕度：\n5% 至 95%，非冷凝狀態\n作業高度：\n目前測試最高可達 3,000 公尺 (10,000 呎)"
+        },
+        {
+          "id": 42,
+          "section": "語言版本",
+          "model_hint": null,
+          "context": "",
+          "text": "語言支援\n英文 (澳洲、英國、美國)、中文 (簡體、繁體、香港繁體)、法文 (加拿大、法國)、德文、義大利文、日文、韓文、西班牙文 (拉丁美洲、西班牙)、阿拉伯文、保加利亞文、加泰蘭文、克羅埃西亞文、捷克文、丹麥文、荷蘭文、芬蘭文、希臘文、希伯來文、印地文、匈牙利文、印尼文、哈薩克文、馬來文、挪威文、波蘭文、葡萄牙文 (巴西、葡萄牙)、羅馬尼亞文、俄文、斯洛伐克文、瑞典文、泰文、土耳其文、烏克蘭文、越南文\n進一步了解功能特色適用範圍"
+        },
+        {
+          "id": 43,
+          "section": "包裝盒內容",
+          "model_hint": null,
+          "context": "",
+          "text": "搭載 iOS 26 的 iPhone\nUSB‑C 充電連接線 (1 公尺)\n說明文件"
+        }
+      ],
+      "llm_calls": 3,
+      "llm_ms": 111447,
+      "warnings": [
+        "部分區塊未能唯一對應型號，保留於未分配規格；未複製到各型號"
+      ]
+    },
+    {
+      "category": "mac",
+      "name": "iMac",
+      "product_url": "https://www.apple.com/tw/imac/",
+      "specs_url": "https://www.apple.com/tw/imac/specs/",
+      "fetched_at": "2026-09-09T03:50:22.215607+00:00",
+      "model": "qwen2.5-coder:14b",
+      "variants": [],
+      "starting_price": {
+        "amount": 49900.0,
+        "currency": "TWD",
+        "source_url": "https://www.apple.com/tw/shop/goto/buy_mac/imac",
+        "source_name": "iMac",
+        "evidence": "{\"@type\":\"AggregateOffer\",\"hasMerchantReturnPolicy\":{\"@type\":\"MerchantReturnPolicy\",\"applicableCountry\":\"TW\",\"merchantReturnDays\":14,\"returnFees\":\"https://schema.org/FreeReturn\",\"returnMethod\":\"https://schema.org/ReturnByMail\",\"returnPolicyCategory\":\"https://schema.org/MerchantReturnFiniteReturnWindow\"},\"highPrice\":126280.0,\"lowPrice\":49900.0,\"priceCurrency\":\"TWD\",\"shippingDetails\":{\"@type\":\"OfferShippingDetails\",\"shippingRate\":{\"@type\":\"MonetaryAmount\",\"currency\":\"TWD\",\"value\":0}}}",
+        "scope": "官網此商品頁起售價；不代表每個選配型號的售價"
+      },
+      "specs": [
+        {
+          "block_id": 0,
+          "section": "概覽",
+          "label": "規格",
+          "value": "概覽\n24 吋\n4.5K Retina 顯示器\n實際螢幕對角線長度為 23.5 吋\nApple M4 晶片\n最多可達 10 核心 CPU 與\n最多可達 10 核心 GPU\nApple Intelligence\n最多可達32GB 統一記憶體\n1200 萬像素 Center Stage 相機\n先進的影像訊號處理器\n具備視訊運算技術\n含 Touch ID 的巧控鍵盤\n最多可達2TB 儲存空間",
+          "model": null,
+          "conditions": "最多可達 10 核心 CPU 與\n最多可達 10 核心 GPU",
+          "evidence": "概覽\n24 吋\n4.5K Retina 顯示器\n實際螢幕對角線長度為 23.5 吋\nApple M4 晶片\n最多可達 10 核心 CPU 與\n最多可達 10 核心 GPU\nApple Intelligence\n最多可達32GB 統一記憶體\n1200 萬像素 Center Stage 相機\n先進的影像訊號處理器\n具備視訊運算技術\n含 Touch ID 的巧控鍵盤\n最多可達2TB 儲存空間",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 1,
+          "section": "價格",
+          "label": "價格",
+          "value": "價格\n2 個連接埠機型的價格\n4 個連接埠機型 1 的價格\n4 個連接埠機型 2 的價格\n4 個連接埠機型 3 的價格",
+          "model": null,
+          "conditions": null,
+          "evidence": "價格\n2 個連接埠機型的價格\n4 個連接埠機型 1 的價格\n4 個連接埠機型 2 的價格\n4 個連接埠機型 3 的價格",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 2,
+          "section": "顏色",
+          "label": "顏色",
+          "value": "顏色\n藍色、\n紫色、\n粉紅色、\n橙色、\n黃色、\n綠色、\n銀色\n使用 AR 看看藍色 iMac\n使用 AR 看看紫色 iMac\n使用 AR 看看粉紅色 iMac\n使用 AR 看看橙色 iMac\n使用 AR 看看黃色 iMac\n使用 AR 看看綠色 iMac\n使用 AR 看看銀色 iMac\n顏色選擇器\n藍色\n紫色\n粉紅色\n橙色\n黃色\n綠色\n銀色",
+          "model": null,
+          "conditions": null,
+          "evidence": "顏色\n藍色、\n紫色、\n粉紅色、\n橙色、\n黃色、\n綠色、\n銀色\n使用 AR 看看藍色 iMac\n使用 AR 看看紫色 iMac\n使用 AR 看看粉紅色 iMac\n使用 AR 看看橙色 iMac\n使用 AR 看看黃色 iMac\n使用 AR 看看綠色 iMac\n使用 AR 看看銀色 iMac\n顏色選擇器\n藍色\n紫色\n粉紅色\n橙色\n黃色\n綠色\n銀色",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 3,
+          "section": "晶片",
+          "label": "晶片",
+          "value": "晶片\nApple M4 晶片\n8 核心 CPU 配備\n4 個效能核心與\n4 個節能核心\n8 核心 GPU\n硬體加速光線追蹤\n16 核心神經網路引擎\n120GB/s 記憶體頻寬\n媒體引擎\n硬體加速 H.264、HEVC、ProRes 與 ProRes RAW\n影片解碼引擎\n影片編碼引擎\nProRes 編碼與解碼引擎\nAV1 解碼\n2 個連接埠機型\nApple M4 晶片\n10 核心 CPU 配備\n4 個效能核心與\n6 個節能核心\n10 核心 GPU\n硬體加速光線追蹤\n16 核心神經網路引擎\n120GB/s 記憶體頻寬\n媒體引擎\n硬體加速 H.264、HEVC、ProRes 與 ProRes RAW\n影片解碼引擎\n影片編碼引擎\nProRes 編碼與解碼引擎\nAV1 解碼\n4 個連接埠機型 1\nApple M4 晶片\n10 核心 CPU 配備\n4 個效能核心與\n6 個節能核心\n10 核心 GPU\n硬體加速光線追蹤\n16 核心神經網路引擎\n120GB/s 記憶體頻寬\n媒體引擎\n硬體加速 H.264、HEVC、ProRes 與 ProRes RAW\n影片解碼引擎\n影片編碼引擎\nProRes 編碼與解碼引擎\nAV1 解碼\n4 個連接埠機型 2\nApple M4 晶片\n10 核心 CPU 配備\n4 個效能核心與\n6 個節能核心\n10 核心 GPU\n硬體加速光線追蹤\n16 核心神經網路引擎\n120GB/s 記憶體頻寬\n媒體引擎\n硬體加速 H.264、HEVC、ProRes 與 ProRes RAW\n影片解碼引擎\n影片編碼引擎\nProRes 編碼與解碼引擎\nAV1 解碼\n4 個連接埠機型 3",
+          "model": null,
+          "conditions": null,
+          "evidence": "晶片\nApple M4 晶片\n8 核心 CPU 配備\n4 個效能核心與\n4 個節能核心\n8 核心 GPU\n硬體加速光線追蹤\n16 核心神經網路引擎\n120GB/s 記憶體頻寬\n媒體引擎\n硬體加速 H.264、HEVC、ProRes 與 ProRes RAW\n影片解碼引擎\n影片編碼引擎\nProRes 編碼與解碼引擎\nAV1 解碼\n2 個連接埠機型\nApple M4 晶片\n10 核心 CPU 配備\n4 個效能核心與\n6 個節能核心\n10 核心 GPU\n硬體加速光線追蹤\n16 核心神經網路引擎\n120GB/s 記憶體頻寬\n媒體引擎\n硬體加速 H.264、HEVC、ProRes 與 ProRes RAW\n影片解碼引擎\n影片編碼引擎\nProRes 編碼與解碼引擎\nAV1 解碼\n4 個連接埠機型 1\nApple M4 晶片\n10 核心 CPU 配備\n4 個效能核心與\n6 個節能核心\n10 核心 GPU\n硬體加速光線追蹤\n16 核心神經網路引擎\n120GB/s 記憶體頻寬\n媒體引擎\n硬體加速 H.264、HEVC、ProRes 與 ProRes RAW\n影片解碼引擎\n影片編碼引擎\nProRes 編碼與解碼引擎\nAV1 解碼\n4 個連接埠機型 2\nApple M4 晶片\n10 核心 CPU 配備\n4 個效能核心與\n6 個節能核心\n10 核心 GPU\n硬體加速光線追蹤\n16 核心神經網路引擎\n120GB/s 記憶體頻寬\n媒體引擎\n硬體加速 H.264、HEVC、ProRes 與 ProRes RAW\n影片解碼引擎\n影片編碼引擎\nProRes 編碼與解碼引擎\nAV1 解碼\n4 個連接埠機型 3",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 4,
+          "section": "Apple Intelligence",
+          "label": "Apple Intelligence",
+          "value": "Apple Intelligence\nApple Intelligence 是個人化的智慧系統，助你撰寫文句、表達自我，輕鬆完成各種任務。具備創新突破的隱私權保護功能，確保其他人無法存取你的資料，即使 Apple 也不例外，讓你倍感安心。\n進一步了解",
+          "model": null,
+          "conditions": null,
+          "evidence": "Apple Intelligence\nApple Intelligence 是個人化的智慧系統，助你撰寫文句、表達自我，輕鬆完成各種任務。具備創新突破的隱私權保護功能，確保其他人無法存取你的資料，即使 Apple 也不例外，讓你倍感安心。\n進一步了解",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 5,
+          "section": "儲存裝置",
+          "label": "儲存裝置",
+          "value": "儲存裝置\n256GB SSD\n可選配：\n512GB 或 1TB (2 個連接埠機型)\n256GB SSD\n可選配：\n512GB、1TB 或 2TB (4 個連接埠機型 1)\n512GB SSD\n可選配：\n1TB 或 2TB (4 個連接埠機型 2)\n512GB SSD\n可選配：\n1TB 或 2TB (4 個連接埠機型 3)",
+          "model": null,
+          "conditions": null,
+          "evidence": "儲存裝置\n256GB SSD\n可選配：\n512GB 或 1TB (2 個連接埠機型)\n256GB SSD\n可選配：\n512GB、1TB 或 2TB (4 個連接埠機型 1)\n512GB SSD\n可選配：\n1TB 或 2TB (4 個連接埠機型 2)\n512GB SSD\n可選配：\n1TB 或 2TB (4 個連接埠機型 3)",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 6,
+          "section": "記憶體",
+          "label": "記憶體",
+          "value": "記憶體\n16GB\n統一記憶體\n可選配：\n24GB\n統一記憶體 (2 個連接埠機型)\n16GB\n統一記憶體\n可選配：\n24GB 或 32GB\n統一記憶體 (4 個連接埠機型 1)\n16GB\n統一記憶體\n可選配：\n24GB 或 32GB\n統一記憶體 (4 個連接埠機型 2)\n24GB\n統一記憶體\n可選配：\n32GB\n統一記憶體 (4 個連接埠機型 3)",
+          "model": null,
+          "conditions": null,
+          "evidence": "記憶體\n16GB\n統一記憶體\n可選配：\n24GB\n統一記憶體 (2 個連接埠機型)\n16GB\n統一記憶體\n可選配：\n24GB 或 32GB\n統一記憶體 (4 個連接埠機型 1)\n16GB\n統一記憶體\n可選配：\n24GB 或 32GB\n統一記憶體 (4 個連接埠機型 2)\n24GB\n統一記憶體\n可選配：\n32GB\n統一記憶體 (4 個連接埠機型 3)",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 7,
+          "section": "顯示器",
+          "label": "顯示器",
+          "value": "顯示器\n24 吋 4.5K Retina 顯示器\n4480 x 2520 解析度，每吋 218 像素，\n支援 10 億種顏色\n500 尼特亮度\n廣色域 (P3)\n原彩顯示技術\n實際螢幕對角線長度為 23.5 吋\n2 個連接埠機型\n24 吋 4.5K Retina 顯示器\n4480 x 2520 解析度，每吋 218 像素，\n支援 10 億種顏色\n500 尼特亮度\n廣色域 (P3)\n原彩顯示技術\n可選配：\n奈米紋理玻璃\n實際螢幕對角線長度為 23.5 吋\n4 個連接埠機型",
+          "model": null,
+          "conditions": "可選配：\n奈米紋理玻璃",
+          "evidence": "顯示器\n24 吋 4.5K Retina 顯示器\n4480 x 2520 解析度，每吋 218 像素，\n支援 10 億種顏色\n500 尼特亮度\n廣色域 (P3)\n原彩顯示技術\n實際螢幕對角線長度為 23.5 吋\n2 個連接埠機型\n24 吋 4.5K Retina 顯示器\n4480 x 2520 解析度，每吋 218 像素，\n支援 10 億種顏色\n500 尼特亮度\n廣色域 (P3)\n原彩顯示技術\n可選配：\n奈米紋理玻璃\n實際螢幕對角線長度為 23.5 吋\n4 個連接埠機型",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 8,
+          "section": "相機",
+          "label": "相機",
+          "value": "相機\n1200 萬像素 Center Stage 相機，支援桌上視角功能\n1080p HD 錄影\n先進的影像訊號處理器具備視訊運算技術",
+          "model": null,
+          "conditions": null,
+          "evidence": "相機\n1200 萬像素 Center Stage 相機，支援桌上視角功能\n1080p HD 錄影\n先進的影像訊號處理器具備視訊運算技術",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 9,
+          "section": "顯示器支援",
+          "label": "顯示器支援",
+          "value": "顯示器支援\n同時支援完整解析度的內建顯示器，可顯示 10 億種顏色，以及：\n一部解析度最高可達 6K (60Hz) 的外接顯示器\nThunderbolt 4 數位視訊輸出\n透過 USB-C 支援原生 DisplayPort 輸出\n2 個連接埠機型\n同時支援完整解析度的內建顯示器，可顯示 10 億種顏色，以及：\n最多達兩部解析度最高可達 6K (60Hz) 的外接顯示器，或一部解析度最高可達 8K (60Hz) 的外接顯示器\nThunderbolt 4 數位視訊輸出\n透過 USB-C 支援原生 DisplayPort 輸出\n4 個連接埠機型",
+          "model": null,
+          "conditions": "最多達兩部解析度最高可達 6K (60Hz) 的外接顯示器，或一部解析度最高可達 8K (60Hz) 的外接顯示器",
+          "evidence": "顯示器支援\n同時支援完整解析度的內建顯示器，可顯示 10 億種顏色，以及：\n一部解析度最高可達 6K (60Hz) 的外接顯示器\nThunderbolt 4 數位視訊輸出\n透過 USB-C 支援原生 DisplayPort 輸出\n2 個連接埠機型\n同時支援完整解析度的內建顯示器，可顯示 10 億種顏色，以及：\n最多達兩部解析度最高可達 6K (60Hz) 的外接顯示器，或一部解析度最高可達 8K (60Hz) 的外接顯示器\nThunderbolt 4 數位視訊輸出\n透過 USB-C 支援原生 DisplayPort 輸出\n4 個連接埠機型",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 10,
+          "section": "影片播放",
+          "label": "影片播放",
+          "value": "影片播放\n支援的格式包括 HEVC、H.264、AV1 與 ProRes\nHDR 支援杜比視界、HDR10+/HDR10 與 HLG",
+          "model": null,
+          "conditions": null,
+          "evidence": "影片播放\n支援的格式包括 HEVC、H.264、AV1 與 ProRes\nHDR 支援杜比視界、HDR10+/HDR10 與 HLG",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 11,
+          "section": "音訊播放",
+          "label": "音訊播放",
+          "value": "音訊播放\n支援的格式包括 AAC、MP3、Apple 保真壓縮、FLAC、杜比數位、杜比數位+ 與杜比全景聲",
+          "model": null,
+          "conditions": null,
+          "evidence": "音訊播放\n支援的格式包括 AAC、MP3、Apple 保真壓縮、FLAC、杜比數位、杜比數位+ 與杜比全景聲",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 12,
+          "section": "音訊",
+          "label": "音訊",
+          "value": "音訊\n高傳真六揚聲器系統，配備振動抑制低音喇叭\n寬廣的立體聲\n以杜比全景聲播放音樂或影片時支援\n空間音訊功能\n錄音室等級三麥克風陣列，具備高訊噪比及定向波束成形\n支援「嘿 Siri」",
+          "model": null,
+          "conditions": null,
+          "evidence": "音訊\n高傳真六揚聲器系統，配備振動抑制低音喇叭\n寬廣的立體聲\n以杜比全景聲播放音樂或影片時支援\n空間音訊功能\n錄音室等級三麥克風陣列，具備高訊噪比及定向波束成形\n支援「嘿 Siri」",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 13,
+          "section": "連接與擴充",
+          "label": "連接與擴充",
+          "value": "連接與擴充\n兩個 Thunderbolt / USB 4 埠，可支援：\nThunderbolt 4 (速度最快可達 40Gb/s)\nUSB 4 (速度最快可達 40Gb/s)\nUSB 3.1 Gen 2 (速度最快可達 10Gb/s)\nDisplayPort\n3.5 公釐耳機插孔，具備先進的高阻抗耳機支援功能\n可選配 Gigabit 乙太網路\n四個 Thunderbolt 4 埠，可支援：\nThunderbolt 4 (速度最快可達 40Gb/s)\nUSB 4 (速度最快可達 40Gb/s)\nUSB 3.1 Gen 2 (速度最快可達 10Gb/s)\nDisplayPort\n3.5 公釐耳機插孔，具備先進的高阻抗耳機支援功能\nGigabit 乙太網路",
+          "model": null,
+          "conditions": "可選配 Gigabit 乙太網路",
+          "evidence": "連接與擴充\n兩個 Thunderbolt / USB 4 埠，可支援：\nThunderbolt 4 (速度最快可達 40Gb/s)\nUSB 4 (速度最快可達 40Gb/s)\nUSB 3.1 Gen 2 (速度最快可達 10Gb/s)\nDisplayPort\n3.5 公釐耳機插孔，具備先進的高阻抗耳機支援功能\n可選配 Gigabit 乙太網路\n四個 Thunderbolt 4 埠，可支援：\nThunderbolt 4 (速度最快可達 40Gb/s)\nUSB 4 (速度最快可達 40Gb/s)\nUSB 3.1 Gen 2 (速度最快可達 10Gb/s)\nDisplayPort\n3.5 公釐耳機插孔，具備先進的高阻抗耳機支援功能\nGigabit 乙太網路",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 14,
+          "section": "輸入",
+          "label": "輸入",
+          "value": "輸入\n巧控鍵盤\n巧控滑鼠\n可選配：\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n含 Touch ID 的巧控鍵盤\n巧控滑鼠\n可選配：\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板",
+          "model": null,
+          "conditions": "可選配：\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板",
+          "evidence": "輸入\n巧控鍵盤\n巧控滑鼠\n可選配：\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n含 Touch ID 的巧控鍵盤\n巧控滑鼠\n可選配：\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 15,
+          "section": "無線技術",
+          "label": "無線技術",
+          "value": "無線技術\nWi-Fi\nWi-Fi 6E (802.11ax)\n藍牙\n藍牙 5.3",
+          "model": null,
+          "conditions": null,
+          "evidence": "無線技術\nWi-Fi\nWi-Fi 6E (802.11ax)\n藍牙\n藍牙 5.3",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 16,
+          "section": "尺寸與重量",
+          "label": "尺寸與重量",
+          "value": "尺寸與重量\n寬度：54.7 公分 (21.5 吋)\n高度：46.1 公分 (18.1 吋)\n立架縱深：\n立架寬度：\n14.7 公分 (5.8 吋)13 公分 (5.1 吋)\n重量：\n2 個連接埠機型\n4.42 公斤 (9.74 磅)\n重量：\n4 個連接埠機型\n4.44 公斤 (9.79 磅)",
+          "model": null,
+          "conditions": null,
+          "evidence": "尺寸與重量\n寬度：54.7 公分 (21.5 吋)\n高度：46.1 公分 (18.1 吋)\n立架縱深：\n立架寬度：\n14.7 公分 (5.8 吋)13 公分 (5.1 吋)\n重量：\n2 個連接埠機型\n4.42 公斤 (9.74 磅)\n重量：\n4 個連接埠機型\n4.44 公斤 (9.79 磅)",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 17,
+          "section": "電力與作業環境需求",
+          "label": "電力與作業環境需求",
+          "value": "電力與作業環境需求\n電壓：\n100V 至 240V AC\n頻率：\n50Hz 至 60Hz (單相)\n作業溫度：\n10° 至 35° C (50° 至 95° F)\n相對濕度：\n5% 至 90% 非冷凝狀態\n作業高度：\n目前測試最高可達 5,000 公尺 (16,400 呎)",
+          "model": null,
+          "conditions": null,
+          "evidence": "電力與作業環境需求\n電壓：\n100V 至 240V AC\n頻率：\n50Hz 至 60Hz (單相)\n作業溫度：\n10° 至 35° C (50° 至 95° F)\n相對濕度：\n5% 至 90% 非冷凝狀態\n作業高度：\n目前測試最高可達 5,000 公尺 (16,400 呎)",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 18,
+          "section": "包裝盒內容",
+          "label": "包裝盒內容",
+          "value": "包裝盒內容\niMac\n巧控鍵盤\n巧控滑鼠\n143W 電源轉接器\n電源線 (2 公尺)\nUSB-C 連接線\niMac\n含 Touch ID 的巧控鍵盤\n巧控滑鼠\n143W 電源轉接器\n電源線 (2 公尺)\nUSB-C 連接線\n擦拭布 (僅隨附於選配奈米紋理玻璃的機型)\niMac 搭配巧控滑鼠與含 Touch ID 的巧控鍵盤一同展示",
+          "model": null,
+          "conditions": null,
+          "evidence": "包裝盒內容\niMac\n巧控鍵盤\n巧控滑鼠\n143W 電源轉接器\n電源線 (2 公尺)\nUSB-C 連接線\niMac\n含 Touch ID 的巧控鍵盤\n巧控滑鼠\n143W 電源轉接器\n電源線 (2 公尺)\nUSB-C 連接線\n擦拭布 (僅隨附於選配奈米紋理玻璃的機型)\niMac 搭配巧控滑鼠與含 Touch ID 的巧控鍵盤一同展示",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 19,
+          "section": "作業系統",
+          "label": "作業系統",
+          "value": "作業系統\nmacOS\nmacOS 是全世界最先進的桌上型電腦作業系統。透過 Apple Intelligence、「iPhone 鏡像輸出」、視窗並排，以及 Safari 多項重要更新等，助你發揮生產力和創造力。",
+          "model": null,
+          "conditions": null,
+          "evidence": "作業系統\nmacOS\nmacOS 是全世界最先進的桌上型電腦作業系統。透過 Apple Intelligence、「iPhone 鏡像輸出」、視窗並排，以及 Safari 多項重要更新等，助你發揮生產力和創造力。",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 20,
+          "section": "輔助功能",
+          "label": "輔助功能",
+          "value": "輔助功能\n眾多輔助使用功能可幫助身心障礙人士，盡情發揮全新 iMac 的精彩。有了針對視覺、聽覺、活動能力和學習輔助而設的內建支援，讓你創造精彩，事事辦妥。\n進一步了解\n各項功能包括：\n語音控制\n旁白\n縮放\n增加對比\n減少動態效果\nSiri 和聽寫\n切換控制\n隱藏式字幕",
+          "model": null,
+          "conditions": null,
+          "evidence": "輔助功能\n眾多輔助使用功能可幫助身心障礙人士，盡情發揮全新 iMac 的精彩。有了針對視覺、聽覺、活動能力和學習輔助而設的內建支援，讓你創造精彩，事事辦妥。\n進一步了解\n各項功能包括：\n語音控制\n旁白\n縮放\n增加對比\n減少動態效果\nSiri 和聽寫\n切換控制\n隱藏式字幕",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 21,
+          "section": "內建 App",
+          "label": "內建 App",
+          "value": "內建 App\nApp Store\n書籍\n行事曆\n聯絡人\nFaceTime\n尋找\n無邊記\nGarageBand\n家庭\niMovie\niPhone 鏡像輸出\nKeynote\n郵件\n地圖\n訊息\n音樂\n備忘錄\nNumbers\nPages\n密碼\nPhoto Booth\n照片\nPodcast\n預覽程式\nQuickTime Player\n提醒事項\nSafari\n捷徑\n股市\n時光機\n提示\nTV\n語音備忘錄\n天氣",
+          "model": null,
+          "conditions": null,
+          "evidence": "內建 App\nApp Store\n書籍\n行事曆\n聯絡人\nFaceTime\n尋找\n無邊記\nGarageBand\n家庭\niMovie\niPhone 鏡像輸出\nKeynote\n郵件\n地圖\n訊息\n音樂\n備忘錄\nNumbers\nPages\n密碼\nPhoto Booth\n照片\nPodcast\n預覽程式\nQuickTime Player\n提醒事項\nSafari\n捷徑\n股市\n時光機\n提示\nTV\n語音備忘錄\n天氣",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 22,
+          "section": "配置訂購",
+          "label": "配置訂購",
+          "value": "配置訂購\n在 apple.com 以這些選項配置你的 iMac：\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n24GB\n統一記憶體\n512GB 或 1TB SSD\nGigabit 乙太網路\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n24GB 或 32GB\n統一記憶體\n512GB、1TB 或 2TB SSD\n奈米紋理玻璃\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n24GB 或 32GB\n統一記憶體\n1TB 或 2TB SSD\n奈米紋理玻璃\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n32GB\n統一記憶體\n1TB 或 2TB SSD\n奈米紋理玻璃\n尋找可固定在牆上或可調式懸臂上的 iMac？\n選擇配備 VESA 吊架連接器的 iMac",
+          "model": null,
+          "conditions": null,
+          "evidence": "配置訂購\n在 apple.com 以這些選項配置你的 iMac：\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n24GB\n統一記憶體\n512GB 或 1TB SSD\nGigabit 乙太網路\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n24GB 或 32GB\n統一記憶體\n512GB、1TB 或 2TB SSD\n奈米紋理玻璃\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n24GB 或 32GB\n統一記憶體\n1TB 或 2TB SSD\n奈米紋理玻璃\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n32GB\n統一記憶體\n1TB 或 2TB SSD\n奈米紋理玻璃\n尋找可固定在牆上或可調式懸臂上的 iMac？\n選擇配備 VESA 吊架連接器的 iMac",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 23,
+          "section": "iMac 與環境",
+          "label": "iMac 與環境",
+          "value": "iMac 與環境\n環境影響\niMac 經過精心設計，能減少對環境的影響：\n查看《iMac 產品環境報告》 (PDF)\n邁向 Apple 2030 目標\n採用超過 15% 的再生成分\n製造過程中使用的電力有超過 20% 來自低碳電力\n碳排放在 Apple 設定的照常營運情境下減少了 20%\n查看 Apple 的承諾\n物料\n立架採用 100% 再生鋁金屬\n所有磁石皆採用 100％ 再生稀土元素\n多個印刷電路板的焊料採用 100% 再生錫金屬\n多個印刷電路板採用 100% 再生銅金屬\n多個印刷電路板鍍層採用 100% 再生金\n13 項零組件採用 50% 或更高比例的再生塑膠\n能源\niMac 製造過程中使用的電力有超過 20% 來自低碳電力\nENERGY STAR® 認證\n包裝\n採用 100% 纖維包裝材質\n纖維包裝採用 76% 再生成分\n廢棄物\n作為 Apple 零廢棄物方案的一部分，既有的最終組裝廠區不會產生任何須送往掩埋場的廢棄物\n更高明的化學技術\n無砷玻璃\n無汞、溴化阻燃劑 (BFR) 與聚氯乙烯 (PVC)",
+          "model": null,
+          "conditions": null,
+          "evidence": "iMac 與環境\n環境影響\niMac 經過精心設計，能減少對環境的影響：\n查看《iMac 產品環境報告》 (PDF)\n邁向 Apple 2030 目標\n採用超過 15% 的再生成分\n製造過程中使用的電力有超過 20% 來自低碳電力\n碳排放在 Apple 設定的照常營運情境下減少了 20%\n查看 Apple 的承諾\n物料\n立架採用 100% 再生鋁金屬\n所有磁石皆採用 100％ 再生稀土元素\n多個印刷電路板的焊料採用 100% 再生錫金屬\n多個印刷電路板採用 100% 再生銅金屬\n多個印刷電路板鍍層採用 100% 再生金\n13 項零組件採用 50% 或更高比例的再生塑膠\n能源\niMac 製造過程中使用的電力有超過 20% 來自低碳電力\nENERGY STAR® 認證\n包裝\n採用 100% 纖維包裝材質\n纖維包裝採用 76% 再生成分\n廢棄物\n作為 Apple 零廢棄物方案的一部分，既有的最終組裝廠區不會產生任何須送往掩埋場的廢棄物\n更高明的化學技術\n無砷玻璃\n無汞、溴化阻燃劑 (BFR) 與聚氯乙烯 (PVC)",
+          "status": "source_matched"
+        }
+      ],
+      "blocks": [
+        {
+          "id": 0,
+          "section": "概覽",
+          "model_hint": null,
+          "context": "fallback-section",
+          "text": "概覽\n24 吋\n4.5K Retina 顯示器\n實際螢幕對角線長度為 23.5 吋\nApple M4 晶片\n最多可達 10 核心 CPU 與\n最多可達 10 核心 GPU\nApple Intelligence\n最多可達32GB 統一記憶體\n1200 萬像素 Center Stage 相機\n先進的影像訊號處理器\n具備視訊運算技術\n含 Touch ID 的巧控鍵盤\n最多可達2TB 儲存空間"
+        },
+        {
+          "id": 1,
+          "section": "價格",
+          "model_hint": null,
+          "context": "fallback-section",
+          "text": "價格\n2 個連接埠機型的價格\n4 個連接埠機型 1 的價格\n4 個連接埠機型 2 的價格\n4 個連接埠機型 3 的價格"
+        },
+        {
+          "id": 2,
+          "section": "顏色",
+          "model_hint": null,
+          "context": "fallback-section",
+          "text": "顏色\n藍色、\n紫色、\n粉紅色、\n橙色、\n黃色、\n綠色、\n銀色\n使用 AR 看看藍色 iMac\n使用 AR 看看紫色 iMac\n使用 AR 看看粉紅色 iMac\n使用 AR 看看橙色 iMac\n使用 AR 看看黃色 iMac\n使用 AR 看看綠色 iMac\n使用 AR 看看銀色 iMac\n顏色選擇器\n藍色\n紫色\n粉紅色\n橙色\n黃色\n綠色\n銀色"
+        },
+        {
+          "id": 3,
+          "section": "晶片",
+          "model_hint": null,
+          "context": "fallback-section",
+          "text": "晶片\nApple M4 晶片\n8 核心 CPU 配備\n4 個效能核心與\n4 個節能核心\n8 核心 GPU\n硬體加速光線追蹤\n16 核心神經網路引擎\n120GB/s 記憶體頻寬\n媒體引擎\n硬體加速 H.264、HEVC、ProRes 與 ProRes RAW\n影片解碼引擎\n影片編碼引擎\nProRes 編碼與解碼引擎\nAV1 解碼\n2 個連接埠機型\nApple M4 晶片\n10 核心 CPU 配備\n4 個效能核心與\n6 個節能核心\n10 核心 GPU\n硬體加速光線追蹤\n16 核心神經網路引擎\n120GB/s 記憶體頻寬\n媒體引擎\n硬體加速 H.264、HEVC、ProRes 與 ProRes RAW\n影片解碼引擎\n影片編碼引擎\nProRes 編碼與解碼引擎\nAV1 解碼\n4 個連接埠機型 1\nApple M4 晶片\n10 核心 CPU 配備\n4 個效能核心與\n6 個節能核心\n10 核心 GPU\n硬體加速光線追蹤\n16 核心神經網路引擎\n120GB/s 記憶體頻寬\n媒體引擎\n硬體加速 H.264、HEVC、ProRes 與 ProRes RAW\n影片解碼引擎\n影片編碼引擎\nProRes 編碼與解碼引擎\nAV1 解碼\n4 個連接埠機型 2\nApple M4 晶片\n10 核心 CPU 配備\n4 個效能核心與\n6 個節能核心\n10 核心 GPU\n硬體加速光線追蹤\n16 核心神經網路引擎\n120GB/s 記憶體頻寬\n媒體引擎\n硬體加速 H.264、HEVC、ProRes 與 ProRes RAW\n影片解碼引擎\n影片編碼引擎\nProRes 編碼與解碼引擎\nAV1 解碼\n4 個連接埠機型 3"
+        },
+        {
+          "id": 4,
+          "section": "Apple Intelligence",
+          "model_hint": null,
+          "context": "fallback-section",
+          "text": "Apple Intelligence\nApple Intelligence 是個人化的智慧系統，助你撰寫文句、表達自我，輕鬆完成各種任務。具備創新突破的隱私權保護功能，確保其他人無法存取你的資料，即使 Apple 也不例外，讓你倍感安心。\n進一步了解"
+        },
+        {
+          "id": 5,
+          "section": "儲存裝置",
+          "model_hint": null,
+          "context": "fallback-section",
+          "text": "儲存裝置\n256GB SSD\n可選配：\n512GB 或 1TB (2 個連接埠機型)\n256GB SSD\n可選配：\n512GB、1TB 或 2TB (4 個連接埠機型 1)\n512GB SSD\n可選配：\n1TB 或 2TB (4 個連接埠機型 2)\n512GB SSD\n可選配：\n1TB 或 2TB (4 個連接埠機型 3)"
+        },
+        {
+          "id": 6,
+          "section": "記憶體",
+          "model_hint": null,
+          "context": "fallback-section",
+          "text": "記憶體\n16GB\n統一記憶體\n可選配：\n24GB\n統一記憶體 (2 個連接埠機型)\n16GB\n統一記憶體\n可選配：\n24GB 或 32GB\n統一記憶體 (4 個連接埠機型 1)\n16GB\n統一記憶體\n可選配：\n24GB 或 32GB\n統一記憶體 (4 個連接埠機型 2)\n24GB\n統一記憶體\n可選配：\n32GB\n統一記憶體 (4 個連接埠機型 3)"
+        },
+        {
+          "id": 7,
+          "section": "顯示器",
+          "model_hint": null,
+          "context": "fallback-section",
+          "text": "顯示器\n24 吋 4.5K Retina 顯示器\n4480 x 2520 解析度，每吋 218 像素，\n支援 10 億種顏色\n500 尼特亮度\n廣色域 (P3)\n原彩顯示技術\n實際螢幕對角線長度為 23.5 吋\n2 個連接埠機型\n24 吋 4.5K Retina 顯示器\n4480 x 2520 解析度，每吋 218 像素，\n支援 10 億種顏色\n500 尼特亮度\n廣色域 (P3)\n原彩顯示技術\n可選配：\n奈米紋理玻璃\n實際螢幕對角線長度為 23.5 吋\n4 個連接埠機型"
+        },
+        {
+          "id": 8,
+          "section": "相機",
+          "model_hint": null,
+          "context": "fallback-section",
+          "text": "相機\n1200 萬像素 Center Stage 相機，支援桌上視角功能\n1080p HD 錄影\n先進的影像訊號處理器具備視訊運算技術"
+        },
+        {
+          "id": 9,
+          "section": "顯示器支援",
+          "model_hint": null,
+          "context": "fallback-section",
+          "text": "顯示器支援\n同時支援完整解析度的內建顯示器，可顯示 10 億種顏色，以及：\n一部解析度最高可達 6K (60Hz) 的外接顯示器\nThunderbolt 4 數位視訊輸出\n透過 USB-C 支援原生 DisplayPort 輸出\n2 個連接埠機型\n同時支援完整解析度的內建顯示器，可顯示 10 億種顏色，以及：\n最多達兩部解析度最高可達 6K (60Hz) 的外接顯示器，或一部解析度最高可達 8K (60Hz) 的外接顯示器\nThunderbolt 4 數位視訊輸出\n透過 USB-C 支援原生 DisplayPort 輸出\n4 個連接埠機型"
+        },
+        {
+          "id": 10,
+          "section": "影片播放",
+          "model_hint": null,
+          "context": "fallback-section",
+          "text": "影片播放\n支援的格式包括 HEVC、H.264、AV1 與 ProRes\nHDR 支援杜比視界、HDR10+/HDR10 與 HLG"
+        },
+        {
+          "id": 11,
+          "section": "音訊播放",
+          "model_hint": null,
+          "context": "fallback-section",
+          "text": "音訊播放\n支援的格式包括 AAC、MP3、Apple 保真壓縮、FLAC、杜比數位、杜比數位+ 與杜比全景聲"
+        },
+        {
+          "id": 12,
+          "section": "音訊",
+          "model_hint": null,
+          "context": "fallback-section",
+          "text": "音訊\n高傳真六揚聲器系統，配備振動抑制低音喇叭\n寬廣的立體聲\n以杜比全景聲播放音樂或影片時支援\n空間音訊功能\n錄音室等級三麥克風陣列，具備高訊噪比及定向波束成形\n支援「嘿 Siri」"
+        },
+        {
+          "id": 13,
+          "section": "連接與擴充",
+          "model_hint": null,
+          "context": "fallback-section",
+          "text": "連接與擴充\n兩個 Thunderbolt / USB 4 埠，可支援：\nThunderbolt 4 (速度最快可達 40Gb/s)\nUSB 4 (速度最快可達 40Gb/s)\nUSB 3.1 Gen 2 (速度最快可達 10Gb/s)\nDisplayPort\n3.5 公釐耳機插孔，具備先進的高阻抗耳機支援功能\n可選配 Gigabit 乙太網路\n四個 Thunderbolt 4 埠，可支援：\nThunderbolt 4 (速度最快可達 40Gb/s)\nUSB 4 (速度最快可達 40Gb/s)\nUSB 3.1 Gen 2 (速度最快可達 10Gb/s)\nDisplayPort\n3.5 公釐耳機插孔，具備先進的高阻抗耳機支援功能\nGigabit 乙太網路"
+        },
+        {
+          "id": 14,
+          "section": "輸入",
+          "model_hint": null,
+          "context": "fallback-section",
+          "text": "輸入\n巧控鍵盤\n巧控滑鼠\n可選配：\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n含 Touch ID 的巧控鍵盤\n巧控滑鼠\n可選配：\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板"
+        },
+        {
+          "id": 15,
+          "section": "無線技術",
+          "model_hint": null,
+          "context": "fallback-section",
+          "text": "無線技術\nWi-Fi\nWi-Fi 6E (802.11ax)\n藍牙\n藍牙 5.3"
+        },
+        {
+          "id": 16,
+          "section": "尺寸與重量",
+          "model_hint": null,
+          "context": "fallback-section",
+          "text": "尺寸與重量\n寬度：54.7 公分 (21.5 吋)\n高度：46.1 公分 (18.1 吋)\n立架縱深：\n立架寬度：\n14.7 公分 (5.8 吋)13 公分 (5.1 吋)\n重量：\n2 個連接埠機型\n4.42 公斤 (9.74 磅)\n重量：\n4 個連接埠機型\n4.44 公斤 (9.79 磅)"
+        },
+        {
+          "id": 17,
+          "section": "電力與作業環境需求",
+          "model_hint": null,
+          "context": "fallback-section",
+          "text": "電力與作業環境需求\n電壓：\n100V 至 240V AC\n頻率：\n50Hz 至 60Hz (單相)\n作業溫度：\n10° 至 35° C (50° 至 95° F)\n相對濕度：\n5% 至 90% 非冷凝狀態\n作業高度：\n目前測試最高可達 5,000 公尺 (16,400 呎)"
+        },
+        {
+          "id": 18,
+          "section": "包裝盒內容",
+          "model_hint": null,
+          "context": "fallback-section",
+          "text": "包裝盒內容\niMac\n巧控鍵盤\n巧控滑鼠\n143W 電源轉接器\n電源線 (2 公尺)\nUSB-C 連接線\niMac\n含 Touch ID 的巧控鍵盤\n巧控滑鼠\n143W 電源轉接器\n電源線 (2 公尺)\nUSB-C 連接線\n擦拭布 (僅隨附於選配奈米紋理玻璃的機型)\niMac 搭配巧控滑鼠與含 Touch ID 的巧控鍵盤一同展示"
+        },
+        {
+          "id": 19,
+          "section": "作業系統",
+          "model_hint": null,
+          "context": "fallback-section",
+          "text": "作業系統\nmacOS\nmacOS 是全世界最先進的桌上型電腦作業系統。透過 Apple Intelligence、「iPhone 鏡像輸出」、視窗並排，以及 Safari 多項重要更新等，助你發揮生產力和創造力。"
+        },
+        {
+          "id": 20,
+          "section": "輔助功能",
+          "model_hint": null,
+          "context": "fallback-section",
+          "text": "輔助功能\n眾多輔助使用功能可幫助身心障礙人士，盡情發揮全新 iMac 的精彩。有了針對視覺、聽覺、活動能力和學習輔助而設的內建支援，讓你創造精彩，事事辦妥。\n進一步了解\n各項功能包括：\n語音控制\n旁白\n縮放\n增加對比\n減少動態效果\nSiri 和聽寫\n切換控制\n隱藏式字幕"
+        },
+        {
+          "id": 21,
+          "section": "內建 App",
+          "model_hint": null,
+          "context": "fallback-section",
+          "text": "內建 App\nApp Store\n書籍\n行事曆\n聯絡人\nFaceTime\n尋找\n無邊記\nGarageBand\n家庭\niMovie\niPhone 鏡像輸出\nKeynote\n郵件\n地圖\n訊息\n音樂\n備忘錄\nNumbers\nPages\n密碼\nPhoto Booth\n照片\nPodcast\n預覽程式\nQuickTime Player\n提醒事項\nSafari\n捷徑\n股市\n時光機\n提示\nTV\n語音備忘錄\n天氣"
+        },
+        {
+          "id": 22,
+          "section": "配置訂購",
+          "model_hint": null,
+          "context": "fallback-section",
+          "text": "配置訂購\n在 apple.com 以這些選項配置你的 iMac：\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n24GB\n統一記憶體\n512GB 或 1TB SSD\nGigabit 乙太網路\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n24GB 或 32GB\n統一記憶體\n512GB、1TB 或 2TB SSD\n奈米紋理玻璃\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n24GB 或 32GB\n統一記憶體\n1TB 或 2TB SSD\n奈米紋理玻璃\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n32GB\n統一記憶體\n1TB 或 2TB SSD\n奈米紋理玻璃\n尋找可固定在牆上或可調式懸臂上的 iMac？\n選擇配備 VESA 吊架連接器的 iMac"
+        },
+        {
+          "id": 23,
+          "section": "iMac 與環境",
+          "model_hint": null,
+          "context": "fallback-section",
+          "text": "iMac 與環境\n環境影響\niMac 經過精心設計，能減少對環境的影響：\n查看《iMac 產品環境報告》 (PDF)\n邁向 Apple 2030 目標\n採用超過 15% 的再生成分\n製造過程中使用的電力有超過 20% 來自低碳電力\n碳排放在 Apple 設定的照常營運情境下減少了 20%\n查看 Apple 的承諾\n物料\n立架採用 100% 再生鋁金屬\n所有磁石皆採用 100％ 再生稀土元素\n多個印刷電路板的焊料採用 100% 再生錫金屬\n多個印刷電路板採用 100% 再生銅金屬\n多個印刷電路板鍍層採用 100% 再生金\n13 項零組件採用 50% 或更高比例的再生塑膠\n能源\niMac 製造過程中使用的電力有超過 20% 來自低碳電力\nENERGY STAR® 認證\n包裝\n採用 100% 纖維包裝材質\n纖維包裝採用 76% 再生成分\n廢棄物\n作為 Apple 零廢棄物方案的一部分，既有的最終組裝廠區不會產生任何須送往掩埋場的廢棄物\n更高明的化學技術\n無砷玻璃\n無汞、溴化阻燃劑 (BFR) 與聚氯乙烯 (PVC)"
+        }
+      ],
+      "llm_calls": 2,
+      "llm_ms": 74447,
+      "warnings": [
+        "部分區塊未能唯一對應型號，保留於未分配規格；未複製到各型號"
+      ]
+    },
+    {
+      "category": "ipad",
+      "name": "iPad",
+      "product_url": "https://www.apple.com/tw/ipad-11/",
+      "specs_url": "https://www.apple.com/tw/ipad-11/specs/",
+      "fetched_at": "2026-09-09T03:51:37.952503+00:00",
+      "model": "qwen2.5-coder:14b",
+      "variants": [],
+      "starting_price": null,
+      "specs": [
+        {
+          "block_id": 0,
+          "section": "外觀",
+          "label": "顏色",
+          "value": "銀色\n藍色\n粉紅色\n黃色",
+          "model": null,
+          "conditions": null,
+          "evidence": "銀色\n藍色\n粉紅色\n黃色",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 1,
+          "section": "容量",
+          "label": "容量",
+          "value": "128GB\n256GB\n512GB",
+          "model": null,
+          "conditions": null,
+          "evidence": "128GB\n256GB\n512GB",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 2,
+          "section": "尺寸與重量",
+          "label": "尺寸與重量",
+          "value": "高度\n248.6 公釐\n(9.79 吋)\n寬度\n179.5 公釐\n(7.07 吋)\n厚度\n7 公釐\n(0.28 吋)",
+          "model": null,
+          "conditions": null,
+          "evidence": "高度\n248.6 公釐\n(9.79 吋)\n寬度\n179.5 公釐\n(7.07 吋)\n厚度\n7 公釐\n(0.28 吋)",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 3,
+          "section": "其他規格",
+          "label": "重量",
+          "value": "Wi-Fi 機型\n477 公克 (1.05 磅)",
+          "model": null,
+          "conditions": null,
+          "evidence": "Wi-Fi 機型\n477 公克 (1.05 磅)",
+          "status": "needs_review"
+        },
+        {
+          "block_id": 4,
+          "section": "其他規格",
+          "label": "重量",
+          "value": "Wi-Fi + 行動網路機型\n481 公克 (1.06 磅)",
+          "model": null,
+          "conditions": null,
+          "evidence": "Wi-Fi + 行動網路機型\n481 公克 (1.06 磅)",
+          "status": "needs_review"
+        },
+        {
+          "block_id": 5,
+          "section": "按鈕與連接器",
+          "label": "按鈕與連接器",
+          "value": "揚聲器\n：頂部\n頂端按鈕/\nTouch ID 感測器\n：頂部\n聰穎\n接點\n：左側\n相機\n：正面，位於顯示器右側\n麥克風\n：正面，位於顯示器右側\n揚聲器\n：底部\n相機\n：背面\n麥克風\n：背面\n音量\n調高/低\n：右側\nUSB-C 連接器\n：底部\n揚聲器\n：頂部\n頂端按鈕/\nTouch ID 感測器\n：頂部\n相機\n：正面，位於顯示器右側\n聰穎\n接點\n：左側\n麥克風\n：正面，位於顯示器右側\n揚聲器\n：底部\n相機\n：背面\n麥克風\n：背面\n音量\n調高/低\n：右側\nUSB‑C 連接器\n：底部",
+          "model": null,
+          "conditions": null,
+          "evidence": "揚聲器\n：頂部\n頂端按鈕/\nTouch ID 感測器\n：頂部\n聰穎\n接點\n：左側\n相機\n：正面，位於顯示器右側\n麥克風\n：正面，位於顯示器右側\n揚聲器\n：底部\n相機\n：背面\n麥克風\n：背面\n音量\n調高/低\n：右側\nUSB-C 連接器\n：底部\n揚聲器\n：頂部\n頂端按鈕/\nTouch ID 感測器\n：頂部\n相機\n：正面，位於顯示器右側\n聰穎\n接點\n：左側\n麥克風\n：正面，位於顯示器右側\n揚聲器\n：底部\n相機\n：背面\n麥克風\n：背面\n音量\n調高/低\n：右側\nUSB‑C 連接器\n：底部",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 6,
+          "section": "包裝盒內容",
+          "label": "包裝盒內容",
+          "value": "iPad\nUSB-C 充電連接線 (1 公尺)\n20W USB-C 電源轉接器",
+          "model": null,
+          "conditions": null,
+          "evidence": "iPad\nUSB-C 充電連接線 (1 公尺)\n20W USB-C 電源轉接器",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 7,
+          "section": "顯示器",
+          "label": "尺寸",
+          "value": "11 吋\n顯示器採用圓角設計，以矩形對角線量測時， 螢幕的對角線長度為 10.86 吋。",
+          "model": null,
+          "conditions": null,
+          "evidence": "11 吋\n顯示器採用圓角設計，以矩形對角線量測時， 螢幕的對角線長度為 10.86 吋。",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 8,
+          "section": "顯示器",
+          "label": "顯示器",
+          "value": "Liquid Retina 顯示器\nLED 背光多點觸控顯示器，採用 IPS 技術\n2360 x 1640 解析度，264 ppi\n原彩顯示\n500 尼特亮度\n防指印疏油外膜\n支援 Apple Pencil\n(USB-C)\n支援 Apple Pencil (第 1 代)\niPad 顯示器採用圓角設計。以矩形對角線量測時， 螢幕為 10.86 吋。實際可視區較小。\n透過 USB-C 對 Apple Pencil 轉接器為 Apple Pencil (第 1 代) 進行配對和充電。",
+          "model": null,
+          "conditions": null,
+          "evidence": "Liquid Retina 顯示器\nLED 背光多點觸控顯示器，採用 IPS 技術\n2360 x 1640 解析度，264 ppi\n原彩顯示\n500 尼特亮度\n防指印疏油外膜\n支援 Apple Pencil\n(USB-C)\n支援 Apple Pencil (第 1 代)\niPad 顯示器採用圓角設計。以矩形對角線量測時， 螢幕為 10.86 吋。實際可視區較小。\n透過 USB-C 對 Apple Pencil 轉接器為 Apple Pencil (第 1 代) 進行配對和充電。",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 9,
+          "section": "晶片",
+          "label": "晶片",
+          "value": "A16 晶片\n5 核心 CPU\n4 核心 GPU\n16 核心神經網路引擎",
+          "model": null,
+          "conditions": null,
+          "evidence": "A16 晶片\n5 核心 CPU\n4 核心 GPU\n16 核心神經網路引擎",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 10,
+          "section": "相機",
+          "label": "相機",
+          "value": "1200 萬像素廣角相機，ƒ/1.8 光圈\n最高可達 5 倍數位變焦\n五枚鏡片組\n自動對焦，採用 Focus Pixels\n全景模式 (最高可達 6300 萬像素)\n智慧型 HDR 4\n照片地理位置標記\n自動影像穩定功能\n連拍模式\n影像拍攝格式：HEIF 與 JPEG",
+          "model": null,
+          "conditions": "最高可達 5 倍數位變焦",
+          "evidence": "1200 萬像素廣角相機，ƒ/1.8 光圈\n最高可達 5 倍數位變焦\n五枚鏡片組\n自動對焦，採用 Focus Pixels\n全景模式 (最高可達 6300 萬像素)\n智慧型 HDR 4\n照片地理位置標記\n自動影像穩定功能\n連拍模式\n影像拍攝格式：HEIF 與 JPEG",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 11,
+          "section": "錄影",
+          "label": "錄影",
+          "value": "4K 錄影，24 fps、25 fps、30 fps 或 60 fps\n1080p HD 錄影，25 fps、30 fps 或 60 fps\n720p HD 錄影，30 fps 或 60 fps\n支援 1080p (120 fps 或 240 fps) 的慢動作影片\n具備視訊穩定功能的縮時攝影\n延伸動態範圍錄影，最高可達 30 fps\n視訊影像穩定功能\n電影級視訊穩定功能 (1080p 與 720p)\n連續自動對焦錄影\n縮放播放\n影片錄製格式：HEVC 與 H.264",
+          "model": null,
+          "conditions": null,
+          "evidence": "4K 錄影，24 fps、25 fps、30 fps 或 60 fps\n1080p HD 錄影，25 fps、30 fps 或 60 fps\n720p HD 錄影，30 fps 或 60 fps\n支援 1080p (120 fps 或 240 fps) 的慢動作影片\n具備視訊穩定功能的縮時攝影\n延伸動態範圍錄影，最高可達 30 fps\n視訊影像穩定功能\n電影級視訊穩定功能 (1080p 與 720p)\n連續自動對焦錄影\n縮放播放\n影片錄製格式：HEVC 與 H.264",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 12,
+          "section": "前置相機",
+          "label": "前置相機",
+          "value": "橫向 1200 萬像素 Center Stage 相機\nƒ/2.4 光圈\n智慧型 HDR 4\n1080p HD 錄影，25 fps、30 fps 或 60 fps\n具備視訊穩定功能的縮時攝影\n延伸動態範圍錄影，最高可達 30 fps\n電影級視訊穩定功能 (1080p 與 720p)\n鏡頭校正\nRetina 閃光燈\n自動影像穩定功能\n連拍模式",
+          "model": null,
+          "conditions": null,
+          "evidence": "橫向 1200 萬像素 Center Stage 相機\nƒ/2.4 光圈\n智慧型 HDR 4\n1080p HD 錄影，25 fps、30 fps 或 60 fps\n具備視訊穩定功能的縮時攝影\n延伸動態範圍錄影，最高可達 30 fps\n電影級視訊穩定功能 (1080p 與 720p)\n鏡頭校正\nRetina 閃光燈\n自動影像穩定功能\n連拍模式",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 13,
+          "section": "視訊通話",
+          "label": "視訊通話",
+          "value": "FaceTime 視訊\n人物居中功能\niPad 可透過 Wi-Fi 或行動網路與具備 FaceTime 功能的任何裝置通話",
+          "model": null,
+          "conditions": null,
+          "evidence": "FaceTime 視訊\n人物居中功能\niPad 可透過 Wi-Fi 或行動網路與具備 FaceTime 功能的任何裝置通話",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 14,
+          "section": "音訊通話",
+          "label": "音訊通話",
+          "value": "FaceTime 語音\n透過電話 app，轉接附近 iPhone 上的\n行動網路通話",
+          "model": null,
+          "conditions": null,
+          "evidence": "FaceTime 語音\n透過電話 app，轉接附近 iPhone 上的\n行動網路通話",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 15,
+          "section": "揚聲器",
+          "label": "揚聲器",
+          "value": "橫向立體聲揚聲器",
+          "model": null,
+          "conditions": null,
+          "evidence": "橫向立體聲揚聲器",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 16,
+          "section": "麥克風",
+          "label": "麥克風",
+          "value": "雙麥克風，用於通話、錄影與錄音",
+          "model": null,
+          "conditions": null,
+          "evidence": "雙麥克風，用於通話、錄影與錄音",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 17,
+          "section": "行動網路與無線技術",
+          "label": "行動網路與無線技術",
+          "value": "所有機型\nWi-Fi 6 (802.11ax)，具 2x2 MIMO 技術\n同步雙頻\n藍牙 5.3\nWi-Fi + 行動網路機型\n5G (sub-6 GHz)，具 4x4 MIMO 技術\nGigabit LTE，具 4x4 MIMO 技術\n型號 A3355：\n5G NR (頻段 n1、n2、n3、n5、n7、n8、n12、n14、n20、n25、n26、n28、n29、n30、n38、n40、n41、n48、n66、n70、n71、n75、n76、n77、n78、n79)\nFDD-LTE (頻段 1、2、3、4、5、7、8、11、12、13、14、17、18、19、20、21、25、26、28、29、30、32、66、71)\nTD-LTE (頻段 34、38、39、40、41、42、48)\nUMTS/HSPA/HSPA+/DC-HSDPA (850、900、1700/2100、1900、2100 MHz)\n只限數據\nWi-Fi 通話\neSIM\n進一步了解行動網路",
+          "model": null,
+          "conditions": null,
+          "evidence": "所有機型\nWi-Fi 6 (802.11ax)，具 2x2 MIMO 技術\n同步雙頻\n藍牙 5.3\nWi-Fi + 行動網路機型\n5G (sub-6 GHz)，具 4x4 MIMO 技術\nGigabit LTE，具 4x4 MIMO 技術\n型號 A3355：\n5G NR (頻段 n1、n2、n3、n5、n7、n8、n12、n14、n20、n25、n26、n28、n29、n30、n38、n40、n41、n48、n66、n70、n71、n75、n76、n77、n78、n79)\nFDD-LTE (頻段 1、2、3、4、5、7、8、11、12、13、14、17、18、19、20、21、25、26、28、29、30、32、66、71)\nTD-LTE (頻段 34、38、39、40、41、42、48)\nUMTS/HSPA/HSPA+/DC-HSDPA (850、900、1700/2100、1900、2100 MHz)\n只限數據\nWi-Fi 通話\neSIM\n進一步了解行動網路",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 18,
+          "section": "SIM 卡",
+          "label": "SIM 卡",
+          "value": "eSIM\niPad 採用先進的 eSIM 技術，更加便利且安全 (與實體 SIM 卡不相容)\n進一步了解 eSIM\n進一步了解出國時使用 eSIM",
+          "model": null,
+          "conditions": null,
+          "evidence": "eSIM\niPad 採用先進的 eSIM 技術，更加便利且安全 (與實體 SIM 卡不相容)\n進一步了解 eSIM\n進一步了解出國時使用 eSIM",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 19,
+          "section": "定位功能",
+          "label": "定位功能",
+          "value": "所有機型\n數位指南針\nWi-Fi\niBeacon 微型定位服務\nWi-Fi + 行動網路機型\nGPS/GNSS 定位系統\n行動網路",
+          "model": null,
+          "conditions": null,
+          "evidence": "所有機型\n數位指南針\nWi-Fi\niBeacon 微型定位服務\nWi-Fi + 行動網路機型\nGPS/GNSS 定位系統\n行動網路",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 20,
+          "section": "感測器",
+          "label": "感測器",
+          "value": "Touch ID\n三軸陀螺儀\n加速度計\n氣壓計\n環境光度感測器",
+          "model": null,
+          "conditions": null,
+          "evidence": "Touch ID\n三軸陀螺儀\n加速度計\n氣壓計\n環境光度感測器",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 21,
+          "section": "Touch ID",
+          "label": "Touch ID",
+          "value": "解鎖 iPad\n保護 app 中個人資料的安全\n在 iTunes Store、App Store 與 Apple Books 進行購買或下載",
+          "model": null,
+          "conditions": null,
+          "evidence": "解鎖 iPad\n保護 app 中個人資料的安全\n在 iTunes Store、App Store 與 Apple Books 進行購買或下載",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 22,
+          "section": "Apple Pay",
+          "label": "Apple Pay",
+          "value": "在 app 內及網頁上，使用 Touch ID 以 iPad 付款\n進一步了解 Apple Pay",
+          "model": null,
+          "conditions": null,
+          "evidence": "在 app 內及網頁上，使用 Touch ID 以 iPad 付款\n進一步了解 Apple Pay",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 23,
+          "section": "Siri",
+          "label": "Siri",
+          "value": "協助處理傳送訊息、設定提醒事項等日常事務\n用你的聲音說出「嘿 Siri」才能免持啟用，或使用輸入來與 Siri 對話功能\n提供最強隱私權保護的智慧助理\n進一步了解 Siri",
+          "model": null,
+          "conditions": null,
+          "evidence": "協助處理傳送訊息、設定提醒事項等日常事務\n用你的聲音說出「嘿 Siri」才能免持啟用，或使用輸入來與 Siri 對話功能\n提供最強隱私權保護的智慧助理\n進一步了解 Siri",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 24,
+          "section": "充電與擴充",
+          "label": "充電與擴充",
+          "value": "USB-C 埠，可支援：\n充電\nDisplayPort\nUSB 2.0 (速度最快可達 480Mb/s)",
+          "model": null,
+          "conditions": null,
+          "evidence": "USB-C 埠，可支援：\n充電\nDisplayPort\nUSB 2.0 (速度最快可達 480Mb/s)",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 25,
+          "section": "顯示器支援",
+          "label": "顯示器支援",
+          "value": "支援內建顯示器的完整原生解析度，可顯示千萬種顏色\n支援一部解析度最高可達 4K (60Hz) 的外接顯示器\n數位視訊輸出\n透過 USB-C 支援原生 DisplayPort 輸出\n使用轉接器 (另售) 支援 VGA、HDMI 和 DVI 輸出\n視訊鏡像輸出\nAirPlay 鏡像輸出、照片與視訊輸出至 Apple TV (第 2 代或後續機型) 或支援 AirPlay 的智慧型電視，最高可達 4K\n支援視訊鏡像輸出與視訊輸出：使用 USB-C 數位 AV 多埠轉接器與 USB-C VGA 多埠轉接器 (轉接器另售)",
+          "model": null,
+          "conditions": null,
+          "evidence": "支援內建顯示器的完整原生解析度，可顯示千萬種顏色\n支援一部解析度最高可達 4K (60Hz) 的外接顯示器\n數位視訊輸出\n透過 USB-C 支援原生 DisplayPort 輸出\n使用轉接器 (另售) 支援 VGA、HDMI 和 DVI 輸出\n視訊鏡像輸出\nAirPlay 鏡像輸出、照片與視訊輸出至 Apple TV (第 2 代或後續機型) 或支援 AirPlay 的智慧型電視，最高可達 4K\n支援視訊鏡像輸出與視訊輸出：使用 USB-C 數位 AV 多埠轉接器與 USB-C VGA 多埠轉接器 (轉接器另售)",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 26,
+          "section": "電源與電池",
+          "label": "電源與電池",
+          "value": "所有機型\n內建 28.93 瓦特小時可充電鋰聚合物電池\nWi-Fi 無線上網或觀看影片最長可達 10 小時\n透過電源轉接器或 USB-C 連接電腦系統充電\nWi-Fi + 行動網路機型\n使用行動數據網路上網最長可達 9 小時",
+          "model": null,
+          "conditions": "Wi-Fi 無線上網或觀看影片最長可達 10 小時",
+          "evidence": "所有機型\n內建 28.93 瓦特小時可充電鋰聚合物電池\nWi-Fi 無線上網或觀看影片最長可達 10 小時\n透過電源轉接器或 USB-C 連接電腦系統充電\nWi-Fi + 行動網路機型\n使用行動數據網路上網最長可達 9 小時",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 27,
+          "section": "作業系統",
+          "label": "作業系統",
+          "value": "iPadOS 26\niPadOS 具備強大的功能與眾多內建 app，讓 iPad 的獨特能力發揮到極致。\n進一步了解 iPadOS 26",
+          "model": null,
+          "conditions": null,
+          "evidence": "iPadOS 26\niPadOS 具備強大的功能與眾多內建 app，讓 iPad 的獨特能力發揮到極致。\n進一步了解 iPadOS 26",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 28,
+          "section": "輔助使用",
+          "label": "輔助使用",
+          "value": "眾多支援視覺、活動能力、聽覺及認知障礙人士的內建輔助使用功能，協助你盡情發揮 iPad 的精彩。\n進一步了解\n各項功能包括：\n旁白\n縮放\n放大鏡\n語音內容\n語音控制\n切換控制\n輔助觸控\nSiri 和聽寫\n輸入來與 Siri 對話\n口述影像\n字幕與隱藏式字幕",
+          "model": null,
+          "conditions": null,
+          "evidence": "眾多支援視覺、活動能力、聽覺及認知障礙人士的內建輔助使用功能，協助你盡情發揮 iPad 的精彩。\n進一步了解\n各項功能包括：\n旁白\n縮放\n放大鏡\n語音內容\n語音控制\n切換控制\n輔助觸控\nSiri 和聽寫\n輸入來與 Siri 對話\n口述影像\n字幕與隱藏式字幕",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 29,
+          "section": "內建 App",
+          "label": "內建 App",
+          "value": "Apple Store\nApp Store\n書籍\n計算機\n行事曆\n相機\n可立拍\n時鐘\n聯絡人\nFaceTime\n檔案\n尋找\n無邊記\n遊戲\nGarageBand\n健康\n家庭\niMovie\n活動邀約\niTunes Store\n日誌\nKeynote\n放大鏡\n郵件\n地圖\n測距儀\n訊息\n音樂\n備忘錄\nNumbers\nPages\n密碼\n電話\nPhoto Booth\n照片\nPodcast\n預覽\n提醒事項\nSafari\n設定\n捷徑\n股市\n支援\nSwift\nPlayground\n提示\n翻譯\nTV\n語音備忘錄\n天氣\n有關適用於 iPad 的各款 Apple app，請前往 apple.com/tw/apps 查看完整列表。",
+          "model": null,
+          "conditions": null,
+          "evidence": "Apple Store\nApp Store\n書籍\n計算機\n行事曆\n相機\n可立拍\n時鐘\n聯絡人\nFaceTime\n檔案\n尋找\n無邊記\n遊戲\nGarageBand\n健康\n家庭\niMovie\n活動邀約\niTunes Store\n日誌\nKeynote\n放大鏡\n郵件\n地圖\n測距儀\n訊息\n音樂\n備忘錄\nNumbers\nPages\n密碼\n電話\nPhoto Booth\n照片\nPodcast\n預覽\n提醒事項\nSafari\n設定\n捷徑\n股市\n支援\nSwift\nPlayground\n提示\n翻譯\nTV\n語音備忘錄\n天氣\n有關適用於 iPad 的各款 Apple app，請前往 apple.com/tw/apps 查看完整列表。",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 30,
+          "section": "系統需求",
+          "label": "系統需求",
+          "value": "Apple 帳號 (部分功能需要)\n網際網路連線\n在 Mac 或 PC 上進行同步需要：\n在 macOS Catalina 10.15 或以上版本中使用 Finder\n在 macOS High Sierra 10.13 至 macOS Mojave 10.14.6 中使用 iTunes 12.9 或以上版本\n在 Windows 10 或以上版本中使用 iTunes 12.12.10 或以上版本 (可自 apple.com/tw/itunes/download 免費下載)",
+          "model": null,
+          "conditions": null,
+          "evidence": "Apple 帳號 (部分功能需要)\n網際網路連線\n在 Mac 或 PC 上進行同步需要：\n在 macOS Catalina 10.15 或以上版本中使用 Finder\n在 macOS High Sierra 10.13 至 macOS Mojave 10.14.6 中使用 iTunes 12.9 或以上版本\n在 Windows 10 或以上版本中使用 iTunes 12.12.10 或以上版本 (可自 apple.com/tw/itunes/download 免費下載)",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 31,
+          "section": "語言版本",
+          "label": "語言版本",
+          "value": "語言支援\n阿拉伯文、孟加拉文、保加利亞文、加泰蘭文、簡體中文、繁體中文 (香港)、繁體中文 (台灣)、克羅埃西亞文、捷克文、丹麥文、荷蘭文、英文 (澳洲)、英文 (印度)、英文 (英國)、英文 (美國)、芬蘭文、法文 (加拿大)、法文 (法國)、德文、希臘文、古吉拉特文、希伯來文、印地文、匈牙利文、印尼文、義大利文、日文、坎那達文、哈薩克文、韓文、立陶宛文、馬來亞拉姆文、馬來文、馬拉地文、挪威文、歐迪亞文、波蘭文、葡萄牙文 (巴西)、葡萄牙文 (葡萄牙)、旁遮普文、羅馬尼亞文、俄文、斯洛伐克文、斯洛維尼亞文、西班牙文 (拉丁美洲)、西班牙文 (西班牙)、西班牙文 (美國)、瑞典文、坦米爾文、泰盧固文、泰文、土耳其文、烏克蘭文、烏都文、越南文\n進一步了解功能特色適用範圍",
+          "model": null,
+          "conditions": null,
+          "evidence": "語言支援\n阿拉伯文、孟加拉文、保加利亞文、加泰蘭文、簡體中文、繁體中文 (香港)、繁體中文 (台灣)、克羅埃西亞文、捷克文、丹麥文、荷蘭文、英文 (澳洲)、英文 (印度)、英文 (英國)、英文 (美國)、芬蘭文、法文 (加拿大)、法文 (法國)、德文、希臘文、古吉拉特文、希伯來文、印地文、匈牙利文、印尼文、義大利文、日文、坎那達文、哈薩克文、韓文、立陶宛文、馬來亞拉姆文、馬來文、馬拉地文、挪威文、歐迪亞文、波蘭文、葡萄牙文 (巴西)、葡萄牙文 (葡萄牙)、旁遮普文、羅馬尼亞文、俄文、斯洛伐克文、斯洛維尼亞文、西班牙文 (拉丁美洲)、西班牙文 (西班牙)、西班牙文 (美國)、瑞典文、坦米爾文、泰盧固文、泰文、土耳其文、烏克蘭文、烏都文、越南文\n進一步了解功能特色適用範圍",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 32,
+          "section": "影片播放",
+          "label": "影片播放格式",
+          "value": "支援的格式包括 HEVC 與 H.264\n支援杜比視界與 HDR10 內容",
+          "model": null,
+          "conditions": null,
+          "evidence": "支援的格式包括 HEVC 與 H.264\n支援杜比視界與 HDR10 內容",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 33,
+          "section": "音訊播放",
+          "label": "音訊播放格式",
+          "value": "支援的格式包括 AAC、MP3、Apple 保真壓縮、FLAC、杜比數位、杜比數位+ 與杜比全景聲\n使用者可自行設定最大音量限制",
+          "model": null,
+          "conditions": "使用者可自行設定最大音量限制",
+          "evidence": "支援的格式包括 AAC、MP3、Apple 保真壓縮、FLAC、杜比數位、杜比數位+ 與杜比全景聲\n使用者可自行設定最大音量限制",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 34,
+          "section": "環境需求",
+          "label": "環境需求",
+          "value": "作業環境溫度：\n0° 至 35° C (32° 至 95° F)\n非作業溫度：\n−20° 至 45° C (−4° 至 113° F)\n相對濕度：\n5% 至 95%，非冷凝狀態\n作業高度：\n目前測試最高可達 3,000 公尺 (10,000 呎)",
+          "model": null,
+          "conditions": null,
+          "evidence": "作業環境溫度：\n0° 至 35° C (32° 至 95° F)\n非作業溫度：\n−20° 至 45° C (−4° 至 113° F)\n相對濕度：\n5% 至 95%，非冷凝狀態\n作業高度：\n目前測試最高可達 3,000 公尺 (10,000 呎)",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 35,
+          "section": "iPad 與環境",
+          "label": "環境影響",
+          "value": "iPad 經過精心設計，能減少對環境的影響：\n查看《iPad 產品環境報告》(PDF)\n邁向 Apple 2030 目標\n採用 40% 再生成分\n超過 30% 製造過程中使用的電力來自再生電力\n碳排放在 Apple 設定的照常營運情境下減少了 40% 以上\n查看 Apple 的承諾\n物料\n機身與金屬機殼採用 100% 再生鋁金屬\n電池採用 100% 再生鈷金屬和超過 95% 再生鋰金屬\n多個印刷電路板採用 100% 再生銅金屬\n所有相機的線材均採用 100% 再生金線\n所有 Apple 設計的印刷電路板鍍層與所有連接器均採用 100% 再生金\n所有磁石均採用 100％ 再生稀土元素\n多個印刷電路板的焊料採用 100% 再生錫金屬\n標誌採用 80% 再生鋼\n表面玻璃採用 15% 再生玻璃\n11 項零組件採用至少 50% 再生塑膠\n採用 100% 纖維材質包裝\n纖維包裝材質採用 41% 再生成分\n能源\niPad 製造過程中使用的電力有超過 30% 來自再生電力\nENERGY STAR® 認證\n廢棄物\n作為 Apple 零廢棄物方案的一部分，既有的最終組裝廠區不會產生任何須送往掩埋場的廢棄物\n更高明的化學技術\n無砷的玻璃\n無汞、溴化阻燃劑 (BFR) 與聚氯乙烯 (PVC)",
+          "model": null,
+          "conditions": null,
+          "evidence": "iPad 經過精心設計，能減少對環境的影響：\n查看《iPad 產品環境報告》(PDF)\n邁向 Apple 2030 目標\n採用 40% 再生成分\n超過 30% 製造過程中使用的電力來自再生電力\n碳排放在 Apple 設定的照常營運情境下減少了 40% 以上\n查看 Apple 的承諾\n物料\n機身與金屬機殼採用 100% 再生鋁金屬\n電池採用 100% 再生鈷金屬和超過 95% 再生鋰金屬\n多個印刷電路板採用 100% 再生銅金屬\n所有相機的線材均採用 100% 再生金線\n所有 Apple 設計的印刷電路板鍍層與所有連接器均採用 100% 再生金\n所有磁石均採用 100％ 再生稀土元素\n多個印刷電路板的焊料採用 100% 再生錫金屬\n標誌採用 80% 再生鋼\n表面玻璃採用 15% 再生玻璃\n11 項零組件採用至少 50% 再生塑膠\n採用 100% 纖維材質包裝\n纖維包裝材質採用 41% 再生成分\n能源\niPad 製造過程中使用的電力有超過 30% 來自再生電力\nENERGY STAR® 認證\n廢棄物\n作為 Apple 零廢棄物方案的一部分，既有的最終組裝廠區不會產生任何須送往掩埋場的廢棄物\n更高明的化學技術\n無砷的玻璃\n無汞、溴化阻燃劑 (BFR) 與聚氯乙烯 (PVC)",
+          "status": "source_matched"
+        }
+      ],
+      "blocks": [
+        {
+          "id": 0,
+          "section": "外觀",
+          "model_hint": null,
+          "context": "",
+          "text": "銀色\n藍色\n粉紅色\n黃色"
+        },
+        {
+          "id": 1,
+          "section": "容量",
+          "model_hint": null,
+          "context": "",
+          "text": "128GB\n256GB\n512GB"
+        },
+        {
+          "id": 2,
+          "section": "尺寸與重量",
+          "model_hint": null,
+          "context": "",
+          "text": "高度\n248.6 公釐\n(9.79 吋)\n寬度\n179.5 公釐\n(7.07 吋)\n厚度\n7 公釐\n(0.28 吋)"
+        },
+        {
+          "id": 3,
+          "section": "其他規格",
+          "model_hint": null,
+          "context": "",
+          "text": "Wi-Fi 機型\n477 公克 (1.05 磅)"
+        },
+        {
+          "id": 4,
+          "section": "其他規格",
+          "model_hint": null,
+          "context": "",
+          "text": "Wi-Fi + 行動網路機型\n481 公克 (1.06 磅)"
+        },
+        {
+          "id": 5,
+          "section": "按鈕與連接器",
+          "model_hint": null,
+          "context": "",
+          "text": "揚聲器\n：頂部\n頂端按鈕/\nTouch ID 感測器\n：頂部\n聰穎\n接點\n：左側\n相機\n：正面，位於顯示器右側\n麥克風\n：正面，位於顯示器右側\n揚聲器\n：底部\n相機\n：背面\n麥克風\n：背面\n音量\n調高/低\n：右側\nUSB-C 連接器\n：底部\n揚聲器\n：頂部\n頂端按鈕/\nTouch ID 感測器\n：頂部\n相機\n：正面，位於顯示器右側\n聰穎\n接點\n：左側\n麥克風\n：正面，位於顯示器右側\n揚聲器\n：底部\n相機\n：背面\n麥克風\n：背面\n音量\n調高/低\n：右側\nUSB‑C 連接器\n：底部"
+        },
+        {
+          "id": 6,
+          "section": "包裝盒內容",
+          "model_hint": null,
+          "context": "",
+          "text": "iPad\nUSB-C 充電連接線 (1 公尺)\n20W USB-C 電源轉接器"
+        },
+        {
+          "id": 7,
+          "section": "顯示器",
+          "model_hint": null,
+          "context": "",
+          "text": "11 吋\n顯示器採用圓角設計，以矩形對角線量測時， 螢幕的對角線長度為 10.86 吋。"
+        },
+        {
+          "id": 8,
+          "section": "顯示器",
+          "model_hint": null,
+          "context": "",
+          "text": "Liquid Retina 顯示器\nLED 背光多點觸控顯示器，採用 IPS 技術\n2360 x 1640 解析度，264 ppi\n原彩顯示\n500 尼特亮度\n防指印疏油外膜\n支援 Apple Pencil\n(USB-C)\n支援 Apple Pencil (第 1 代)\niPad 顯示器採用圓角設計。以矩形對角線量測時， 螢幕為 10.86 吋。實際可視區較小。\n透過 USB-C 對 Apple Pencil 轉接器為 Apple Pencil (第 1 代) 進行配對和充電。"
+        },
+        {
+          "id": 9,
+          "section": "晶片",
+          "model_hint": null,
+          "context": "",
+          "text": "A16 晶片\n5 核心 CPU\n4 核心 GPU\n16 核心神經網路引擎"
+        },
+        {
+          "id": 10,
+          "section": "相機",
+          "model_hint": null,
+          "context": "",
+          "text": "1200 萬像素廣角相機，ƒ/1.8 光圈\n最高可達 5 倍數位變焦\n五枚鏡片組\n自動對焦，採用 Focus Pixels\n全景模式 (最高可達 6300 萬像素)\n智慧型 HDR 4\n照片地理位置標記\n自動影像穩定功能\n連拍模式\n影像拍攝格式：HEIF 與 JPEG"
+        },
+        {
+          "id": 11,
+          "section": "錄影",
+          "model_hint": null,
+          "context": "",
+          "text": "4K 錄影，24 fps、25 fps、30 fps 或 60 fps\n1080p HD 錄影，25 fps、30 fps 或 60 fps\n720p HD 錄影，30 fps 或 60 fps\n支援 1080p (120 fps 或 240 fps) 的慢動作影片\n具備視訊穩定功能的縮時攝影\n延伸動態範圍錄影，最高可達 30 fps\n視訊影像穩定功能\n電影級視訊穩定功能 (1080p 與 720p)\n連續自動對焦錄影\n縮放播放\n影片錄製格式：HEVC 與 H.264"
+        },
+        {
+          "id": 12,
+          "section": "前置相機",
+          "model_hint": null,
+          "context": "",
+          "text": "橫向 1200 萬像素 Center Stage 相機\nƒ/2.4 光圈\n智慧型 HDR 4\n1080p HD 錄影，25 fps、30 fps 或 60 fps\n具備視訊穩定功能的縮時攝影\n延伸動態範圍錄影，最高可達 30 fps\n電影級視訊穩定功能 (1080p 與 720p)\n鏡頭校正\nRetina 閃光燈\n自動影像穩定功能\n連拍模式"
+        },
+        {
+          "id": 13,
+          "section": "視訊通話",
+          "model_hint": null,
+          "context": "",
+          "text": "FaceTime 視訊\n人物居中功能\niPad 可透過 Wi-Fi 或行動網路與具備 FaceTime 功能的任何裝置通話"
+        },
+        {
+          "id": 14,
+          "section": "音訊通話",
+          "model_hint": null,
+          "context": "",
+          "text": "FaceTime 語音\n透過電話 app，轉接附近 iPhone 上的\n行動網路通話"
+        },
+        {
+          "id": 15,
+          "section": "揚聲器",
+          "model_hint": null,
+          "context": "",
+          "text": "橫向立體聲揚聲器"
+        },
+        {
+          "id": 16,
+          "section": "麥克風",
+          "model_hint": null,
+          "context": "",
+          "text": "雙麥克風，用於通話、錄影與錄音"
+        },
+        {
+          "id": 17,
+          "section": "行動網路與無線技術",
+          "model_hint": null,
+          "context": "",
+          "text": "所有機型\nWi-Fi 6 (802.11ax)，具 2x2 MIMO 技術\n同步雙頻\n藍牙 5.3\nWi-Fi + 行動網路機型\n5G (sub-6 GHz)，具 4x4 MIMO 技術\nGigabit LTE，具 4x4 MIMO 技術\n型號 A3355：\n5G NR (頻段 n1、n2、n3、n5、n7、n8、n12、n14、n20、n25、n26、n28、n29、n30、n38、n40、n41、n48、n66、n70、n71、n75、n76、n77、n78、n79)\nFDD-LTE (頻段 1、2、3、4、5、7、8、11、12、13、14、17、18、19、20、21、25、26、28、29、30、32、66、71)\nTD-LTE (頻段 34、38、39、40、41、42、48)\nUMTS/HSPA/HSPA+/DC-HSDPA (850、900、1700/2100、1900、2100 MHz)\n只限數據\nWi-Fi 通話\neSIM\n進一步了解行動網路"
+        },
+        {
+          "id": 18,
+          "section": "SIM 卡",
+          "model_hint": null,
+          "context": "",
+          "text": "eSIM\niPad 採用先進的 eSIM 技術，更加便利且安全 (與實體 SIM 卡不相容)\n進一步了解 eSIM\n進一步了解出國時使用 eSIM"
+        },
+        {
+          "id": 19,
+          "section": "定位功能",
+          "model_hint": null,
+          "context": "",
+          "text": "所有機型\n數位指南針\nWi-Fi\niBeacon 微型定位服務\nWi-Fi + 行動網路機型\nGPS/GNSS 定位系統\n行動網路"
+        },
+        {
+          "id": 20,
+          "section": "感測器",
+          "model_hint": null,
+          "context": "",
+          "text": "Touch ID\n三軸陀螺儀\n加速度計\n氣壓計\n環境光度感測器"
+        },
+        {
+          "id": 21,
+          "section": "Touch ID",
+          "model_hint": null,
+          "context": "",
+          "text": "解鎖 iPad\n保護 app 中個人資料的安全\n在 iTunes Store、App Store 與 Apple Books 進行購買或下載"
+        },
+        {
+          "id": 22,
+          "section": "Apple Pay",
+          "model_hint": null,
+          "context": "",
+          "text": "在 app 內及網頁上，使用 Touch ID 以 iPad 付款\n進一步了解 Apple Pay"
+        },
+        {
+          "id": 23,
+          "section": "Siri",
+          "model_hint": null,
+          "context": "",
+          "text": "協助處理傳送訊息、設定提醒事項等日常事務\n用你的聲音說出「嘿 Siri」才能免持啟用，或使用輸入來與 Siri 對話功能\n提供最強隱私權保護的智慧助理\n進一步了解 Siri"
+        },
+        {
+          "id": 24,
+          "section": "充電與擴充",
+          "model_hint": null,
+          "context": "",
+          "text": "USB-C 埠，可支援：\n充電\nDisplayPort\nUSB 2.0 (速度最快可達 480Mb/s)"
+        },
+        {
+          "id": 25,
+          "section": "顯示器支援",
+          "model_hint": null,
+          "context": "",
+          "text": "支援內建顯示器的完整原生解析度，可顯示千萬種顏色\n支援一部解析度最高可達 4K (60Hz) 的外接顯示器\n數位視訊輸出\n透過 USB-C 支援原生 DisplayPort 輸出\n使用轉接器 (另售) 支援 VGA、HDMI 和 DVI 輸出\n視訊鏡像輸出\nAirPlay 鏡像輸出、照片與視訊輸出至 Apple TV (第 2 代或後續機型) 或支援 AirPlay 的智慧型電視，最高可達 4K\n支援視訊鏡像輸出與視訊輸出：使用 USB-C 數位 AV 多埠轉接器與 USB-C VGA 多埠轉接器 (轉接器另售)"
+        },
+        {
+          "id": 26,
+          "section": "電源與電池",
+          "model_hint": null,
+          "context": "",
+          "text": "所有機型\n內建 28.93 瓦特小時可充電鋰聚合物電池\nWi-Fi 無線上網或觀看影片最長可達 10 小時\n透過電源轉接器或 USB-C 連接電腦系統充電\nWi-Fi + 行動網路機型\n使用行動數據網路上網最長可達 9 小時"
+        },
+        {
+          "id": 27,
+          "section": "作業系統",
+          "model_hint": null,
+          "context": "",
+          "text": "iPadOS 26\niPadOS 具備強大的功能與眾多內建 app，讓 iPad 的獨特能力發揮到極致。\n進一步了解 iPadOS 26"
+        },
+        {
+          "id": 28,
+          "section": "輔助使用",
+          "model_hint": null,
+          "context": "",
+          "text": "眾多支援視覺、活動能力、聽覺及認知障礙人士的內建輔助使用功能，協助你盡情發揮 iPad 的精彩。\n進一步了解\n各項功能包括：\n旁白\n縮放\n放大鏡\n語音內容\n語音控制\n切換控制\n輔助觸控\nSiri 和聽寫\n輸入來與 Siri 對話\n口述影像\n字幕與隱藏式字幕"
+        },
+        {
+          "id": 29,
+          "section": "內建 App",
+          "model_hint": null,
+          "context": "",
+          "text": "Apple Store\nApp Store\n書籍\n計算機\n行事曆\n相機\n可立拍\n時鐘\n聯絡人\nFaceTime\n檔案\n尋找\n無邊記\n遊戲\nGarageBand\n健康\n家庭\niMovie\n活動邀約\niTunes Store\n日誌\nKeynote\n放大鏡\n郵件\n地圖\n測距儀\n訊息\n音樂\n備忘錄\nNumbers\nPages\n密碼\n電話\nPhoto Booth\n照片\nPodcast\n預覽\n提醒事項\nSafari\n設定\n捷徑\n股市\n支援\nSwift\nPlayground\n提示\n翻譯\nTV\n語音備忘錄\n天氣\n有關適用於 iPad 的各款 Apple app，請前往 apple.com/tw/apps 查看完整列表。"
+        },
+        {
+          "id": 30,
+          "section": "系統需求",
+          "model_hint": null,
+          "context": "",
+          "text": "Apple 帳號 (部分功能需要)\n網際網路連線\n在 Mac 或 PC 上進行同步需要：\n在 macOS Catalina 10.15 或以上版本中使用 Finder\n在 macOS High Sierra 10.13 至 macOS Mojave 10.14.6 中使用 iTunes 12.9 或以上版本\n在 Windows 10 或以上版本中使用 iTunes 12.12.10 或以上版本 (可自 apple.com/tw/itunes/download 免費下載)"
+        },
+        {
+          "id": 31,
+          "section": "語言版本",
+          "model_hint": null,
+          "context": "",
+          "text": "語言支援\n阿拉伯文、孟加拉文、保加利亞文、加泰蘭文、簡體中文、繁體中文 (香港)、繁體中文 (台灣)、克羅埃西亞文、捷克文、丹麥文、荷蘭文、英文 (澳洲)、英文 (印度)、英文 (英國)、英文 (美國)、芬蘭文、法文 (加拿大)、法文 (法國)、德文、希臘文、古吉拉特文、希伯來文、印地文、匈牙利文、印尼文、義大利文、日文、坎那達文、哈薩克文、韓文、立陶宛文、馬來亞拉姆文、馬來文、馬拉地文、挪威文、歐迪亞文、波蘭文、葡萄牙文 (巴西)、葡萄牙文 (葡萄牙)、旁遮普文、羅馬尼亞文、俄文、斯洛伐克文、斯洛維尼亞文、西班牙文 (拉丁美洲)、西班牙文 (西班牙)、西班牙文 (美國)、瑞典文、坦米爾文、泰盧固文、泰文、土耳其文、烏克蘭文、烏都文、越南文\n進一步了解功能特色適用範圍"
+        },
+        {
+          "id": 32,
+          "section": "影片播放",
+          "model_hint": null,
+          "context": "",
+          "text": "支援的格式包括 HEVC 與 H.264\n支援杜比視界與 HDR10 內容"
+        },
+        {
+          "id": 33,
+          "section": "音訊播放",
+          "model_hint": null,
+          "context": "",
+          "text": "支援的格式包括 AAC、MP3、Apple 保真壓縮、FLAC、杜比數位、杜比數位+ 與杜比全景聲\n使用者可自行設定最大音量限制"
+        },
+        {
+          "id": 34,
+          "section": "環境需求",
+          "model_hint": null,
+          "context": "",
+          "text": "作業環境溫度：\n0° 至 35° C (32° 至 95° F)\n非作業溫度：\n−20° 至 45° C (−4° 至 113° F)\n相對濕度：\n5% 至 95%，非冷凝狀態\n作業高度：\n目前測試最高可達 3,000 公尺 (10,000 呎)"
+        },
+        {
+          "id": 35,
+          "section": "iPad 與環境",
+          "model_hint": null,
+          "context": "",
+          "text": "iPad 經過精心設計，能減少對環境的影響：\n查看《iPad 產品環境報告》(PDF)\n邁向 Apple 2030 目標\n採用 40% 再生成分\n超過 30% 製造過程中使用的電力來自再生電力\n碳排放在 Apple 設定的照常營運情境下減少了 40% 以上\n查看 Apple 的承諾\n物料\n機身與金屬機殼採用 100% 再生鋁金屬\n電池採用 100% 再生鈷金屬和超過 95% 再生鋰金屬\n多個印刷電路板採用 100% 再生銅金屬\n所有相機的線材均採用 100% 再生金線\n所有 Apple 設計的印刷電路板鍍層與所有連接器均採用 100% 再生金\n所有磁石均採用 100％ 再生稀土元素\n多個印刷電路板的焊料採用 100% 再生錫金屬\n標誌採用 80% 再生鋼\n表面玻璃採用 15% 再生玻璃\n11 項零組件採用至少 50% 再生塑膠\n採用 100% 纖維材質包裝\n纖維包裝材質採用 41% 再生成分\n能源\niPad 製造過程中使用的電力有超過 30% 來自再生電力\nENERGY STAR® 認證\n廢棄物\n作為 Apple 零廢棄物方案的一部分，既有的最終組裝廠區不會產生任何須送往掩埋場的廢棄物\n更高明的化學技術\n無砷的玻璃\n無汞、溴化阻燃劑 (BFR) 與聚氯乙烯 (PVC)"
+        }
+      ],
+      "llm_calls": 3,
+      "llm_ms": 104021,
+      "warnings": [
+        "未取得可驗證的 TWD 起售價；不使用分期、折抵或模型猜測",
+        "部分區塊未能唯一對應型號，保留於未分配規格；未複製到各型號"
+      ]
+    },
+    {
+      "category": "airpods",
+      "name": "AirPods 4",
+      "product_url": "https://www.apple.com/tw/airpods-4/",
+      "specs_url": "https://www.apple.com/tw/airpods-4/specs/",
+      "fetched_at": "2026-09-09T03:53:27.836311+00:00",
+      "model": "qwen2.5-coder:14b",
+      "variants": [],
+      "starting_price": {
+        "amount": 4490.0,
+        "currency": "TWD",
+        "source_url": "https://www.apple.com/tw/shop/goto/buy_airpods/airpods_4",
+        "source_name": "AirPods&nbsp;4",
+        "evidence": "{\"@type\":\"Offer\",\"hasMerchantReturnPolicy\":{\"@type\":\"MerchantReturnPolicy\",\"applicableCountry\":\"TW\",\"merchantReturnDays\":14,\"returnFees\":\"https://schema.org/FreeReturn\",\"returnMethod\":\"https://schema.org/ReturnByMail\",\"returnPolicyCategory\":\"https://schema.org/MerchantReturnFiniteReturnWindow\"},\"price\":4490.0,\"priceCurrency\":\"TWD\",\"shippingDetails\":{\"@type\":\"OfferShippingDetails\",\"shippingRate\":{\"@type\":\"MonetaryAmount\",\"currency\":\"TWD\",\"value\":0}},\"sku\":\"MXP63TA/A\"}",
+        "scope": "官網此商品頁起售價；不代表每個選配型號的售價"
+      },
+      "specs": [
+        {
+          "block_id": 0,
+          "section": "其他規格",
+          "label": "其他規格",
+          "value": "AirPods 4",
+          "model": null,
+          "conditions": null,
+          "evidence": "AirPods 4",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 1,
+          "section": "其他規格",
+          "label": "其他規格",
+          "value": "AirPods 4主動式降噪款",
+          "model": null,
+          "conditions": null,
+          "evidence": "AirPods 4主動式降噪款",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 2,
+          "section": "其他規格",
+          "label": "其他規格",
+          "value": "AirPods 4",
+          "model": null,
+          "conditions": null,
+          "evidence": "AirPods 4",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 3,
+          "section": "其他規格",
+          "label": "其他規格",
+          "value": "AirPods 4主動式降噪款",
+          "model": null,
+          "conditions": null,
+          "evidence": "AirPods 4主動式降噪款",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 4,
+          "section": "音訊技術",
+          "label": "音訊技術",
+          "value": "特製的長衝程 Apple 驅動單體\n特製的高動態範圍放大器\n語音隔離\n個人化空間音訊具備動態頭部追蹤功能\n適應性等化\n透氣系統可維持壓力均衡",
+          "model": null,
+          "conditions": null,
+          "evidence": "特製的長衝程 Apple 驅動單體\n特製的高動態範圍放大器\n語音隔離\n個人化空間音訊具備動態頭部追蹤功能\n適應性等化\n透氣系統可維持壓力均衡",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 5,
+          "section": "音訊技術",
+          "label": "音訊技術",
+          "value": "特製的長衝程 Apple 驅動單體\n特製的高動態範圍放大器\n主動式降噪\n適應性音訊\n通透模式\n對話感知功能\n語音隔離\n個人化空間音訊具備動態頭部追蹤功能\n適應性等化\n透氣系統可維持壓力均衡",
+          "model": null,
+          "conditions": null,
+          "evidence": "特製的長衝程 Apple 驅動單體\n特製的高動態範圍放大器\n主動式降噪\n適應性音訊\n通透模式\n對話感知功能\n語音隔離\n個人化空間音訊具備動態頭部追蹤功能\n適應性等化\n透氣系統可維持壓力均衡",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 6,
+          "section": "即時翻譯",
+          "label": "即時翻譯",
+          "value": "AirPods 4 主動式降噪款\n即時翻譯可跨越不同語言溝通交流",
+          "model": null,
+          "conditions": null,
+          "evidence": "AirPods 4 主動式降噪款\n即時翻譯可跨越不同語言溝通交流",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 7,
+          "section": "感測器",
+          "label": "感測器",
+          "value": "波束成形雙麥克風\n內向式麥克風\n光學入耳感測器\n動作偵測加速度計\n語音偵測加速度計\n力度感測器",
+          "model": null,
+          "conditions": null,
+          "evidence": "波束成形雙麥克風\n內向式麥克風\n光學入耳感測器\n動作偵測加速度計\n語音偵測加速度計\n力度感測器",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 8,
+          "section": "晶片",
+          "label": "晶片",
+          "value": "H2 耳機晶片",
+          "model": null,
+          "conditions": null,
+          "evidence": "H2 耳機晶片",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 9,
+          "section": "控制項目",
+          "label": "控制項目",
+          "value": "按一下即可播放或暫停媒體\n按一下即可接聽電話、靜音或解除靜音\n按一下即可使用相機遙控器\n按兩下即可結束通話\n按兩下即可跳至下一首曲目\n按三下即可跳回上一首曲目\n按住即可使用 Siri\n說聲「嘿 Siri」 即可播放歌曲、撥打電話或取得路線指引等\n有了 Siri 互動功能，當 Siri 問你要不要接聽來電、聽取簡訊、管理通知等，點頭說好，或輕輕搖頭表示不好，Siri 都能理解",
+          "model": null,
+          "conditions": null,
+          "evidence": "按一下即可播放或暫停媒體\n按一下即可接聽電話、靜音或解除靜音\n按一下即可使用相機遙控器\n按兩下即可結束通話\n按兩下即可跳至下一首曲目\n按三下即可跳回上一首曲目\n按住即可使用 Siri\n說聲「嘿 Siri」 即可播放歌曲、撥打電話或取得路線指引等\n有了 Siri 互動功能，當 Siri 問你要不要接聽來電、聽取簡訊、管理通知等，點頭說好，或輕輕搖頭表示不好，Siri 都能理解",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 10,
+          "section": "防塵與抗汗抗水",
+          "label": "防塵與抗汗抗水",
+          "value": "防塵與抗汗抗水功能 (IP54)",
+          "model": null,
+          "conditions": null,
+          "evidence": "防塵與抗汗抗水功能 (IP54)",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 11,
+          "section": "尺寸與重量 (單個)",
+          "label": "尺寸與重量 (單個)",
+          "value": "18.3 公釐 (0.72 吋)\n30.2 公釐\n(1.19 吋)\n高度：30.2 公釐\n(1.19 吋)\n寬度：18.3 公釐 (0.72 吋)\n厚度：18.1 公釐 (0.71 吋)\n重量：4.3 公克 (0.15 盎司)\n50.1 公釐 (1.97 吋)\n46.2 公釐 (1.82 吋)\n21.2 公釐 (0.83 吋)\n高度：46.2 公釐 (1.82 吋)\n寬度：50.1 公釐 (1.97 吋)\n厚度：21.2 公釐 (0.83 吋)\n重量 (AirPods 4)：32.3 公克 (1.14 盎司)\n重量 (AirPods 4 主動式降噪款)： 34.7 公克 (1.22 盎司)",
+          "model": null,
+          "conditions": null,
+          "evidence": "18.3 公釐 (0.72 吋)\n30.2 公釐\n(1.19 吋)\n高度：30.2 公釐\n(1.19 吋)\n寬度：18.3 公釐 (0.72 吋)\n厚度：18.1 公釐 (0.71 吋)\n重量：4.3 公克 (0.15 盎司)\n50.1 公釐 (1.97 吋)\n46.2 公釐 (1.82 吋)\n21.2 公釐 (0.83 吋)\n高度：46.2 公釐 (1.82 吋)\n寬度：50.1 公釐 (1.97 吋)\n厚度：21.2 公釐 (0.83 吋)\n重量 (AirPods 4)：32.3 公克 (1.14 盎司)\n重量 (AirPods 4 主動式降噪款)： 34.7 公克 (1.22 盎司)",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 12,
+          "section": "充電盒",
+          "label": "充電盒",
+          "value": "可使用 USB-C 連接器充電",
+          "model": null,
+          "conditions": null,
+          "evidence": "可使用 USB-C 連接器充電",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 13,
+          "section": "充電盒",
+          "label": "充電盒",
+          "value": "可使用 USB-C 連接器、Apple Watch 充電器或 Qi 認證充電器充電\n內建揚聲器支援「尋找」功能",
+          "model": null,
+          "conditions": null,
+          "evidence": "可使用 USB-C 連接器、Apple Watch 充電器或 Qi 認證充電器充電\n內建揚聲器支援「尋找」功能",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 14,
+          "section": "電池",
+          "label": "電池",
+          "value": "AirPods 4\n充電一次的聆聽時間最長可達 5 小時\nAirPods 4 搭配充電盒 (USB‑C)\n聆聽時間最長可達 30 小時\n置入充電盒內 5 分鐘，能提供約 1 小時的聆聽時間",
+          "model": null,
+          "conditions": "充電一次的聆聽時間最長可達 5 小時",
+          "evidence": "AirPods 4\n充電一次的聆聽時間最長可達 5 小時\nAirPods 4 搭配充電盒 (USB‑C)\n聆聽時間最長可達 30 小時\n置入充電盒內 5 分鐘，能提供約 1 小時的聆聽時間",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 15,
+          "section": "電池",
+          "label": "電池",
+          "value": "AirPods 4 主動式降噪款\n充電一次的聆聽時間最長可達 4 小時 (啟用主動式降噪時)\n充電一次的聆聽時間最長可達 5 小時 (關閉噪音控制時)\nAirPods 4 主動式降噪款搭配充電盒 (USB‑C)\n聆聽時間最長可達 20 小時 (啟用主動式降噪時)\n聆聽時間最長可達 30 小時 (關閉噪音控制時)\n置入充電盒內 5 分鐘，能提供約 1 小時的聆聽時間",
+          "model": null,
+          "conditions": "充電一次的聆聽時間最長可達 4 小時 (啟用主動式降噪時)",
+          "evidence": "AirPods 4 主動式降噪款\n充電一次的聆聽時間最長可達 4 小時 (啟用主動式降噪時)\n充電一次的聆聽時間最長可達 5 小時 (關閉噪音控制時)\nAirPods 4 主動式降噪款搭配充電盒 (USB‑C)\n聆聽時間最長可達 20 小時 (啟用主動式降噪時)\n聆聽時間最長可達 30 小時 (關閉噪音控制時)\n置入充電盒內 5 分鐘，能提供約 1 小時的聆聽時間",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 16,
+          "section": "連線方式",
+          "label": "無線技術",
+          "value": "藍牙 5.3 無線技術",
+          "model": null,
+          "conditions": null,
+          "evidence": "藍牙 5.3 無線技術",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 17,
+          "section": "包裝盒內容",
+          "label": "包裝內容",
+          "value": "AirPods 4\n充電盒 (USB-C)\n說明文件\nUSB-C 充電連接線另售",
+          "model": null,
+          "conditions": null,
+          "evidence": "AirPods 4\n充電盒 (USB-C)\n說明文件\nUSB-C 充電連接線另售",
+          "status": "needs_review"
+        },
+        {
+          "block_id": 18,
+          "section": "包裝盒內容",
+          "label": "包裝內容",
+          "value": "AirPods 4 主動式降噪款\n充電盒 (USB-C) 內建揚聲器\n說明文件\nUSB-C 充電連接線另售",
+          "model": null,
+          "conditions": null,
+          "evidence": "AirPods 4 主動式降噪款\n充電盒 (USB-C) 內建揚聲器\n說明文件\nUSB-C 充電連接線另售",
+          "status": "needs_review"
+        },
+        {
+          "block_id": 19,
+          "section": "輔助使用",
+          "label": "輔助功能",
+          "value": "眾多輔助使用功能可幫助身心障礙人士，盡情發揮全新 AirPods 的精彩。\n各項功能包括：\n即時聆聽音訊\n耳機音量調控\n耳機調節",
+          "model": null,
+          "conditions": null,
+          "evidence": "眾多輔助使用功能可幫助身心障礙人士，盡情發揮全新 AirPods 的精彩。\n各項功能包括：\n即時聆聽音訊\n耳機音量調控\n耳機調節",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 20,
+          "section": "系統需求",
+          "label": "系統需求",
+          "value": "搭載最新版本 iOS 的 iPhone 機型\n搭載最新版本 iPadOS 的 iPad 機型\n搭載最新版本 watchOS 的 Apple Watch 錶款\n搭載最新版本 macOS 的 Mac 機型\n搭載最新版本 tvOS 的 Apple TV 機型\n搭載最新版本 visionOS 的 Apple Vision Pro\nAirPods 可搭配 Apple 裝置 (搭載較早版本軟體) 與非 Apple 裝置，作為無線藍牙耳機使用，但功能可能會有所限制。",
+          "model": null,
+          "conditions": null,
+          "evidence": "搭載最新版本 iOS 的 iPhone 機型\n搭載最新版本 iPadOS 的 iPad 機型\n搭載最新版本 watchOS 的 Apple Watch 錶款\n搭載最新版本 macOS 的 Mac 機型\n搭載最新版本 tvOS 的 Apple TV 機型\n搭載最新版本 visionOS 的 Apple Vision Pro\nAirPods 可搭配 Apple 裝置 (搭載較早版本軟體) 與非 Apple 裝置，作為無線藍牙耳機使用，但功能可能會有所限制。",
+          "status": "source_matched"
+        }
+      ],
+      "blocks": [
+        {
+          "id": 0,
+          "section": "其他規格",
+          "model_hint": null,
+          "context": "",
+          "text": "AirPods 4"
+        },
+        {
+          "id": 1,
+          "section": "其他規格",
+          "model_hint": null,
+          "context": "",
+          "text": "AirPods 4主動式降噪款"
+        },
+        {
+          "id": 2,
+          "section": "其他規格",
+          "model_hint": null,
+          "context": "",
+          "text": "AirPods 4"
+        },
+        {
+          "id": 3,
+          "section": "其他規格",
+          "model_hint": null,
+          "context": "",
+          "text": "AirPods 4主動式降噪款"
+        },
+        {
+          "id": 4,
+          "section": "音訊技術",
+          "model_hint": null,
+          "context": "",
+          "text": "特製的長衝程 Apple 驅動單體\n特製的高動態範圍放大器\n語音隔離\n個人化空間音訊具備動態頭部追蹤功能\n適應性等化\n透氣系統可維持壓力均衡"
+        },
+        {
+          "id": 5,
+          "section": "音訊技術",
+          "model_hint": null,
+          "context": "",
+          "text": "特製的長衝程 Apple 驅動單體\n特製的高動態範圍放大器\n主動式降噪\n適應性音訊\n通透模式\n對話感知功能\n語音隔離\n個人化空間音訊具備動態頭部追蹤功能\n適應性等化\n透氣系統可維持壓力均衡"
+        },
+        {
+          "id": 6,
+          "section": "即時翻譯",
+          "model_hint": null,
+          "context": "",
+          "text": "AirPods 4 主動式降噪款\n即時翻譯可跨越不同語言溝通交流"
+        },
+        {
+          "id": 7,
+          "section": "感測器",
+          "model_hint": null,
+          "context": "",
+          "text": "波束成形雙麥克風\n內向式麥克風\n光學入耳感測器\n動作偵測加速度計\n語音偵測加速度計\n力度感測器"
+        },
+        {
+          "id": 8,
+          "section": "晶片",
+          "model_hint": null,
+          "context": "",
+          "text": "H2 耳機晶片"
+        },
+        {
+          "id": 9,
+          "section": "控制項目",
+          "model_hint": null,
+          "context": "",
+          "text": "按一下即可播放或暫停媒體\n按一下即可接聽電話、靜音或解除靜音\n按一下即可使用相機遙控器\n按兩下即可結束通話\n按兩下即可跳至下一首曲目\n按三下即可跳回上一首曲目\n按住即可使用 Siri\n說聲「嘿 Siri」 即可播放歌曲、撥打電話或取得路線指引等\n有了 Siri 互動功能，當 Siri 問你要不要接聽來電、聽取簡訊、管理通知等，點頭說好，或輕輕搖頭表示不好，Siri 都能理解"
+        },
+        {
+          "id": 10,
+          "section": "防塵與抗汗抗水",
+          "model_hint": null,
+          "context": "",
+          "text": "防塵與抗汗抗水功能 (IP54)"
+        },
+        {
+          "id": 11,
+          "section": "尺寸與重量 (單個)",
+          "model_hint": null,
+          "context": "",
+          "text": "18.3 公釐 (0.72 吋)\n30.2 公釐\n(1.19 吋)\n高度：30.2 公釐\n(1.19 吋)\n寬度：18.3 公釐 (0.72 吋)\n厚度：18.1 公釐 (0.71 吋)\n重量：4.3 公克 (0.15 盎司)\n50.1 公釐 (1.97 吋)\n46.2 公釐 (1.82 吋)\n21.2 公釐 (0.83 吋)\n高度：46.2 公釐 (1.82 吋)\n寬度：50.1 公釐 (1.97 吋)\n厚度：21.2 公釐 (0.83 吋)\n重量 (AirPods 4)：32.3 公克 (1.14 盎司)\n重量 (AirPods 4 主動式降噪款)： 34.7 公克 (1.22 盎司)"
+        },
+        {
+          "id": 12,
+          "section": "充電盒",
+          "model_hint": null,
+          "context": "",
+          "text": "可使用 USB-C 連接器充電"
+        },
+        {
+          "id": 13,
+          "section": "充電盒",
+          "model_hint": null,
+          "context": "",
+          "text": "可使用 USB-C 連接器、Apple Watch 充電器或 Qi 認證充電器充電\n內建揚聲器支援「尋找」功能"
+        },
+        {
+          "id": 14,
+          "section": "電池",
+          "model_hint": null,
+          "context": "",
+          "text": "AirPods 4\n充電一次的聆聽時間最長可達 5 小時\nAirPods 4 搭配充電盒 (USB‑C)\n聆聽時間最長可達 30 小時\n置入充電盒內 5 分鐘，能提供約 1 小時的聆聽時間"
+        },
+        {
+          "id": 15,
+          "section": "電池",
+          "model_hint": null,
+          "context": "",
+          "text": "AirPods 4 主動式降噪款\n充電一次的聆聽時間最長可達 4 小時 (啟用主動式降噪時)\n充電一次的聆聽時間最長可達 5 小時 (關閉噪音控制時)\nAirPods 4 主動式降噪款搭配充電盒 (USB‑C)\n聆聽時間最長可達 20 小時 (啟用主動式降噪時)\n聆聽時間最長可達 30 小時 (關閉噪音控制時)\n置入充電盒內 5 分鐘，能提供約 1 小時的聆聽時間"
+        },
+        {
+          "id": 16,
+          "section": "連線方式",
+          "model_hint": null,
+          "context": "",
+          "text": "藍牙 5.3 無線技術"
+        },
+        {
+          "id": 17,
+          "section": "包裝盒內容",
+          "model_hint": null,
+          "context": "",
+          "text": "AirPods 4\n充電盒 (USB-C)\n說明文件\nUSB-C 充電連接線另售"
+        },
+        {
+          "id": 18,
+          "section": "包裝盒內容",
+          "model_hint": null,
+          "context": "",
+          "text": "AirPods 4 主動式降噪款\n充電盒 (USB-C) 內建揚聲器\n說明文件\nUSB-C 充電連接線另售"
+        },
+        {
+          "id": 19,
+          "section": "輔助使用",
+          "model_hint": null,
+          "context": "",
+          "text": "眾多輔助使用功能可幫助身心障礙人士，盡情發揮全新 AirPods 的精彩。\n各項功能包括：\n即時聆聽音訊\n耳機音量調控\n耳機調節"
+        },
+        {
+          "id": 20,
+          "section": "系統需求",
+          "model_hint": null,
+          "context": "",
+          "text": "搭載最新版本 iOS 的 iPhone 機型\n搭載最新版本 iPadOS 的 iPad 機型\n搭載最新版本 watchOS 的 Apple Watch 錶款\n搭載最新版本 macOS 的 Mac 機型\n搭載最新版本 tvOS 的 Apple TV 機型\n搭載最新版本 visionOS 的 Apple Vision Pro\nAirPods 可搭配 Apple 裝置 (搭載較早版本軟體) 與非 Apple 裝置，作為無線藍牙耳機使用，但功能可能會有所限制。"
+        }
+      ],
+      "llm_calls": 2,
+      "llm_ms": 63556,
+      "warnings": [
+        "部分區塊未能唯一對應型號，保留於未分配規格；未複製到各型號"
+      ]
+    },
+    {
+      "category": "watch",
+      "name": "Apple Watch SE 3",
+      "product_url": "https://www.apple.com/tw/apple-watch-se-3/",
+      "specs_url": "https://www.apple.com/tw/apple-watch-se-3/specs/",
+      "fetched_at": "2026-09-09T03:54:33.033424+00:00",
+      "model": "qwen2.5-coder:14b",
+      "variants": [],
+      "starting_price": null,
+      "specs": [
+        {
+          "block_id": 0,
+          "section": "材質與外觀",
+          "label": "材質與外觀",
+          "value": "鋁金屬錶殼\n星光色、午夜色",
+          "model": null,
+          "conditions": null,
+          "evidence": "鋁金屬錶殼\n星光色、午夜色",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 1,
+          "section": "尺寸與重量",
+          "label": "尺寸與重量",
+          "value": "高度：44 公釐\n寬度：38 公釐\n厚度：10.7 公釐\n368 x 448 像素\n977 平方公釐顯示面積\n重量 (GPS)：\n32.9 公克\n重量 (GPS + 行動網路)：\n33.0 公克\n適合手腕圍 140–245 公釐",
+          "model": null,
+          "conditions": null,
+          "evidence": "高度：44 公釐\n寬度：38 公釐\n厚度：10.7 公釐\n368 x 448 像素\n977 平方公釐顯示面積\n重量 (GPS)：\n32.9 公克\n重量 (GPS + 行動網路)：\n33.0 公克\n適合手腕圍 140–245 公釐",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 2,
+          "section": "尺寸與重量",
+          "label": "尺寸與重量",
+          "value": "高度：40 公釐\n寬度：34 公釐\n厚度：10.7 公釐\n324 x 394 像素\n759 平方公釐顯示面積\n重量 (GPS)：\n26.3 公克\n重量 (GPS + 行動網路)：\n26.4 公克\n適合手腕圍 130–200 公釐",
+          "model": null,
+          "conditions": null,
+          "evidence": "高度：40 公釐\n寬度：34 公釐\n厚度：10.7 公釐\n324 x 394 像素\n759 平方公釐顯示面積\n重量 (GPS)：\n26.3 公克\n重量 (GPS + 行動網路)：\n26.4 公克\n適合手腕圍 130–200 公釐",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 3,
+          "section": "硬體與按鈕",
+          "label": "硬體與按鈕",
+          "value": "數位錶冠\n麥克風\n側邊按鈕\n揚聲器/透氣孔\n光學心率感測器",
+          "model": null,
+          "conditions": null,
+          "evidence": "數位錶冠\n麥克風\n側邊按鈕\n揚聲器/透氣孔\n光學心率感測器",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 4,
+          "section": "操控",
+          "label": "操控",
+          "value": "具備觸覺回饋的數位錶冠\n側邊按鈕\n手勢操控雙指互點兩下與翻轉手腕\nSiri",
+          "model": null,
+          "conditions": null,
+          "evidence": "具備觸覺回饋的數位錶冠\n側邊按鈕\n手勢操控雙指互點兩下與翻轉手腕\nSiri",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 5,
+          "section": "晶片",
+          "label": "晶片",
+          "value": "S10 晶片配備 64 位元雙核心處理器\n4 核心神經網路引擎\n64GB 容量",
+          "model": null,
+          "conditions": null,
+          "evidence": "S10 晶片配備 64 位元雙核心處理器\n4 核心神經網路引擎\n64GB 容量",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 6,
+          "section": "感測器",
+          "label": "感測器",
+          "value": "第 2 代光學心率感測器\n體溫感測器\n指南針\n常啟高度計\n高 g 值加速度計\n高動態範圍陀螺儀\n環境光度感測器",
+          "model": null,
+          "conditions": null,
+          "evidence": "第 2 代光學心率感測器\n體溫感測器\n指南針\n常啟高度計\n高 g 值加速度計\n高動態範圍陀螺儀\n環境光度感測器",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 7,
+          "section": "健康與保健",
+          "label": "健康與保健",
+          "value": "經期追蹤 app，支援排卵日回推估計\n心率 app\n高心率與低心率通知\n心律不整通知\n用藥 app\n正念 app\n噪音 app\n睡眠 app，包含睡眠階段功能\n睡眠分數\n睡眠呼吸中止症通知",
+          "model": null,
+          "conditions": null,
+          "evidence": "經期追蹤 app，支援排卵日回推估計\n心率 app\n高心率與低心率通知\n心律不整通知\n用藥 app\n正念 app\n噪音 app\n睡眠 app，包含睡眠階段功能\n睡眠分數\n睡眠呼吸中止症通知",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 8,
+          "section": "顯示器",
+          "label": "顯示器",
+          "value": "隨顯 Retina 顯示器，具備 OLED 與 LTPO\n堅固的 Ion-X 玻璃錶面，具備 4 倍抗裂能力\n最高可達 1000 尼特峰值亮度\n最低至 2 尼特亮度\n每吋 326 像素",
+          "model": null,
+          "conditions": "最高可達 1000 尼特峰值亮度",
+          "evidence": "隨顯 Retina 顯示器，具備 OLED 與 LTPO\n堅固的 Ion-X 玻璃錶面，具備 4 倍抗裂能力\n最高可達 1000 尼特峰值亮度\n最低至 2 尼特亮度\n每吋 326 像素",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 9,
+          "section": "音訊",
+          "label": "音訊",
+          "value": "揚聲器\n麥克風\n支援媒體播放",
+          "model": null,
+          "conditions": null,
+          "evidence": "揚聲器\n麥克風\n支援媒體播放",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 10,
+          "section": "電源與\n電池使用時間",
+          "label": "電源與電池使用時間",
+          "value": "滿足一天所需的電池使用時間，正常使用最長可達 18 小時\n低耗電模式下最長可達 32 小時\n內建充電式鋰離子電池\n支援快速充電\n充電約 45 分鐘最高可達 80% 電量\n充電 15 分鐘，正常使用最長可達 8 小時\n充電 8 分鐘，睡眠追蹤最長可達 8 小時\n進一步了解",
+          "model": null,
+          "conditions": "最長可達 18 小時",
+          "evidence": "滿足一天所需的電池使用時間，正常使用最長可達 18 小時\n低耗電模式下最長可達 32 小時\n內建充電式鋰離子電池\n支援快速充電\n充電約 45 分鐘最高可達 80% 電量\n充電 15 分鐘，正常使用最長可達 8 小時\n充電 8 分鐘，睡眠追蹤最長可達 8 小時\n進一步了解",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 11,
+          "section": "作業系統",
+          "label": "作業系統",
+          "value": "watchOS\nwatchOS 是世界最先進的穿戴式裝置作業系統，其中的 app 與功能經過精心設計，能讓你保有活力、健康生活、確保安全，並保持聯繫。",
+          "model": null,
+          "conditions": null,
+          "evidence": "watchOS\nwatchOS 是世界最先進的穿戴式裝置作業系統，其中的 app 與功能經過精心設計，能讓你保有活力、健康生活、確保安全，並保持聯繫。",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 12,
+          "section": "體能訓練與\n活動記錄",
+          "label": "體能訓練與活動記錄",
+          "value": "跑步\n自訂訓練\n可自訂的體能訓練顯示畫面\n訓練負荷\n心率區間\n路線競速\n配速員\n步幅長度、觸地時間與垂直振幅\n多運動訓練",
+          "model": null,
+          "conditions": null,
+          "evidence": "跑步\n自訂訓練\n可自訂的體能訓練顯示畫面\n訓練負荷\n心率區間\n路線競速\n配速員\n步幅長度、觸地時間與垂直振幅\n多運動訓練",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 13,
+          "section": "體能訓練與\n活動記錄",
+          "label": "體能訓練與活動記錄",
+          "value": "健行\n指南針具備方位角、傾斜度、海拔高度與座標\n自訂航點\n行動網路連線自動產生的航點\n回溯 GPS 資料\n離線地圖可規劃自訂路線\n數以千計的國家與地區公園的地形圖 (僅限美國)\n提供美國全部 63 座國家公園數以百計的精選健行路線",
+          "model": null,
+          "conditions": null,
+          "evidence": "健行\n指南針具備方位角、傾斜度、海拔高度與座標\n自訂航點\n行動網路連線自動產生的航點\n回溯 GPS 資料\n離線地圖可規劃自訂路線\n數以千計的國家與地區公園的地形圖 (僅限美國)\n提供美國全部 63 座國家公園數以百計的精選健行路線",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 14,
+          "section": "體能訓練與\n活動記錄",
+          "label": "體能訓練與活動記錄",
+          "value": "自行車\n平均速度、爬升高度與距離\n透過藍牙連接至自行車配件\n功能性閾值功率\n功率區間\n踏頻\niPhone 上的即時動態",
+          "model": null,
+          "conditions": null,
+          "evidence": "自行車\n平均速度、爬升高度與距離\n透過藍牙連接至自行車配件\n功能性閾值功率\n功率區間\n踏頻\niPhone 上的即時動態",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 15,
+          "section": "體能訓練與\n活動記錄",
+          "label": "體能訓練與活動記錄",
+          "value": "游泳\n泳池游泳或開放水域游泳\n自訂泳池游泳體能訓練\n分段與自動組合\n游泳效率指標 (SWOLF) 數值\n自動泳式偵測\n浮板偵測\n平均配速、總距離與趟數",
+          "model": null,
+          "conditions": null,
+          "evidence": "游泳\n泳池游泳或開放水域游泳\n自訂泳池游泳體能訓練\n分段與自動組合\n游泳效率指標 (SWOLF) 數值\n自動泳式偵測\n浮板偵測\n平均配速、總距離與趟數",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 16,
+          "section": "其他規格",
+          "label": "其他規格",
+          "value": "更多體能訓練\n滑雪\n滑雪板\n室外划船\n划槳\n高爾夫球\n步行\n橢圓機\n划船機\n踏步機\n高強度間歇訓練\n瑜伽\n功能性肌力訓練\n舞蹈\n緩和運動\n核心訓練\n皮拉提斯\n太極拳\n輪椅\n踢拳\n多運動訓練\n其他",
+          "model": null,
+          "conditions": null,
+          "evidence": "更多體能訓練\n滑雪\n滑雪板\n室外划船\n划槳\n高爾夫球\n步行\n橢圓機\n划船機\n踏步機\n高強度間歇訓練\n瑜伽\n功能性肌力訓練\n舞蹈\n緩和運動\n核心訓練\n皮拉提斯\n太極拳\n輪椅\n踢拳\n多運動訓練\n其他",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 17,
+          "section": "安全功能",
+          "label": "安全功能",
+          "value": "SOS 緊急服務\n全球緊急電話\n車禍偵測\n跌倒偵測\n噪音監測\n回溯功能",
+          "model": null,
+          "conditions": null,
+          "evidence": "SOS 緊急服務\n全球緊急電話\n車禍偵測\n跌倒偵測\n噪音監測\n回溯功能",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 18,
+          "section": "經久耐用",
+          "label": "經久耐用",
+          "value": "防水 50 公尺 (適用於游泳)",
+          "model": null,
+          "conditions": null,
+          "evidence": "防水 50 公尺 (適用於游泳)",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 19,
+          "section": "連線能力",
+          "label": "連線能力",
+          "value": "所有機型\n支援 2.4GHz Wi-Fi 網路\nWi-Fi 4 (802.11n)\n藍牙 5.3\nL1 (GPS、GLONASS、Galileo、QZSS 與北斗定位系統)\nApple Pay\nGymKit\n型號 A3326 與 A3328：\n支援 LTE 與 UMTS\nFDD‑LTE (頻段 1、2、3、4、5、7、8、12、13、14、17、18、19、20、25、26、28、66、71)\nTDD‑LTE (頻段 38、39、40、41)\n支援 Apple Watch 親子設定\n國際漫遊",
+          "model": null,
+          "conditions": null,
+          "evidence": "所有機型\n支援 2.4GHz Wi-Fi 網路\nWi-Fi 4 (802.11n)\n藍牙 5.3\nL1 (GPS、GLONASS、Galileo、QZSS 與北斗定位系統)\nApple Pay\nGymKit\n型號 A3326 與 A3328：\n支援 LTE 與 UMTS\nFDD‑LTE (頻段 1、2、3、4、5、7、8、12、13、14、17、18、19、20、25、26、28、66、71)\nTDD‑LTE (頻段 38、39、40、41)\n支援 Apple Watch 親子設定\n國際漫遊",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 20,
+          "section": "輔助使用",
+          "label": "輔助使用",
+          "value": "眾多支援視覺、活動能力、聽覺及認知障礙人士的內建輔助使用功能。\n進一步了解\n各項功能包括：\n旁白\n縮放\n開啟/關閉標籤\n減少透明度\n增加對比\n顏色濾鏡\n文字大小\n粗體文字\n減少動態效果\n每小時鐘聲\n輔助觸控\n按鈕按鍵速度\n觸控調節\n自動接聽來電\n輸入來與 Siri 對話\n音量平衡\n音訊逐字稿\n即時語音\n輔助使用快速鍵\n單聲道音訊\n觸覺回饋時間\n個人聲音\n即時聆聽",
+          "model": null,
+          "conditions": null,
+          "evidence": "眾多支援視覺、活動能力、聽覺及認知障礙人士的內建輔助使用功能。\n進一步了解\n各項功能包括：\n旁白\n縮放\n開啟/關閉標籤\n減少透明度\n增加對比\n顏色濾鏡\n文字大小\n粗體文字\n減少動態效果\n每小時鐘聲\n輔助觸控\n按鈕按鍵速度\n觸控調節\n自動接聽來電\n輸入來與 Siri 對話\n音量平衡\n音訊逐字稿\n即時語音\n輔助使用快速鍵\n單聲道音訊\n觸覺回饋時間\n個人聲音\n即時聆聽",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 21,
+          "section": "環境需求",
+          "label": "環境需求",
+          "value": "作業溫度：\n0° 至 35° C (32° 至 95° F)\n非作業存放溫度：\n-20° 至 45° C (-4° 至 113° F)\n相對濕度：\n5% 至 90%，非冷凝狀態\n作業高度：\n0 公尺至 3,000 公尺 (0 呎至 10,000 呎)",
+          "model": null,
+          "conditions": null,
+          "evidence": "作業溫度：\n0° 至 35° C (32° 至 95° F)\n非作業存放溫度：\n-20° 至 45° C (-4° 至 113° F)\n相對濕度：\n5% 至 90%，非冷凝狀態\n作業高度：\n0 公尺至 3,000 公尺 (0 呎至 10,000 呎)",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 22,
+          "section": "相容性",
+          "label": "相容性",
+          "value": "搭載 iOS 26 或以上版本的 iPhone 11 或後續機型，以及 iPhone SE (第 2 代或後續機型)",
+          "model": null,
+          "conditions": null,
+          "evidence": "搭載 iOS 26 或以上版本的 iPhone 11 或後續機型，以及 iPhone SE (第 2 代或後續機型)",
+          "status": "source_matched"
+        },
+        {
+          "block_id": 23,
+          "section": "包裝盒內容",
+          "label": "包裝盒內容",
+          "value": "Apple Watch SE 3\n錶帶\nApple Watch 磁性快速充電器對 USB-C 連接線 (1 公尺)",
+          "model": null,
+          "conditions": null,
+          "evidence": "Apple Watch SE 3\n錶帶\nApple Watch 磁性快速充電器對 USB-C 連接線 (1 公尺)",
+          "status": "source_matched"
+        }
+      ],
+      "blocks": [
+        {
+          "id": 0,
+          "section": "材質與外觀",
+          "model_hint": null,
+          "context": "",
+          "text": "鋁金屬錶殼\n星光色、午夜色"
+        },
+        {
+          "id": 1,
+          "section": "尺寸與重量",
+          "model_hint": null,
+          "context": "",
+          "text": "高度：44 公釐\n寬度：38 公釐\n厚度：10.7 公釐\n368 x 448 像素\n977 平方公釐顯示面積\n重量 (GPS)：\n32.9 公克\n重量 (GPS + 行動網路)：\n33.0 公克\n適合手腕圍 140–245 公釐"
+        },
+        {
+          "id": 2,
+          "section": "尺寸與重量",
+          "model_hint": null,
+          "context": "",
+          "text": "高度：40 公釐\n寬度：34 公釐\n厚度：10.7 公釐\n324 x 394 像素\n759 平方公釐顯示面積\n重量 (GPS)：\n26.3 公克\n重量 (GPS + 行動網路)：\n26.4 公克\n適合手腕圍 130–200 公釐"
+        },
+        {
+          "id": 3,
+          "section": "硬體與按鈕",
+          "model_hint": null,
+          "context": "",
+          "text": "數位錶冠\n麥克風\n側邊按鈕\n揚聲器/透氣孔\n光學心率感測器"
+        },
+        {
+          "id": 4,
+          "section": "操控",
+          "model_hint": null,
+          "context": "",
+          "text": "具備觸覺回饋的數位錶冠\n側邊按鈕\n手勢操控雙指互點兩下與翻轉手腕\nSiri"
+        },
+        {
+          "id": 5,
+          "section": "晶片",
+          "model_hint": null,
+          "context": "",
+          "text": "S10 晶片配備 64 位元雙核心處理器\n4 核心神經網路引擎\n64GB 容量"
+        },
+        {
+          "id": 6,
+          "section": "感測器",
+          "model_hint": null,
+          "context": "",
+          "text": "第 2 代光學心率感測器\n體溫感測器\n指南針\n常啟高度計\n高 g 值加速度計\n高動態範圍陀螺儀\n環境光度感測器"
+        },
+        {
+          "id": 7,
+          "section": "健康與保健",
+          "model_hint": null,
+          "context": "",
+          "text": "經期追蹤 app，支援排卵日回推估計\n心率 app\n高心率與低心率通知\n心律不整通知\n用藥 app\n正念 app\n噪音 app\n睡眠 app，包含睡眠階段功能\n睡眠分數\n睡眠呼吸中止症通知"
+        },
+        {
+          "id": 8,
+          "section": "顯示器",
+          "model_hint": null,
+          "context": "",
+          "text": "隨顯 Retina 顯示器，具備 OLED 與 LTPO\n堅固的 Ion-X 玻璃錶面，具備 4 倍抗裂能力\n最高可達 1000 尼特峰值亮度\n最低至 2 尼特亮度\n每吋 326 像素"
+        },
+        {
+          "id": 9,
+          "section": "音訊",
+          "model_hint": null,
+          "context": "",
+          "text": "揚聲器\n麥克風\n支援媒體播放"
+        },
+        {
+          "id": 10,
+          "section": "電源與\n電池使用時間",
+          "model_hint": null,
+          "context": "",
+          "text": "滿足一天所需的電池使用時間，正常使用最長可達 18 小時\n低耗電模式下最長可達 32 小時\n內建充電式鋰離子電池\n支援快速充電\n充電約 45 分鐘最高可達 80% 電量\n充電 15 分鐘，正常使用最長可達 8 小時\n充電 8 分鐘，睡眠追蹤最長可達 8 小時\n進一步了解"
+        },
+        {
+          "id": 11,
+          "section": "作業系統",
+          "model_hint": null,
+          "context": "",
+          "text": "watchOS\nwatchOS 是世界最先進的穿戴式裝置作業系統，其中的 app 與功能經過精心設計，能讓你保有活力、健康生活、確保安全，並保持聯繫。"
+        },
+        {
+          "id": 12,
+          "section": "體能訓練與\n活動記錄",
+          "model_hint": null,
+          "context": "",
+          "text": "跑步\n自訂訓練\n可自訂的體能訓練顯示畫面\n訓練負荷\n心率區間\n路線競速\n配速員\n步幅長度、觸地時間與垂直振幅\n多運動訓練"
+        },
+        {
+          "id": 13,
+          "section": "體能訓練與\n活動記錄",
+          "model_hint": null,
+          "context": "",
+          "text": "健行\n指南針具備方位角、傾斜度、海拔高度與座標\n自訂航點\n行動網路連線自動產生的航點\n回溯 GPS 資料\n離線地圖可規劃自訂路線\n數以千計的國家與地區公園的地形圖 (僅限美國)\n提供美國全部 63 座國家公園數以百計的精選健行路線"
+        },
+        {
+          "id": 14,
+          "section": "體能訓練與\n活動記錄",
+          "model_hint": null,
+          "context": "",
+          "text": "自行車\n平均速度、爬升高度與距離\n透過藍牙連接至自行車配件\n功能性閾值功率\n功率區間\n踏頻\niPhone 上的即時動態"
+        },
+        {
+          "id": 15,
+          "section": "體能訓練與\n活動記錄",
+          "model_hint": null,
+          "context": "",
+          "text": "游泳\n泳池游泳或開放水域游泳\n自訂泳池游泳體能訓練\n分段與自動組合\n游泳效率指標 (SWOLF) 數值\n自動泳式偵測\n浮板偵測\n平均配速、總距離與趟數"
+        },
+        {
+          "id": 16,
+          "section": "其他規格",
+          "model_hint": null,
+          "context": "",
+          "text": "更多體能訓練\n滑雪\n滑雪板\n室外划船\n划槳\n高爾夫球\n步行\n橢圓機\n划船機\n踏步機\n高強度間歇訓練\n瑜伽\n功能性肌力訓練\n舞蹈\n緩和運動\n核心訓練\n皮拉提斯\n太極拳\n輪椅\n踢拳\n多運動訓練\n其他"
+        },
+        {
+          "id": 17,
+          "section": "安全功能",
+          "model_hint": null,
+          "context": "",
+          "text": "SOS 緊急服務\n全球緊急電話\n車禍偵測\n跌倒偵測\n噪音監測\n回溯功能"
+        },
+        {
+          "id": 18,
+          "section": "經久耐用",
+          "model_hint": null,
+          "context": "",
+          "text": "防水 50 公尺 (適用於游泳)"
+        },
+        {
+          "id": 19,
+          "section": "連線能力",
+          "model_hint": null,
+          "context": "",
+          "text": "所有機型\n支援 2.4GHz Wi-Fi 網路\nWi-Fi 4 (802.11n)\n藍牙 5.3\nL1 (GPS、GLONASS、Galileo、QZSS 與北斗定位系統)\nApple Pay\nGymKit\n型號 A3326 與 A3328：\n支援 LTE 與 UMTS\nFDD‑LTE (頻段 1、2、3、4、5、7、8、12、13、14、17、18、19、20、25、26、28、66、71)\nTDD‑LTE (頻段 38、39、40、41)\n支援 Apple Watch 親子設定\n國際漫遊"
+        },
+        {
+          "id": 20,
+          "section": "輔助使用",
+          "model_hint": null,
+          "context": "",
+          "text": "眾多支援視覺、活動能力、聽覺及認知障礙人士的內建輔助使用功能。\n進一步了解\n各項功能包括：\n旁白\n縮放\n開啟/關閉標籤\n減少透明度\n增加對比\n顏色濾鏡\n文字大小\n粗體文字\n減少動態效果\n每小時鐘聲\n輔助觸控\n按鈕按鍵速度\n觸控調節\n自動接聽來電\n輸入來與 Siri 對話\n音量平衡\n音訊逐字稿\n即時語音\n輔助使用快速鍵\n單聲道音訊\n觸覺回饋時間\n個人聲音\n即時聆聽"
+        },
+        {
+          "id": 21,
+          "section": "環境需求",
+          "model_hint": null,
+          "context": "",
+          "text": "作業溫度：\n0° 至 35° C (32° 至 95° F)\n非作業存放溫度：\n-20° 至 45° C (-4° 至 113° F)\n相對濕度：\n5% 至 90%，非冷凝狀態\n作業高度：\n0 公尺至 3,000 公尺 (0 呎至 10,000 呎)"
+        },
+        {
+          "id": 22,
+          "section": "相容性",
+          "model_hint": null,
+          "context": "",
+          "text": "搭載 iOS 26 或以上版本的 iPhone 11 或後續機型，以及 iPhone SE (第 2 代或後續機型)"
+        },
+        {
+          "id": 23,
+          "section": "包裝盒內容",
+          "model_hint": null,
+          "context": "",
+          "text": "Apple Watch SE 3\n錶帶\nApple Watch 磁性快速充電器對 USB-C 連接線 (1 公尺)"
+        }
+      ],
+      "llm_calls": 2,
+      "llm_ms": 67786,
+      "warnings": [
+        "未取得可驗證的 TWD 起售價；不使用分期、折抵或模型猜測",
+        "部分區塊未能唯一對應型號，保留於未分配規格；未複製到各型號"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "url": "https://www.apple.com/tw/apple-watch-for-your-kids/",
+      "stage": "探索",
+      "message": "未找到直接技術規格連結"
+    },
+    {
+      "url": "https://www.apple.com/tw/ipad-keyboards/",
+      "stage": "探索",
+      "message": "未找到直接技術規格連結"
+    }
+  ]
+}

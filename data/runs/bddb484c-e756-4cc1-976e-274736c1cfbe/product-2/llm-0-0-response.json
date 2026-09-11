@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-09-09T03:51:11.530922Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 695,
+  "eval_duration": 34358074000,
+  "load_duration": 5433125,
+  "message": {
+    "content": "{\n  \"annotations\": [\n    {\n      \"block_id\": 0,\n      \"conditions\": \"最多可達 10 核心 CPU 與\\n最多可達 10 核心 GPU\",\n      \"label\": \"規格\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 1,\n      \"conditions\": null,\n      \"label\": \"價格\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 2,\n      \"conditions\": null,\n      \"label\": \"顏色\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 3,\n      \"conditions\": \"最多可達 10 核心 CPU 與\\n最多可達 10 核心 GPU\",\n      \"label\": \"晶片\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 4,\n      \"conditions\": null,\n      \"label\": \"Apple Intelligence\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 5,\n      \"conditions\": \"最多可達2TB 儲存空間\",\n      \"label\": \"儲存裝置\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 6,\n      \"conditions\": \"最多可達32GB 統一記憶體\",\n      \"label\": \"記憶體\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 7,\n      \"conditions\": \"可選配：\\n奈米紋理玻璃\",\n      \"label\": \"顯示器\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 8,\n      \"conditions\": null,\n      \"label\": \"相機\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 9,\n      \"conditions\": \"最多達兩部解析度最高可達 6K (60Hz) 的外接顯示器，或一部解析度最高可達 8K (60Hz) 的外接顯示器\",\n      \"label\": \"顯示器支援\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 10,\n      \"conditions\": null,\n      \"label\": \"影片播放\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 11,\n      \"conditions\": null,\n      \"label\": \"音訊播放\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 12,\n      \"conditions\": null,\n      \"label\": \"音訊\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 13,\n      \"conditions\": \"可選配 Gigabit 乙太網路\",\n      \"label\": \"連接與擴充\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 14,\n      \"conditions\": \"可選配：\\n含 Touch ID 和數字鍵盤的巧控鍵盤\\n巧控板\",\n      \"label\": \"輸入\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 15,\n      \"conditions\": null,\n      \"label\": \"無線技術\",\n      \"model\": null\n    }\n  ]\n}",
+    "role": "assistant"
+  },
+  "model": "qwen2.5-coder:14b",
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_count": 2719,
+  "prompt_eval_duration": 14838232000,
+  "total_duration": 49311649958
+}

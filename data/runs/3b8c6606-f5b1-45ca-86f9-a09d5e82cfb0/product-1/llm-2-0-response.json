@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-09-11T06:12:49.216697Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 206,
+  "eval_duration": 8485922000,
+  "load_duration": 1909292,
+  "message": {
+    "content": "{\n  \"annotations\": [\n    {\n      \"block_id\": 32,\n      \"conditions\": null,\n      \"label\": \"相容性\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 33,\n      \"conditions\": null,\n      \"label\": \"系統需求\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 34,\n      \"conditions\": \"作業高度：目前測試最高可達 3,000 公尺 (10,000 呎)\",\n      \"label\": \"環境需求\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 35,\n      \"conditions\": null,\n      \"label\": \"語言版本\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 36,\n      \"conditions\": null,\n      \"label\": \"包裝內容\",\n      \"model\": null\n    }\n  ]\n}",
+    "role": "assistant"
+  },
+  "model": "qwen2.5-coder:14b",
+  "prompt_eval_cached_count": 181,
+  "prompt_eval_count": 739,
+  "prompt_eval_duration": 3179152000,
+  "total_duration": 11758497667
+}

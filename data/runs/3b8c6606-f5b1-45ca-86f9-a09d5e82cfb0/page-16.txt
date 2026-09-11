@@ -1,0 +1,375 @@
+Mac Studio
+制霸新世代
+Mac Studio 現在配備 M5 Max 或 M5 Ultra
+|
+9 月 22 日開始發售9 月 22 日開始發售
+Mac Studio 現在配備 M5 Max 或 M5 Ultra
+|
+9 月 22 日開始發售9 月 22 日開始發售
+效能
+選擇你想要的
+超強威力
+Mac Studio 由 M5 Max 與 M5 Ultra 驅動，成為極致的專業級桌上型電腦。帶來震懾人心的繪圖處理效能、更快速的記憶體與儲存裝置，以及空前的 AI 實力，Mac Studio 為你超燃開啟一個充滿各種可能的新世界。
+18 核心 CPU
+最多可達
+40 核心 GPU
+最多可達 128GB 統一記憶體
+最高可達 614GB/s
+記憶體頻寬
+16 核心神經網路引擎
+最多可達
+36 核心 CPU
+最多可達
+80 核心 GPU
+最多可達 512GB 統一記憶體
+1.2TB/s
+記憶體頻寬
+32 核心神經網路引擎
+M5 Max
+專為創作家、開發者、工程師和各類專業人士打造，M5 Max 帶來卓越非凡的效能與裝置端 AI 算力。可編輯高解析度 RAW 檔疊圖、編譯龐大的程式碼庫、處理即時 3D 與動態圖像，還能在本地執行大型語言模型，各方面全制霸。
+與 M1 Max 相比 CPU 效能速度提升最快可達 2.5 倍
+與 M1 Max 相比 GPU 效能速度提升最快可達 4.9 倍
+與 M1 Max 相比 AI 效能速度提升最快可達 10.7 倍
+第三代光線追蹤引擎
+可支援最多達 5 部顯示器
+同時播放最多可達 19 道
+8K ProRes 422 影片 (30 fps)
+LLM 提示詞處理
+/
+AI 訓練
+/
+影片剪輯
+/
+DNA 定序
+/
+AI 影像生成
+/
+3D 算圖
+/
+程式碼編譯
+/
+遊戲
+LM Studio 中的首個符元生成效能速度提升
+Mac Studio 配備 M5 Max
+10.7 倍
+Mac Studio 配備 M4 Max
+2.8 倍
+Mac Studio 配備
+M1 Max
+Foundry Nuke 中的 CopyCat ML 訓練效能速度提升
+Mac Studio 配備 M5 Max
+14.1 倍
+Mac Studio 配備 M4 Max
+4.9 倍
+Mac Studio 配備
+M1 Max
+Blackmagic DaVinci Resolve Studio 中的 Magic Mask 效能速度提升
+Mac Studio 配備 M5 Max
+5.3 倍
+Mac Studio 配備 M4 Max
+1.8倍
+Mac Studio 配備
+M1 Max
+Oxford Nanopore MinKNOW 中的鹼基偵測效能速度提升
+Mac Studio 配備 M5 Max
+3.5 倍
+Mac Studio 配備 M4 Max
+1.8 倍
+Mac Studio 配備
+M1 Max
+文字轉影像效能速度提升
+Mac Studio 配備 M5 Max
+7.4 倍
+Mac Studio 配備 M4 Max
+2.1 倍
+Mac Studio 配備
+M1 Max
+Redshift 中的算圖效能速度提升
+Mac Studio 配備 M5 Max
+4.9 倍
+Mac Studio 配備 M4 Max
+3.5 倍
+Mac Studio 配備
+M1 Max
+Xcode 中的計畫案建構效能速度提升
+Mac Studio 配備 M5 Max
+2.5 倍
+Mac Studio 配備 M4 Max
+2.1 倍
+Mac Studio 配備
+M1 Max
+《Cyberpunk 2077: Ultimate Edition》中使用光線追蹤時的遊戲效能速度提升
+Mac Studio 配備 M5 Max
+1.5 倍
+Mac Studio 配備 M4 Max
+M5 Ultra
+M5 Ultra 將兩顆 M5 Max 晶片融為一顆系統單晶片 (SoC)，創造了歷來最強大的 Apple 晶片 GPU、Mac 中最多的 CPU 核心，同時也是我們最強力的 AI 晶片。不須耗費雲端符元，就能替未壓縮的 8K 影片素材進行調色、執行計算流體動力學，以及在裝置端執行尖端模型。
+與 M1 Ultra 相比 CPU 效能速度提升最快可達 2.4 倍
+與 M1 Ultra 相比 GPU 效能速度提升最快可達 4.7 倍
+與 M1 Ultra 相比 AI 效能速度提升最快可達 9.8 倍
+第三代光線追蹤引擎
+可支援最多達 8 部顯示器
+同時播放最多可達 33 道
+8K ProRes 422 影片 (30 fps)
+LLM 提示詞處理
+/
+AI 訓練
+/
+DNA 定序
+/
+AI 影像生成
+/
+3D 算圖
+/
+程式碼編譯
+/
+遊戲
+LM Studio 中的首個符元生成效能速度提升
+Mac Studio 配備 M5 Ultra
+9.8 倍
+Mac Studio 配備 M3 Ultra
+2.4倍
+Mac Studio 配備 M1 Ultra (基準)
+Foundry Nuke 中的 CopyCat ML 訓練效能速度提升
+Mac Studio 配備 M5 Ultra
+15.4 倍
+Mac Studio 配備 M3 Ultra
+4.6 倍
+Mac Studio 配備 M1 Ultra
+Oxford Nanopore MinKNOW 中的鹼基偵測效能速度提升
+Mac Studio 配備 M5 Ultra
+3.3 倍
+Mac Studio 配備 M3 Ultra
+1.6 倍
+Mac Studio 配備 M1 Ultra
+文字轉影像效能速度提升
+Mac Studio 配備 M5 Ultra
+8.2 倍
+Mac Studio 配備 M3 Ultra
+1.9 倍
+Mac Studio 配備 M1 Ultra
+Redshift 中的算圖效能速度提升
+Mac Studio 配備 M5 Ultra
+4.7 倍
+Mac Studio 配備 M3 Ultra
+2.8 倍
+Mac Studio 配備 M1 Ultra
+Xcode 中的計畫案建構效能速度提升
+Mac Studio 配備 M5 Ultra
+2.4倍
+Mac Studio 配備 M3 Ultra
+1.8 倍
+Mac Studio 配備 M1 Ultra
+《Cyberpunk 2077: Ultimate Edition》中使用光線追蹤時的遊戲效能速度提升
+Mac Studio 配備 M5 Ultra
+1.8 倍
+Mac Studio 配備 M3 Ultra
+AI
+效能高手，
+擅長駕馭重任。
+Apple 晶片以及驅動其效能的每個主要子系統，都專為 AI 設計，打造出全面結合硬體、軟體和生態系統的平台，因此能夠以驚人的能源效率，執行繁重的裝置端 AI 工作負載。而且一如既往，安全與隱私保護在設計初始就已精心內建，絕非草率加入。
+AI App
+AI 模型
+App 中的 AI 功能
+Draw Things app 展示 Keynote 與 Pages
+Mac Studio 經過最佳化，可駕馭最先進的 AI app。使用 LM Studio Bionic 在本地執行大型語言模型 (LLM)，在 Draw Things 中創作驚豔奪目的影像，還能使用 exo，連接多部 AI 工作站叢集。
+LM Studio Bionic (Inkling-Small 模型) 與 MATLAB
+完全在裝置端執行尖端 AI 模型。部署 Gemma、Kimi 和 Mistral 等 LLM，使用 Stable Diffusion 與 FLUX 生成影像，還能運用模型，在本地端對端建立代理式工作流程。
+Xcode 中的 Claude Agent
+透過 DaVinci Resolve 中的 Magic Mask，幾秒內即可精確選取主體。使用 Adobe After Effects 中的 Roto Brush 工具，更快速地處理複雜場景轉描。還能在 Xcode 中善用程式碼代理與各種模型，包括本地模型，提升生產力。
+Apple Intelligence 與 Siri AI，更個人化，更強大。
+Apple Intelligence 與
+Siri AI，更個人化，更強大。
+Siri AI 於今年稍晚以英文推出
+Apple Intelligence 助你撰寫文句、表達自我，輕鬆完成各種任務。將備忘錄轉換成衝刺議程、只要描述場景就能找到舊的編輯內容，或使用「視覺智慧」取得拍攝地點的詳細資訊。Siri AI 帶來更多幫助，更勝以往。帶來更深入的回答、自然流暢的對話，以及專屬 app。
+進一步了解 Apple Intelligence 與 Siri AI
+Siri AI。
+全新版本的 Siri，由 Apple Intelligence 驅動。它是一個更個人化且能力強大的助理，更好對話，並有專屬的 Siri app。此外，幾乎任何你要輸入的地方，你都可以透過 Siri 撰寫和編輯，還能使用「視覺智慧」搭配 Siri，了解眼前的各種事物。
+只要描述，就能建立捷徑。
+透過簡單的描述，自動執行日常任務。只要描述你的需求，「捷徑」就會把多款 app 的動作串連起來，幫你搞定大小事。
+Safari。
+標籤頁可自動依主題分類，讓你更輕鬆地找到相關頁面。Safari 的「通知我」會注意網頁的變動，例如軟體發布，適時提示你採取行動。
+優異的隱私保護，
+隨優越實力而來。
+Apple Intelligence 與 Siri AI 經過精心設計，保護你的隱私，步步為營。透過強大的裝置端處理，Apple Intelligence 能知道你的個人資料，而絕不會搜集你的個資。而藉由創新突破的「私密雲端運算」，Apple Intelligence 能利用基於伺服器的更大模型，讓 Apple 或其他任何人都無法取用你的資料。
+設計
+強悍突破框架
+寬度：19.70 公分
+高度：9.50 公分
+大小正好
+Adobe Premiere
+Mac Studio 在不可思議的機身中，滿載極致效能。設計精巧，可完美放置在大多數顯示器的下方空間，讓磅礴威力與連接能力，近在你的手邊。
+作風，夠酷夠靜。
+19.70 公分見方的機身中，內建一套散熱系統，讓 Mac Studio 以快如閃電的速度處理繁重的任務。而即便施展如此磅礴的威力，它依然格外安靜，讓你批次處理影片算圖或編寫代理任務程式碼時，全程專注不受干擾。
+連接埠與連接能力
+隨時連接，
+大展長才。
+多用途的高速連接埠，任你打造夢想中的工作室。Thunderbolt 5 速度最快可達 120Gb/s，從連接高頻寬外接儲存裝置與透過 genlock 同步影片、進行低延遲叢集運算和以菊鍊式串接多部顯示器，一切都可應對。Mac Studio 也支援以外接盒進行 PCIe 擴充。現在，它也支援 Wi‑Fi 7 和藍牙 6。
+支援叢集運算，分散式 AI 推論速度提升，最快可達 3 倍。
+PCIe
+Thunderbolt 5 可連接外接盒，進行高速 PCI Express 擴充。
+正面連接埠
+2 個 USB-C 或 2 個 Thunderbolt 5
+1 個 SDXC
+背面連接埠
+4 個 Thunderbolt 5
+1 個 10Gb 乙太網路
+2 個 USB-A
+1 個 HDMI
+1 個耳機插孔
+顯示器
+絕佳配件，
+完美配對。
+DaVinci Resolve Studio、Houdini、Maxon Redshift
+加上 Studio Display，歎為觀止的色彩和細節，讓你的作品在眼前活靈活現。也可搭配 Studio Display XDR，感受登峰造極的專業精準度。兩款顯示器皆配備相機、麥克風、揚聲器及 Thunderbolt 5，無論是即時串流，還是透過更多連接埠擴充你的設置，一切隨意。不管選哪款，都奪目耀眼。
+進一步了解 Apple 顯示器
+工作空間 1
+工作空間 2
+工作空間 3
+工作室，
+從此改頭換面。
+Mac Studio 外觀身形格外精巧，並擁有豐富多樣的連接埠，讓你可以重新構思工作空間，全力施展創造力。
+x8 顯示器
+M5 Ultra 機型可連接最多達 8 部顯示器，M5 Max 機型最多達 5 部。
+配件
+你的好班底，
+全員到齊。
+巧控配件採用無線、可充電、操控精準的設計，搭配運作順暢無間。加入巧控滑鼠、巧控板或含 Touch ID 的巧控鍵盤，帶你的創意表現更上一層樓。
+Touch ID
+巧控板
+macOS
+助你飛速
+玩轉專業 App
+macOS 經過精心設計，能將 Apple 晶片令人驚歎的繪圖處理、記憶體和機器學習能力，發揮得淋漓盡致。成千上萬款已原生最佳化的 app 任你選用，包含各種支援 AI 的強大專業 app，如 Final Cut Pro、DaVinci Resolve 和 Adobe Photoshop。透過訂閱「Apple 創意坊」，就能取得你需要的各款 app，盡情揮灑創意。
+進一步了解 macOS
+Unity Editor
+升級好時機，
+就是現在。
+選擇你現有的機型：
+進一步的協助
+不確定你的是哪款機型？
+按一下螢幕左上角的 Apple 標誌，選擇「關於這台 Mac」。
+Mac Studio (M1 Max)
+Mac Studio (M1 Ultra)
+Mac Pro (M2 Ultra)
+看看配備 M5 Max 的全新 Mac Studio 有何出色特點
+最快可達
+2.5 倍速度提升
+多執行緒 CPU 效能可駕馭
+最繁重的工作流程
+最快可達
+10.7 倍速度提升
+GPU 配備神經網路加速器的
+AI 算力
+配備 120Gb/s Thunderbolt 5，I/O 頻寬提升
+最高可達 3 倍。
+最多可達 128GB 統一記憶體，記憶體頻寬提升 50%。
+看看配備 M5 Ultra 的全新 Mac Studio 有何出色特點
+最快可達
+2.4 倍速度提升
+多執行緒 CPU 效能可駕馭
+最繁重的工作流程
+最快可達
+9.8 倍速度提升
+GPU 配備神經網路加速器的
+AI 算力
+配備 120Gb/s Thunderbolt 5，I/O 頻寬提升
+最高可達 3 倍。
+最多可達 512GB 統一記憶體，記憶體頻寬提升 50%。
+看看配備 M5 Ultra 的全新 Mac Studio 有何出色特點
+最多可達 36 核心 CPU
+可駕馭最繁重的工作流程，
+Mac 歷來之最。
+最快可達
+4 倍速度提升
+GPU 配備神經網路加速器的
+AI 算力
+配備 120Gb/s Thunderbolt 5，I/O 頻寬提升
+最高可達 3 倍。
+最多可達 512GB 統一記憶體，記憶體頻寬提升 50%。
+以符合條件的裝置換購全新 Mac Studio，獲享折抵優惠。
+查看你裝置的折抵換購價值
+使用 AR 看 Mac Studio 搭配你的工作室
+在 iPhone 或 iPad 上，以 Safari 開啟這個頁面。
+使用 AR 看看 Mac Studio
+使用 AR 看看完整的 Studio 配置
+哪一款桌上型電腦適合你？
+比較所有 Mac 機型
+全新 Mac mini
+最迷你、最超值的 Mac 桌上型電腦，實力超強大。
+Apple M6 晶片或
+Apple M5 Pro 晶片
+Apple Intelligence 與 Siri AI
+12 至 18 核心 CPU
+12 至 20 核心 GPU
+16GB 至 64GB 統一記憶體
+256GB 至 8TB 儲存空間
+預訂
+進一步了解
+全新 Mac Studio
+強大的效能和連接能力，
+為專業人士打造。
+Apple M5 Max 晶片或
+Apple M5 Ultra 晶片
+Apple Intelligence 與 Siri AI
+18 至 36 核心 CPU
+32 至 80 核心 GPU
+36GB 至 512GB 統一記憶體
+512GB 至 16TB 儲存空間
+預訂
+配件
+探索 Mac
+眾多配件
+選購
+設計，以地球為念。
+磁石與主機板焊料均採用 100% 再生物料，採取負責任採購的包裝方式，並選擇更低碳的供應鏈。Mac Studio 精心設計，以減少對環境的衝擊。
+進一步了解 Apple 與環境
+Apple Trade In 換購方案
+換購全新 Mac Studio，
+獲享折抵優惠。
+以你符合條件的電腦換購，獲享折抵優惠。你也可選擇免費回收處理。你受益，地球也受益。
+查看你裝置的折抵換購價值
+Apple at Work
+蓄勢待發，引領你的業務更上層樓。
+進一步了解 Apple at Work
+進一步了解 Mac 商務應用
+Apple 與教育
+為教育工作者與學生添助力，推動世界向前邁進。
+進一步了解 Apple 與教育
+Mac Studio 與環境
+進一步了解，請查看我們的《產品環境報告》(PDF)
+製造採用的再生物料重量佔比達 35%
+再生物料
+我們的做法
+使用再生物料，例如機身採用 100% 再生鋁金屬，降低開採新物料的需求，以避免採礦產生碳排放並對環境造成衝擊。
+進一步了解，請查看我們的《產品環境報告》(PDF)
+你可以出力幫忙
+你可以透過換購、轉讓或回收你不再使用的裝置與配件，守護地球的珍貴資源。將這類裝置與配件帶到任何一家 Apple 直營店，即可為你免費、安全地回收，我們也提供其他回收方式，包括郵寄選項。
+了解如何換購或回收裝置
+製造過程中使用 40% 的再生電力
+再生電力
+我們的做法
+在我們全球供應鏈中，廣泛採用風力、太陽能等再生能源，而非化石燃料，因而大幅減少 Apple 產品製程中所產生的碳排放。
+進一步了解，請查看我們的《產品環境報告》(PDF)
+你可以出力幫忙
+為了節約能源，Mac 桌上型電腦會在顯示器關閉時自動進入睡眠狀態。你可以在 Mac 開機並使用時，啟用「低耗電模式」來降低能源消耗。前往「系統設定」>「能源」，即可開啟這項功能。
+進一步了解低耗電模式
+以 100% 纖維材質的包裝來運送產品
+包裝與運送
+我們的做法
+我們致力淘汰所有 Apple 產品包裝中的塑膠，為了實現這項承諾，Mac Studio 的包裝盒採用 100% 纖維材質。
+進一步了解，請查看我們的《產品環境報告》(PDF)
+你可以出力幫忙
+Apple 新產品皆採用 100% 纖維材質的紙質包裝，在多數地區，你都可以將整個包裝盒丟進家用資源回收桶。你也可以將 Apple 的包裝帶到任何一家 Apple 直營店，我們會免費協助回收。
+進一步了解回收
+我們的價值觀，
+引領我們的方向。
+我們的計畫一如我們的產品，充滿開創性。
+我們致力在 2030 年實現整體碳足跡淨零排放的目標。
+進一步了解環境
+保護你的隱私，這就是 Apple。
+隱私權是基本人權。我們各項產品與服務的設計宗旨，就為確保你的資料安全無虞。
+進一步了解隱私權
+創新，為輔助使用而設計。
+我們各項產品與服務的設計，讓人人都好用。內建眾多功能，協助你用你的方式，投入你所熱愛的事。
+進一步了解輔助使用功能

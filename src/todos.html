@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Rust to-do list</title>
+  <style>
+    body { font: 18px/1.6 system-ui, sans-serif; background: #f6f3ee; color: #26352d; margin: 0; }
+    main { max-width: 620px; margin: 8vh auto; padding: 28px; }
+    h1 { line-height: 1.2; }
+    label { display: block; font-weight: 600; }
+    .add { display: flex; gap: 10px; margin: 8px 0 28px; }
+    input { min-width: 0; flex: 1; }
+    input, button { font: inherit; padding: 10px 14px; border: 1px solid #7b887f; border-radius: 6px; }
+    button { background: #23583f; color: white; cursor: pointer; }
+    :focus-visible { outline: 3px solid #b75b26; outline-offset: 3px; }
+    ul { padding: 0; list-style: none; }
+    li { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 16px 0; border-bottom: 1px solid #ccd2cc; }
+    li span { overflow-wrap: anywhere; min-width: 0; }
+    .done { text-decoration: line-through; color: #59655e; }
+    footer { margin-top: 32px; font-size: 14px; color: #59655e; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>My Rust to-do list</h1>
+    <p>One small task at a time.</p>
+    <form method="post" action="/todos">
+      <label for="title">What would you like to do?</label>
+      <div class="add">
+        <input id="title" name="title" required maxlength="120" placeholder="Learn a little Rust">
+        <button>Add task</button>
+      </div>
+    </form>
+    <ul><!-- ITEMS --></ul>
+    <footer>Tasks are shared across browser tabs and reset when the server restarts.</footer>
+  </main>
+</body>
+</html>

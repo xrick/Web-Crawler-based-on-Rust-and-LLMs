@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-09-11T06:12:03.949629Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 635,
+  "eval_duration": 27458260000,
+  "load_duration": 7236297792,
+  "message": {
+    "content": "{\n  \"annotations\": [\n    {\n      \"block_id\": 0,\n      \"conditions\": null,\n      \"label\": \"顏色\",\n      \"model\": \"iPhone 17\"\n    },\n    {\n      \"block_id\": 1,\n      \"conditions\": null,\n      \"label\": \"容量\",\n      \"model\": \"iPhone 17\"\n    },\n    {\n      \"block_id\": 2,\n      \"conditions\": null,\n      \"label\": \"尺寸與重量\",\n      \"model\": \"iPhone 17\"\n    },\n    {\n      \"block_id\": 3,\n      \"conditions\": null,\n      \"label\": \"顯示器\",\n      \"model\": \"iPhone 17\"\n    },\n    {\n      \"block_id\": 4,\n      \"conditions\": \"最長可達 30 分鐘\",\n      \"label\": \"防潑、抗水與防塵\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 5,\n      \"conditions\": null,\n      \"label\": \"Apple Intelligence 與 Siri AI\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 6,\n      \"conditions\": null,\n      \"label\": \"晶片\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 7,\n      \"conditions\": \"最高可達 10 倍數位變焦\",\n      \"label\": \"相機\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 8,\n      \"conditions\": \"最高可達 6 倍數位變焦\",\n      \"label\": \"錄影\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 9,\n      \"conditions\": \"最高可達 6 倍數位變焦\",\n      \"label\": \"前置相機\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 10,\n      \"conditions\": \"最長可達 30 小時\",\n      \"label\": \"電源與電池\",\n      \"model\": \"iPhone 17\"\n    },\n    {\n      \"block_id\": 11,\n      \"conditions\": null,\n      \"label\": \"Face ID\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 12,\n      \"conditions\": null,\n      \"label\": \"安全功能\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 13,\n      \"conditions\": null,\n      \"label\": \"行動網路與無線技術\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 14,\n      \"conditions\": null,\n      \"label\": \"定位功能\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 15,\n      \"conditions\": null,\n      \"label\": \"外部按鈕與連接器\",\n      \"model\": \"iPhone 17\"\n    }\n  ]\n}",
+    "role": "assistant"
+  },
+  "model": "qwen2.5-coder:14b",
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_count": 2917,
+  "prompt_eval_duration": 15987393000,
+  "total_duration": 50722144708
+}

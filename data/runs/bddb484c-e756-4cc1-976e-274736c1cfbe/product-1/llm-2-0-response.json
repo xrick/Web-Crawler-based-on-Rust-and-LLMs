@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-09-09T03:50:15.923945Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 430,
+  "eval_duration": 19690801000,
+  "load_duration": 2012750,
+  "message": {
+    "content": "{\n  \"annotations\": [\n    {\n      \"block_id\": 32,\n      \"conditions\": \"使用者可自行設定最大音量限制\",\n      \"label\": \"音訊播放\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 33,\n      \"conditions\": \"最高可達 4K HDR\",\n      \"label\": \"影片播放\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 34,\n      \"conditions\": null,\n      \"label\": \"Siri\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 35,\n      \"conditions\": null,\n      \"label\": \"作業系統\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 36,\n      \"conditions\": null,\n      \"label\": \"隱私權\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 37,\n      \"conditions\": null,\n      \"label\": \"輔助使用\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 38,\n      \"conditions\": null,\n      \"label\": \"內建 App\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 39,\n      \"conditions\": null,\n      \"label\": \"助聽輔具等級\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 40,\n      \"conditions\": null,\n      \"label\": \"系統需求\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 41,\n      \"conditions\": null,\n      \"label\": \"環境需求\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 42,\n      \"conditions\": null,\n      \"label\": \"語言版本\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 43,\n      \"conditions\": null,\n      \"label\": \"包裝盒內容\",\n      \"model\": null\n    }\n  ]\n}",
+    "role": "assistant"
+  },
+  "model": "qwen2.5-coder:14b",
+  "prompt_eval_cached_count": 181,
+  "prompt_eval_count": 1549,
+  "prompt_eval_duration": 7899965000,
+  "total_duration": 27679948000
+}

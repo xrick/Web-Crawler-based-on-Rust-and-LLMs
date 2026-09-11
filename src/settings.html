@@ -1,0 +1,9 @@
+<p>選擇產品範圍與本機模型。設定會儲存至 SQLite，下一次工作使用新的設定。</p>
+<form id="settings-form" class="panel"><div class="panel-heading"><h2>爬蟲設定</h2><span class="badge">Apple 台灣</span></div><div class="form-body">
+<fieldset><legend>產品類別</legend><div class="choices">
+<label><input type="checkbox" name="category" value="iphone"> iPhone</label><label><input type="checkbox" name="category" value="mac"> Mac</label><label><input type="checkbox" name="category" value="ipad"> iPad</label><label><input type="checkbox" name="category" value="watch"> Apple Watch</label><label><input type="checkbox" name="category" value="airpods"> AirPods</label></div></fieldset>
+<label class="field" for="model">Ollama 已安裝模型<select id="model" required><option value="">載入中…</option></select></label>
+<label class="field" for="max-pages">每次 HTML 頁數上限<input type="number" id="max-pages" min="5" max="300" value="100" required></label>
+<p class="note">包含分類入口、產品頁、規格頁與售價頁。頁數不足時會列出未完成項目。Ollama 使用本機服務；抓取間隔至少一秒。</p>
+<button class="button" id="save" type="submit" disabled>儲存設定</button><p id="message" class="message" role="status" aria-live="polite"></p>
+</div></form>

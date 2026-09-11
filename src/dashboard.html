@@ -1,0 +1,9 @@
+<p>從 Apple 台灣官網擷取規格與起售價，以本機 LLM 整理並保留原文依據。</p>
+<div class="actions"><button id="start" class="button">開始爬取</button><button id="cancel" class="button secondary" disabled>取消工作</button><a href="/settings">爬蟲設定</a></div>
+<p id="message" class="message" role="status" aria-live="polite"></p>
+<section class="panel" aria-labelledby="job-heading"><div class="panel-heading"><h2 id="job-heading">目前工作</h2><span id="status" class="badge">尚無工作</span></div>
+<div class="stats"><div><strong id="discovered">—</strong><span>發現產品</span></div><div><strong id="processed">—</strong><span>已處理產品</span></div><div><strong id="succeeded">—</strong><span>已保存產品</span></div><div><strong id="failed">—</strong><span>失敗產品</span></div></div>
+<div class="form-body"><div id="phase">按「開始爬取」建立工作。</div><p id="current-url" class="url"></p><p id="coverage" class="note"></p><a id="download" hidden>下載工作 JSON</a></div></section>
+<section class="panel"><div class="panel-heading"><h2>產品規格與售價</h2><span class="badge">數值保留來源原文</span></div><div id="products" class="form-body">尚無資料。</div></section>
+<section class="panel"><div class="panel-heading"><h2>缺漏與錯誤</h2></div><div id="issues" class="form-body">尚無記錄。</div></section>
+<section class="panel"><div class="panel-heading"><h2>工作歷史</h2></div><div class="table-wrap"><table><thead><tr><th>開始時間</th><th>狀態</th><th>產品</th><th>查看</th></tr></thead><tbody id="history"></tbody></table></div></section>

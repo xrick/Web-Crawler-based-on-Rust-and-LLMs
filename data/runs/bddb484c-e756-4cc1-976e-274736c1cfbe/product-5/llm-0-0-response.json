@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-09-09T03:55:18.207099Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 584,
+  "eval_duration": 36189818000,
+  "load_duration": 3607250,
+  "message": {
+    "content": "{\n  \"annotations\": [\n    {\n      \"block_id\": 0,\n      \"conditions\": null,\n      \"label\": \"材質與外觀\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 1,\n      \"conditions\": null,\n      \"label\": \"尺寸與重量\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 2,\n      \"conditions\": null,\n      \"label\": \"尺寸與重量\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 3,\n      \"conditions\": null,\n      \"label\": \"硬體與按鈕\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 4,\n      \"conditions\": null,\n      \"label\": \"操控\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 5,\n      \"conditions\": null,\n      \"label\": \"晶片\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 6,\n      \"conditions\": null,\n      \"label\": \"感測器\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 7,\n      \"conditions\": null,\n      \"label\": \"健康與保健\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 8,\n      \"conditions\": \"最高可達 1000 尼特峰值亮度\",\n      \"label\": \"顯示器\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 9,\n      \"conditions\": null,\n      \"label\": \"音訊\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 10,\n      \"conditions\": \"最長可達 18 小時\",\n      \"label\": \"電源與電池使用時間\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 11,\n      \"conditions\": null,\n      \"label\": \"作業系統\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 12,\n      \"conditions\": null,\n      \"label\": \"體能訓練與活動記錄\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 13,\n      \"conditions\": null,\n      \"label\": \"體能訓練與活動記錄\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 14,\n      \"conditions\": null,\n      \"label\": \"體能訓練與活動記錄\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 15,\n      \"conditions\": null,\n      \"label\": \"體能訓練與活動記錄\",\n      \"model\": null\n    }\n  ]\n}",
+    "role": "assistant"
+  },
+  "model": "qwen2.5-coder:14b",
+  "prompt_eval_cached_count": 190,
+  "prompt_eval_count": 1467,
+  "prompt_eval_duration": 8874412000,
+  "total_duration": 45167938000
+}

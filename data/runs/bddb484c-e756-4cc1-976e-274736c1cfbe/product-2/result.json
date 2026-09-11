@@ -1,0 +1,434 @@
+{
+  "category": "mac",
+  "name": "iMac",
+  "product_url": "https://www.apple.com/tw/imac/",
+  "specs_url": "https://www.apple.com/tw/imac/specs/",
+  "fetched_at": "2026-09-09T03:50:22.215607+00:00",
+  "model": "qwen2.5-coder:14b",
+  "variants": [],
+  "starting_price": {
+    "amount": 49900.0,
+    "currency": "TWD",
+    "source_url": "https://www.apple.com/tw/shop/goto/buy_mac/imac",
+    "source_name": "iMac",
+    "evidence": "{\"@type\":\"AggregateOffer\",\"hasMerchantReturnPolicy\":{\"@type\":\"MerchantReturnPolicy\",\"applicableCountry\":\"TW\",\"merchantReturnDays\":14,\"returnFees\":\"https://schema.org/FreeReturn\",\"returnMethod\":\"https://schema.org/ReturnByMail\",\"returnPolicyCategory\":\"https://schema.org/MerchantReturnFiniteReturnWindow\"},\"highPrice\":126280.0,\"lowPrice\":49900.0,\"priceCurrency\":\"TWD\",\"shippingDetails\":{\"@type\":\"OfferShippingDetails\",\"shippingRate\":{\"@type\":\"MonetaryAmount\",\"currency\":\"TWD\",\"value\":0}}}",
+    "scope": "官網此商品頁起售價；不代表每個選配型號的售價"
+  },
+  "specs": [
+    {
+      "block_id": 0,
+      "section": "概覽",
+      "label": "規格",
+      "value": "概覽\n24 吋\n4.5K Retina 顯示器\n實際螢幕對角線長度為 23.5 吋\nApple M4 晶片\n最多可達 10 核心 CPU 與\n最多可達 10 核心 GPU\nApple Intelligence\n最多可達32GB 統一記憶體\n1200 萬像素 Center Stage 相機\n先進的影像訊號處理器\n具備視訊運算技術\n含 Touch ID 的巧控鍵盤\n最多可達2TB 儲存空間",
+      "model": null,
+      "conditions": "最多可達 10 核心 CPU 與\n最多可達 10 核心 GPU",
+      "evidence": "概覽\n24 吋\n4.5K Retina 顯示器\n實際螢幕對角線長度為 23.5 吋\nApple M4 晶片\n最多可達 10 核心 CPU 與\n最多可達 10 核心 GPU\nApple Intelligence\n最多可達32GB 統一記憶體\n1200 萬像素 Center Stage 相機\n先進的影像訊號處理器\n具備視訊運算技術\n含 Touch ID 的巧控鍵盤\n最多可達2TB 儲存空間",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 1,
+      "section": "價格",
+      "label": "價格",
+      "value": "價格\n2 個連接埠機型的價格\n4 個連接埠機型 1 的價格\n4 個連接埠機型 2 的價格\n4 個連接埠機型 3 的價格",
+      "model": null,
+      "conditions": null,
+      "evidence": "價格\n2 個連接埠機型的價格\n4 個連接埠機型 1 的價格\n4 個連接埠機型 2 的價格\n4 個連接埠機型 3 的價格",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 2,
+      "section": "顏色",
+      "label": "顏色",
+      "value": "顏色\n藍色、\n紫色、\n粉紅色、\n橙色、\n黃色、\n綠色、\n銀色\n使用 AR 看看藍色 iMac\n使用 AR 看看紫色 iMac\n使用 AR 看看粉紅色 iMac\n使用 AR 看看橙色 iMac\n使用 AR 看看黃色 iMac\n使用 AR 看看綠色 iMac\n使用 AR 看看銀色 iMac\n顏色選擇器\n藍色\n紫色\n粉紅色\n橙色\n黃色\n綠色\n銀色",
+      "model": null,
+      "conditions": null,
+      "evidence": "顏色\n藍色、\n紫色、\n粉紅色、\n橙色、\n黃色、\n綠色、\n銀色\n使用 AR 看看藍色 iMac\n使用 AR 看看紫色 iMac\n使用 AR 看看粉紅色 iMac\n使用 AR 看看橙色 iMac\n使用 AR 看看黃色 iMac\n使用 AR 看看綠色 iMac\n使用 AR 看看銀色 iMac\n顏色選擇器\n藍色\n紫色\n粉紅色\n橙色\n黃色\n綠色\n銀色",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 3,
+      "section": "晶片",
+      "label": "晶片",
+      "value": "晶片\nApple M4 晶片\n8 核心 CPU 配備\n4 個效能核心與\n4 個節能核心\n8 核心 GPU\n硬體加速光線追蹤\n16 核心神經網路引擎\n120GB/s 記憶體頻寬\n媒體引擎\n硬體加速 H.264、HEVC、ProRes 與 ProRes RAW\n影片解碼引擎\n影片編碼引擎\nProRes 編碼與解碼引擎\nAV1 解碼\n2 個連接埠機型\nApple M4 晶片\n10 核心 CPU 配備\n4 個效能核心與\n6 個節能核心\n10 核心 GPU\n硬體加速光線追蹤\n16 核心神經網路引擎\n120GB/s 記憶體頻寬\n媒體引擎\n硬體加速 H.264、HEVC、ProRes 與 ProRes RAW\n影片解碼引擎\n影片編碼引擎\nProRes 編碼與解碼引擎\nAV1 解碼\n4 個連接埠機型 1\nApple M4 晶片\n10 核心 CPU 配備\n4 個效能核心與\n6 個節能核心\n10 核心 GPU\n硬體加速光線追蹤\n16 核心神經網路引擎\n120GB/s 記憶體頻寬\n媒體引擎\n硬體加速 H.264、HEVC、ProRes 與 ProRes RAW\n影片解碼引擎\n影片編碼引擎\nProRes 編碼與解碼引擎\nAV1 解碼\n4 個連接埠機型 2\nApple M4 晶片\n10 核心 CPU 配備\n4 個效能核心與\n6 個節能核心\n10 核心 GPU\n硬體加速光線追蹤\n16 核心神經網路引擎\n120GB/s 記憶體頻寬\n媒體引擎\n硬體加速 H.264、HEVC、ProRes 與 ProRes RAW\n影片解碼引擎\n影片編碼引擎\nProRes 編碼與解碼引擎\nAV1 解碼\n4 個連接埠機型 3",
+      "model": null,
+      "conditions": null,
+      "evidence": "晶片\nApple M4 晶片\n8 核心 CPU 配備\n4 個效能核心與\n4 個節能核心\n8 核心 GPU\n硬體加速光線追蹤\n16 核心神經網路引擎\n120GB/s 記憶體頻寬\n媒體引擎\n硬體加速 H.264、HEVC、ProRes 與 ProRes RAW\n影片解碼引擎\n影片編碼引擎\nProRes 編碼與解碼引擎\nAV1 解碼\n2 個連接埠機型\nApple M4 晶片\n10 核心 CPU 配備\n4 個效能核心與\n6 個節能核心\n10 核心 GPU\n硬體加速光線追蹤\n16 核心神經網路引擎\n120GB/s 記憶體頻寬\n媒體引擎\n硬體加速 H.264、HEVC、ProRes 與 ProRes RAW\n影片解碼引擎\n影片編碼引擎\nProRes 編碼與解碼引擎\nAV1 解碼\n4 個連接埠機型 1\nApple M4 晶片\n10 核心 CPU 配備\n4 個效能核心與\n6 個節能核心\n10 核心 GPU\n硬體加速光線追蹤\n16 核心神經網路引擎\n120GB/s 記憶體頻寬\n媒體引擎\n硬體加速 H.264、HEVC、ProRes 與 ProRes RAW\n影片解碼引擎\n影片編碼引擎\nProRes 編碼與解碼引擎\nAV1 解碼\n4 個連接埠機型 2\nApple M4 晶片\n10 核心 CPU 配備\n4 個效能核心與\n6 個節能核心\n10 核心 GPU\n硬體加速光線追蹤\n16 核心神經網路引擎\n120GB/s 記憶體頻寬\n媒體引擎\n硬體加速 H.264、HEVC、ProRes 與 ProRes RAW\n影片解碼引擎\n影片編碼引擎\nProRes 編碼與解碼引擎\nAV1 解碼\n4 個連接埠機型 3",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 4,
+      "section": "Apple Intelligence",
+      "label": "Apple Intelligence",
+      "value": "Apple Intelligence\nApple Intelligence 是個人化的智慧系統，助你撰寫文句、表達自我，輕鬆完成各種任務。具備創新突破的隱私權保護功能，確保其他人無法存取你的資料，即使 Apple 也不例外，讓你倍感安心。\n進一步了解",
+      "model": null,
+      "conditions": null,
+      "evidence": "Apple Intelligence\nApple Intelligence 是個人化的智慧系統，助你撰寫文句、表達自我，輕鬆完成各種任務。具備創新突破的隱私權保護功能，確保其他人無法存取你的資料，即使 Apple 也不例外，讓你倍感安心。\n進一步了解",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 5,
+      "section": "儲存裝置",
+      "label": "儲存裝置",
+      "value": "儲存裝置\n256GB SSD\n可選配：\n512GB 或 1TB (2 個連接埠機型)\n256GB SSD\n可選配：\n512GB、1TB 或 2TB (4 個連接埠機型 1)\n512GB SSD\n可選配：\n1TB 或 2TB (4 個連接埠機型 2)\n512GB SSD\n可選配：\n1TB 或 2TB (4 個連接埠機型 3)",
+      "model": null,
+      "conditions": null,
+      "evidence": "儲存裝置\n256GB SSD\n可選配：\n512GB 或 1TB (2 個連接埠機型)\n256GB SSD\n可選配：\n512GB、1TB 或 2TB (4 個連接埠機型 1)\n512GB SSD\n可選配：\n1TB 或 2TB (4 個連接埠機型 2)\n512GB SSD\n可選配：\n1TB 或 2TB (4 個連接埠機型 3)",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 6,
+      "section": "記憶體",
+      "label": "記憶體",
+      "value": "記憶體\n16GB\n統一記憶體\n可選配：\n24GB\n統一記憶體 (2 個連接埠機型)\n16GB\n統一記憶體\n可選配：\n24GB 或 32GB\n統一記憶體 (4 個連接埠機型 1)\n16GB\n統一記憶體\n可選配：\n24GB 或 32GB\n統一記憶體 (4 個連接埠機型 2)\n24GB\n統一記憶體\n可選配：\n32GB\n統一記憶體 (4 個連接埠機型 3)",
+      "model": null,
+      "conditions": null,
+      "evidence": "記憶體\n16GB\n統一記憶體\n可選配：\n24GB\n統一記憶體 (2 個連接埠機型)\n16GB\n統一記憶體\n可選配：\n24GB 或 32GB\n統一記憶體 (4 個連接埠機型 1)\n16GB\n統一記憶體\n可選配：\n24GB 或 32GB\n統一記憶體 (4 個連接埠機型 2)\n24GB\n統一記憶體\n可選配：\n32GB\n統一記憶體 (4 個連接埠機型 3)",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 7,
+      "section": "顯示器",
+      "label": "顯示器",
+      "value": "顯示器\n24 吋 4.5K Retina 顯示器\n4480 x 2520 解析度，每吋 218 像素，\n支援 10 億種顏色\n500 尼特亮度\n廣色域 (P3)\n原彩顯示技術\n實際螢幕對角線長度為 23.5 吋\n2 個連接埠機型\n24 吋 4.5K Retina 顯示器\n4480 x 2520 解析度，每吋 218 像素，\n支援 10 億種顏色\n500 尼特亮度\n廣色域 (P3)\n原彩顯示技術\n可選配：\n奈米紋理玻璃\n實際螢幕對角線長度為 23.5 吋\n4 個連接埠機型",
+      "model": null,
+      "conditions": "可選配：\n奈米紋理玻璃",
+      "evidence": "顯示器\n24 吋 4.5K Retina 顯示器\n4480 x 2520 解析度，每吋 218 像素，\n支援 10 億種顏色\n500 尼特亮度\n廣色域 (P3)\n原彩顯示技術\n實際螢幕對角線長度為 23.5 吋\n2 個連接埠機型\n24 吋 4.5K Retina 顯示器\n4480 x 2520 解析度，每吋 218 像素，\n支援 10 億種顏色\n500 尼特亮度\n廣色域 (P3)\n原彩顯示技術\n可選配：\n奈米紋理玻璃\n實際螢幕對角線長度為 23.5 吋\n4 個連接埠機型",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 8,
+      "section": "相機",
+      "label": "相機",
+      "value": "相機\n1200 萬像素 Center Stage 相機，支援桌上視角功能\n1080p HD 錄影\n先進的影像訊號處理器具備視訊運算技術",
+      "model": null,
+      "conditions": null,
+      "evidence": "相機\n1200 萬像素 Center Stage 相機，支援桌上視角功能\n1080p HD 錄影\n先進的影像訊號處理器具備視訊運算技術",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 9,
+      "section": "顯示器支援",
+      "label": "顯示器支援",
+      "value": "顯示器支援\n同時支援完整解析度的內建顯示器，可顯示 10 億種顏色，以及：\n一部解析度最高可達 6K (60Hz) 的外接顯示器\nThunderbolt 4 數位視訊輸出\n透過 USB-C 支援原生 DisplayPort 輸出\n2 個連接埠機型\n同時支援完整解析度的內建顯示器，可顯示 10 億種顏色，以及：\n最多達兩部解析度最高可達 6K (60Hz) 的外接顯示器，或一部解析度最高可達 8K (60Hz) 的外接顯示器\nThunderbolt 4 數位視訊輸出\n透過 USB-C 支援原生 DisplayPort 輸出\n4 個連接埠機型",
+      "model": null,
+      "conditions": "最多達兩部解析度最高可達 6K (60Hz) 的外接顯示器，或一部解析度最高可達 8K (60Hz) 的外接顯示器",
+      "evidence": "顯示器支援\n同時支援完整解析度的內建顯示器，可顯示 10 億種顏色，以及：\n一部解析度最高可達 6K (60Hz) 的外接顯示器\nThunderbolt 4 數位視訊輸出\n透過 USB-C 支援原生 DisplayPort 輸出\n2 個連接埠機型\n同時支援完整解析度的內建顯示器，可顯示 10 億種顏色，以及：\n最多達兩部解析度最高可達 6K (60Hz) 的外接顯示器，或一部解析度最高可達 8K (60Hz) 的外接顯示器\nThunderbolt 4 數位視訊輸出\n透過 USB-C 支援原生 DisplayPort 輸出\n4 個連接埠機型",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 10,
+      "section": "影片播放",
+      "label": "影片播放",
+      "value": "影片播放\n支援的格式包括 HEVC、H.264、AV1 與 ProRes\nHDR 支援杜比視界、HDR10+/HDR10 與 HLG",
+      "model": null,
+      "conditions": null,
+      "evidence": "影片播放\n支援的格式包括 HEVC、H.264、AV1 與 ProRes\nHDR 支援杜比視界、HDR10+/HDR10 與 HLG",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 11,
+      "section": "音訊播放",
+      "label": "音訊播放",
+      "value": "音訊播放\n支援的格式包括 AAC、MP3、Apple 保真壓縮、FLAC、杜比數位、杜比數位+ 與杜比全景聲",
+      "model": null,
+      "conditions": null,
+      "evidence": "音訊播放\n支援的格式包括 AAC、MP3、Apple 保真壓縮、FLAC、杜比數位、杜比數位+ 與杜比全景聲",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 12,
+      "section": "音訊",
+      "label": "音訊",
+      "value": "音訊\n高傳真六揚聲器系統，配備振動抑制低音喇叭\n寬廣的立體聲\n以杜比全景聲播放音樂或影片時支援\n空間音訊功能\n錄音室等級三麥克風陣列，具備高訊噪比及定向波束成形\n支援「嘿 Siri」",
+      "model": null,
+      "conditions": null,
+      "evidence": "音訊\n高傳真六揚聲器系統，配備振動抑制低音喇叭\n寬廣的立體聲\n以杜比全景聲播放音樂或影片時支援\n空間音訊功能\n錄音室等級三麥克風陣列，具備高訊噪比及定向波束成形\n支援「嘿 Siri」",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 13,
+      "section": "連接與擴充",
+      "label": "連接與擴充",
+      "value": "連接與擴充\n兩個 Thunderbolt / USB 4 埠，可支援：\nThunderbolt 4 (速度最快可達 40Gb/s)\nUSB 4 (速度最快可達 40Gb/s)\nUSB 3.1 Gen 2 (速度最快可達 10Gb/s)\nDisplayPort\n3.5 公釐耳機插孔，具備先進的高阻抗耳機支援功能\n可選配 Gigabit 乙太網路\n四個 Thunderbolt 4 埠，可支援：\nThunderbolt 4 (速度最快可達 40Gb/s)\nUSB 4 (速度最快可達 40Gb/s)\nUSB 3.1 Gen 2 (速度最快可達 10Gb/s)\nDisplayPort\n3.5 公釐耳機插孔，具備先進的高阻抗耳機支援功能\nGigabit 乙太網路",
+      "model": null,
+      "conditions": "可選配 Gigabit 乙太網路",
+      "evidence": "連接與擴充\n兩個 Thunderbolt / USB 4 埠，可支援：\nThunderbolt 4 (速度最快可達 40Gb/s)\nUSB 4 (速度最快可達 40Gb/s)\nUSB 3.1 Gen 2 (速度最快可達 10Gb/s)\nDisplayPort\n3.5 公釐耳機插孔，具備先進的高阻抗耳機支援功能\n可選配 Gigabit 乙太網路\n四個 Thunderbolt 4 埠，可支援：\nThunderbolt 4 (速度最快可達 40Gb/s)\nUSB 4 (速度最快可達 40Gb/s)\nUSB 3.1 Gen 2 (速度最快可達 10Gb/s)\nDisplayPort\n3.5 公釐耳機插孔，具備先進的高阻抗耳機支援功能\nGigabit 乙太網路",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 14,
+      "section": "輸入",
+      "label": "輸入",
+      "value": "輸入\n巧控鍵盤\n巧控滑鼠\n可選配：\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n含 Touch ID 的巧控鍵盤\n巧控滑鼠\n可選配：\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板",
+      "model": null,
+      "conditions": "可選配：\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板",
+      "evidence": "輸入\n巧控鍵盤\n巧控滑鼠\n可選配：\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n含 Touch ID 的巧控鍵盤\n巧控滑鼠\n可選配：\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 15,
+      "section": "無線技術",
+      "label": "無線技術",
+      "value": "無線技術\nWi-Fi\nWi-Fi 6E (802.11ax)\n藍牙\n藍牙 5.3",
+      "model": null,
+      "conditions": null,
+      "evidence": "無線技術\nWi-Fi\nWi-Fi 6E (802.11ax)\n藍牙\n藍牙 5.3",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 16,
+      "section": "尺寸與重量",
+      "label": "尺寸與重量",
+      "value": "尺寸與重量\n寬度：54.7 公分 (21.5 吋)\n高度：46.1 公分 (18.1 吋)\n立架縱深：\n立架寬度：\n14.7 公分 (5.8 吋)13 公分 (5.1 吋)\n重量：\n2 個連接埠機型\n4.42 公斤 (9.74 磅)\n重量：\n4 個連接埠機型\n4.44 公斤 (9.79 磅)",
+      "model": null,
+      "conditions": null,
+      "evidence": "尺寸與重量\n寬度：54.7 公分 (21.5 吋)\n高度：46.1 公分 (18.1 吋)\n立架縱深：\n立架寬度：\n14.7 公分 (5.8 吋)13 公分 (5.1 吋)\n重量：\n2 個連接埠機型\n4.42 公斤 (9.74 磅)\n重量：\n4 個連接埠機型\n4.44 公斤 (9.79 磅)",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 17,
+      "section": "電力與作業環境需求",
+      "label": "電力與作業環境需求",
+      "value": "電力與作業環境需求\n電壓：\n100V 至 240V AC\n頻率：\n50Hz 至 60Hz (單相)\n作業溫度：\n10° 至 35° C (50° 至 95° F)\n相對濕度：\n5% 至 90% 非冷凝狀態\n作業高度：\n目前測試最高可達 5,000 公尺 (16,400 呎)",
+      "model": null,
+      "conditions": null,
+      "evidence": "電力與作業環境需求\n電壓：\n100V 至 240V AC\n頻率：\n50Hz 至 60Hz (單相)\n作業溫度：\n10° 至 35° C (50° 至 95° F)\n相對濕度：\n5% 至 90% 非冷凝狀態\n作業高度：\n目前測試最高可達 5,000 公尺 (16,400 呎)",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 18,
+      "section": "包裝盒內容",
+      "label": "包裝盒內容",
+      "value": "包裝盒內容\niMac\n巧控鍵盤\n巧控滑鼠\n143W 電源轉接器\n電源線 (2 公尺)\nUSB-C 連接線\niMac\n含 Touch ID 的巧控鍵盤\n巧控滑鼠\n143W 電源轉接器\n電源線 (2 公尺)\nUSB-C 連接線\n擦拭布 (僅隨附於選配奈米紋理玻璃的機型)\niMac 搭配巧控滑鼠與含 Touch ID 的巧控鍵盤一同展示",
+      "model": null,
+      "conditions": null,
+      "evidence": "包裝盒內容\niMac\n巧控鍵盤\n巧控滑鼠\n143W 電源轉接器\n電源線 (2 公尺)\nUSB-C 連接線\niMac\n含 Touch ID 的巧控鍵盤\n巧控滑鼠\n143W 電源轉接器\n電源線 (2 公尺)\nUSB-C 連接線\n擦拭布 (僅隨附於選配奈米紋理玻璃的機型)\niMac 搭配巧控滑鼠與含 Touch ID 的巧控鍵盤一同展示",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 19,
+      "section": "作業系統",
+      "label": "作業系統",
+      "value": "作業系統\nmacOS\nmacOS 是全世界最先進的桌上型電腦作業系統。透過 Apple Intelligence、「iPhone 鏡像輸出」、視窗並排，以及 Safari 多項重要更新等，助你發揮生產力和創造力。",
+      "model": null,
+      "conditions": null,
+      "evidence": "作業系統\nmacOS\nmacOS 是全世界最先進的桌上型電腦作業系統。透過 Apple Intelligence、「iPhone 鏡像輸出」、視窗並排，以及 Safari 多項重要更新等，助你發揮生產力和創造力。",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 20,
+      "section": "輔助功能",
+      "label": "輔助功能",
+      "value": "輔助功能\n眾多輔助使用功能可幫助身心障礙人士，盡情發揮全新 iMac 的精彩。有了針對視覺、聽覺、活動能力和學習輔助而設的內建支援，讓你創造精彩，事事辦妥。\n進一步了解\n各項功能包括：\n語音控制\n旁白\n縮放\n增加對比\n減少動態效果\nSiri 和聽寫\n切換控制\n隱藏式字幕",
+      "model": null,
+      "conditions": null,
+      "evidence": "輔助功能\n眾多輔助使用功能可幫助身心障礙人士，盡情發揮全新 iMac 的精彩。有了針對視覺、聽覺、活動能力和學習輔助而設的內建支援，讓你創造精彩，事事辦妥。\n進一步了解\n各項功能包括：\n語音控制\n旁白\n縮放\n增加對比\n減少動態效果\nSiri 和聽寫\n切換控制\n隱藏式字幕",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 21,
+      "section": "內建 App",
+      "label": "內建 App",
+      "value": "內建 App\nApp Store\n書籍\n行事曆\n聯絡人\nFaceTime\n尋找\n無邊記\nGarageBand\n家庭\niMovie\niPhone 鏡像輸出\nKeynote\n郵件\n地圖\n訊息\n音樂\n備忘錄\nNumbers\nPages\n密碼\nPhoto Booth\n照片\nPodcast\n預覽程式\nQuickTime Player\n提醒事項\nSafari\n捷徑\n股市\n時光機\n提示\nTV\n語音備忘錄\n天氣",
+      "model": null,
+      "conditions": null,
+      "evidence": "內建 App\nApp Store\n書籍\n行事曆\n聯絡人\nFaceTime\n尋找\n無邊記\nGarageBand\n家庭\niMovie\niPhone 鏡像輸出\nKeynote\n郵件\n地圖\n訊息\n音樂\n備忘錄\nNumbers\nPages\n密碼\nPhoto Booth\n照片\nPodcast\n預覽程式\nQuickTime Player\n提醒事項\nSafari\n捷徑\n股市\n時光機\n提示\nTV\n語音備忘錄\n天氣",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 22,
+      "section": "配置訂購",
+      "label": "配置訂購",
+      "value": "配置訂購\n在 apple.com 以這些選項配置你的 iMac：\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n24GB\n統一記憶體\n512GB 或 1TB SSD\nGigabit 乙太網路\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n24GB 或 32GB\n統一記憶體\n512GB、1TB 或 2TB SSD\n奈米紋理玻璃\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n24GB 或 32GB\n統一記憶體\n1TB 或 2TB SSD\n奈米紋理玻璃\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n32GB\n統一記憶體\n1TB 或 2TB SSD\n奈米紋理玻璃\n尋找可固定在牆上或可調式懸臂上的 iMac？\n選擇配備 VESA 吊架連接器的 iMac",
+      "model": null,
+      "conditions": null,
+      "evidence": "配置訂購\n在 apple.com 以這些選項配置你的 iMac：\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n24GB\n統一記憶體\n512GB 或 1TB SSD\nGigabit 乙太網路\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n24GB 或 32GB\n統一記憶體\n512GB、1TB 或 2TB SSD\n奈米紋理玻璃\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n24GB 或 32GB\n統一記憶體\n1TB 或 2TB SSD\n奈米紋理玻璃\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n32GB\n統一記憶體\n1TB 或 2TB SSD\n奈米紋理玻璃\n尋找可固定在牆上或可調式懸臂上的 iMac？\n選擇配備 VESA 吊架連接器的 iMac",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 23,
+      "section": "iMac 與環境",
+      "label": "iMac 與環境",
+      "value": "iMac 與環境\n環境影響\niMac 經過精心設計，能減少對環境的影響：\n查看《iMac 產品環境報告》 (PDF)\n邁向 Apple 2030 目標\n採用超過 15% 的再生成分\n製造過程中使用的電力有超過 20% 來自低碳電力\n碳排放在 Apple 設定的照常營運情境下減少了 20%\n查看 Apple 的承諾\n物料\n立架採用 100% 再生鋁金屬\n所有磁石皆採用 100％ 再生稀土元素\n多個印刷電路板的焊料採用 100% 再生錫金屬\n多個印刷電路板採用 100% 再生銅金屬\n多個印刷電路板鍍層採用 100% 再生金\n13 項零組件採用 50% 或更高比例的再生塑膠\n能源\niMac 製造過程中使用的電力有超過 20% 來自低碳電力\nENERGY STAR® 認證\n包裝\n採用 100% 纖維包裝材質\n纖維包裝採用 76% 再生成分\n廢棄物\n作為 Apple 零廢棄物方案的一部分，既有的最終組裝廠區不會產生任何須送往掩埋場的廢棄物\n更高明的化學技術\n無砷玻璃\n無汞、溴化阻燃劑 (BFR) 與聚氯乙烯 (PVC)",
+      "model": null,
+      "conditions": null,
+      "evidence": "iMac 與環境\n環境影響\niMac 經過精心設計，能減少對環境的影響：\n查看《iMac 產品環境報告》 (PDF)\n邁向 Apple 2030 目標\n採用超過 15% 的再生成分\n製造過程中使用的電力有超過 20% 來自低碳電力\n碳排放在 Apple 設定的照常營運情境下減少了 20%\n查看 Apple 的承諾\n物料\n立架採用 100% 再生鋁金屬\n所有磁石皆採用 100％ 再生稀土元素\n多個印刷電路板的焊料採用 100% 再生錫金屬\n多個印刷電路板採用 100% 再生銅金屬\n多個印刷電路板鍍層採用 100% 再生金\n13 項零組件採用 50% 或更高比例的再生塑膠\n能源\niMac 製造過程中使用的電力有超過 20% 來自低碳電力\nENERGY STAR® 認證\n包裝\n採用 100% 纖維包裝材質\n纖維包裝採用 76% 再生成分\n廢棄物\n作為 Apple 零廢棄物方案的一部分，既有的最終組裝廠區不會產生任何須送往掩埋場的廢棄物\n更高明的化學技術\n無砷玻璃\n無汞、溴化阻燃劑 (BFR) 與聚氯乙烯 (PVC)",
+      "status": "source_matched"
+    }
+  ],
+  "blocks": [
+    {
+      "id": 0,
+      "section": "概覽",
+      "model_hint": null,
+      "context": "fallback-section",
+      "text": "概覽\n24 吋\n4.5K Retina 顯示器\n實際螢幕對角線長度為 23.5 吋\nApple M4 晶片\n最多可達 10 核心 CPU 與\n最多可達 10 核心 GPU\nApple Intelligence\n最多可達32GB 統一記憶體\n1200 萬像素 Center Stage 相機\n先進的影像訊號處理器\n具備視訊運算技術\n含 Touch ID 的巧控鍵盤\n最多可達2TB 儲存空間"
+    },
+    {
+      "id": 1,
+      "section": "價格",
+      "model_hint": null,
+      "context": "fallback-section",
+      "text": "價格\n2 個連接埠機型的價格\n4 個連接埠機型 1 的價格\n4 個連接埠機型 2 的價格\n4 個連接埠機型 3 的價格"
+    },
+    {
+      "id": 2,
+      "section": "顏色",
+      "model_hint": null,
+      "context": "fallback-section",
+      "text": "顏色\n藍色、\n紫色、\n粉紅色、\n橙色、\n黃色、\n綠色、\n銀色\n使用 AR 看看藍色 iMac\n使用 AR 看看紫色 iMac\n使用 AR 看看粉紅色 iMac\n使用 AR 看看橙色 iMac\n使用 AR 看看黃色 iMac\n使用 AR 看看綠色 iMac\n使用 AR 看看銀色 iMac\n顏色選擇器\n藍色\n紫色\n粉紅色\n橙色\n黃色\n綠色\n銀色"
+    },
+    {
+      "id": 3,
+      "section": "晶片",
+      "model_hint": null,
+      "context": "fallback-section",
+      "text": "晶片\nApple M4 晶片\n8 核心 CPU 配備\n4 個效能核心與\n4 個節能核心\n8 核心 GPU\n硬體加速光線追蹤\n16 核心神經網路引擎\n120GB/s 記憶體頻寬\n媒體引擎\n硬體加速 H.264、HEVC、ProRes 與 ProRes RAW\n影片解碼引擎\n影片編碼引擎\nProRes 編碼與解碼引擎\nAV1 解碼\n2 個連接埠機型\nApple M4 晶片\n10 核心 CPU 配備\n4 個效能核心與\n6 個節能核心\n10 核心 GPU\n硬體加速光線追蹤\n16 核心神經網路引擎\n120GB/s 記憶體頻寬\n媒體引擎\n硬體加速 H.264、HEVC、ProRes 與 ProRes RAW\n影片解碼引擎\n影片編碼引擎\nProRes 編碼與解碼引擎\nAV1 解碼\n4 個連接埠機型 1\nApple M4 晶片\n10 核心 CPU 配備\n4 個效能核心與\n6 個節能核心\n10 核心 GPU\n硬體加速光線追蹤\n16 核心神經網路引擎\n120GB/s 記憶體頻寬\n媒體引擎\n硬體加速 H.264、HEVC、ProRes 與 ProRes RAW\n影片解碼引擎\n影片編碼引擎\nProRes 編碼與解碼引擎\nAV1 解碼\n4 個連接埠機型 2\nApple M4 晶片\n10 核心 CPU 配備\n4 個效能核心與\n6 個節能核心\n10 核心 GPU\n硬體加速光線追蹤\n16 核心神經網路引擎\n120GB/s 記憶體頻寬\n媒體引擎\n硬體加速 H.264、HEVC、ProRes 與 ProRes RAW\n影片解碼引擎\n影片編碼引擎\nProRes 編碼與解碼引擎\nAV1 解碼\n4 個連接埠機型 3"
+    },
+    {
+      "id": 4,
+      "section": "Apple Intelligence",
+      "model_hint": null,
+      "context": "fallback-section",
+      "text": "Apple Intelligence\nApple Intelligence 是個人化的智慧系統，助你撰寫文句、表達自我，輕鬆完成各種任務。具備創新突破的隱私權保護功能，確保其他人無法存取你的資料，即使 Apple 也不例外，讓你倍感安心。\n進一步了解"
+    },
+    {
+      "id": 5,
+      "section": "儲存裝置",
+      "model_hint": null,
+      "context": "fallback-section",
+      "text": "儲存裝置\n256GB SSD\n可選配：\n512GB 或 1TB (2 個連接埠機型)\n256GB SSD\n可選配：\n512GB、1TB 或 2TB (4 個連接埠機型 1)\n512GB SSD\n可選配：\n1TB 或 2TB (4 個連接埠機型 2)\n512GB SSD\n可選配：\n1TB 或 2TB (4 個連接埠機型 3)"
+    },
+    {
+      "id": 6,
+      "section": "記憶體",
+      "model_hint": null,
+      "context": "fallback-section",
+      "text": "記憶體\n16GB\n統一記憶體\n可選配：\n24GB\n統一記憶體 (2 個連接埠機型)\n16GB\n統一記憶體\n可選配：\n24GB 或 32GB\n統一記憶體 (4 個連接埠機型 1)\n16GB\n統一記憶體\n可選配：\n24GB 或 32GB\n統一記憶體 (4 個連接埠機型 2)\n24GB\n統一記憶體\n可選配：\n32GB\n統一記憶體 (4 個連接埠機型 3)"
+    },
+    {
+      "id": 7,
+      "section": "顯示器",
+      "model_hint": null,
+      "context": "fallback-section",
+      "text": "顯示器\n24 吋 4.5K Retina 顯示器\n4480 x 2520 解析度，每吋 218 像素，\n支援 10 億種顏色\n500 尼特亮度\n廣色域 (P3)\n原彩顯示技術\n實際螢幕對角線長度為 23.5 吋\n2 個連接埠機型\n24 吋 4.5K Retina 顯示器\n4480 x 2520 解析度，每吋 218 像素，\n支援 10 億種顏色\n500 尼特亮度\n廣色域 (P3)\n原彩顯示技術\n可選配：\n奈米紋理玻璃\n實際螢幕對角線長度為 23.5 吋\n4 個連接埠機型"
+    },
+    {
+      "id": 8,
+      "section": "相機",
+      "model_hint": null,
+      "context": "fallback-section",
+      "text": "相機\n1200 萬像素 Center Stage 相機，支援桌上視角功能\n1080p HD 錄影\n先進的影像訊號處理器具備視訊運算技術"
+    },
+    {
+      "id": 9,
+      "section": "顯示器支援",
+      "model_hint": null,
+      "context": "fallback-section",
+      "text": "顯示器支援\n同時支援完整解析度的內建顯示器，可顯示 10 億種顏色，以及：\n一部解析度最高可達 6K (60Hz) 的外接顯示器\nThunderbolt 4 數位視訊輸出\n透過 USB-C 支援原生 DisplayPort 輸出\n2 個連接埠機型\n同時支援完整解析度的內建顯示器，可顯示 10 億種顏色，以及：\n最多達兩部解析度最高可達 6K (60Hz) 的外接顯示器，或一部解析度最高可達 8K (60Hz) 的外接顯示器\nThunderbolt 4 數位視訊輸出\n透過 USB-C 支援原生 DisplayPort 輸出\n4 個連接埠機型"
+    },
+    {
+      "id": 10,
+      "section": "影片播放",
+      "model_hint": null,
+      "context": "fallback-section",
+      "text": "影片播放\n支援的格式包括 HEVC、H.264、AV1 與 ProRes\nHDR 支援杜比視界、HDR10+/HDR10 與 HLG"
+    },
+    {
+      "id": 11,
+      "section": "音訊播放",
+      "model_hint": null,
+      "context": "fallback-section",
+      "text": "音訊播放\n支援的格式包括 AAC、MP3、Apple 保真壓縮、FLAC、杜比數位、杜比數位+ 與杜比全景聲"
+    },
+    {
+      "id": 12,
+      "section": "音訊",
+      "model_hint": null,
+      "context": "fallback-section",
+      "text": "音訊\n高傳真六揚聲器系統，配備振動抑制低音喇叭\n寬廣的立體聲\n以杜比全景聲播放音樂或影片時支援\n空間音訊功能\n錄音室等級三麥克風陣列，具備高訊噪比及定向波束成形\n支援「嘿 Siri」"
+    },
+    {
+      "id": 13,
+      "section": "連接與擴充",
+      "model_hint": null,
+      "context": "fallback-section",
+      "text": "連接與擴充\n兩個 Thunderbolt / USB 4 埠，可支援：\nThunderbolt 4 (速度最快可達 40Gb/s)\nUSB 4 (速度最快可達 40Gb/s)\nUSB 3.1 Gen 2 (速度最快可達 10Gb/s)\nDisplayPort\n3.5 公釐耳機插孔，具備先進的高阻抗耳機支援功能\n可選配 Gigabit 乙太網路\n四個 Thunderbolt 4 埠，可支援：\nThunderbolt 4 (速度最快可達 40Gb/s)\nUSB 4 (速度最快可達 40Gb/s)\nUSB 3.1 Gen 2 (速度最快可達 10Gb/s)\nDisplayPort\n3.5 公釐耳機插孔，具備先進的高阻抗耳機支援功能\nGigabit 乙太網路"
+    },
+    {
+      "id": 14,
+      "section": "輸入",
+      "model_hint": null,
+      "context": "fallback-section",
+      "text": "輸入\n巧控鍵盤\n巧控滑鼠\n可選配：\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n含 Touch ID 的巧控鍵盤\n巧控滑鼠\n可選配：\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板"
+    },
+    {
+      "id": 15,
+      "section": "無線技術",
+      "model_hint": null,
+      "context": "fallback-section",
+      "text": "無線技術\nWi-Fi\nWi-Fi 6E (802.11ax)\n藍牙\n藍牙 5.3"
+    },
+    {
+      "id": 16,
+      "section": "尺寸與重量",
+      "model_hint": null,
+      "context": "fallback-section",
+      "text": "尺寸與重量\n寬度：54.7 公分 (21.5 吋)\n高度：46.1 公分 (18.1 吋)\n立架縱深：\n立架寬度：\n14.7 公分 (5.8 吋)13 公分 (5.1 吋)\n重量：\n2 個連接埠機型\n4.42 公斤 (9.74 磅)\n重量：\n4 個連接埠機型\n4.44 公斤 (9.79 磅)"
+    },
+    {
+      "id": 17,
+      "section": "電力與作業環境需求",
+      "model_hint": null,
+      "context": "fallback-section",
+      "text": "電力與作業環境需求\n電壓：\n100V 至 240V AC\n頻率：\n50Hz 至 60Hz (單相)\n作業溫度：\n10° 至 35° C (50° 至 95° F)\n相對濕度：\n5% 至 90% 非冷凝狀態\n作業高度：\n目前測試最高可達 5,000 公尺 (16,400 呎)"
+    },
+    {
+      "id": 18,
+      "section": "包裝盒內容",
+      "model_hint": null,
+      "context": "fallback-section",
+      "text": "包裝盒內容\niMac\n巧控鍵盤\n巧控滑鼠\n143W 電源轉接器\n電源線 (2 公尺)\nUSB-C 連接線\niMac\n含 Touch ID 的巧控鍵盤\n巧控滑鼠\n143W 電源轉接器\n電源線 (2 公尺)\nUSB-C 連接線\n擦拭布 (僅隨附於選配奈米紋理玻璃的機型)\niMac 搭配巧控滑鼠與含 Touch ID 的巧控鍵盤一同展示"
+    },
+    {
+      "id": 19,
+      "section": "作業系統",
+      "model_hint": null,
+      "context": "fallback-section",
+      "text": "作業系統\nmacOS\nmacOS 是全世界最先進的桌上型電腦作業系統。透過 Apple Intelligence、「iPhone 鏡像輸出」、視窗並排，以及 Safari 多項重要更新等，助你發揮生產力和創造力。"
+    },
+    {
+      "id": 20,
+      "section": "輔助功能",
+      "model_hint": null,
+      "context": "fallback-section",
+      "text": "輔助功能\n眾多輔助使用功能可幫助身心障礙人士，盡情發揮全新 iMac 的精彩。有了針對視覺、聽覺、活動能力和學習輔助而設的內建支援，讓你創造精彩，事事辦妥。\n進一步了解\n各項功能包括：\n語音控制\n旁白\n縮放\n增加對比\n減少動態效果\nSiri 和聽寫\n切換控制\n隱藏式字幕"
+    },
+    {
+      "id": 21,
+      "section": "內建 App",
+      "model_hint": null,
+      "context": "fallback-section",
+      "text": "內建 App\nApp Store\n書籍\n行事曆\n聯絡人\nFaceTime\n尋找\n無邊記\nGarageBand\n家庭\niMovie\niPhone 鏡像輸出\nKeynote\n郵件\n地圖\n訊息\n音樂\n備忘錄\nNumbers\nPages\n密碼\nPhoto Booth\n照片\nPodcast\n預覽程式\nQuickTime Player\n提醒事項\nSafari\n捷徑\n股市\n時光機\n提示\nTV\n語音備忘錄\n天氣"
+    },
+    {
+      "id": 22,
+      "section": "配置訂購",
+      "model_hint": null,
+      "context": "fallback-section",
+      "text": "配置訂購\n在 apple.com 以這些選項配置你的 iMac：\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n24GB\n統一記憶體\n512GB 或 1TB SSD\nGigabit 乙太網路\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n24GB 或 32GB\n統一記憶體\n512GB、1TB 或 2TB SSD\n奈米紋理玻璃\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n24GB 或 32GB\n統一記憶體\n1TB 或 2TB SSD\n奈米紋理玻璃\n含 Touch ID 和數字鍵盤的巧控鍵盤\n巧控板\n32GB\n統一記憶體\n1TB 或 2TB SSD\n奈米紋理玻璃\n尋找可固定在牆上或可調式懸臂上的 iMac？\n選擇配備 VESA 吊架連接器的 iMac"
+    },
+    {
+      "id": 23,
+      "section": "iMac 與環境",
+      "model_hint": null,
+      "context": "fallback-section",
+      "text": "iMac 與環境\n環境影響\niMac 經過精心設計，能減少對環境的影響：\n查看《iMac 產品環境報告》 (PDF)\n邁向 Apple 2030 目標\n採用超過 15% 的再生成分\n製造過程中使用的電力有超過 20% 來自低碳電力\n碳排放在 Apple 設定的照常營運情境下減少了 20%\n查看 Apple 的承諾\n物料\n立架採用 100% 再生鋁金屬\n所有磁石皆採用 100％ 再生稀土元素\n多個印刷電路板的焊料採用 100% 再生錫金屬\n多個印刷電路板採用 100% 再生銅金屬\n多個印刷電路板鍍層採用 100% 再生金\n13 項零組件採用 50% 或更高比例的再生塑膠\n能源\niMac 製造過程中使用的電力有超過 20% 來自低碳電力\nENERGY STAR® 認證\n包裝\n採用 100% 纖維包裝材質\n纖維包裝採用 76% 再生成分\n廢棄物\n作為 Apple 零廢棄物方案的一部分，既有的最終組裝廠區不會產生任何須送往掩埋場的廢棄物\n更高明的化學技術\n無砷玻璃\n無汞、溴化阻燃劑 (BFR) 與聚氯乙烯 (PVC)"
+    }
+  ],
+  "llm_calls": 2,
+  "llm_ms": 74447,
+  "warnings": [
+    "部分區塊未能唯一對應型號，保留於未分配規格；未複製到各型號"
+  ]
+}

@@ -1,0 +1,1127 @@
+{
+  "category": "iphone",
+  "name": "iPhone 17",
+  "product_url": "https://www.apple.com/tw/iphone-17/",
+  "specs_url": "https://www.apple.com/tw/iphone-17/specs/",
+  "fetched_at": "2026-09-11T06:11:13.225688+00:00",
+  "model": "qwen2.5-coder:14b",
+  "variants": [
+    "iPhone 17"
+  ],
+  "starting_price": null,
+  "specs": [
+    {
+      "block_id": 0,
+      "section": "外觀",
+      "label": "顏色",
+      "value": "黑色、白色、霧藍色、鼠尾草綠色、薰衣草紫色\n鋁金屬設計\n超瓷晶盾 2 面板\n注色玻璃背板 (黑色、霧藍色、鼠尾草綠色、薰衣草紫色)",
+      "model": "iPhone 17",
+      "conditions": null,
+      "evidence": "黑色、白色、霧藍色、鼠尾草綠色、薰衣草紫色\n鋁金屬設計\n超瓷晶盾 2 面板\n注色玻璃背板 (黑色、霧藍色、鼠尾草綠色、薰衣草紫色)",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 1,
+      "section": "容量",
+      "label": "容量",
+      "value": "256GB\n512GB",
+      "model": "iPhone 17",
+      "conditions": null,
+      "evidence": "256GB\n512GB",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 2,
+      "section": "尺寸與重量",
+      "label": "尺寸與重量",
+      "value": "寬度：\n71.5 公釐\n(2.81 吋)\n高度：\n149.6 公釐\n(5.89 吋)\n厚度：\n7.95 公釐\n(0.31 吋)\n重量：\n177 公克 (6.24 盎司)",
+      "model": "iPhone 17",
+      "conditions": null,
+      "evidence": "寬度：\n71.5 公釐\n(2.81 吋)\n高度：\n149.6 公釐\n(5.89 吋)\n厚度：\n7.95 公釐\n(0.31 吋)\n重量：\n177 公克 (6.24 盎司)",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 3,
+      "section": "顯示器",
+      "label": "顯示器",
+      "value": "超 Retina XDR 顯示器\n6.3 吋 (對角線) 全螢幕 OLED 顯示器\n2622 x 1206 像素，460 ppi 解析度\n動態島\n永遠顯示\nProMotion 技術，支援最高達 120Hz 自動適應更新頻率\nHDR 顯示\n原彩顯示\n廣色域 (P3)\n觸覺回饋觸控\n2,000,000:1 對比度 (標準)\n1000 尼特最大亮度 (標準)；1600 尼特峰值亮度 (HDR)；3000 尼特峰值亮度 (室外)；1 尼特最低亮度\n防指印疏油外膜\n抗反射鍍膜\n支援同時顯示多種語言文字\niPhone 17 顯示器的圓角具有優美的曲線設計，並呈現在一個標準矩形之內。以標準矩形量測時，螢幕的對角線長度為 6.27 吋 (實際可視區較小)。",
+      "model": "iPhone 17",
+      "conditions": null,
+      "evidence": "超 Retina XDR 顯示器\n6.3 吋 (對角線) 全螢幕 OLED 顯示器\n2622 x 1206 像素，460 ppi 解析度\n動態島\n永遠顯示\nProMotion 技術，支援最高達 120Hz 自動適應更新頻率\nHDR 顯示\n原彩顯示\n廣色域 (P3)\n觸覺回饋觸控\n2,000,000:1 對比度 (標準)\n1000 尼特最大亮度 (標準)；1600 尼特峰值亮度 (HDR)；3000 尼特峰值亮度 (室外)；1 尼特最低亮度\n防指印疏油外膜\n抗反射鍍膜\n支援同時顯示多種語言文字\niPhone 17 顯示器的圓角具有優美的曲線設計，並呈現在一個標準矩形之內。以標準矩形量測時，螢幕的對角線長度為 6.27 吋 (實際可視區較小)。",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 4,
+      "section": "防潑、抗水與防塵",
+      "label": "防潑、抗水與防塵",
+      "value": "達到 IEC 60529 標準的 IP68 等級 (在最深達 6 公尺水中最長可達 30 分鐘)",
+      "model": null,
+      "conditions": "最長可達 30 分鐘",
+      "evidence": "達到 IEC 60529 標準的 IP68 等級 (在最深達 6 公尺水中最長可達 30 分鐘)",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 5,
+      "section": "Apple Intelligence 與 Siri AI",
+      "label": "Apple Intelligence 與 Siri AI",
+      "value": "新一代 Apple Intelligence 以你的需求為中心，整合至各款 app 內，並為隱私權保護而打造。Apple Intelligence 驅動 Siri AI，全新版本的 Siri 變得更個人化、更好對話、更強大，還有各種實用功能可在各款 app 中使用。\n進一步了解",
+      "model": null,
+      "conditions": null,
+      "evidence": "新一代 Apple Intelligence 以你的需求為中心，整合至各款 app 內，並為隱私權保護而打造。Apple Intelligence 驅動 Siri AI，全新版本的 Siri 變得更個人化、更好對話、更強大，還有各種實用功能可在各款 app 中使用。\n進一步了解",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 6,
+      "section": "晶片",
+      "label": "晶片",
+      "value": "A19 晶片\n6 核心 CPU 配備 2 個效能核心與 4 個節能核心\n5 核心 GPU 配備神經網路加速器\n16 核心神經網路引擎\n硬體加速光線追蹤",
+      "model": null,
+      "conditions": null,
+      "evidence": "A19 晶片\n6 核心 CPU 配備 2 個效能核心與 4 個節能核心\n5 核心 GPU 配備神經網路加速器\n16 核心神經網路引擎\n硬體加速光線追蹤",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 7,
+      "section": "相機",
+      "label": "相機",
+      "value": "4800 萬像素雙融合相機系統\n4800 萬像素融合主相機：26 公釐、ƒ/1.6 光圈、感光元件位移式光學影像穩定功能、100% Focus Pixels，支援超高解析度照片 (2400 萬像素與 4800 萬像素)\n同時支援 1200 萬像素光學品質 2 倍望遠：52 公釐、ƒ/1.6 光圈、感光元件位移式光學影像穩定功能、100% Focus Pixels\n4800 萬像素融合超廣角：13 公釐、ƒ/2.2 光圈與 120° 視角、Hybrid Focus Pixels，支援超高解析度照片 (2400 萬像素與 4800 萬像素)\n2 倍光學變焦放大，2 倍光學變焦縮小；4 倍光學變焦範圍\n最高可達 10 倍數位變焦\n藍寶石玻璃保護鏡\n原彩閃光燈\n光像引擎\n深度融合\n智慧型 HDR 5\n新一代人像照具備焦點控制與景深控制\n人像光線具備六種效果\n夜間模式\n全景模式 (最高可達 6300 萬像素)\n最新一代攝影風格\n空間照片\n4800 萬像素微距攝影\n拍攝廣色域的照片與原況照片\n鏡頭校正 (融合超廣角)\n先進的紅眼校正功能\n自動影像穩定功能\n連拍模式\n照片地理位置標記\n影像拍攝格式：HEIF 與 JPEG",
+      "model": null,
+      "conditions": "最高可達 10 倍數位變焦",
+      "evidence": "4800 萬像素雙融合相機系統\n4800 萬像素融合主相機：26 公釐、ƒ/1.6 光圈、感光元件位移式光學影像穩定功能、100% Focus Pixels，支援超高解析度照片 (2400 萬像素與 4800 萬像素)\n同時支援 1200 萬像素光學品質 2 倍望遠：52 公釐、ƒ/1.6 光圈、感光元件位移式光學影像穩定功能、100% Focus Pixels\n4800 萬像素融合超廣角：13 公釐、ƒ/2.2 光圈與 120° 視角、Hybrid Focus Pixels，支援超高解析度照片 (2400 萬像素與 4800 萬像素)\n2 倍光學變焦放大，2 倍光學變焦縮小；4 倍光學變焦範圍\n最高可達 10 倍數位變焦\n藍寶石玻璃保護鏡\n原彩閃光燈\n光像引擎\n深度融合\n智慧型 HDR 5\n新一代人像照具備焦點控制與景深控制\n人像光線具備六種效果\n夜間模式\n全景模式 (最高可達 6300 萬像素)\n最新一代攝影風格\n空間照片\n4800 萬像素微距攝影\n拍攝廣色域的照片與原況照片\n鏡頭校正 (融合超廣角)\n先進的紅眼校正功能\n自動影像穩定功能\n連拍模式\n照片地理位置標記\n影像拍攝格式：HEIF 與 JPEG",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 8,
+      "section": "錄影",
+      "label": "錄影",
+      "value": "4K 杜比視界錄影，24 fps、25 fps、30 fps 或 60 fps\n1080p 杜比視界錄影，25 fps、30 fps 或 60 fps\n720p 杜比視界錄影，30 fps\n電影級模式，最高可達 4K 杜比視界 (30 fps)\n動作模式，最高可達 2.8K 杜比視界 (60 fps)\n微距錄影，包括慢動作與縮時攝影\n支援 1080p (120 fps 或 240 fps) 的慢動作影片\n空間影片錄製，1080p (30 fps)\n雙向同拍，最高可達 4K 杜比視界 (30 fps)\n具備視訊穩定功能的縮時攝影\n夜間模式縮時攝影\n影片快錄功能 (支援杜比視界錄影，最高可達 4K，60 fps)\n適用於錄影的感光元件位移式光學影像穩定功能 (融合主相機)\n最高可達 6 倍數位變焦\n音訊變焦\n原彩閃光燈\n電影級視訊穩定功能 (4K、1080p 與 720p)\n連續自動對焦錄影\n錄製 4K 影片時可拍攝 800 萬像素靜照\n縮放播放\n影片錄製格式：HEVC 與 H.264\n空間音訊與立體聲錄音\n降低風切聲\n混音功能",
+      "model": null,
+      "conditions": "最高可達 6 倍數位變焦",
+      "evidence": "4K 杜比視界錄影，24 fps、25 fps、30 fps 或 60 fps\n1080p 杜比視界錄影，25 fps、30 fps 或 60 fps\n720p 杜比視界錄影，30 fps\n電影級模式，最高可達 4K 杜比視界 (30 fps)\n動作模式，最高可達 2.8K 杜比視界 (60 fps)\n微距錄影，包括慢動作與縮時攝影\n支援 1080p (120 fps 或 240 fps) 的慢動作影片\n空間影片錄製，1080p (30 fps)\n雙向同拍，最高可達 4K 杜比視界 (30 fps)\n具備視訊穩定功能的縮時攝影\n夜間模式縮時攝影\n影片快錄功能 (支援杜比視界錄影，最高可達 4K，60 fps)\n適用於錄影的感光元件位移式光學影像穩定功能 (融合主相機)\n最高可達 6 倍數位變焦\n音訊變焦\n原彩閃光燈\n電影級視訊穩定功能 (4K、1080p 與 720p)\n連續自動對焦錄影\n錄製 4K 影片時可拍攝 800 萬像素靜照\n縮放播放\n影片錄製格式：HEVC 與 H.264\n空間音訊與立體聲錄音\n降低風切聲\n混音功能",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 9,
+      "section": "前置相機",
+      "label": "前置相機",
+      "value": "1800 萬像素 Center Stage 相機\nƒ/1.9 光圈\n自動對焦，採用 Focus Pixels\nRetina 閃光燈\n點一下縮放和旋轉\n拍照人物居中\n超穩定錄影\n雙向同拍\n視訊通話人物居中\n光像引擎\n深度融合\n智慧型 HDR 5\n新一代人像照具備焦點控制與景深控制\n人像光線具備六種效果\nAnimoji 與 Memoji\n夜間模式\n最新一代攝影風格\n拍攝廣色域的照片與原況照片\n鏡頭校正\n自動影像穩定功能\n連拍模式\n4K 杜比視界錄影，24 fps、25 fps、30 fps 或 60 fps\n1080p 杜比視界錄影，25 fps、30 fps 或 60 fps\n電影級模式，最高可達 4K 杜比視界 (30 fps)\n支援 1080p (120 fps) 的慢動作影片\n具備視訊穩定功能的縮時攝影\n夜間模式縮時攝影\n影片快錄功能 (支援杜比視界錄影，最高可達 4K，60 fps)\n電影級視訊穩定功能 (4K、1080p 與 720p)\n空間音訊與立體聲錄音\n降低風切聲\n混音功能",
+      "model": null,
+      "conditions": null,
+      "evidence": "1800 萬像素 Center Stage 相機\nƒ/1.9 光圈\n自動對焦，採用 Focus Pixels\nRetina 閃光燈\n點一下縮放和旋轉\n拍照人物居中\n超穩定錄影\n雙向同拍\n視訊通話人物居中\n光像引擎\n深度融合\n智慧型 HDR 5\n新一代人像照具備焦點控制與景深控制\n人像光線具備六種效果\nAnimoji 與 Memoji\n夜間模式\n最新一代攝影風格\n拍攝廣色域的照片與原況照片\n鏡頭校正\n自動影像穩定功能\n連拍模式\n4K 杜比視界錄影，24 fps、25 fps、30 fps 或 60 fps\n1080p 杜比視界錄影，25 fps、30 fps 或 60 fps\n電影級模式，最高可達 4K 杜比視界 (30 fps)\n支援 1080p (120 fps) 的慢動作影片\n具備視訊穩定功能的縮時攝影\n夜間模式縮時攝影\n影片快錄功能 (支援杜比視界錄影，最高可達 4K，60 fps)\n電影級視訊穩定功能 (4K、1080p 與 720p)\n空間音訊與立體聲錄音\n降低風切聲\n混音功能",
+      "status": "needs_review"
+    },
+    {
+      "block_id": 10,
+      "section": "電源與電池",
+      "label": "電源與電池",
+      "value": "影片播放時間\n最長可達 30 小時\n影片串流播放時間\n最長可達 27 小時\n內建充電式鋰離子電池\n支援快速充電：\n充電 20 分鐘最高可達 50% 電量，須使用 40W 或更高功率的電源轉接器 (另外有售)，並搭配 USB‑C 充電連接線\n充電 30 分鐘最高可達 50% 電量，須使用 30W 或更高功率的電源轉接器，並搭配 MagSafe 充電器 (皆另外有售)",
+      "model": "iPhone 17",
+      "conditions": "最長可達 30 小時",
+      "evidence": "影片播放時間\n最長可達 30 小時\n影片串流播放時間\n最長可達 27 小時\n內建充電式鋰離子電池\n支援快速充電：\n充電 20 分鐘最高可達 50% 電量，須使用 40W 或更高功率的電源轉接器 (另外有售)，並搭配 USB‑C 充電連接線\n充電 30 分鐘最高可達 50% 電量，須使用 30W 或更高功率的電源轉接器，並搭配 MagSafe 充電器 (皆另外有售)",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 11,
+      "section": "Face ID",
+      "label": "Face ID",
+      "value": "透過 Center Stage 前置相機的原深感測技術啟用",
+      "model": null,
+      "conditions": null,
+      "evidence": "透過 Center Stage 前置相機的原深感測技術啟用",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 12,
+      "section": "安全功能",
+      "label": "安全功能",
+      "value": "SOS 緊急服務\n車禍偵測功能",
+      "model": null,
+      "conditions": null,
+      "evidence": "SOS 緊急服務\n車禍偵測功能",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 13,
+      "section": "行動網路與\n無線技術",
+      "label": "行動網路與無線技術",
+      "value": "型號 A3520*\nFDD‑5G NR (頻段 n1、n2、n3、n5、n7、n8、n12、n20、n25、n26、n28、n30、n66、n70、n75)\nTDD‑5G NR (頻段 n38、n40、n41、n48、n53、n77、n78、n79)\nFDD‑LTE (頻段 1、2、3、4、5、7、8、12、13、17、18、19、20、25、26、28、30、32、66)\nTDD‑LTE (頻段 34、38、39、40、41、42、48、53)\nUMTS/HSPA+/DC-HSDPA (850、900、1700/2100、1900、2100 MHz)\nGSM/EDGE (850、900、1800、1900 MHz)\n5G (sub-6 GHz)，具 4x4 MIMO 技術\nGigabit LTE，具 4x4 MIMO 技術\nApple N1 無線網路晶片\nWi‑Fi 7 (802.11be)，具 2x2 MIMO 技術\n藍牙 6\nThread 網路技術\nApple 第 2 代超寬頻晶片\nNFC 具備讀取模式\n可使用備用電量的快速卡",
+      "model": null,
+      "conditions": null,
+      "evidence": "型號 A3520*\nFDD‑5G NR (頻段 n1、n2、n3、n5、n7、n8、n12、n20、n25、n26、n28、n30、n66、n70、n75)\nTDD‑5G NR (頻段 n38、n40、n41、n48、n53、n77、n78、n79)\nFDD‑LTE (頻段 1、2、3、4、5、7、8、12、13、17、18、19、20、25、26、28、30、32、66)\nTDD‑LTE (頻段 34、38、39、40、41、42、48、53)\nUMTS/HSPA+/DC-HSDPA (850、900、1700/2100、1900、2100 MHz)\nGSM/EDGE (850、900、1800、1900 MHz)\n5G (sub-6 GHz)，具 4x4 MIMO 技術\nGigabit LTE，具 4x4 MIMO 技術\nApple N1 無線網路晶片\nWi‑Fi 7 (802.11be)，具 2x2 MIMO 技術\n藍牙 6\nThread 網路技術\nApple 第 2 代超寬頻晶片\nNFC 具備讀取模式\n可使用備用電量的快速卡",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 14,
+      "section": "定位功能",
+      "label": "定位功能",
+      "value": "精準的雙頻 GPS (GPS、GLONASS、Galileo、QZSS、北斗定位系統與 NavIC)\n數位指南針\nWi‑Fi\n行動網路\niBeacon 微型定位服務",
+      "model": null,
+      "conditions": null,
+      "evidence": "精準的雙頻 GPS (GPS、GLONASS、Galileo、QZSS、北斗定位系統與 NavIC)\n數位指南針\nWi‑Fi\n行動網路\niBeacon 微型定位服務",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 15,
+      "section": "外部按鈕與連接器",
+      "label": "外部按鈕與連接器",
+      "value": "音量\n調高/低\n動作\n按鈕\n相機\n控制\n側邊\n按鈕\n內建立體聲揚聲器\n內建麥克風\nUSB‑C 連接器\n內建\n麥克風\n內建立體聲\n揚聲器",
+      "model": "iPhone 17",
+      "conditions": null,
+      "evidence": "音量\n調高/低\n動作\n按鈕\n相機\n控制\n側邊\n按鈕\n內建立體聲揚聲器\n內建麥克風\nUSB‑C 連接器\n內建\n麥克風\n內建立體聲\n揚聲器",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 16,
+      "section": "其他規格",
+      "label": "其他規格",
+      "value": "動作按鈕功能\n靜音模式、專注模式、相機、視覺智慧、手電筒、語音備忘錄、辨識音樂、翻譯、放大鏡、控制項目、捷徑或輔助使用",
+      "model": null,
+      "conditions": null,
+      "evidence": "動作按鈕功能\n靜音模式、專注模式、相機、視覺智慧、手電筒、語音備忘錄、辨識音樂、翻譯、放大鏡、控制項目、捷徑或輔助使用",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 17,
+      "section": "其他規格",
+      "label": "其他規格",
+      "value": "相機控制\n曝光、景深、縮放、相機、風格、色調",
+      "model": null,
+      "conditions": null,
+      "evidence": "相機控制\n曝光、景深、縮放、相機、風格、色調",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 18,
+      "section": "充電與擴充",
+      "label": "充電與擴充",
+      "value": "USB‑C 連接器支援:\n充電\nDisplayPort\nUSB 2 (速度最快可達 480Mb/s)",
+      "model": null,
+      "conditions": "速度最快可達 480Mb/s",
+      "evidence": "USB‑C 連接器支援:\n充電\nDisplayPort\nUSB 2 (速度最快可達 480Mb/s)",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 19,
+      "section": "MagSafe 與無線充電",
+      "label": "MagSafe 與無線充電",
+      "value": "MagSafe 無線充電最高可達 25W\nQi2 無線充電最高可達 25W\n磁石陣列\n磁石對位\n配件識別 NFC\n磁力儀",
+      "model": null,
+      "conditions": "MagSafe 無線充電最高可達 25W",
+      "evidence": "MagSafe 無線充電最高可達 25W\nQi2 無線充電最高可達 25W\n磁石陣列\n磁石對位\n配件識別 NFC\n磁力儀",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 20,
+      "section": "感測器",
+      "label": "感測器",
+      "value": "Face ID\n氣壓計\n高動態範圍陀螺儀\n高 g 值加速度計\n接近感測器\n雙環境光度感測器",
+      "model": null,
+      "conditions": null,
+      "evidence": "Face ID\n氣壓計\n高動態範圍陀螺儀\n高 g 值加速度計\n接近感測器\n雙環境光度感測器",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 21,
+      "section": "SIM 卡",
+      "label": "SIM 卡",
+      "value": "雙 SIM 卡 (nano‑SIM 與 eSIM)\n支援雙 eSIM\n進一步了解 eSIM\n進一步了解出國時使用 eSIM",
+      "model": null,
+      "conditions": null,
+      "evidence": "雙 SIM 卡 (nano‑SIM 與 eSIM)\n支援雙 eSIM\n進一步了解 eSIM\n進一步了解出國時使用 eSIM",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 22,
+      "section": "Apple Pay",
+      "label": "Apple Pay",
+      "value": "在店內、app 內及網頁上，使用 Face ID 以 iPhone 付款\n輔助你在 Mac 上以 Apple Pay 完成購買\n進一步了解 Apple Pay",
+      "model": null,
+      "conditions": null,
+      "evidence": "在店內、app 內及網頁上，使用 Face ID 以 iPhone 付款\n輔助你在 Mac 上以 Apple Pay 完成購買\n進一步了解 Apple Pay",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 23,
+      "section": "視訊通話",
+      "label": "視訊通話",
+      "value": "透過行動網路或 Wi-Fi 進行 FaceTime 視訊通話\n透過 5G 或 Wi-Fi 進行 FaceTime HD (1080p) 視訊通話\n視訊通話人物居中\n同播共享\n螢幕共享\nFaceTime 視訊支援人像模式\n空間音訊\n語音隔離和寬廣頻譜麥克風模式\n後置相機支援變焦",
+      "model": null,
+      "conditions": "FaceTime HD (1080p) 視訊通話",
+      "evidence": "透過行動網路或 Wi-Fi 進行 FaceTime 視訊通話\n透過 5G 或 Wi-Fi 進行 FaceTime HD (1080p) 視訊通話\n視訊通話人物居中\n同播共享\n螢幕共享\nFaceTime 視訊支援人像模式\n空間音訊\n語音隔離和寬廣頻譜麥克風模式\n後置相機支援變焦",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 24,
+      "section": "音訊通話",
+      "label": "音訊通話",
+      "value": "FaceTime 語音\nVoice over LTE (VoLTE)\nWi-Fi 通話\n同播共享\n螢幕共享\n空間音訊\n語音隔離和寬廣頻譜麥克風模式",
+      "model": null,
+      "conditions": null,
+      "evidence": "FaceTime 語音\nVoice over LTE (VoLTE)\nWi-Fi 通話\n同播共享\n螢幕共享\n空間音訊\n語音隔離和寬廣頻譜麥克風模式",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 25,
+      "section": "音訊播放",
+      "label": "音訊播放",
+      "value": "支援的格式包括 AAC、APAC、MP3、Apple 保真壓縮、FLAC、杜比數位、杜比數位+ 與杜比全景聲\n空間音訊播放\n使用者可自行設定最大音量限制",
+      "model": null,
+      "conditions": null,
+      "evidence": "支援的格式包括 AAC、APAC、MP3、Apple 保真壓縮、FLAC、杜比數位、杜比數位+ 與杜比全景聲\n空間音訊播放\n使用者可自行設定最大音量限制",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 26,
+      "section": "影片播放",
+      "label": "影片播放",
+      "value": "支援的格式包括 HEVC、H.264 與 AV1\nHDR 支援杜比視界、HDR10+/HDR10 與 HLG\nAirPlay 鏡像輸出、照片與視訊輸出至 Apple TV (第 2 代或後續機型) 或支援 AirPlay 的智慧型電視，最高可達 4K HDR\n支援視訊鏡像輸出與視訊輸出：透過 USB‑C 或 USB‑C 數位 AV 轉接器支援原生 DisplayPort 輸出，最高可達 4K HDR (轉接器型號 A2119；另售)",
+      "model": null,
+      "conditions": "最高可達 4K HDR",
+      "evidence": "支援的格式包括 HEVC、H.264 與 AV1\nHDR 支援杜比視界、HDR10+/HDR10 與 HLG\nAirPlay 鏡像輸出、照片與視訊輸出至 Apple TV (第 2 代或後續機型) 或支援 AirPlay 的智慧型電視，最高可達 4K HDR\n支援視訊鏡像輸出與視訊輸出：透過 USB‑C 或 USB‑C 數位 AV 轉接器支援原生 DisplayPort 輸出，最高可達 4K HDR (轉接器型號 A2119；另售)",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 27,
+      "section": "Siri",
+      "label": "Siri",
+      "value": "協助處理傳送訊息、設定提醒事項等日常事務\n用你的聲音說出「嘿 Siri」才能免持啟用，或使用輸入來與 Siri 對話功能\n提供最強隱私權保護的智慧助理\n由 Apple Intelligence 驅動的 Siri，更自然、更實用\n進一步了解 Siri",
+      "model": null,
+      "conditions": null,
+      "evidence": "協助處理傳送訊息、設定提醒事項等日常事務\n用你的聲音說出「嘿 Siri」才能免持啟用，或使用輸入來與 Siri 對話功能\n提供最強隱私權保護的智慧助理\n由 Apple Intelligence 驅動的 Siri，更自然、更實用\n進一步了解 Siri",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 28,
+      "section": "作業系統",
+      "label": "作業系統",
+      "value": "iOS\niOS 是全世界最個人化和最安全的行動作業系統，滿載強大的功能，並且專為保護你的隱私而設計。",
+      "model": null,
+      "conditions": null,
+      "evidence": "iOS\niOS 是全世界最個人化和最安全的行動作業系統，滿載強大的功能，並且專為保護你的隱私而設計。",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 29,
+      "section": "隱私權",
+      "label": "隱私權",
+      "value": "iPhone 的設計初衷，就是要保護你的個人資訊。每部 iPhone 均具備安全的認證功能。各款 app 必須先獲得你的同意，才能追蹤你在其他公司的 app 或網站上的活動。你的 iMessage 和 FaceTime 視訊通話，都經過端對端加密。好用之處，還有更多。\n進一步了解隱私權功能",
+      "model": null,
+      "conditions": null,
+      "evidence": "iPhone 的設計初衷，就是要保護你的個人資訊。每部 iPhone 均具備安全的認證功能。各款 app 必須先獲得你的同意，才能追蹤你在其他公司的 app 或網站上的活動。你的 iMessage 和 FaceTime 視訊通話，都經過端對端加密。好用之處，還有更多。\n進一步了解隱私權功能",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 30,
+      "section": "輔助使用",
+      "label": "輔助使用",
+      "value": "內建眾多輔助使用功能，可支援視覺、活動能力、聽覺、語音和認知方面的需求，助你以最得心應手的方式，盡情發揮 iPhone 的精彩。\n進一步了解\n各項功能包括:\n旁白\n縮放\n放大鏡\n語音控制\n切換控制\n輔助觸控\n眼球追蹤\n隱藏式字幕\n即時字幕\n個人聲音\n即時語音\n輸入來與 Siri 對話\n語音捷徑\n語音內容",
+      "model": null,
+      "conditions": null,
+      "evidence": "內建眾多輔助使用功能，可支援視覺、活動能力、聽覺、語音和認知方面的需求，助你以最得心應手的方式，盡情發揮 iPhone 的精彩。\n進一步了解\n各項功能包括:\n旁白\n縮放\n放大鏡\n語音控制\n切換控制\n輔助觸控\n眼球追蹤\n隱藏式字幕\n即時字幕\n個人聲音\n即時語音\n輸入來與 Siri 對話\n語音捷徑\n語音內容",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 31,
+      "section": "內建 App",
+      "label": "內建 App",
+      "value": "App Store\n書籍\n計算機\n行事曆\n相機\n時鐘\n指南針\n聯絡人\nFaceTime\n檔案\n尋找\n健身\n無邊記\n遊戲\nGarageBand\n健康\n家庭\niMovie\niTunes Store\n日誌\nKeynote\n放大鏡\n郵件\n地圖\n測距儀\n訊息\n音樂\n備忘錄\nNumbers\nPages\n密碼\n電話\n照片\nPodcast\n預覽\n提醒事項\nSafari\n設定\n捷徑\n股市\n提示\n翻譯\nTV\n語音備忘錄\n錢包\nWatch\n天氣\n有關適用於 iPhone 的各款 Apple app，請前往 apple.com/tw/apps 查看完整列表。",
+      "model": null,
+      "conditions": null,
+      "evidence": "App Store\n書籍\n計算機\n行事曆\n相機\n時鐘\n指南針\n聯絡人\nFaceTime\n檔案\n尋找\n健身\n無邊記\n遊戲\nGarageBand\n健康\n家庭\niMovie\niTunes Store\n日誌\nKeynote\n放大鏡\n郵件\n地圖\n測距儀\n訊息\n音樂\n備忘錄\nNumbers\nPages\n密碼\n電話\n照片\nPodcast\n預覽\n提醒事項\nSafari\n設定\n捷徑\n股市\n提示\n翻譯\nTV\n語音備忘錄\n錢包\nWatch\n天氣\n有關適用於 iPhone 的各款 Apple app，請前往 apple.com/tw/apps 查看完整列表。",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 32,
+      "section": "助聽輔具等級",
+      "label": "相容性",
+      "value": "相容的助聽器",
+      "model": null,
+      "conditions": null,
+      "evidence": "相容的助聽器",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 33,
+      "section": "系統需求",
+      "label": "系統需求",
+      "value": "Apple 帳號 (部分功能需要)\n網際網路連線\n在 Mac 或 PC 上進行同步需要：\n在 macOS Catalina 10.15 或以上版本中使用 Finder\n在 macOS High Sierra 10.13 至 macOS Mojave 10.14.6 中使用 iTunes 12.8 或以上版本\nWindows 10 或以上版本使用 iTunes 12.12.10 或以上版本 (可自 apple.com/tw/itunes/download 免費下載)",
+      "model": null,
+      "conditions": null,
+      "evidence": "Apple 帳號 (部分功能需要)\n網際網路連線\n在 Mac 或 PC 上進行同步需要：\n在 macOS Catalina 10.15 或以上版本中使用 Finder\n在 macOS High Sierra 10.13 至 macOS Mojave 10.14.6 中使用 iTunes 12.8 或以上版本\nWindows 10 或以上版本使用 iTunes 12.12.10 或以上版本 (可自 apple.com/tw/itunes/download 免費下載)",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 34,
+      "section": "環境需求",
+      "label": "環境需求",
+      "value": "作業環境溫度：\n0° 至 35° C (32° 至 95° F)\n非作業溫度：\n−20° 至 45° C (−4° 至 113° F)\n相對濕度：\n5% 至 95%，非冷凝狀態\n作業高度：\n目前測試最高可達 3,000 公尺 (10,000 呎)",
+      "model": null,
+      "conditions": null,
+      "evidence": "作業環境溫度：\n0° 至 35° C (32° 至 95° F)\n非作業溫度：\n−20° 至 45° C (−4° 至 113° F)\n相對濕度：\n5% 至 95%，非冷凝狀態\n作業高度：\n目前測試最高可達 3,000 公尺 (10,000 呎)",
+      "status": "needs_review"
+    },
+    {
+      "block_id": 35,
+      "section": "語言版本",
+      "label": "語言版本",
+      "value": "語言支援\n英文 (澳洲、英國、美國)、中文 (簡體、繁體、香港繁體)、法文 (加拿大、法國)、德文、義大利文、日文、韓文、西班牙文 (拉丁美洲、西班牙)、阿拉伯文、保加利亞文、加泰蘭文、克羅埃西亞文、捷克文、丹麥文、荷蘭文、芬蘭文、希臘文、希伯來文、印地文、匈牙利文、印尼文、哈薩克文、馬來文、挪威文、波蘭文、葡萄牙文 (巴西、葡萄牙)、羅馬尼亞文、俄文、斯洛伐克文、瑞典文、泰文、土耳其文、烏克蘭文、越南文\n進一步了解功能特色適用範圍",
+      "model": null,
+      "conditions": null,
+      "evidence": "語言支援\n英文 (澳洲、英國、美國)、中文 (簡體、繁體、香港繁體)、法文 (加拿大、法國)、德文、義大利文、日文、韓文、西班牙文 (拉丁美洲、西班牙)、阿拉伯文、保加利亞文、加泰蘭文、克羅埃西亞文、捷克文、丹麥文、荷蘭文、芬蘭文、希臘文、希伯來文、印地文、匈牙利文、印尼文、哈薩克文、馬來文、挪威文、波蘭文、葡萄牙文 (巴西、葡萄牙)、羅馬尼亞文、俄文、斯洛伐克文、瑞典文、泰文、土耳其文、烏克蘭文、越南文\n進一步了解功能特色適用範圍",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 36,
+      "section": "包裝盒內容",
+      "label": "包裝內容",
+      "value": "搭載 iOS 27 的 iPhone\nUSB‑C 充電連接線 (1 公尺)\n說明文件",
+      "model": null,
+      "conditions": null,
+      "evidence": "搭載 iOS 27 的 iPhone\nUSB‑C 充電連接線 (1 公尺)\n說明文件",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 37,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "* 若要識別你的 iPhone 型號，請參閱 support.apple.com/zh-tw/108044。如需 5G 與 LTE 支援的詳細資訊，請洽詢你的電信業者並參閱 apple.com/tw/iphone/cellular。行動網路技術支援視 iPhone 型號以及 GSM 網路的配置而定。",
+      "model": null,
+      "conditions": null,
+      "evidence": "* 若要識別你的 iPhone 型號，請參閱 support.apple.com/zh-tw/108044。如需 5G 與 LTE 支援的詳細資訊，請洽詢你的電信業者並參閱 apple.com/tw/iphone/cellular。行動網路技術支援視 iPhone 型號以及 GSM 網路的配置而定。",
+      "status": "source_only"
+    },
+    {
+      "block_id": 38,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "可用儲存空間會隨著眾多因素而減少並有所差異。標準配置會使用約 12GB 至 24GB 的空間，包括 iOS 27 與其最新功能，以及可刪除的各款 Apple app。Apple Intelligence 裝置端模型約會佔用 7GB 空間，並可在 Apple Intelligence 關閉的狀態下刪除。開啟 Apple Intelligence 將會重新下載這些模型。可刪除的各款 Apple app 約會佔用 4.5GB 的空間，你可隨時從 App Store 再次下載這些 app。儲存容量會隨軟體版本、設定與 iPhone 機型而有所變動。",
+      "model": null,
+      "conditions": null,
+      "evidence": "可用儲存空間會隨著眾多因素而減少並有所差異。標準配置會使用約 12GB 至 24GB 的空間，包括 iOS 27 與其最新功能，以及可刪除的各款 Apple app。Apple Intelligence 裝置端模型約會佔用 7GB 空間，並可在 Apple Intelligence 關閉的狀態下刪除。開啟 Apple Intelligence 將會重新下載這些模型。可刪除的各款 Apple app 約會佔用 4.5GB 的空間，你可隨時從 App Store 再次下載這些 app。儲存容量會隨軟體版本、設定與 iPhone 機型而有所變動。",
+      "status": "source_only"
+    },
+    {
+      "block_id": 39,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "尺寸和重量隨配置和製程不同而有所差異。",
+      "model": null,
+      "conditions": null,
+      "evidence": "尺寸和重量隨配置和製程不同而有所差異。",
+      "status": "source_only"
+    },
+    {
+      "block_id": 40,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "iPhone 17 具備防潑抗水與防塵功能，並且已在受控管的實驗室環境條件下測試，達到 IEC 60529 標準的 IP68 等級 (在最深達 6 公尺水中最長可達 30 分鐘)。防潑抗水與防塵功能非永久狀態，並可能隨日常使用造成的耗損而下降。請勿為潮濕的 iPhone 充電；請參閱使用手冊了解清潔與乾燥處理說明。液體造成的損壞並不在保固範圍內。",
+      "model": null,
+      "conditions": null,
+      "evidence": "iPhone 17 具備防潑抗水與防塵功能，並且已在受控管的實驗室環境條件下測試，達到 IEC 60529 標準的 IP68 等級 (在最深達 6 公尺水中最長可達 30 分鐘)。防潑抗水與防塵功能非永久狀態，並可能隨日常使用造成的耗損而下降。請勿為潮濕的 iPhone 充電；請參閱使用手冊了解清潔與乾燥處理說明。液體造成的損壞並不在保固範圍內。",
+      "status": "source_only"
+    },
+    {
+      "block_id": 41,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "Apple Intelligence 適用於 Siri 和裝置語言均設為簡體中文、繁體中文、丹麥文、荷蘭文、英文、法文、德文、義大利文、日文、韓文、挪威文、葡萄牙文、西班牙文、瑞典文、土耳其文或越南文的裝置。部分功能可能未在所有地區提供，或未適用於所有語言。部分裝置可能未在所有地區提供。Siri AI Beta 版隨 iOS 27 推出，須使用已啟用 Apple Intelligence 的裝置，並設為支援的語言。初期先支援英文。部分仰賴伺服器端模型的 Apple Intelligence 功能會有每日使用限制，包含但不限於 Siri AI、「智慧照片編輯工具」、「影像樂園」和「捷徑」中的 AFM 3 雲端模型。每日使用限制視功能、需求複雜度、系統需求、系統政策和其他因素而有所差異。此類功能未來可透過付費取得額外使用權限。使用這些功能須遵守 Apple Intelligence 條款與約定。請至 apple.com/tw/apple-intelligence 進一步了解。",
+      "model": null,
+      "conditions": null,
+      "evidence": "Apple Intelligence 適用於 Siri 和裝置語言均設為簡體中文、繁體中文、丹麥文、荷蘭文、英文、法文、德文、義大利文、日文、韓文、挪威文、葡萄牙文、西班牙文、瑞典文、土耳其文或越南文的裝置。部分功能可能未在所有地區提供，或未適用於所有語言。部分裝置可能未在所有地區提供。Siri AI Beta 版隨 iOS 27 推出，須使用已啟用 Apple Intelligence 的裝置，並設為支援的語言。初期先支援英文。部分仰賴伺服器端模型的 Apple Intelligence 功能會有每日使用限制，包含但不限於 Siri AI、「智慧照片編輯工具」、「影像樂園」和「捷徑」中的 AFM 3 雲端模型。每日使用限制視功能、需求複雜度、系統需求、系統政策和其他因素而有所差異。此類功能未來可透過付費取得額外使用權限。使用這些功能須遵守 Apple Intelligence 條款與約定。請至 apple.com/tw/apple-intelligence 進一步了解。",
+      "status": "source_only"
+    },
+    {
+      "block_id": 42,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "所列舉的電池效能受網路配置與許多其他因素影響；實際結果可能會有所差異。電池的充電循環次數有限，最終仍可能須要更換。電池使用時間與充電次數視使用情況及設定狀態而異。",
+      "model": null,
+      "conditions": null,
+      "evidence": "所列舉的電池效能受網路配置與許多其他因素影響；實際結果可能會有所差異。電池的充電循環次數有限，最終仍可能須要更換。電池使用時間與充電次數視使用情況及設定狀態而異。",
+      "status": "source_only"
+    },
+    {
+      "block_id": 43,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "MagSafe 無線充電最高可達 25W，須使用 30W 或更高功率的電源轉接器。測試由 Apple 於 2025 年 7 月採用 iPhone 17 預量產機型和軟體，搭配 USB‑C 充電連接線與 Apple 40W 動態電源轉接器 (最高輸出 60W，型號 A3351)，以及 Apple MagSafe 充電器 (1 公尺型號 A3502 與 2 公尺型號 A3503) 搭配 Apple 30W USB‑C 電源轉接器 (型號 A2164) 或 Apple 40W 動態電源轉接器 (最高輸出 60W，型號 A3351) 進行。快速充電測試是在電力耗盡的 iPhone 機型進行。充電時間是自裝置啟動後顯示 Apple 標誌起開始計時。充電時間視電源轉接器、設定、使用情況與環境因素而異；實際結果可能有所差異。",
+      "model": null,
+      "conditions": null,
+      "evidence": "MagSafe 無線充電最高可達 25W，須使用 30W 或更高功率的電源轉接器。測試由 Apple 於 2025 年 7 月採用 iPhone 17 預量產機型和軟體，搭配 USB‑C 充電連接線與 Apple 40W 動態電源轉接器 (最高輸出 60W，型號 A3351)，以及 Apple MagSafe 充電器 (1 公尺型號 A3502 與 2 公尺型號 A3503) 搭配 Apple 30W USB‑C 電源轉接器 (型號 A2164) 或 Apple 40W 動態電源轉接器 (最高輸出 60W，型號 A3351) 進行。快速充電測試是在電力耗盡的 iPhone 機型進行。充電時間是自裝置啟動後顯示 Apple 標誌起開始計時。充電時間視電源轉接器、設定、使用情況與環境因素而異；實際結果可能有所差異。",
+      "status": "source_only"
+    },
+    {
+      "block_id": 44,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "iPhone 14 與後續機型能偵測嚴重車禍，並為你撥打求救電話。須透過行動網路連線或 Wi-Fi 通話使用。",
+      "model": null,
+      "conditions": null,
+      "evidence": "iPhone 14 與後續機型能偵測嚴重車禍，並為你撥打求救電話。須透過行動網路連線或 Wi-Fi 通話使用。",
+      "status": "source_only"
+    },
+    {
+      "block_id": 45,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "須使用數據方案。5G、Gigabit LTE、VoLTE 和 Wi-Fi 通話服務僅於特定地區並透過特定電信業者提供。連線速度是依據理論傳輸值，並會因所在地情況及電信業者而異。如需 5G 與 LTE 支援的詳細資訊，請洽詢你的電信業者並參閱 apple.com/tw/iphone/cellular。",
+      "model": null,
+      "conditions": null,
+      "evidence": "須使用數據方案。5G、Gigabit LTE、VoLTE 和 Wi-Fi 通話服務僅於特定地區並透過特定電信業者提供。連線速度是依據理論傳輸值，並會因所在地情況及電信業者而異。如需 5G 與 LTE 支援的詳細資訊，請洽詢你的電信業者並參閱 apple.com/tw/iphone/cellular。",
+      "status": "source_only"
+    },
+    {
+      "block_id": 46,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "Wi-Fi 7 適用於支援的國家或地區。",
+      "model": null,
+      "conditions": null,
+      "evidence": "Wi-Fi 7 適用於支援的國家或地區。",
+      "status": "source_only"
+    },
+    {
+      "block_id": 47,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "超寬頻的供應狀況視地區而異。",
+      "model": null,
+      "conditions": null,
+      "evidence": "超寬頻的供應狀況視地區而異。",
+      "status": "source_only"
+    },
+    {
+      "block_id": 48,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "「視覺智慧」功能適用於任何已啟用 Apple Intelligence 的 iPhone。部分功能可能未適用於所有語言，或未在所有地區提供。如需更多詳細資訊，請參閱 support.apple.com/zh-tw/121115#visual-intelligence。",
+      "model": null,
+      "conditions": null,
+      "evidence": "「視覺智慧」功能適用於任何已啟用 Apple Intelligence 的 iPhone。部分功能可能未適用於所有語言，或未在所有地區提供。如需更多詳細資訊，請參閱 support.apple.com/zh-tw/121115#visual-intelligence。",
+      "status": "source_only"
+    },
+    {
+      "block_id": 49,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "使用 eSIM 須選擇支援 eSIM 的電信業者與無線網路服務方案。詳情請洽詢你的電信業者。進一步了解，請參閱 apple.com/tw/esim。",
+      "model": null,
+      "conditions": null,
+      "evidence": "使用 eSIM 須選擇支援 eSIM 的電信業者與無線網路服務方案。詳情請洽詢你的電信業者。進一步了解，請參閱 apple.com/tw/esim。",
+      "status": "source_only"
+    },
+    {
+      "block_id": 50,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "FaceTime 通話需要收、發話雙方均使用具有 FaceTime 功能的裝置與 Wi-Fi 連線。行動網路的適用情形視電信業者方案而定；數據服務可能須要付費。",
+      "model": null,
+      "conditions": null,
+      "evidence": "FaceTime 通話需要收、發話雙方均使用具有 FaceTime 功能的裝置與 Wi-Fi 連線。行動網路的適用情形視電信業者方案而定；數據服務可能須要付費。",
+      "status": "source_only"
+    },
+    {
+      "block_id": 51,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "僅限標準動態範圍影片內容。",
+      "model": null,
+      "conditions": null,
+      "evidence": "僅限標準動態範圍影片內容。",
+      "status": "source_only"
+    },
+    {
+      "block_id": 52,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "Siri 可能無法適用於所有語言或所有地區，功能可能因地區而異。須使用網際網路連線。行動數據服務可能須要付費。",
+      "model": null,
+      "conditions": null,
+      "evidence": "Siri 可能無法適用於所有語言或所有地區，功能可能因地區而異。須使用網際網路連線。行動數據服務可能須要付費。",
+      "status": "source_only"
+    },
+    {
+      "block_id": 53,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "建議使用無線寬頻網路；可能須要付費。",
+      "model": null,
+      "conditions": null,
+      "evidence": "建議使用無線寬頻網路；可能須要付費。",
+      "status": "source_only"
+    },
+    {
+      "block_id": 54,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "截至產品發布時數據準確。",
+      "model": null,
+      "conditions": null,
+      "evidence": "截至產品發布時數據準確。",
+      "status": "source_only"
+    },
+    {
+      "block_id": 55,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "產品的回收或再生成分含量，是指經認證的再生物料質量相對於裝置總質量的比例，不包含包裝或包裝盒內的配件。",
+      "model": null,
+      "conditions": null,
+      "evidence": "產品的回收或再生成分含量，是指經認證的再生物料質量相對於裝置總質量的比例，不包含包裝或包裝盒內的配件。",
+      "status": "source_only"
+    },
+    {
+      "block_id": 56,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "我們根據產品發布時的供應商製造分配，將供應商在上一個會計年度採購的低碳電力歸入我們的碳模型，估算在我們製造過程中來自低碳電力的電力相關排放百分比。iPhone 17 的供應商是以此計算方式進行評估。此數字僅包含 Apple 或其供應商因應 Apple 供應商清潔能源方案而採購的低碳電力。",
+      "model": null,
+      "conditions": null,
+      "evidence": "我們根據產品發布時的供應商製造分配，將供應商在上一個會計年度採購的低碳電力歸入我們的碳模型，估算在我們製造過程中來自低碳電力的電力相關排放百分比。iPhone 17 的供應商是以此計算方式進行評估。此數字僅包含 Apple 或其供應商因應 Apple 供應商清潔能源方案而採購的低碳電力。",
+      "status": "source_only"
+    },
+    {
+      "block_id": 57,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "能源效率表現是根據美國能源部有關電池充電器的聯邦節能標準。",
+      "model": null,
+      "conditions": null,
+      "evidence": "能源效率表現是根據美國能源部有關電池充電器的聯邦節能標準。",
+      "status": "source_only"
+    },
+    {
+      "block_id": 58,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "根據 Apple 出貨的零售包裝計算所得的結果。根據美國零售包裝依重量分析所得的結果。我們在計算塑膠含量與包裝重量時，未列入黏著劑、墨水與塗層。",
+      "model": null,
+      "conditions": null,
+      "evidence": "根據 Apple 出貨的零售包裝計算所得的結果。根據美國零售包裝依重量分析所得的結果。我們在計算塑膠含量與包裝重量時，未列入黏著劑、墨水與塗層。",
+      "status": "source_only"
+    },
+    {
+      "block_id": 59,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "與 iPhone 16 相比，每塊貨運棧板上可運載的貨箱 (每箱 10 部裝) 的數量。下列地點因貨運棧板配置不同，所節省的成本也有所差異：安道爾、加拿大、賽普勒斯、希臘、義大利、葡萄牙、南韓、西班牙、瑞士與美國。",
+      "model": null,
+      "conditions": null,
+      "evidence": "與 iPhone 16 相比，每塊貨運棧板上可運載的貨箱 (每箱 10 部裝) 的數量。下列地點因貨運棧板配置不同，所節省的成本也有所差異：安道爾、加拿大、賽普勒斯、希臘、義大利、葡萄牙、南韓、西班牙、瑞士與美國。",
+      "status": "source_only"
+    },
+    {
+      "block_id": 60,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "所有與 Apple 合作超過一年的 iPhone 17 既有最終組裝供應商廠區，均已獲得第三方 UL LLC 的零廢棄認證 (UL 2799 標準)。UL 要求至少 90% 的廢棄物轉化不透過廢棄物能源化的方式完成，方可獲得廢棄物零填埋認證 (銀級須達 90% 至 94%、黃金級須達 95% 至 99%，以及白金級須達 100%)。",
+      "model": null,
+      "conditions": null,
+      "evidence": "所有與 Apple 合作超過一年的 iPhone 17 既有最終組裝供應商廠區，均已獲得第三方 UL LLC 的零廢棄認證 (UL 2799 標準)。UL 要求至少 90% 的廢棄物轉化不透過廢棄物能源化的方式完成，方可獲得廢棄物零填埋認證 (銀級須達 90% 至 94%、黃金級須達 95% 至 99%，以及白金級須達 100%)。",
+      "status": "source_only"
+    },
+    {
+      "block_id": 61,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "《Apple 管制物質規範》明列 Apple 產品、配件、製程以及用於向 Apple 的終端顧客運送產品的包裝之物料所含的某些化學物質使用限制。其中所列的限制出自於各大國際法律或指導原則、監管機構、環保標籤規定、環保標準與 Apple 政策。所有 Apple 產品皆不含聚氯乙烯 (PVC) 及鄰苯二甲酸鹽，除了印度、泰國 (兩孔 AC 電源線) 與南韓的 AC 電源線，仍待當地政府核准我們的聚氯乙烯 (PVC) 及鄰苯二甲酸鹽替代物料。Apple 產品皆符合歐盟指令 2011/65/EU 及其相關修訂條款，包括使用鉛 (如高溫焊料) 的豁免條款。Apple 致力在技術能力可行的情況下，逐步針對新產品淘汰停用這類受豁免物質。",
+      "model": null,
+      "conditions": null,
+      "evidence": "《Apple 管制物質規範》明列 Apple 產品、配件、製程以及用於向 Apple 的終端顧客運送產品的包裝之物料所含的某些化學物質使用限制。其中所列的限制出自於各大國際法律或指導原則、監管機構、環保標籤規定、環保標準與 Apple 政策。所有 Apple 產品皆不含聚氯乙烯 (PVC) 及鄰苯二甲酸鹽，除了印度、泰國 (兩孔 AC 電源線) 與南韓的 AC 電源線，仍待當地政府核准我們的聚氯乙烯 (PVC) 及鄰苯二甲酸鹽替代物料。Apple 產品皆符合歐盟指令 2011/65/EU 及其相關修訂條款，包括使用鉛 (如高溫焊料) 的豁免條款。Apple 致力在技術能力可行的情況下，逐步針對新產品淘汰停用這類受豁免物質。",
+      "status": "source_only"
+    },
+    {
+      "block_id": 62,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "折抵換購服務由 Apple 的換購服務合作夥伴提供。折抵金額報價僅為預估價，實際折抵換購價值可能低於估價。實際換購估價視你折抵換購裝置的狀況、推出年份、機型，以及折抵換購裝置原發售的國家或地區而有所差異。並非所有裝置均符合折抵條件。你必須已達法定成年年齡，才有折抵換購的資格，以獲享折抵優惠或取得 Apple Store 禮品卡。你現有裝置的價值，可能適用於購買新 Apple 裝置。實際獲得的換購價值，是根據收到符合條件的裝置，是否吻合你在估價時所提供的描述而定。可能須按照新裝置的全額售價繳納加值型營業稅。店內換購須出示政府核發的有效照片證件，才能享有此項優惠 (當地法律可能要求保存這份資訊)。優惠可能無法在所有直營店提供，線上和店內折抵換購的估價可能會有所不同。部分直營店可能會有額外的要求。Apple 的換購服務合作夥伴保留以任何理由拒絕、取消任何折抵換購交易，或限制接受任何裝置 (及其數量) 參與本優惠的權利。更多詳情可自 Apple 的換購服務合作夥伴取得，以了解符合換購及回收條件的裝置。須遵守 Apple 的換購服務合作夥伴所訂立的其他條款。",
+      "model": null,
+      "conditions": null,
+      "evidence": "折抵換購服務由 Apple 的換購服務合作夥伴提供。折抵金額報價僅為預估價，實際折抵換購價值可能低於估價。實際換購估價視你折抵換購裝置的狀況、推出年份、機型，以及折抵換購裝置原發售的國家或地區而有所差異。並非所有裝置均符合折抵條件。你必須已達法定成年年齡，才有折抵換購的資格，以獲享折抵優惠或取得 Apple Store 禮品卡。你現有裝置的價值，可能適用於購買新 Apple 裝置。實際獲得的換購價值，是根據收到符合條件的裝置，是否吻合你在估價時所提供的描述而定。可能須按照新裝置的全額售價繳納加值型營業稅。店內換購須出示政府核發的有效照片證件，才能享有此項優惠 (當地法律可能要求保存這份資訊)。優惠可能無法在所有直營店提供，線上和店內折抵換購的估價可能會有所不同。部分直營店可能會有額外的要求。Apple 的換購服務合作夥伴保留以任何理由拒絕、取消任何折抵換購交易，或限制接受任何裝置 (及其數量) 參與本優惠的權利。更多詳情可自 Apple 的換購服務合作夥伴取得，以了解符合換購及回收條件的裝置。須遵守 Apple 的換購服務合作夥伴所訂立的其他條款。",
+      "status": "source_only"
+    },
+    {
+      "block_id": 63,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "所列功能會隨情況而有所變動。部分功能、應用程式與服務可能未在所有地區提供，或未適用於所有語言；並可能須使用特定的硬體與軟體。如需更多資訊，請參閱功能特色適用範圍。",
+      "model": null,
+      "conditions": null,
+      "evidence": "所列功能會隨情況而有所變動。部分功能、應用程式與服務可能未在所有地區提供，或未適用於所有語言；並可能須使用特定的硬體與軟體。如需更多資訊，請參閱功能特色適用範圍。",
+      "status": "source_only"
+    },
+    {
+      "block_id": 64,
+      "section": "註腳與限制",
+      "label": "註腳與限制",
+      "value": "如需台灣 NCC 認證產品的進一步詳細資訊，請按這裡。",
+      "model": null,
+      "conditions": null,
+      "evidence": "如需台灣 NCC 認證產品的進一步詳細資訊，請按這裡。",
+      "status": "source_only"
+    }
+  ],
+  "blocks": [
+    {
+      "id": 0,
+      "section": "外觀",
+      "model_hint": "iPhone 17",
+      "context": "",
+      "text": "黑色、白色、霧藍色、鼠尾草綠色、薰衣草紫色\n鋁金屬設計\n超瓷晶盾 2 面板\n注色玻璃背板 (黑色、霧藍色、鼠尾草綠色、薰衣草紫色)"
+    },
+    {
+      "id": 1,
+      "section": "容量",
+      "model_hint": "iPhone 17",
+      "context": "",
+      "text": "256GB\n512GB"
+    },
+    {
+      "id": 2,
+      "section": "尺寸與重量",
+      "model_hint": "iPhone 17",
+      "context": "",
+      "text": "寬度：\n71.5 公釐\n(2.81 吋)\n高度：\n149.6 公釐\n(5.89 吋)\n厚度：\n7.95 公釐\n(0.31 吋)\n重量：\n177 公克 (6.24 盎司)"
+    },
+    {
+      "id": 3,
+      "section": "顯示器",
+      "model_hint": "iPhone 17",
+      "context": "",
+      "text": "超 Retina XDR 顯示器\n6.3 吋 (對角線) 全螢幕 OLED 顯示器\n2622 x 1206 像素，460 ppi 解析度\n動態島\n永遠顯示\nProMotion 技術，支援最高達 120Hz 自動適應更新頻率\nHDR 顯示\n原彩顯示\n廣色域 (P3)\n觸覺回饋觸控\n2,000,000:1 對比度 (標準)\n1000 尼特最大亮度 (標準)；1600 尼特峰值亮度 (HDR)；3000 尼特峰值亮度 (室外)；1 尼特最低亮度\n防指印疏油外膜\n抗反射鍍膜\n支援同時顯示多種語言文字\niPhone 17 顯示器的圓角具有優美的曲線設計，並呈現在一個標準矩形之內。以標準矩形量測時，螢幕的對角線長度為 6.27 吋 (實際可視區較小)。"
+    },
+    {
+      "id": 4,
+      "section": "防潑、抗水與防塵",
+      "model_hint": null,
+      "context": "",
+      "text": "達到 IEC 60529 標準的 IP68 等級 (在最深達 6 公尺水中最長可達 30 分鐘)"
+    },
+    {
+      "id": 5,
+      "section": "Apple Intelligence 與 Siri AI",
+      "model_hint": null,
+      "context": "",
+      "text": "新一代 Apple Intelligence 以你的需求為中心，整合至各款 app 內，並為隱私權保護而打造。Apple Intelligence 驅動 Siri AI，全新版本的 Siri 變得更個人化、更好對話、更強大，還有各種實用功能可在各款 app 中使用。\n進一步了解"
+    },
+    {
+      "id": 6,
+      "section": "晶片",
+      "model_hint": null,
+      "context": "",
+      "text": "A19 晶片\n6 核心 CPU 配備 2 個效能核心與 4 個節能核心\n5 核心 GPU 配備神經網路加速器\n16 核心神經網路引擎\n硬體加速光線追蹤"
+    },
+    {
+      "id": 7,
+      "section": "相機",
+      "model_hint": null,
+      "context": "",
+      "text": "4800 萬像素雙融合相機系統\n4800 萬像素融合主相機：26 公釐、ƒ/1.6 光圈、感光元件位移式光學影像穩定功能、100% Focus Pixels，支援超高解析度照片 (2400 萬像素與 4800 萬像素)\n同時支援 1200 萬像素光學品質 2 倍望遠：52 公釐、ƒ/1.6 光圈、感光元件位移式光學影像穩定功能、100% Focus Pixels\n4800 萬像素融合超廣角：13 公釐、ƒ/2.2 光圈與 120° 視角、Hybrid Focus Pixels，支援超高解析度照片 (2400 萬像素與 4800 萬像素)\n2 倍光學變焦放大，2 倍光學變焦縮小；4 倍光學變焦範圍\n最高可達 10 倍數位變焦\n藍寶石玻璃保護鏡\n原彩閃光燈\n光像引擎\n深度融合\n智慧型 HDR 5\n新一代人像照具備焦點控制與景深控制\n人像光線具備六種效果\n夜間模式\n全景模式 (最高可達 6300 萬像素)\n最新一代攝影風格\n空間照片\n4800 萬像素微距攝影\n拍攝廣色域的照片與原況照片\n鏡頭校正 (融合超廣角)\n先進的紅眼校正功能\n自動影像穩定功能\n連拍模式\n照片地理位置標記\n影像拍攝格式：HEIF 與 JPEG"
+    },
+    {
+      "id": 8,
+      "section": "錄影",
+      "model_hint": null,
+      "context": "",
+      "text": "4K 杜比視界錄影，24 fps、25 fps、30 fps 或 60 fps\n1080p 杜比視界錄影，25 fps、30 fps 或 60 fps\n720p 杜比視界錄影，30 fps\n電影級模式，最高可達 4K 杜比視界 (30 fps)\n動作模式，最高可達 2.8K 杜比視界 (60 fps)\n微距錄影，包括慢動作與縮時攝影\n支援 1080p (120 fps 或 240 fps) 的慢動作影片\n空間影片錄製，1080p (30 fps)\n雙向同拍，最高可達 4K 杜比視界 (30 fps)\n具備視訊穩定功能的縮時攝影\n夜間模式縮時攝影\n影片快錄功能 (支援杜比視界錄影，最高可達 4K，60 fps)\n適用於錄影的感光元件位移式光學影像穩定功能 (融合主相機)\n最高可達 6 倍數位變焦\n音訊變焦\n原彩閃光燈\n電影級視訊穩定功能 (4K、1080p 與 720p)\n連續自動對焦錄影\n錄製 4K 影片時可拍攝 800 萬像素靜照\n縮放播放\n影片錄製格式：HEVC 與 H.264\n空間音訊與立體聲錄音\n降低風切聲\n混音功能"
+    },
+    {
+      "id": 9,
+      "section": "前置相機",
+      "model_hint": null,
+      "context": "",
+      "text": "1800 萬像素 Center Stage 相機\nƒ/1.9 光圈\n自動對焦，採用 Focus Pixels\nRetina 閃光燈\n點一下縮放和旋轉\n拍照人物居中\n超穩定錄影\n雙向同拍\n視訊通話人物居中\n光像引擎\n深度融合\n智慧型 HDR 5\n新一代人像照具備焦點控制與景深控制\n人像光線具備六種效果\nAnimoji 與 Memoji\n夜間模式\n最新一代攝影風格\n拍攝廣色域的照片與原況照片\n鏡頭校正\n自動影像穩定功能\n連拍模式\n4K 杜比視界錄影，24 fps、25 fps、30 fps 或 60 fps\n1080p 杜比視界錄影，25 fps、30 fps 或 60 fps\n電影級模式，最高可達 4K 杜比視界 (30 fps)\n支援 1080p (120 fps) 的慢動作影片\n具備視訊穩定功能的縮時攝影\n夜間模式縮時攝影\n影片快錄功能 (支援杜比視界錄影，最高可達 4K，60 fps)\n電影級視訊穩定功能 (4K、1080p 與 720p)\n空間音訊與立體聲錄音\n降低風切聲\n混音功能"
+    },
+    {
+      "id": 10,
+      "section": "電源與電池",
+      "model_hint": "iPhone 17",
+      "context": "",
+      "text": "影片播放時間\n最長可達 30 小時\n影片串流播放時間\n最長可達 27 小時\n內建充電式鋰離子電池\n支援快速充電：\n充電 20 分鐘最高可達 50% 電量，須使用 40W 或更高功率的電源轉接器 (另外有售)，並搭配 USB‑C 充電連接線\n充電 30 分鐘最高可達 50% 電量，須使用 30W 或更高功率的電源轉接器，並搭配 MagSafe 充電器 (皆另外有售)"
+    },
+    {
+      "id": 11,
+      "section": "Face ID",
+      "model_hint": null,
+      "context": "",
+      "text": "透過 Center Stage 前置相機的原深感測技術啟用"
+    },
+    {
+      "id": 12,
+      "section": "安全功能",
+      "model_hint": null,
+      "context": "",
+      "text": "SOS 緊急服務\n車禍偵測功能"
+    },
+    {
+      "id": 13,
+      "section": "行動網路與\n無線技術",
+      "model_hint": null,
+      "context": "",
+      "text": "型號 A3520*\nFDD‑5G NR (頻段 n1、n2、n3、n5、n7、n8、n12、n20、n25、n26、n28、n30、n66、n70、n75)\nTDD‑5G NR (頻段 n38、n40、n41、n48、n53、n77、n78、n79)\nFDD‑LTE (頻段 1、2、3、4、5、7、8、12、13、17、18、19、20、25、26、28、30、32、66)\nTDD‑LTE (頻段 34、38、39、40、41、42、48、53)\nUMTS/HSPA+/DC-HSDPA (850、900、1700/2100、1900、2100 MHz)\nGSM/EDGE (850、900、1800、1900 MHz)\n5G (sub-6 GHz)，具 4x4 MIMO 技術\nGigabit LTE，具 4x4 MIMO 技術\nApple N1 無線網路晶片\nWi‑Fi 7 (802.11be)，具 2x2 MIMO 技術\n藍牙 6\nThread 網路技術\nApple 第 2 代超寬頻晶片\nNFC 具備讀取模式\n可使用備用電量的快速卡"
+    },
+    {
+      "id": 14,
+      "section": "定位功能",
+      "model_hint": null,
+      "context": "",
+      "text": "精準的雙頻 GPS (GPS、GLONASS、Galileo、QZSS、北斗定位系統與 NavIC)\n數位指南針\nWi‑Fi\n行動網路\niBeacon 微型定位服務"
+    },
+    {
+      "id": 15,
+      "section": "外部按鈕與連接器",
+      "model_hint": "iPhone 17",
+      "context": "",
+      "text": "音量\n調高/低\n動作\n按鈕\n相機\n控制\n側邊\n按鈕\n內建立體聲揚聲器\n內建麥克風\nUSB‑C 連接器\n內建\n麥克風\n內建立體聲\n揚聲器"
+    },
+    {
+      "id": 16,
+      "section": "其他規格",
+      "model_hint": null,
+      "context": "",
+      "text": "動作按鈕功能\n靜音模式、專注模式、相機、視覺智慧、手電筒、語音備忘錄、辨識音樂、翻譯、放大鏡、控制項目、捷徑或輔助使用"
+    },
+    {
+      "id": 17,
+      "section": "其他規格",
+      "model_hint": null,
+      "context": "",
+      "text": "相機控制\n曝光、景深、縮放、相機、風格、色調"
+    },
+    {
+      "id": 18,
+      "section": "充電與擴充",
+      "model_hint": null,
+      "context": "",
+      "text": "USB‑C 連接器支援:\n充電\nDisplayPort\nUSB 2 (速度最快可達 480Mb/s)"
+    },
+    {
+      "id": 19,
+      "section": "MagSafe 與無線充電",
+      "model_hint": null,
+      "context": "",
+      "text": "MagSafe 無線充電最高可達 25W\nQi2 無線充電最高可達 25W\n磁石陣列\n磁石對位\n配件識別 NFC\n磁力儀"
+    },
+    {
+      "id": 20,
+      "section": "感測器",
+      "model_hint": null,
+      "context": "",
+      "text": "Face ID\n氣壓計\n高動態範圍陀螺儀\n高 g 值加速度計\n接近感測器\n雙環境光度感測器"
+    },
+    {
+      "id": 21,
+      "section": "SIM 卡",
+      "model_hint": null,
+      "context": "",
+      "text": "雙 SIM 卡 (nano‑SIM 與 eSIM)\n支援雙 eSIM\n進一步了解 eSIM\n進一步了解出國時使用 eSIM"
+    },
+    {
+      "id": 22,
+      "section": "Apple Pay",
+      "model_hint": null,
+      "context": "",
+      "text": "在店內、app 內及網頁上，使用 Face ID 以 iPhone 付款\n輔助你在 Mac 上以 Apple Pay 完成購買\n進一步了解 Apple Pay"
+    },
+    {
+      "id": 23,
+      "section": "視訊通話",
+      "model_hint": null,
+      "context": "",
+      "text": "透過行動網路或 Wi-Fi 進行 FaceTime 視訊通話\n透過 5G 或 Wi-Fi 進行 FaceTime HD (1080p) 視訊通話\n視訊通話人物居中\n同播共享\n螢幕共享\nFaceTime 視訊支援人像模式\n空間音訊\n語音隔離和寬廣頻譜麥克風模式\n後置相機支援變焦"
+    },
+    {
+      "id": 24,
+      "section": "音訊通話",
+      "model_hint": null,
+      "context": "",
+      "text": "FaceTime 語音\nVoice over LTE (VoLTE)\nWi-Fi 通話\n同播共享\n螢幕共享\n空間音訊\n語音隔離和寬廣頻譜麥克風模式"
+    },
+    {
+      "id": 25,
+      "section": "音訊播放",
+      "model_hint": null,
+      "context": "",
+      "text": "支援的格式包括 AAC、APAC、MP3、Apple 保真壓縮、FLAC、杜比數位、杜比數位+ 與杜比全景聲\n空間音訊播放\n使用者可自行設定最大音量限制"
+    },
+    {
+      "id": 26,
+      "section": "影片播放",
+      "model_hint": null,
+      "context": "",
+      "text": "支援的格式包括 HEVC、H.264 與 AV1\nHDR 支援杜比視界、HDR10+/HDR10 與 HLG\nAirPlay 鏡像輸出、照片與視訊輸出至 Apple TV (第 2 代或後續機型) 或支援 AirPlay 的智慧型電視，最高可達 4K HDR\n支援視訊鏡像輸出與視訊輸出：透過 USB‑C 或 USB‑C 數位 AV 轉接器支援原生 DisplayPort 輸出，最高可達 4K HDR (轉接器型號 A2119；另售)"
+    },
+    {
+      "id": 27,
+      "section": "Siri",
+      "model_hint": null,
+      "context": "",
+      "text": "協助處理傳送訊息、設定提醒事項等日常事務\n用你的聲音說出「嘿 Siri」才能免持啟用，或使用輸入來與 Siri 對話功能\n提供最強隱私權保護的智慧助理\n由 Apple Intelligence 驅動的 Siri，更自然、更實用\n進一步了解 Siri"
+    },
+    {
+      "id": 28,
+      "section": "作業系統",
+      "model_hint": null,
+      "context": "",
+      "text": "iOS\niOS 是全世界最個人化和最安全的行動作業系統，滿載強大的功能，並且專為保護你的隱私而設計。"
+    },
+    {
+      "id": 29,
+      "section": "隱私權",
+      "model_hint": null,
+      "context": "",
+      "text": "iPhone 的設計初衷，就是要保護你的個人資訊。每部 iPhone 均具備安全的認證功能。各款 app 必須先獲得你的同意，才能追蹤你在其他公司的 app 或網站上的活動。你的 iMessage 和 FaceTime 視訊通話，都經過端對端加密。好用之處，還有更多。\n進一步了解隱私權功能"
+    },
+    {
+      "id": 30,
+      "section": "輔助使用",
+      "model_hint": null,
+      "context": "",
+      "text": "內建眾多輔助使用功能，可支援視覺、活動能力、聽覺、語音和認知方面的需求，助你以最得心應手的方式，盡情發揮 iPhone 的精彩。\n進一步了解\n各項功能包括:\n旁白\n縮放\n放大鏡\n語音控制\n切換控制\n輔助觸控\n眼球追蹤\n隱藏式字幕\n即時字幕\n個人聲音\n即時語音\n輸入來與 Siri 對話\n語音捷徑\n語音內容"
+    },
+    {
+      "id": 31,
+      "section": "內建 App",
+      "model_hint": null,
+      "context": "",
+      "text": "App Store\n書籍\n計算機\n行事曆\n相機\n時鐘\n指南針\n聯絡人\nFaceTime\n檔案\n尋找\n健身\n無邊記\n遊戲\nGarageBand\n健康\n家庭\niMovie\niTunes Store\n日誌\nKeynote\n放大鏡\n郵件\n地圖\n測距儀\n訊息\n音樂\n備忘錄\nNumbers\nPages\n密碼\n電話\n照片\nPodcast\n預覽\n提醒事項\nSafari\n設定\n捷徑\n股市\n提示\n翻譯\nTV\n語音備忘錄\n錢包\nWatch\n天氣\n有關適用於 iPhone 的各款 Apple app，請前往 apple.com/tw/apps 查看完整列表。"
+    },
+    {
+      "id": 32,
+      "section": "助聽輔具等級",
+      "model_hint": null,
+      "context": "",
+      "text": "相容的助聽器"
+    },
+    {
+      "id": 33,
+      "section": "系統需求",
+      "model_hint": null,
+      "context": "",
+      "text": "Apple 帳號 (部分功能需要)\n網際網路連線\n在 Mac 或 PC 上進行同步需要：\n在 macOS Catalina 10.15 或以上版本中使用 Finder\n在 macOS High Sierra 10.13 至 macOS Mojave 10.14.6 中使用 iTunes 12.8 或以上版本\nWindows 10 或以上版本使用 iTunes 12.12.10 或以上版本 (可自 apple.com/tw/itunes/download 免費下載)"
+    },
+    {
+      "id": 34,
+      "section": "環境需求",
+      "model_hint": null,
+      "context": "",
+      "text": "作業環境溫度：\n0° 至 35° C (32° 至 95° F)\n非作業溫度：\n−20° 至 45° C (−4° 至 113° F)\n相對濕度：\n5% 至 95%，非冷凝狀態\n作業高度：\n目前測試最高可達 3,000 公尺 (10,000 呎)"
+    },
+    {
+      "id": 35,
+      "section": "語言版本",
+      "model_hint": null,
+      "context": "",
+      "text": "語言支援\n英文 (澳洲、英國、美國)、中文 (簡體、繁體、香港繁體)、法文 (加拿大、法國)、德文、義大利文、日文、韓文、西班牙文 (拉丁美洲、西班牙)、阿拉伯文、保加利亞文、加泰蘭文、克羅埃西亞文、捷克文、丹麥文、荷蘭文、芬蘭文、希臘文、希伯來文、印地文、匈牙利文、印尼文、哈薩克文、馬來文、挪威文、波蘭文、葡萄牙文 (巴西、葡萄牙)、羅馬尼亞文、俄文、斯洛伐克文、瑞典文、泰文、土耳其文、烏克蘭文、越南文\n進一步了解功能特色適用範圍"
+    },
+    {
+      "id": 36,
+      "section": "包裝盒內容",
+      "model_hint": null,
+      "context": "",
+      "text": "搭載 iOS 27 的 iPhone\nUSB‑C 充電連接線 (1 公尺)\n說明文件"
+    },
+    {
+      "id": 37,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote-1",
+      "text": "* 若要識別你的 iPhone 型號，請參閱 support.apple.com/zh-tw/108044。如需 5G 與 LTE 支援的詳細資訊，請洽詢你的電信業者並參閱 apple.com/tw/iphone/cellular。行動網路技術支援視 iPhone 型號以及 GSM 網路的配置而定。"
+    },
+    {
+      "id": 38,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote-2",
+      "text": "可用儲存空間會隨著眾多因素而減少並有所差異。標準配置會使用約 12GB 至 24GB 的空間，包括 iOS 27 與其最新功能，以及可刪除的各款 Apple app。Apple Intelligence 裝置端模型約會佔用 7GB 空間，並可在 Apple Intelligence 關閉的狀態下刪除。開啟 Apple Intelligence 將會重新下載這些模型。可刪除的各款 Apple app 約會佔用 4.5GB 的空間，你可隨時從 App Store 再次下載這些 app。儲存容量會隨軟體版本、設定與 iPhone 機型而有所變動。"
+    },
+    {
+      "id": 39,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote-3",
+      "text": "尺寸和重量隨配置和製程不同而有所差異。"
+    },
+    {
+      "id": 40,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote-4",
+      "text": "iPhone 17 具備防潑抗水與防塵功能，並且已在受控管的實驗室環境條件下測試，達到 IEC 60529 標準的 IP68 等級 (在最深達 6 公尺水中最長可達 30 分鐘)。防潑抗水與防塵功能非永久狀態，並可能隨日常使用造成的耗損而下降。請勿為潮濕的 iPhone 充電；請參閱使用手冊了解清潔與乾燥處理說明。液體造成的損壞並不在保固範圍內。"
+    },
+    {
+      "id": 41,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote-5",
+      "text": "Apple Intelligence 適用於 Siri 和裝置語言均設為簡體中文、繁體中文、丹麥文、荷蘭文、英文、法文、德文、義大利文、日文、韓文、挪威文、葡萄牙文、西班牙文、瑞典文、土耳其文或越南文的裝置。部分功能可能未在所有地區提供，或未適用於所有語言。部分裝置可能未在所有地區提供。Siri AI Beta 版隨 iOS 27 推出，須使用已啟用 Apple Intelligence 的裝置，並設為支援的語言。初期先支援英文。部分仰賴伺服器端模型的 Apple Intelligence 功能會有每日使用限制，包含但不限於 Siri AI、「智慧照片編輯工具」、「影像樂園」和「捷徑」中的 AFM 3 雲端模型。每日使用限制視功能、需求複雜度、系統需求、系統政策和其他因素而有所差異。此類功能未來可透過付費取得額外使用權限。使用這些功能須遵守 Apple Intelligence 條款與約定。請至 apple.com/tw/apple-intelligence 進一步了解。"
+    },
+    {
+      "id": 42,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote-6",
+      "text": "所列舉的電池效能受網路配置與許多其他因素影響；實際結果可能會有所差異。電池的充電循環次數有限，最終仍可能須要更換。電池使用時間與充電次數視使用情況及設定狀態而異。"
+    },
+    {
+      "id": 43,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote-7",
+      "text": "MagSafe 無線充電最高可達 25W，須使用 30W 或更高功率的電源轉接器。測試由 Apple 於 2025 年 7 月採用 iPhone 17 預量產機型和軟體，搭配 USB‑C 充電連接線與 Apple 40W 動態電源轉接器 (最高輸出 60W，型號 A3351)，以及 Apple MagSafe 充電器 (1 公尺型號 A3502 與 2 公尺型號 A3503) 搭配 Apple 30W USB‑C 電源轉接器 (型號 A2164) 或 Apple 40W 動態電源轉接器 (最高輸出 60W，型號 A3351) 進行。快速充電測試是在電力耗盡的 iPhone 機型進行。充電時間是自裝置啟動後顯示 Apple 標誌起開始計時。充電時間視電源轉接器、設定、使用情況與環境因素而異；實際結果可能有所差異。"
+    },
+    {
+      "id": 44,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote-8",
+      "text": "iPhone 14 與後續機型能偵測嚴重車禍，並為你撥打求救電話。須透過行動網路連線或 Wi-Fi 通話使用。"
+    },
+    {
+      "id": 45,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote-9",
+      "text": "須使用數據方案。5G、Gigabit LTE、VoLTE 和 Wi-Fi 通話服務僅於特定地區並透過特定電信業者提供。連線速度是依據理論傳輸值，並會因所在地情況及電信業者而異。如需 5G 與 LTE 支援的詳細資訊，請洽詢你的電信業者並參閱 apple.com/tw/iphone/cellular。"
+    },
+    {
+      "id": 46,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote-10",
+      "text": "Wi-Fi 7 適用於支援的國家或地區。"
+    },
+    {
+      "id": 47,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote-11",
+      "text": "超寬頻的供應狀況視地區而異。"
+    },
+    {
+      "id": 48,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote-12",
+      "text": "「視覺智慧」功能適用於任何已啟用 Apple Intelligence 的 iPhone。部分功能可能未適用於所有語言，或未在所有地區提供。如需更多詳細資訊，請參閱 support.apple.com/zh-tw/121115#visual-intelligence。"
+    },
+    {
+      "id": 49,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote-13",
+      "text": "使用 eSIM 須選擇支援 eSIM 的電信業者與無線網路服務方案。詳情請洽詢你的電信業者。進一步了解，請參閱 apple.com/tw/esim。"
+    },
+    {
+      "id": 50,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote-14",
+      "text": "FaceTime 通話需要收、發話雙方均使用具有 FaceTime 功能的裝置與 Wi-Fi 連線。行動網路的適用情形視電信業者方案而定；數據服務可能須要付費。"
+    },
+    {
+      "id": 51,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote-15",
+      "text": "僅限標準動態範圍影片內容。"
+    },
+    {
+      "id": 52,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote-16",
+      "text": "Siri 可能無法適用於所有語言或所有地區，功能可能因地區而異。須使用網際網路連線。行動數據服務可能須要付費。"
+    },
+    {
+      "id": 53,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote-17",
+      "text": "建議使用無線寬頻網路；可能須要付費。"
+    },
+    {
+      "id": 54,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote-18",
+      "text": "截至產品發布時數據準確。"
+    },
+    {
+      "id": 55,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote-19",
+      "text": "產品的回收或再生成分含量，是指經認證的再生物料質量相對於裝置總質量的比例，不包含包裝或包裝盒內的配件。"
+    },
+    {
+      "id": 56,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote-20",
+      "text": "我們根據產品發布時的供應商製造分配，將供應商在上一個會計年度採購的低碳電力歸入我們的碳模型，估算在我們製造過程中來自低碳電力的電力相關排放百分比。iPhone 17 的供應商是以此計算方式進行評估。此數字僅包含 Apple 或其供應商因應 Apple 供應商清潔能源方案而採購的低碳電力。"
+    },
+    {
+      "id": 57,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote-21",
+      "text": "能源效率表現是根據美國能源部有關電池充電器的聯邦節能標準。"
+    },
+    {
+      "id": 58,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote-22",
+      "text": "根據 Apple 出貨的零售包裝計算所得的結果。根據美國零售包裝依重量分析所得的結果。我們在計算塑膠含量與包裝重量時，未列入黏著劑、墨水與塗層。"
+    },
+    {
+      "id": 59,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote-23",
+      "text": "與 iPhone 16 相比，每塊貨運棧板上可運載的貨箱 (每箱 10 部裝) 的數量。下列地點因貨運棧板配置不同，所節省的成本也有所差異：安道爾、加拿大、賽普勒斯、希臘、義大利、葡萄牙、南韓、西班牙、瑞士與美國。"
+    },
+    {
+      "id": 60,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote-24",
+      "text": "所有與 Apple 合作超過一年的 iPhone 17 既有最終組裝供應商廠區，均已獲得第三方 UL LLC 的零廢棄認證 (UL 2799 標準)。UL 要求至少 90% 的廢棄物轉化不透過廢棄物能源化的方式完成，方可獲得廢棄物零填埋認證 (銀級須達 90% 至 94%、黃金級須達 95% 至 99%，以及白金級須達 100%)。"
+    },
+    {
+      "id": 61,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote-25",
+      "text": "《Apple 管制物質規範》明列 Apple 產品、配件、製程以及用於向 Apple 的終端顧客運送產品的包裝之物料所含的某些化學物質使用限制。其中所列的限制出自於各大國際法律或指導原則、監管機構、環保標籤規定、環保標準與 Apple 政策。所有 Apple 產品皆不含聚氯乙烯 (PVC) 及鄰苯二甲酸鹽，除了印度、泰國 (兩孔 AC 電源線) 與南韓的 AC 電源線，仍待當地政府核准我們的聚氯乙烯 (PVC) 及鄰苯二甲酸鹽替代物料。Apple 產品皆符合歐盟指令 2011/65/EU 及其相關修訂條款，包括使用鉛 (如高溫焊料) 的豁免條款。Apple 致力在技術能力可行的情況下，逐步針對新產品淘汰停用這類受豁免物質。"
+    },
+    {
+      "id": 62,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote-26",
+      "text": "折抵換購服務由 Apple 的換購服務合作夥伴提供。折抵金額報價僅為預估價，實際折抵換購價值可能低於估價。實際換購估價視你折抵換購裝置的狀況、推出年份、機型，以及折抵換購裝置原發售的國家或地區而有所差異。並非所有裝置均符合折抵條件。你必須已達法定成年年齡，才有折抵換購的資格，以獲享折抵優惠或取得 Apple Store 禮品卡。你現有裝置的價值，可能適用於購買新 Apple 裝置。實際獲得的換購價值，是根據收到符合條件的裝置，是否吻合你在估價時所提供的描述而定。可能須按照新裝置的全額售價繳納加值型營業稅。店內換購須出示政府核發的有效照片證件，才能享有此項優惠 (當地法律可能要求保存這份資訊)。優惠可能無法在所有直營店提供，線上和店內折抵換購的估價可能會有所不同。部分直營店可能會有額外的要求。Apple 的換購服務合作夥伴保留以任何理由拒絕、取消任何折抵換購交易，或限制接受任何裝置 (及其數量) 參與本優惠的權利。更多詳情可自 Apple 的換購服務合作夥伴取得，以了解符合換購及回收條件的裝置。須遵守 Apple 的換購服務合作夥伴所訂立的其他條款。"
+    },
+    {
+      "id": 63,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote",
+      "text": "所列功能會隨情況而有所變動。部分功能、應用程式與服務可能未在所有地區提供，或未適用於所有語言；並可能須使用特定的硬體與軟體。如需更多資訊，請參閱功能特色適用範圍。"
+    },
+    {
+      "id": 64,
+      "section": "註腳與限制",
+      "model_hint": null,
+      "context": "footnote",
+      "text": "如需台灣 NCC 認證產品的進一步詳細資訊，請按這裡。"
+    }
+  ],
+  "llm_calls": 3,
+  "llm_ms": 96013,
+  "warnings": [
+    "未取得可驗證的 TWD 起售價；不使用分期、折抵或模型猜測",
+    "部分區塊未能唯一對應型號，保留於未分配規格；未複製到各型號"
+  ]
+}

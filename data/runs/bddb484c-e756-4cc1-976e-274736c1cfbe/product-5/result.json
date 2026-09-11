@@ -1,0 +1,428 @@
+{
+  "category": "watch",
+  "name": "Apple Watch SE 3",
+  "product_url": "https://www.apple.com/tw/apple-watch-se-3/",
+  "specs_url": "https://www.apple.com/tw/apple-watch-se-3/specs/",
+  "fetched_at": "2026-09-09T03:54:33.033424+00:00",
+  "model": "qwen2.5-coder:14b",
+  "variants": [],
+  "starting_price": null,
+  "specs": [
+    {
+      "block_id": 0,
+      "section": "材質與外觀",
+      "label": "材質與外觀",
+      "value": "鋁金屬錶殼\n星光色、午夜色",
+      "model": null,
+      "conditions": null,
+      "evidence": "鋁金屬錶殼\n星光色、午夜色",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 1,
+      "section": "尺寸與重量",
+      "label": "尺寸與重量",
+      "value": "高度：44 公釐\n寬度：38 公釐\n厚度：10.7 公釐\n368 x 448 像素\n977 平方公釐顯示面積\n重量 (GPS)：\n32.9 公克\n重量 (GPS + 行動網路)：\n33.0 公克\n適合手腕圍 140–245 公釐",
+      "model": null,
+      "conditions": null,
+      "evidence": "高度：44 公釐\n寬度：38 公釐\n厚度：10.7 公釐\n368 x 448 像素\n977 平方公釐顯示面積\n重量 (GPS)：\n32.9 公克\n重量 (GPS + 行動網路)：\n33.0 公克\n適合手腕圍 140–245 公釐",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 2,
+      "section": "尺寸與重量",
+      "label": "尺寸與重量",
+      "value": "高度：40 公釐\n寬度：34 公釐\n厚度：10.7 公釐\n324 x 394 像素\n759 平方公釐顯示面積\n重量 (GPS)：\n26.3 公克\n重量 (GPS + 行動網路)：\n26.4 公克\n適合手腕圍 130–200 公釐",
+      "model": null,
+      "conditions": null,
+      "evidence": "高度：40 公釐\n寬度：34 公釐\n厚度：10.7 公釐\n324 x 394 像素\n759 平方公釐顯示面積\n重量 (GPS)：\n26.3 公克\n重量 (GPS + 行動網路)：\n26.4 公克\n適合手腕圍 130–200 公釐",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 3,
+      "section": "硬體與按鈕",
+      "label": "硬體與按鈕",
+      "value": "數位錶冠\n麥克風\n側邊按鈕\n揚聲器/透氣孔\n光學心率感測器",
+      "model": null,
+      "conditions": null,
+      "evidence": "數位錶冠\n麥克風\n側邊按鈕\n揚聲器/透氣孔\n光學心率感測器",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 4,
+      "section": "操控",
+      "label": "操控",
+      "value": "具備觸覺回饋的數位錶冠\n側邊按鈕\n手勢操控雙指互點兩下與翻轉手腕\nSiri",
+      "model": null,
+      "conditions": null,
+      "evidence": "具備觸覺回饋的數位錶冠\n側邊按鈕\n手勢操控雙指互點兩下與翻轉手腕\nSiri",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 5,
+      "section": "晶片",
+      "label": "晶片",
+      "value": "S10 晶片配備 64 位元雙核心處理器\n4 核心神經網路引擎\n64GB 容量",
+      "model": null,
+      "conditions": null,
+      "evidence": "S10 晶片配備 64 位元雙核心處理器\n4 核心神經網路引擎\n64GB 容量",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 6,
+      "section": "感測器",
+      "label": "感測器",
+      "value": "第 2 代光學心率感測器\n體溫感測器\n指南針\n常啟高度計\n高 g 值加速度計\n高動態範圍陀螺儀\n環境光度感測器",
+      "model": null,
+      "conditions": null,
+      "evidence": "第 2 代光學心率感測器\n體溫感測器\n指南針\n常啟高度計\n高 g 值加速度計\n高動態範圍陀螺儀\n環境光度感測器",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 7,
+      "section": "健康與保健",
+      "label": "健康與保健",
+      "value": "經期追蹤 app，支援排卵日回推估計\n心率 app\n高心率與低心率通知\n心律不整通知\n用藥 app\n正念 app\n噪音 app\n睡眠 app，包含睡眠階段功能\n睡眠分數\n睡眠呼吸中止症通知",
+      "model": null,
+      "conditions": null,
+      "evidence": "經期追蹤 app，支援排卵日回推估計\n心率 app\n高心率與低心率通知\n心律不整通知\n用藥 app\n正念 app\n噪音 app\n睡眠 app，包含睡眠階段功能\n睡眠分數\n睡眠呼吸中止症通知",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 8,
+      "section": "顯示器",
+      "label": "顯示器",
+      "value": "隨顯 Retina 顯示器，具備 OLED 與 LTPO\n堅固的 Ion-X 玻璃錶面，具備 4 倍抗裂能力\n最高可達 1000 尼特峰值亮度\n最低至 2 尼特亮度\n每吋 326 像素",
+      "model": null,
+      "conditions": "最高可達 1000 尼特峰值亮度",
+      "evidence": "隨顯 Retina 顯示器，具備 OLED 與 LTPO\n堅固的 Ion-X 玻璃錶面，具備 4 倍抗裂能力\n最高可達 1000 尼特峰值亮度\n最低至 2 尼特亮度\n每吋 326 像素",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 9,
+      "section": "音訊",
+      "label": "音訊",
+      "value": "揚聲器\n麥克風\n支援媒體播放",
+      "model": null,
+      "conditions": null,
+      "evidence": "揚聲器\n麥克風\n支援媒體播放",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 10,
+      "section": "電源與\n電池使用時間",
+      "label": "電源與電池使用時間",
+      "value": "滿足一天所需的電池使用時間，正常使用最長可達 18 小時\n低耗電模式下最長可達 32 小時\n內建充電式鋰離子電池\n支援快速充電\n充電約 45 分鐘最高可達 80% 電量\n充電 15 分鐘，正常使用最長可達 8 小時\n充電 8 分鐘，睡眠追蹤最長可達 8 小時\n進一步了解",
+      "model": null,
+      "conditions": "最長可達 18 小時",
+      "evidence": "滿足一天所需的電池使用時間，正常使用最長可達 18 小時\n低耗電模式下最長可達 32 小時\n內建充電式鋰離子電池\n支援快速充電\n充電約 45 分鐘最高可達 80% 電量\n充電 15 分鐘，正常使用最長可達 8 小時\n充電 8 分鐘，睡眠追蹤最長可達 8 小時\n進一步了解",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 11,
+      "section": "作業系統",
+      "label": "作業系統",
+      "value": "watchOS\nwatchOS 是世界最先進的穿戴式裝置作業系統，其中的 app 與功能經過精心設計，能讓你保有活力、健康生活、確保安全，並保持聯繫。",
+      "model": null,
+      "conditions": null,
+      "evidence": "watchOS\nwatchOS 是世界最先進的穿戴式裝置作業系統，其中的 app 與功能經過精心設計，能讓你保有活力、健康生活、確保安全，並保持聯繫。",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 12,
+      "section": "體能訓練與\n活動記錄",
+      "label": "體能訓練與活動記錄",
+      "value": "跑步\n自訂訓練\n可自訂的體能訓練顯示畫面\n訓練負荷\n心率區間\n路線競速\n配速員\n步幅長度、觸地時間與垂直振幅\n多運動訓練",
+      "model": null,
+      "conditions": null,
+      "evidence": "跑步\n自訂訓練\n可自訂的體能訓練顯示畫面\n訓練負荷\n心率區間\n路線競速\n配速員\n步幅長度、觸地時間與垂直振幅\n多運動訓練",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 13,
+      "section": "體能訓練與\n活動記錄",
+      "label": "體能訓練與活動記錄",
+      "value": "健行\n指南針具備方位角、傾斜度、海拔高度與座標\n自訂航點\n行動網路連線自動產生的航點\n回溯 GPS 資料\n離線地圖可規劃自訂路線\n數以千計的國家與地區公園的地形圖 (僅限美國)\n提供美國全部 63 座國家公園數以百計的精選健行路線",
+      "model": null,
+      "conditions": null,
+      "evidence": "健行\n指南針具備方位角、傾斜度、海拔高度與座標\n自訂航點\n行動網路連線自動產生的航點\n回溯 GPS 資料\n離線地圖可規劃自訂路線\n數以千計的國家與地區公園的地形圖 (僅限美國)\n提供美國全部 63 座國家公園數以百計的精選健行路線",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 14,
+      "section": "體能訓練與\n活動記錄",
+      "label": "體能訓練與活動記錄",
+      "value": "自行車\n平均速度、爬升高度與距離\n透過藍牙連接至自行車配件\n功能性閾值功率\n功率區間\n踏頻\niPhone 上的即時動態",
+      "model": null,
+      "conditions": null,
+      "evidence": "自行車\n平均速度、爬升高度與距離\n透過藍牙連接至自行車配件\n功能性閾值功率\n功率區間\n踏頻\niPhone 上的即時動態",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 15,
+      "section": "體能訓練與\n活動記錄",
+      "label": "體能訓練與活動記錄",
+      "value": "游泳\n泳池游泳或開放水域游泳\n自訂泳池游泳體能訓練\n分段與自動組合\n游泳效率指標 (SWOLF) 數值\n自動泳式偵測\n浮板偵測\n平均配速、總距離與趟數",
+      "model": null,
+      "conditions": null,
+      "evidence": "游泳\n泳池游泳或開放水域游泳\n自訂泳池游泳體能訓練\n分段與自動組合\n游泳效率指標 (SWOLF) 數值\n自動泳式偵測\n浮板偵測\n平均配速、總距離與趟數",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 16,
+      "section": "其他規格",
+      "label": "其他規格",
+      "value": "更多體能訓練\n滑雪\n滑雪板\n室外划船\n划槳\n高爾夫球\n步行\n橢圓機\n划船機\n踏步機\n高強度間歇訓練\n瑜伽\n功能性肌力訓練\n舞蹈\n緩和運動\n核心訓練\n皮拉提斯\n太極拳\n輪椅\n踢拳\n多運動訓練\n其他",
+      "model": null,
+      "conditions": null,
+      "evidence": "更多體能訓練\n滑雪\n滑雪板\n室外划船\n划槳\n高爾夫球\n步行\n橢圓機\n划船機\n踏步機\n高強度間歇訓練\n瑜伽\n功能性肌力訓練\n舞蹈\n緩和運動\n核心訓練\n皮拉提斯\n太極拳\n輪椅\n踢拳\n多運動訓練\n其他",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 17,
+      "section": "安全功能",
+      "label": "安全功能",
+      "value": "SOS 緊急服務\n全球緊急電話\n車禍偵測\n跌倒偵測\n噪音監測\n回溯功能",
+      "model": null,
+      "conditions": null,
+      "evidence": "SOS 緊急服務\n全球緊急電話\n車禍偵測\n跌倒偵測\n噪音監測\n回溯功能",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 18,
+      "section": "經久耐用",
+      "label": "經久耐用",
+      "value": "防水 50 公尺 (適用於游泳)",
+      "model": null,
+      "conditions": null,
+      "evidence": "防水 50 公尺 (適用於游泳)",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 19,
+      "section": "連線能力",
+      "label": "連線能力",
+      "value": "所有機型\n支援 2.4GHz Wi-Fi 網路\nWi-Fi 4 (802.11n)\n藍牙 5.3\nL1 (GPS、GLONASS、Galileo、QZSS 與北斗定位系統)\nApple Pay\nGymKit\n型號 A3326 與 A3328：\n支援 LTE 與 UMTS\nFDD‑LTE (頻段 1、2、3、4、5、7、8、12、13、14、17、18、19、20、25、26、28、66、71)\nTDD‑LTE (頻段 38、39、40、41)\n支援 Apple Watch 親子設定\n國際漫遊",
+      "model": null,
+      "conditions": null,
+      "evidence": "所有機型\n支援 2.4GHz Wi-Fi 網路\nWi-Fi 4 (802.11n)\n藍牙 5.3\nL1 (GPS、GLONASS、Galileo、QZSS 與北斗定位系統)\nApple Pay\nGymKit\n型號 A3326 與 A3328：\n支援 LTE 與 UMTS\nFDD‑LTE (頻段 1、2、3、4、5、7、8、12、13、14、17、18、19、20、25、26、28、66、71)\nTDD‑LTE (頻段 38、39、40、41)\n支援 Apple Watch 親子設定\n國際漫遊",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 20,
+      "section": "輔助使用",
+      "label": "輔助使用",
+      "value": "眾多支援視覺、活動能力、聽覺及認知障礙人士的內建輔助使用功能。\n進一步了解\n各項功能包括：\n旁白\n縮放\n開啟/關閉標籤\n減少透明度\n增加對比\n顏色濾鏡\n文字大小\n粗體文字\n減少動態效果\n每小時鐘聲\n輔助觸控\n按鈕按鍵速度\n觸控調節\n自動接聽來電\n輸入來與 Siri 對話\n音量平衡\n音訊逐字稿\n即時語音\n輔助使用快速鍵\n單聲道音訊\n觸覺回饋時間\n個人聲音\n即時聆聽",
+      "model": null,
+      "conditions": null,
+      "evidence": "眾多支援視覺、活動能力、聽覺及認知障礙人士的內建輔助使用功能。\n進一步了解\n各項功能包括：\n旁白\n縮放\n開啟/關閉標籤\n減少透明度\n增加對比\n顏色濾鏡\n文字大小\n粗體文字\n減少動態效果\n每小時鐘聲\n輔助觸控\n按鈕按鍵速度\n觸控調節\n自動接聽來電\n輸入來與 Siri 對話\n音量平衡\n音訊逐字稿\n即時語音\n輔助使用快速鍵\n單聲道音訊\n觸覺回饋時間\n個人聲音\n即時聆聽",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 21,
+      "section": "環境需求",
+      "label": "環境需求",
+      "value": "作業溫度：\n0° 至 35° C (32° 至 95° F)\n非作業存放溫度：\n-20° 至 45° C (-4° 至 113° F)\n相對濕度：\n5% 至 90%，非冷凝狀態\n作業高度：\n0 公尺至 3,000 公尺 (0 呎至 10,000 呎)",
+      "model": null,
+      "conditions": null,
+      "evidence": "作業溫度：\n0° 至 35° C (32° 至 95° F)\n非作業存放溫度：\n-20° 至 45° C (-4° 至 113° F)\n相對濕度：\n5% 至 90%，非冷凝狀態\n作業高度：\n0 公尺至 3,000 公尺 (0 呎至 10,000 呎)",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 22,
+      "section": "相容性",
+      "label": "相容性",
+      "value": "搭載 iOS 26 或以上版本的 iPhone 11 或後續機型，以及 iPhone SE (第 2 代或後續機型)",
+      "model": null,
+      "conditions": null,
+      "evidence": "搭載 iOS 26 或以上版本的 iPhone 11 或後續機型，以及 iPhone SE (第 2 代或後續機型)",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 23,
+      "section": "包裝盒內容",
+      "label": "包裝盒內容",
+      "value": "Apple Watch SE 3\n錶帶\nApple Watch 磁性快速充電器對 USB-C 連接線 (1 公尺)",
+      "model": null,
+      "conditions": null,
+      "evidence": "Apple Watch SE 3\n錶帶\nApple Watch 磁性快速充電器對 USB-C 連接線 (1 公尺)",
+      "status": "source_matched"
+    }
+  ],
+  "blocks": [
+    {
+      "id": 0,
+      "section": "材質與外觀",
+      "model_hint": null,
+      "context": "",
+      "text": "鋁金屬錶殼\n星光色、午夜色"
+    },
+    {
+      "id": 1,
+      "section": "尺寸與重量",
+      "model_hint": null,
+      "context": "",
+      "text": "高度：44 公釐\n寬度：38 公釐\n厚度：10.7 公釐\n368 x 448 像素\n977 平方公釐顯示面積\n重量 (GPS)：\n32.9 公克\n重量 (GPS + 行動網路)：\n33.0 公克\n適合手腕圍 140–245 公釐"
+    },
+    {
+      "id": 2,
+      "section": "尺寸與重量",
+      "model_hint": null,
+      "context": "",
+      "text": "高度：40 公釐\n寬度：34 公釐\n厚度：10.7 公釐\n324 x 394 像素\n759 平方公釐顯示面積\n重量 (GPS)：\n26.3 公克\n重量 (GPS + 行動網路)：\n26.4 公克\n適合手腕圍 130–200 公釐"
+    },
+    {
+      "id": 3,
+      "section": "硬體與按鈕",
+      "model_hint": null,
+      "context": "",
+      "text": "數位錶冠\n麥克風\n側邊按鈕\n揚聲器/透氣孔\n光學心率感測器"
+    },
+    {
+      "id": 4,
+      "section": "操控",
+      "model_hint": null,
+      "context": "",
+      "text": "具備觸覺回饋的數位錶冠\n側邊按鈕\n手勢操控雙指互點兩下與翻轉手腕\nSiri"
+    },
+    {
+      "id": 5,
+      "section": "晶片",
+      "model_hint": null,
+      "context": "",
+      "text": "S10 晶片配備 64 位元雙核心處理器\n4 核心神經網路引擎\n64GB 容量"
+    },
+    {
+      "id": 6,
+      "section": "感測器",
+      "model_hint": null,
+      "context": "",
+      "text": "第 2 代光學心率感測器\n體溫感測器\n指南針\n常啟高度計\n高 g 值加速度計\n高動態範圍陀螺儀\n環境光度感測器"
+    },
+    {
+      "id": 7,
+      "section": "健康與保健",
+      "model_hint": null,
+      "context": "",
+      "text": "經期追蹤 app，支援排卵日回推估計\n心率 app\n高心率與低心率通知\n心律不整通知\n用藥 app\n正念 app\n噪音 app\n睡眠 app，包含睡眠階段功能\n睡眠分數\n睡眠呼吸中止症通知"
+    },
+    {
+      "id": 8,
+      "section": "顯示器",
+      "model_hint": null,
+      "context": "",
+      "text": "隨顯 Retina 顯示器，具備 OLED 與 LTPO\n堅固的 Ion-X 玻璃錶面，具備 4 倍抗裂能力\n最高可達 1000 尼特峰值亮度\n最低至 2 尼特亮度\n每吋 326 像素"
+    },
+    {
+      "id": 9,
+      "section": "音訊",
+      "model_hint": null,
+      "context": "",
+      "text": "揚聲器\n麥克風\n支援媒體播放"
+    },
+    {
+      "id": 10,
+      "section": "電源與\n電池使用時間",
+      "model_hint": null,
+      "context": "",
+      "text": "滿足一天所需的電池使用時間，正常使用最長可達 18 小時\n低耗電模式下最長可達 32 小時\n內建充電式鋰離子電池\n支援快速充電\n充電約 45 分鐘最高可達 80% 電量\n充電 15 分鐘，正常使用最長可達 8 小時\n充電 8 分鐘，睡眠追蹤最長可達 8 小時\n進一步了解"
+    },
+    {
+      "id": 11,
+      "section": "作業系統",
+      "model_hint": null,
+      "context": "",
+      "text": "watchOS\nwatchOS 是世界最先進的穿戴式裝置作業系統，其中的 app 與功能經過精心設計，能讓你保有活力、健康生活、確保安全，並保持聯繫。"
+    },
+    {
+      "id": 12,
+      "section": "體能訓練與\n活動記錄",
+      "model_hint": null,
+      "context": "",
+      "text": "跑步\n自訂訓練\n可自訂的體能訓練顯示畫面\n訓練負荷\n心率區間\n路線競速\n配速員\n步幅長度、觸地時間與垂直振幅\n多運動訓練"
+    },
+    {
+      "id": 13,
+      "section": "體能訓練與\n活動記錄",
+      "model_hint": null,
+      "context": "",
+      "text": "健行\n指南針具備方位角、傾斜度、海拔高度與座標\n自訂航點\n行動網路連線自動產生的航點\n回溯 GPS 資料\n離線地圖可規劃自訂路線\n數以千計的國家與地區公園的地形圖 (僅限美國)\n提供美國全部 63 座國家公園數以百計的精選健行路線"
+    },
+    {
+      "id": 14,
+      "section": "體能訓練與\n活動記錄",
+      "model_hint": null,
+      "context": "",
+      "text": "自行車\n平均速度、爬升高度與距離\n透過藍牙連接至自行車配件\n功能性閾值功率\n功率區間\n踏頻\niPhone 上的即時動態"
+    },
+    {
+      "id": 15,
+      "section": "體能訓練與\n活動記錄",
+      "model_hint": null,
+      "context": "",
+      "text": "游泳\n泳池游泳或開放水域游泳\n自訂泳池游泳體能訓練\n分段與自動組合\n游泳效率指標 (SWOLF) 數值\n自動泳式偵測\n浮板偵測\n平均配速、總距離與趟數"
+    },
+    {
+      "id": 16,
+      "section": "其他規格",
+      "model_hint": null,
+      "context": "",
+      "text": "更多體能訓練\n滑雪\n滑雪板\n室外划船\n划槳\n高爾夫球\n步行\n橢圓機\n划船機\n踏步機\n高強度間歇訓練\n瑜伽\n功能性肌力訓練\n舞蹈\n緩和運動\n核心訓練\n皮拉提斯\n太極拳\n輪椅\n踢拳\n多運動訓練\n其他"
+    },
+    {
+      "id": 17,
+      "section": "安全功能",
+      "model_hint": null,
+      "context": "",
+      "text": "SOS 緊急服務\n全球緊急電話\n車禍偵測\n跌倒偵測\n噪音監測\n回溯功能"
+    },
+    {
+      "id": 18,
+      "section": "經久耐用",
+      "model_hint": null,
+      "context": "",
+      "text": "防水 50 公尺 (適用於游泳)"
+    },
+    {
+      "id": 19,
+      "section": "連線能力",
+      "model_hint": null,
+      "context": "",
+      "text": "所有機型\n支援 2.4GHz Wi-Fi 網路\nWi-Fi 4 (802.11n)\n藍牙 5.3\nL1 (GPS、GLONASS、Galileo、QZSS 與北斗定位系統)\nApple Pay\nGymKit\n型號 A3326 與 A3328：\n支援 LTE 與 UMTS\nFDD‑LTE (頻段 1、2、3、4、5、7、8、12、13、14、17、18、19、20、25、26、28、66、71)\nTDD‑LTE (頻段 38、39、40、41)\n支援 Apple Watch 親子設定\n國際漫遊"
+    },
+    {
+      "id": 20,
+      "section": "輔助使用",
+      "model_hint": null,
+      "context": "",
+      "text": "眾多支援視覺、活動能力、聽覺及認知障礙人士的內建輔助使用功能。\n進一步了解\n各項功能包括：\n旁白\n縮放\n開啟/關閉標籤\n減少透明度\n增加對比\n顏色濾鏡\n文字大小\n粗體文字\n減少動態效果\n每小時鐘聲\n輔助觸控\n按鈕按鍵速度\n觸控調節\n自動接聽來電\n輸入來與 Siri 對話\n音量平衡\n音訊逐字稿\n即時語音\n輔助使用快速鍵\n單聲道音訊\n觸覺回饋時間\n個人聲音\n即時聆聽"
+    },
+    {
+      "id": 21,
+      "section": "環境需求",
+      "model_hint": null,
+      "context": "",
+      "text": "作業溫度：\n0° 至 35° C (32° 至 95° F)\n非作業存放溫度：\n-20° 至 45° C (-4° 至 113° F)\n相對濕度：\n5% 至 90%，非冷凝狀態\n作業高度：\n0 公尺至 3,000 公尺 (0 呎至 10,000 呎)"
+    },
+    {
+      "id": 22,
+      "section": "相容性",
+      "model_hint": null,
+      "context": "",
+      "text": "搭載 iOS 26 或以上版本的 iPhone 11 或後續機型，以及 iPhone SE (第 2 代或後續機型)"
+    },
+    {
+      "id": 23,
+      "section": "包裝盒內容",
+      "model_hint": null,
+      "context": "",
+      "text": "Apple Watch SE 3\n錶帶\nApple Watch 磁性快速充電器對 USB-C 連接線 (1 公尺)"
+    }
+  ],
+  "llm_calls": 2,
+  "llm_ms": 67786,
+  "warnings": [
+    "未取得可驗證的 TWD 起售價；不使用分期、折抵或模型猜測",
+    "部分區塊未能唯一對應型號，保留於未分配規格；未複製到各型號"
+  ]
+}

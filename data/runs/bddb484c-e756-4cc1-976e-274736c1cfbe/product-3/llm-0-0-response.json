@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-09-09T03:52:17.990645Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 582,
+  "eval_duration": 31919220000,
+  "load_duration": 4899209,
+  "message": {
+    "content": "{\n  \"annotations\": [\n    {\n      \"block_id\": 0,\n      \"conditions\": null,\n      \"label\": \"顏色\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 1,\n      \"conditions\": null,\n      \"label\": \"容量\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 2,\n      \"conditions\": null,\n      \"label\": \"尺寸與重量\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 3,\n      \"conditions\": null,\n      \"label\": \"重量\",\n      \"model\": \"Wi-Fi 機型\"\n    },\n    {\n      \"block_id\": 4,\n      \"conditions\": null,\n      \"label\": \"重量\",\n      \"model\": \"Wi-Fi + 行動網路機型\"\n    },\n    {\n      \"block_id\": 5,\n      \"conditions\": null,\n      \"label\": \"按鈕與連接器\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 6,\n      \"conditions\": null,\n      \"label\": \"包裝盒內容\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 7,\n      \"conditions\": null,\n      \"label\": \"尺寸\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 8,\n      \"conditions\": null,\n      \"label\": \"顯示器\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 9,\n      \"conditions\": null,\n      \"label\": \"晶片\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 10,\n      \"conditions\": \"最高可達 5 倍數位變焦\",\n      \"label\": \"相機\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 11,\n      \"conditions\": null,\n      \"label\": \"錄影\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 12,\n      \"conditions\": null,\n      \"label\": \"前置相機\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 13,\n      \"conditions\": null,\n      \"label\": \"視訊通話\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 14,\n      \"conditions\": null,\n      \"label\": \"音訊通話\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 15,\n      \"conditions\": null,\n      \"label\": \"揚聲器\",\n      \"model\": null\n    }\n  ]\n}",
+    "role": "assistant"
+  },
+  "model": "qwen2.5-coder:14b",
+  "prompt_eval_cached_count": 181,
+  "prompt_eval_count": 1580,
+  "prompt_eval_duration": 7966512000,
+  "total_duration": 40033597084
+}

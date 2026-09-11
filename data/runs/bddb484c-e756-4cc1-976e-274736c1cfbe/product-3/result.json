@@ -1,0 +1,632 @@
+{
+  "category": "ipad",
+  "name": "iPad",
+  "product_url": "https://www.apple.com/tw/ipad-11/",
+  "specs_url": "https://www.apple.com/tw/ipad-11/specs/",
+  "fetched_at": "2026-09-09T03:51:37.952503+00:00",
+  "model": "qwen2.5-coder:14b",
+  "variants": [],
+  "starting_price": null,
+  "specs": [
+    {
+      "block_id": 0,
+      "section": "外觀",
+      "label": "顏色",
+      "value": "銀色\n藍色\n粉紅色\n黃色",
+      "model": null,
+      "conditions": null,
+      "evidence": "銀色\n藍色\n粉紅色\n黃色",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 1,
+      "section": "容量",
+      "label": "容量",
+      "value": "128GB\n256GB\n512GB",
+      "model": null,
+      "conditions": null,
+      "evidence": "128GB\n256GB\n512GB",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 2,
+      "section": "尺寸與重量",
+      "label": "尺寸與重量",
+      "value": "高度\n248.6 公釐\n(9.79 吋)\n寬度\n179.5 公釐\n(7.07 吋)\n厚度\n7 公釐\n(0.28 吋)",
+      "model": null,
+      "conditions": null,
+      "evidence": "高度\n248.6 公釐\n(9.79 吋)\n寬度\n179.5 公釐\n(7.07 吋)\n厚度\n7 公釐\n(0.28 吋)",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 3,
+      "section": "其他規格",
+      "label": "重量",
+      "value": "Wi-Fi 機型\n477 公克 (1.05 磅)",
+      "model": null,
+      "conditions": null,
+      "evidence": "Wi-Fi 機型\n477 公克 (1.05 磅)",
+      "status": "needs_review"
+    },
+    {
+      "block_id": 4,
+      "section": "其他規格",
+      "label": "重量",
+      "value": "Wi-Fi + 行動網路機型\n481 公克 (1.06 磅)",
+      "model": null,
+      "conditions": null,
+      "evidence": "Wi-Fi + 行動網路機型\n481 公克 (1.06 磅)",
+      "status": "needs_review"
+    },
+    {
+      "block_id": 5,
+      "section": "按鈕與連接器",
+      "label": "按鈕與連接器",
+      "value": "揚聲器\n：頂部\n頂端按鈕/\nTouch ID 感測器\n：頂部\n聰穎\n接點\n：左側\n相機\n：正面，位於顯示器右側\n麥克風\n：正面，位於顯示器右側\n揚聲器\n：底部\n相機\n：背面\n麥克風\n：背面\n音量\n調高/低\n：右側\nUSB-C 連接器\n：底部\n揚聲器\n：頂部\n頂端按鈕/\nTouch ID 感測器\n：頂部\n相機\n：正面，位於顯示器右側\n聰穎\n接點\n：左側\n麥克風\n：正面，位於顯示器右側\n揚聲器\n：底部\n相機\n：背面\n麥克風\n：背面\n音量\n調高/低\n：右側\nUSB‑C 連接器\n：底部",
+      "model": null,
+      "conditions": null,
+      "evidence": "揚聲器\n：頂部\n頂端按鈕/\nTouch ID 感測器\n：頂部\n聰穎\n接點\n：左側\n相機\n：正面，位於顯示器右側\n麥克風\n：正面，位於顯示器右側\n揚聲器\n：底部\n相機\n：背面\n麥克風\n：背面\n音量\n調高/低\n：右側\nUSB-C 連接器\n：底部\n揚聲器\n：頂部\n頂端按鈕/\nTouch ID 感測器\n：頂部\n相機\n：正面，位於顯示器右側\n聰穎\n接點\n：左側\n麥克風\n：正面，位於顯示器右側\n揚聲器\n：底部\n相機\n：背面\n麥克風\n：背面\n音量\n調高/低\n：右側\nUSB‑C 連接器\n：底部",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 6,
+      "section": "包裝盒內容",
+      "label": "包裝盒內容",
+      "value": "iPad\nUSB-C 充電連接線 (1 公尺)\n20W USB-C 電源轉接器",
+      "model": null,
+      "conditions": null,
+      "evidence": "iPad\nUSB-C 充電連接線 (1 公尺)\n20W USB-C 電源轉接器",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 7,
+      "section": "顯示器",
+      "label": "尺寸",
+      "value": "11 吋\n顯示器採用圓角設計，以矩形對角線量測時， 螢幕的對角線長度為 10.86 吋。",
+      "model": null,
+      "conditions": null,
+      "evidence": "11 吋\n顯示器採用圓角設計，以矩形對角線量測時， 螢幕的對角線長度為 10.86 吋。",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 8,
+      "section": "顯示器",
+      "label": "顯示器",
+      "value": "Liquid Retina 顯示器\nLED 背光多點觸控顯示器，採用 IPS 技術\n2360 x 1640 解析度，264 ppi\n原彩顯示\n500 尼特亮度\n防指印疏油外膜\n支援 Apple Pencil\n(USB-C)\n支援 Apple Pencil (第 1 代)\niPad 顯示器採用圓角設計。以矩形對角線量測時， 螢幕為 10.86 吋。實際可視區較小。\n透過 USB-C 對 Apple Pencil 轉接器為 Apple Pencil (第 1 代) 進行配對和充電。",
+      "model": null,
+      "conditions": null,
+      "evidence": "Liquid Retina 顯示器\nLED 背光多點觸控顯示器，採用 IPS 技術\n2360 x 1640 解析度，264 ppi\n原彩顯示\n500 尼特亮度\n防指印疏油外膜\n支援 Apple Pencil\n(USB-C)\n支援 Apple Pencil (第 1 代)\niPad 顯示器採用圓角設計。以矩形對角線量測時， 螢幕為 10.86 吋。實際可視區較小。\n透過 USB-C 對 Apple Pencil 轉接器為 Apple Pencil (第 1 代) 進行配對和充電。",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 9,
+      "section": "晶片",
+      "label": "晶片",
+      "value": "A16 晶片\n5 核心 CPU\n4 核心 GPU\n16 核心神經網路引擎",
+      "model": null,
+      "conditions": null,
+      "evidence": "A16 晶片\n5 核心 CPU\n4 核心 GPU\n16 核心神經網路引擎",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 10,
+      "section": "相機",
+      "label": "相機",
+      "value": "1200 萬像素廣角相機，ƒ/1.8 光圈\n最高可達 5 倍數位變焦\n五枚鏡片組\n自動對焦，採用 Focus Pixels\n全景模式 (最高可達 6300 萬像素)\n智慧型 HDR 4\n照片地理位置標記\n自動影像穩定功能\n連拍模式\n影像拍攝格式：HEIF 與 JPEG",
+      "model": null,
+      "conditions": "最高可達 5 倍數位變焦",
+      "evidence": "1200 萬像素廣角相機，ƒ/1.8 光圈\n最高可達 5 倍數位變焦\n五枚鏡片組\n自動對焦，採用 Focus Pixels\n全景模式 (最高可達 6300 萬像素)\n智慧型 HDR 4\n照片地理位置標記\n自動影像穩定功能\n連拍模式\n影像拍攝格式：HEIF 與 JPEG",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 11,
+      "section": "錄影",
+      "label": "錄影",
+      "value": "4K 錄影，24 fps、25 fps、30 fps 或 60 fps\n1080p HD 錄影，25 fps、30 fps 或 60 fps\n720p HD 錄影，30 fps 或 60 fps\n支援 1080p (120 fps 或 240 fps) 的慢動作影片\n具備視訊穩定功能的縮時攝影\n延伸動態範圍錄影，最高可達 30 fps\n視訊影像穩定功能\n電影級視訊穩定功能 (1080p 與 720p)\n連續自動對焦錄影\n縮放播放\n影片錄製格式：HEVC 與 H.264",
+      "model": null,
+      "conditions": null,
+      "evidence": "4K 錄影，24 fps、25 fps、30 fps 或 60 fps\n1080p HD 錄影，25 fps、30 fps 或 60 fps\n720p HD 錄影，30 fps 或 60 fps\n支援 1080p (120 fps 或 240 fps) 的慢動作影片\n具備視訊穩定功能的縮時攝影\n延伸動態範圍錄影，最高可達 30 fps\n視訊影像穩定功能\n電影級視訊穩定功能 (1080p 與 720p)\n連續自動對焦錄影\n縮放播放\n影片錄製格式：HEVC 與 H.264",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 12,
+      "section": "前置相機",
+      "label": "前置相機",
+      "value": "橫向 1200 萬像素 Center Stage 相機\nƒ/2.4 光圈\n智慧型 HDR 4\n1080p HD 錄影，25 fps、30 fps 或 60 fps\n具備視訊穩定功能的縮時攝影\n延伸動態範圍錄影，最高可達 30 fps\n電影級視訊穩定功能 (1080p 與 720p)\n鏡頭校正\nRetina 閃光燈\n自動影像穩定功能\n連拍模式",
+      "model": null,
+      "conditions": null,
+      "evidence": "橫向 1200 萬像素 Center Stage 相機\nƒ/2.4 光圈\n智慧型 HDR 4\n1080p HD 錄影，25 fps、30 fps 或 60 fps\n具備視訊穩定功能的縮時攝影\n延伸動態範圍錄影，最高可達 30 fps\n電影級視訊穩定功能 (1080p 與 720p)\n鏡頭校正\nRetina 閃光燈\n自動影像穩定功能\n連拍模式",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 13,
+      "section": "視訊通話",
+      "label": "視訊通話",
+      "value": "FaceTime 視訊\n人物居中功能\niPad 可透過 Wi-Fi 或行動網路與具備 FaceTime 功能的任何裝置通話",
+      "model": null,
+      "conditions": null,
+      "evidence": "FaceTime 視訊\n人物居中功能\niPad 可透過 Wi-Fi 或行動網路與具備 FaceTime 功能的任何裝置通話",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 14,
+      "section": "音訊通話",
+      "label": "音訊通話",
+      "value": "FaceTime 語音\n透過電話 app，轉接附近 iPhone 上的\n行動網路通話",
+      "model": null,
+      "conditions": null,
+      "evidence": "FaceTime 語音\n透過電話 app，轉接附近 iPhone 上的\n行動網路通話",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 15,
+      "section": "揚聲器",
+      "label": "揚聲器",
+      "value": "橫向立體聲揚聲器",
+      "model": null,
+      "conditions": null,
+      "evidence": "橫向立體聲揚聲器",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 16,
+      "section": "麥克風",
+      "label": "麥克風",
+      "value": "雙麥克風，用於通話、錄影與錄音",
+      "model": null,
+      "conditions": null,
+      "evidence": "雙麥克風，用於通話、錄影與錄音",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 17,
+      "section": "行動網路與無線技術",
+      "label": "行動網路與無線技術",
+      "value": "所有機型\nWi-Fi 6 (802.11ax)，具 2x2 MIMO 技術\n同步雙頻\n藍牙 5.3\nWi-Fi + 行動網路機型\n5G (sub-6 GHz)，具 4x4 MIMO 技術\nGigabit LTE，具 4x4 MIMO 技術\n型號 A3355：\n5G NR (頻段 n1、n2、n3、n5、n7、n8、n12、n14、n20、n25、n26、n28、n29、n30、n38、n40、n41、n48、n66、n70、n71、n75、n76、n77、n78、n79)\nFDD-LTE (頻段 1、2、3、4、5、7、8、11、12、13、14、17、18、19、20、21、25、26、28、29、30、32、66、71)\nTD-LTE (頻段 34、38、39、40、41、42、48)\nUMTS/HSPA/HSPA+/DC-HSDPA (850、900、1700/2100、1900、2100 MHz)\n只限數據\nWi-Fi 通話\neSIM\n進一步了解行動網路",
+      "model": null,
+      "conditions": null,
+      "evidence": "所有機型\nWi-Fi 6 (802.11ax)，具 2x2 MIMO 技術\n同步雙頻\n藍牙 5.3\nWi-Fi + 行動網路機型\n5G (sub-6 GHz)，具 4x4 MIMO 技術\nGigabit LTE，具 4x4 MIMO 技術\n型號 A3355：\n5G NR (頻段 n1、n2、n3、n5、n7、n8、n12、n14、n20、n25、n26、n28、n29、n30、n38、n40、n41、n48、n66、n70、n71、n75、n76、n77、n78、n79)\nFDD-LTE (頻段 1、2、3、4、5、7、8、11、12、13、14、17、18、19、20、21、25、26、28、29、30、32、66、71)\nTD-LTE (頻段 34、38、39、40、41、42、48)\nUMTS/HSPA/HSPA+/DC-HSDPA (850、900、1700/2100、1900、2100 MHz)\n只限數據\nWi-Fi 通話\neSIM\n進一步了解行動網路",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 18,
+      "section": "SIM 卡",
+      "label": "SIM 卡",
+      "value": "eSIM\niPad 採用先進的 eSIM 技術，更加便利且安全 (與實體 SIM 卡不相容)\n進一步了解 eSIM\n進一步了解出國時使用 eSIM",
+      "model": null,
+      "conditions": null,
+      "evidence": "eSIM\niPad 採用先進的 eSIM 技術，更加便利且安全 (與實體 SIM 卡不相容)\n進一步了解 eSIM\n進一步了解出國時使用 eSIM",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 19,
+      "section": "定位功能",
+      "label": "定位功能",
+      "value": "所有機型\n數位指南針\nWi-Fi\niBeacon 微型定位服務\nWi-Fi + 行動網路機型\nGPS/GNSS 定位系統\n行動網路",
+      "model": null,
+      "conditions": null,
+      "evidence": "所有機型\n數位指南針\nWi-Fi\niBeacon 微型定位服務\nWi-Fi + 行動網路機型\nGPS/GNSS 定位系統\n行動網路",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 20,
+      "section": "感測器",
+      "label": "感測器",
+      "value": "Touch ID\n三軸陀螺儀\n加速度計\n氣壓計\n環境光度感測器",
+      "model": null,
+      "conditions": null,
+      "evidence": "Touch ID\n三軸陀螺儀\n加速度計\n氣壓計\n環境光度感測器",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 21,
+      "section": "Touch ID",
+      "label": "Touch ID",
+      "value": "解鎖 iPad\n保護 app 中個人資料的安全\n在 iTunes Store、App Store 與 Apple Books 進行購買或下載",
+      "model": null,
+      "conditions": null,
+      "evidence": "解鎖 iPad\n保護 app 中個人資料的安全\n在 iTunes Store、App Store 與 Apple Books 進行購買或下載",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 22,
+      "section": "Apple Pay",
+      "label": "Apple Pay",
+      "value": "在 app 內及網頁上，使用 Touch ID 以 iPad 付款\n進一步了解 Apple Pay",
+      "model": null,
+      "conditions": null,
+      "evidence": "在 app 內及網頁上，使用 Touch ID 以 iPad 付款\n進一步了解 Apple Pay",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 23,
+      "section": "Siri",
+      "label": "Siri",
+      "value": "協助處理傳送訊息、設定提醒事項等日常事務\n用你的聲音說出「嘿 Siri」才能免持啟用，或使用輸入來與 Siri 對話功能\n提供最強隱私權保護的智慧助理\n進一步了解 Siri",
+      "model": null,
+      "conditions": null,
+      "evidence": "協助處理傳送訊息、設定提醒事項等日常事務\n用你的聲音說出「嘿 Siri」才能免持啟用，或使用輸入來與 Siri 對話功能\n提供最強隱私權保護的智慧助理\n進一步了解 Siri",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 24,
+      "section": "充電與擴充",
+      "label": "充電與擴充",
+      "value": "USB-C 埠，可支援：\n充電\nDisplayPort\nUSB 2.0 (速度最快可達 480Mb/s)",
+      "model": null,
+      "conditions": null,
+      "evidence": "USB-C 埠，可支援：\n充電\nDisplayPort\nUSB 2.0 (速度最快可達 480Mb/s)",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 25,
+      "section": "顯示器支援",
+      "label": "顯示器支援",
+      "value": "支援內建顯示器的完整原生解析度，可顯示千萬種顏色\n支援一部解析度最高可達 4K (60Hz) 的外接顯示器\n數位視訊輸出\n透過 USB-C 支援原生 DisplayPort 輸出\n使用轉接器 (另售) 支援 VGA、HDMI 和 DVI 輸出\n視訊鏡像輸出\nAirPlay 鏡像輸出、照片與視訊輸出至 Apple TV (第 2 代或後續機型) 或支援 AirPlay 的智慧型電視，最高可達 4K\n支援視訊鏡像輸出與視訊輸出：使用 USB-C 數位 AV 多埠轉接器與 USB-C VGA 多埠轉接器 (轉接器另售)",
+      "model": null,
+      "conditions": null,
+      "evidence": "支援內建顯示器的完整原生解析度，可顯示千萬種顏色\n支援一部解析度最高可達 4K (60Hz) 的外接顯示器\n數位視訊輸出\n透過 USB-C 支援原生 DisplayPort 輸出\n使用轉接器 (另售) 支援 VGA、HDMI 和 DVI 輸出\n視訊鏡像輸出\nAirPlay 鏡像輸出、照片與視訊輸出至 Apple TV (第 2 代或後續機型) 或支援 AirPlay 的智慧型電視，最高可達 4K\n支援視訊鏡像輸出與視訊輸出：使用 USB-C 數位 AV 多埠轉接器與 USB-C VGA 多埠轉接器 (轉接器另售)",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 26,
+      "section": "電源與電池",
+      "label": "電源與電池",
+      "value": "所有機型\n內建 28.93 瓦特小時可充電鋰聚合物電池\nWi-Fi 無線上網或觀看影片最長可達 10 小時\n透過電源轉接器或 USB-C 連接電腦系統充電\nWi-Fi + 行動網路機型\n使用行動數據網路上網最長可達 9 小時",
+      "model": null,
+      "conditions": "Wi-Fi 無線上網或觀看影片最長可達 10 小時",
+      "evidence": "所有機型\n內建 28.93 瓦特小時可充電鋰聚合物電池\nWi-Fi 無線上網或觀看影片最長可達 10 小時\n透過電源轉接器或 USB-C 連接電腦系統充電\nWi-Fi + 行動網路機型\n使用行動數據網路上網最長可達 9 小時",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 27,
+      "section": "作業系統",
+      "label": "作業系統",
+      "value": "iPadOS 26\niPadOS 具備強大的功能與眾多內建 app，讓 iPad 的獨特能力發揮到極致。\n進一步了解 iPadOS 26",
+      "model": null,
+      "conditions": null,
+      "evidence": "iPadOS 26\niPadOS 具備強大的功能與眾多內建 app，讓 iPad 的獨特能力發揮到極致。\n進一步了解 iPadOS 26",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 28,
+      "section": "輔助使用",
+      "label": "輔助使用",
+      "value": "眾多支援視覺、活動能力、聽覺及認知障礙人士的內建輔助使用功能，協助你盡情發揮 iPad 的精彩。\n進一步了解\n各項功能包括：\n旁白\n縮放\n放大鏡\n語音內容\n語音控制\n切換控制\n輔助觸控\nSiri 和聽寫\n輸入來與 Siri 對話\n口述影像\n字幕與隱藏式字幕",
+      "model": null,
+      "conditions": null,
+      "evidence": "眾多支援視覺、活動能力、聽覺及認知障礙人士的內建輔助使用功能，協助你盡情發揮 iPad 的精彩。\n進一步了解\n各項功能包括：\n旁白\n縮放\n放大鏡\n語音內容\n語音控制\n切換控制\n輔助觸控\nSiri 和聽寫\n輸入來與 Siri 對話\n口述影像\n字幕與隱藏式字幕",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 29,
+      "section": "內建 App",
+      "label": "內建 App",
+      "value": "Apple Store\nApp Store\n書籍\n計算機\n行事曆\n相機\n可立拍\n時鐘\n聯絡人\nFaceTime\n檔案\n尋找\n無邊記\n遊戲\nGarageBand\n健康\n家庭\niMovie\n活動邀約\niTunes Store\n日誌\nKeynote\n放大鏡\n郵件\n地圖\n測距儀\n訊息\n音樂\n備忘錄\nNumbers\nPages\n密碼\n電話\nPhoto Booth\n照片\nPodcast\n預覽\n提醒事項\nSafari\n設定\n捷徑\n股市\n支援\nSwift\nPlayground\n提示\n翻譯\nTV\n語音備忘錄\n天氣\n有關適用於 iPad 的各款 Apple app，請前往 apple.com/tw/apps 查看完整列表。",
+      "model": null,
+      "conditions": null,
+      "evidence": "Apple Store\nApp Store\n書籍\n計算機\n行事曆\n相機\n可立拍\n時鐘\n聯絡人\nFaceTime\n檔案\n尋找\n無邊記\n遊戲\nGarageBand\n健康\n家庭\niMovie\n活動邀約\niTunes Store\n日誌\nKeynote\n放大鏡\n郵件\n地圖\n測距儀\n訊息\n音樂\n備忘錄\nNumbers\nPages\n密碼\n電話\nPhoto Booth\n照片\nPodcast\n預覽\n提醒事項\nSafari\n設定\n捷徑\n股市\n支援\nSwift\nPlayground\n提示\n翻譯\nTV\n語音備忘錄\n天氣\n有關適用於 iPad 的各款 Apple app，請前往 apple.com/tw/apps 查看完整列表。",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 30,
+      "section": "系統需求",
+      "label": "系統需求",
+      "value": "Apple 帳號 (部分功能需要)\n網際網路連線\n在 Mac 或 PC 上進行同步需要：\n在 macOS Catalina 10.15 或以上版本中使用 Finder\n在 macOS High Sierra 10.13 至 macOS Mojave 10.14.6 中使用 iTunes 12.9 或以上版本\n在 Windows 10 或以上版本中使用 iTunes 12.12.10 或以上版本 (可自 apple.com/tw/itunes/download 免費下載)",
+      "model": null,
+      "conditions": null,
+      "evidence": "Apple 帳號 (部分功能需要)\n網際網路連線\n在 Mac 或 PC 上進行同步需要：\n在 macOS Catalina 10.15 或以上版本中使用 Finder\n在 macOS High Sierra 10.13 至 macOS Mojave 10.14.6 中使用 iTunes 12.9 或以上版本\n在 Windows 10 或以上版本中使用 iTunes 12.12.10 或以上版本 (可自 apple.com/tw/itunes/download 免費下載)",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 31,
+      "section": "語言版本",
+      "label": "語言版本",
+      "value": "語言支援\n阿拉伯文、孟加拉文、保加利亞文、加泰蘭文、簡體中文、繁體中文 (香港)、繁體中文 (台灣)、克羅埃西亞文、捷克文、丹麥文、荷蘭文、英文 (澳洲)、英文 (印度)、英文 (英國)、英文 (美國)、芬蘭文、法文 (加拿大)、法文 (法國)、德文、希臘文、古吉拉特文、希伯來文、印地文、匈牙利文、印尼文、義大利文、日文、坎那達文、哈薩克文、韓文、立陶宛文、馬來亞拉姆文、馬來文、馬拉地文、挪威文、歐迪亞文、波蘭文、葡萄牙文 (巴西)、葡萄牙文 (葡萄牙)、旁遮普文、羅馬尼亞文、俄文、斯洛伐克文、斯洛維尼亞文、西班牙文 (拉丁美洲)、西班牙文 (西班牙)、西班牙文 (美國)、瑞典文、坦米爾文、泰盧固文、泰文、土耳其文、烏克蘭文、烏都文、越南文\n進一步了解功能特色適用範圍",
+      "model": null,
+      "conditions": null,
+      "evidence": "語言支援\n阿拉伯文、孟加拉文、保加利亞文、加泰蘭文、簡體中文、繁體中文 (香港)、繁體中文 (台灣)、克羅埃西亞文、捷克文、丹麥文、荷蘭文、英文 (澳洲)、英文 (印度)、英文 (英國)、英文 (美國)、芬蘭文、法文 (加拿大)、法文 (法國)、德文、希臘文、古吉拉特文、希伯來文、印地文、匈牙利文、印尼文、義大利文、日文、坎那達文、哈薩克文、韓文、立陶宛文、馬來亞拉姆文、馬來文、馬拉地文、挪威文、歐迪亞文、波蘭文、葡萄牙文 (巴西)、葡萄牙文 (葡萄牙)、旁遮普文、羅馬尼亞文、俄文、斯洛伐克文、斯洛維尼亞文、西班牙文 (拉丁美洲)、西班牙文 (西班牙)、西班牙文 (美國)、瑞典文、坦米爾文、泰盧固文、泰文、土耳其文、烏克蘭文、烏都文、越南文\n進一步了解功能特色適用範圍",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 32,
+      "section": "影片播放",
+      "label": "影片播放格式",
+      "value": "支援的格式包括 HEVC 與 H.264\n支援杜比視界與 HDR10 內容",
+      "model": null,
+      "conditions": null,
+      "evidence": "支援的格式包括 HEVC 與 H.264\n支援杜比視界與 HDR10 內容",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 33,
+      "section": "音訊播放",
+      "label": "音訊播放格式",
+      "value": "支援的格式包括 AAC、MP3、Apple 保真壓縮、FLAC、杜比數位、杜比數位+ 與杜比全景聲\n使用者可自行設定最大音量限制",
+      "model": null,
+      "conditions": "使用者可自行設定最大音量限制",
+      "evidence": "支援的格式包括 AAC、MP3、Apple 保真壓縮、FLAC、杜比數位、杜比數位+ 與杜比全景聲\n使用者可自行設定最大音量限制",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 34,
+      "section": "環境需求",
+      "label": "環境需求",
+      "value": "作業環境溫度：\n0° 至 35° C (32° 至 95° F)\n非作業溫度：\n−20° 至 45° C (−4° 至 113° F)\n相對濕度：\n5% 至 95%，非冷凝狀態\n作業高度：\n目前測試最高可達 3,000 公尺 (10,000 呎)",
+      "model": null,
+      "conditions": null,
+      "evidence": "作業環境溫度：\n0° 至 35° C (32° 至 95° F)\n非作業溫度：\n−20° 至 45° C (−4° 至 113° F)\n相對濕度：\n5% 至 95%，非冷凝狀態\n作業高度：\n目前測試最高可達 3,000 公尺 (10,000 呎)",
+      "status": "source_matched"
+    },
+    {
+      "block_id": 35,
+      "section": "iPad 與環境",
+      "label": "環境影響",
+      "value": "iPad 經過精心設計，能減少對環境的影響：\n查看《iPad 產品環境報告》(PDF)\n邁向 Apple 2030 目標\n採用 40% 再生成分\n超過 30% 製造過程中使用的電力來自再生電力\n碳排放在 Apple 設定的照常營運情境下減少了 40% 以上\n查看 Apple 的承諾\n物料\n機身與金屬機殼採用 100% 再生鋁金屬\n電池採用 100% 再生鈷金屬和超過 95% 再生鋰金屬\n多個印刷電路板採用 100% 再生銅金屬\n所有相機的線材均採用 100% 再生金線\n所有 Apple 設計的印刷電路板鍍層與所有連接器均採用 100% 再生金\n所有磁石均採用 100％ 再生稀土元素\n多個印刷電路板的焊料採用 100% 再生錫金屬\n標誌採用 80% 再生鋼\n表面玻璃採用 15% 再生玻璃\n11 項零組件採用至少 50% 再生塑膠\n採用 100% 纖維材質包裝\n纖維包裝材質採用 41% 再生成分\n能源\niPad 製造過程中使用的電力有超過 30% 來自再生電力\nENERGY STAR® 認證\n廢棄物\n作為 Apple 零廢棄物方案的一部分，既有的最終組裝廠區不會產生任何須送往掩埋場的廢棄物\n更高明的化學技術\n無砷的玻璃\n無汞、溴化阻燃劑 (BFR) 與聚氯乙烯 (PVC)",
+      "model": null,
+      "conditions": null,
+      "evidence": "iPad 經過精心設計，能減少對環境的影響：\n查看《iPad 產品環境報告》(PDF)\n邁向 Apple 2030 目標\n採用 40% 再生成分\n超過 30% 製造過程中使用的電力來自再生電力\n碳排放在 Apple 設定的照常營運情境下減少了 40% 以上\n查看 Apple 的承諾\n物料\n機身與金屬機殼採用 100% 再生鋁金屬\n電池採用 100% 再生鈷金屬和超過 95% 再生鋰金屬\n多個印刷電路板採用 100% 再生銅金屬\n所有相機的線材均採用 100% 再生金線\n所有 Apple 設計的印刷電路板鍍層與所有連接器均採用 100% 再生金\n所有磁石均採用 100％ 再生稀土元素\n多個印刷電路板的焊料採用 100% 再生錫金屬\n標誌採用 80% 再生鋼\n表面玻璃採用 15% 再生玻璃\n11 項零組件採用至少 50% 再生塑膠\n採用 100% 纖維材質包裝\n纖維包裝材質採用 41% 再生成分\n能源\niPad 製造過程中使用的電力有超過 30% 來自再生電力\nENERGY STAR® 認證\n廢棄物\n作為 Apple 零廢棄物方案的一部分，既有的最終組裝廠區不會產生任何須送往掩埋場的廢棄物\n更高明的化學技術\n無砷的玻璃\n無汞、溴化阻燃劑 (BFR) 與聚氯乙烯 (PVC)",
+      "status": "source_matched"
+    }
+  ],
+  "blocks": [
+    {
+      "id": 0,
+      "section": "外觀",
+      "model_hint": null,
+      "context": "",
+      "text": "銀色\n藍色\n粉紅色\n黃色"
+    },
+    {
+      "id": 1,
+      "section": "容量",
+      "model_hint": null,
+      "context": "",
+      "text": "128GB\n256GB\n512GB"
+    },
+    {
+      "id": 2,
+      "section": "尺寸與重量",
+      "model_hint": null,
+      "context": "",
+      "text": "高度\n248.6 公釐\n(9.79 吋)\n寬度\n179.5 公釐\n(7.07 吋)\n厚度\n7 公釐\n(0.28 吋)"
+    },
+    {
+      "id": 3,
+      "section": "其他規格",
+      "model_hint": null,
+      "context": "",
+      "text": "Wi-Fi 機型\n477 公克 (1.05 磅)"
+    },
+    {
+      "id": 4,
+      "section": "其他規格",
+      "model_hint": null,
+      "context": "",
+      "text": "Wi-Fi + 行動網路機型\n481 公克 (1.06 磅)"
+    },
+    {
+      "id": 5,
+      "section": "按鈕與連接器",
+      "model_hint": null,
+      "context": "",
+      "text": "揚聲器\n：頂部\n頂端按鈕/\nTouch ID 感測器\n：頂部\n聰穎\n接點\n：左側\n相機\n：正面，位於顯示器右側\n麥克風\n：正面，位於顯示器右側\n揚聲器\n：底部\n相機\n：背面\n麥克風\n：背面\n音量\n調高/低\n：右側\nUSB-C 連接器\n：底部\n揚聲器\n：頂部\n頂端按鈕/\nTouch ID 感測器\n：頂部\n相機\n：正面，位於顯示器右側\n聰穎\n接點\n：左側\n麥克風\n：正面，位於顯示器右側\n揚聲器\n：底部\n相機\n：背面\n麥克風\n：背面\n音量\n調高/低\n：右側\nUSB‑C 連接器\n：底部"
+    },
+    {
+      "id": 6,
+      "section": "包裝盒內容",
+      "model_hint": null,
+      "context": "",
+      "text": "iPad\nUSB-C 充電連接線 (1 公尺)\n20W USB-C 電源轉接器"
+    },
+    {
+      "id": 7,
+      "section": "顯示器",
+      "model_hint": null,
+      "context": "",
+      "text": "11 吋\n顯示器採用圓角設計，以矩形對角線量測時， 螢幕的對角線長度為 10.86 吋。"
+    },
+    {
+      "id": 8,
+      "section": "顯示器",
+      "model_hint": null,
+      "context": "",
+      "text": "Liquid Retina 顯示器\nLED 背光多點觸控顯示器，採用 IPS 技術\n2360 x 1640 解析度，264 ppi\n原彩顯示\n500 尼特亮度\n防指印疏油外膜\n支援 Apple Pencil\n(USB-C)\n支援 Apple Pencil (第 1 代)\niPad 顯示器採用圓角設計。以矩形對角線量測時， 螢幕為 10.86 吋。實際可視區較小。\n透過 USB-C 對 Apple Pencil 轉接器為 Apple Pencil (第 1 代) 進行配對和充電。"
+    },
+    {
+      "id": 9,
+      "section": "晶片",
+      "model_hint": null,
+      "context": "",
+      "text": "A16 晶片\n5 核心 CPU\n4 核心 GPU\n16 核心神經網路引擎"
+    },
+    {
+      "id": 10,
+      "section": "相機",
+      "model_hint": null,
+      "context": "",
+      "text": "1200 萬像素廣角相機，ƒ/1.8 光圈\n最高可達 5 倍數位變焦\n五枚鏡片組\n自動對焦，採用 Focus Pixels\n全景模式 (最高可達 6300 萬像素)\n智慧型 HDR 4\n照片地理位置標記\n自動影像穩定功能\n連拍模式\n影像拍攝格式：HEIF 與 JPEG"
+    },
+    {
+      "id": 11,
+      "section": "錄影",
+      "model_hint": null,
+      "context": "",
+      "text": "4K 錄影，24 fps、25 fps、30 fps 或 60 fps\n1080p HD 錄影，25 fps、30 fps 或 60 fps\n720p HD 錄影，30 fps 或 60 fps\n支援 1080p (120 fps 或 240 fps) 的慢動作影片\n具備視訊穩定功能的縮時攝影\n延伸動態範圍錄影，最高可達 30 fps\n視訊影像穩定功能\n電影級視訊穩定功能 (1080p 與 720p)\n連續自動對焦錄影\n縮放播放\n影片錄製格式：HEVC 與 H.264"
+    },
+    {
+      "id": 12,
+      "section": "前置相機",
+      "model_hint": null,
+      "context": "",
+      "text": "橫向 1200 萬像素 Center Stage 相機\nƒ/2.4 光圈\n智慧型 HDR 4\n1080p HD 錄影，25 fps、30 fps 或 60 fps\n具備視訊穩定功能的縮時攝影\n延伸動態範圍錄影，最高可達 30 fps\n電影級視訊穩定功能 (1080p 與 720p)\n鏡頭校正\nRetina 閃光燈\n自動影像穩定功能\n連拍模式"
+    },
+    {
+      "id": 13,
+      "section": "視訊通話",
+      "model_hint": null,
+      "context": "",
+      "text": "FaceTime 視訊\n人物居中功能\niPad 可透過 Wi-Fi 或行動網路與具備 FaceTime 功能的任何裝置通話"
+    },
+    {
+      "id": 14,
+      "section": "音訊通話",
+      "model_hint": null,
+      "context": "",
+      "text": "FaceTime 語音\n透過電話 app，轉接附近 iPhone 上的\n行動網路通話"
+    },
+    {
+      "id": 15,
+      "section": "揚聲器",
+      "model_hint": null,
+      "context": "",
+      "text": "橫向立體聲揚聲器"
+    },
+    {
+      "id": 16,
+      "section": "麥克風",
+      "model_hint": null,
+      "context": "",
+      "text": "雙麥克風，用於通話、錄影與錄音"
+    },
+    {
+      "id": 17,
+      "section": "行動網路與無線技術",
+      "model_hint": null,
+      "context": "",
+      "text": "所有機型\nWi-Fi 6 (802.11ax)，具 2x2 MIMO 技術\n同步雙頻\n藍牙 5.3\nWi-Fi + 行動網路機型\n5G (sub-6 GHz)，具 4x4 MIMO 技術\nGigabit LTE，具 4x4 MIMO 技術\n型號 A3355：\n5G NR (頻段 n1、n2、n3、n5、n7、n8、n12、n14、n20、n25、n26、n28、n29、n30、n38、n40、n41、n48、n66、n70、n71、n75、n76、n77、n78、n79)\nFDD-LTE (頻段 1、2、3、4、5、7、8、11、12、13、14、17、18、19、20、21、25、26、28、29、30、32、66、71)\nTD-LTE (頻段 34、38、39、40、41、42、48)\nUMTS/HSPA/HSPA+/DC-HSDPA (850、900、1700/2100、1900、2100 MHz)\n只限數據\nWi-Fi 通話\neSIM\n進一步了解行動網路"
+    },
+    {
+      "id": 18,
+      "section": "SIM 卡",
+      "model_hint": null,
+      "context": "",
+      "text": "eSIM\niPad 採用先進的 eSIM 技術，更加便利且安全 (與實體 SIM 卡不相容)\n進一步了解 eSIM\n進一步了解出國時使用 eSIM"
+    },
+    {
+      "id": 19,
+      "section": "定位功能",
+      "model_hint": null,
+      "context": "",
+      "text": "所有機型\n數位指南針\nWi-Fi\niBeacon 微型定位服務\nWi-Fi + 行動網路機型\nGPS/GNSS 定位系統\n行動網路"
+    },
+    {
+      "id": 20,
+      "section": "感測器",
+      "model_hint": null,
+      "context": "",
+      "text": "Touch ID\n三軸陀螺儀\n加速度計\n氣壓計\n環境光度感測器"
+    },
+    {
+      "id": 21,
+      "section": "Touch ID",
+      "model_hint": null,
+      "context": "",
+      "text": "解鎖 iPad\n保護 app 中個人資料的安全\n在 iTunes Store、App Store 與 Apple Books 進行購買或下載"
+    },
+    {
+      "id": 22,
+      "section": "Apple Pay",
+      "model_hint": null,
+      "context": "",
+      "text": "在 app 內及網頁上，使用 Touch ID 以 iPad 付款\n進一步了解 Apple Pay"
+    },
+    {
+      "id": 23,
+      "section": "Siri",
+      "model_hint": null,
+      "context": "",
+      "text": "協助處理傳送訊息、設定提醒事項等日常事務\n用你的聲音說出「嘿 Siri」才能免持啟用，或使用輸入來與 Siri 對話功能\n提供最強隱私權保護的智慧助理\n進一步了解 Siri"
+    },
+    {
+      "id": 24,
+      "section": "充電與擴充",
+      "model_hint": null,
+      "context": "",
+      "text": "USB-C 埠，可支援：\n充電\nDisplayPort\nUSB 2.0 (速度最快可達 480Mb/s)"
+    },
+    {
+      "id": 25,
+      "section": "顯示器支援",
+      "model_hint": null,
+      "context": "",
+      "text": "支援內建顯示器的完整原生解析度，可顯示千萬種顏色\n支援一部解析度最高可達 4K (60Hz) 的外接顯示器\n數位視訊輸出\n透過 USB-C 支援原生 DisplayPort 輸出\n使用轉接器 (另售) 支援 VGA、HDMI 和 DVI 輸出\n視訊鏡像輸出\nAirPlay 鏡像輸出、照片與視訊輸出至 Apple TV (第 2 代或後續機型) 或支援 AirPlay 的智慧型電視，最高可達 4K\n支援視訊鏡像輸出與視訊輸出：使用 USB-C 數位 AV 多埠轉接器與 USB-C VGA 多埠轉接器 (轉接器另售)"
+    },
+    {
+      "id": 26,
+      "section": "電源與電池",
+      "model_hint": null,
+      "context": "",
+      "text": "所有機型\n內建 28.93 瓦特小時可充電鋰聚合物電池\nWi-Fi 無線上網或觀看影片最長可達 10 小時\n透過電源轉接器或 USB-C 連接電腦系統充電\nWi-Fi + 行動網路機型\n使用行動數據網路上網最長可達 9 小時"
+    },
+    {
+      "id": 27,
+      "section": "作業系統",
+      "model_hint": null,
+      "context": "",
+      "text": "iPadOS 26\niPadOS 具備強大的功能與眾多內建 app，讓 iPad 的獨特能力發揮到極致。\n進一步了解 iPadOS 26"
+    },
+    {
+      "id": 28,
+      "section": "輔助使用",
+      "model_hint": null,
+      "context": "",
+      "text": "眾多支援視覺、活動能力、聽覺及認知障礙人士的內建輔助使用功能，協助你盡情發揮 iPad 的精彩。\n進一步了解\n各項功能包括：\n旁白\n縮放\n放大鏡\n語音內容\n語音控制\n切換控制\n輔助觸控\nSiri 和聽寫\n輸入來與 Siri 對話\n口述影像\n字幕與隱藏式字幕"
+    },
+    {
+      "id": 29,
+      "section": "內建 App",
+      "model_hint": null,
+      "context": "",
+      "text": "Apple Store\nApp Store\n書籍\n計算機\n行事曆\n相機\n可立拍\n時鐘\n聯絡人\nFaceTime\n檔案\n尋找\n無邊記\n遊戲\nGarageBand\n健康\n家庭\niMovie\n活動邀約\niTunes Store\n日誌\nKeynote\n放大鏡\n郵件\n地圖\n測距儀\n訊息\n音樂\n備忘錄\nNumbers\nPages\n密碼\n電話\nPhoto Booth\n照片\nPodcast\n預覽\n提醒事項\nSafari\n設定\n捷徑\n股市\n支援\nSwift\nPlayground\n提示\n翻譯\nTV\n語音備忘錄\n天氣\n有關適用於 iPad 的各款 Apple app，請前往 apple.com/tw/apps 查看完整列表。"
+    },
+    {
+      "id": 30,
+      "section": "系統需求",
+      "model_hint": null,
+      "context": "",
+      "text": "Apple 帳號 (部分功能需要)\n網際網路連線\n在 Mac 或 PC 上進行同步需要：\n在 macOS Catalina 10.15 或以上版本中使用 Finder\n在 macOS High Sierra 10.13 至 macOS Mojave 10.14.6 中使用 iTunes 12.9 或以上版本\n在 Windows 10 或以上版本中使用 iTunes 12.12.10 或以上版本 (可自 apple.com/tw/itunes/download 免費下載)"
+    },
+    {
+      "id": 31,
+      "section": "語言版本",
+      "model_hint": null,
+      "context": "",
+      "text": "語言支援\n阿拉伯文、孟加拉文、保加利亞文、加泰蘭文、簡體中文、繁體中文 (香港)、繁體中文 (台灣)、克羅埃西亞文、捷克文、丹麥文、荷蘭文、英文 (澳洲)、英文 (印度)、英文 (英國)、英文 (美國)、芬蘭文、法文 (加拿大)、法文 (法國)、德文、希臘文、古吉拉特文、希伯來文、印地文、匈牙利文、印尼文、義大利文、日文、坎那達文、哈薩克文、韓文、立陶宛文、馬來亞拉姆文、馬來文、馬拉地文、挪威文、歐迪亞文、波蘭文、葡萄牙文 (巴西)、葡萄牙文 (葡萄牙)、旁遮普文、羅馬尼亞文、俄文、斯洛伐克文、斯洛維尼亞文、西班牙文 (拉丁美洲)、西班牙文 (西班牙)、西班牙文 (美國)、瑞典文、坦米爾文、泰盧固文、泰文、土耳其文、烏克蘭文、烏都文、越南文\n進一步了解功能特色適用範圍"
+    },
+    {
+      "id": 32,
+      "section": "影片播放",
+      "model_hint": null,
+      "context": "",
+      "text": "支援的格式包括 HEVC 與 H.264\n支援杜比視界與 HDR10 內容"
+    },
+    {
+      "id": 33,
+      "section": "音訊播放",
+      "model_hint": null,
+      "context": "",
+      "text": "支援的格式包括 AAC、MP3、Apple 保真壓縮、FLAC、杜比數位、杜比數位+ 與杜比全景聲\n使用者可自行設定最大音量限制"
+    },
+    {
+      "id": 34,
+      "section": "環境需求",
+      "model_hint": null,
+      "context": "",
+      "text": "作業環境溫度：\n0° 至 35° C (32° 至 95° F)\n非作業溫度：\n−20° 至 45° C (−4° 至 113° F)\n相對濕度：\n5% 至 95%，非冷凝狀態\n作業高度：\n目前測試最高可達 3,000 公尺 (10,000 呎)"
+    },
+    {
+      "id": 35,
+      "section": "iPad 與環境",
+      "model_hint": null,
+      "context": "",
+      "text": "iPad 經過精心設計，能減少對環境的影響：\n查看《iPad 產品環境報告》(PDF)\n邁向 Apple 2030 目標\n採用 40% 再生成分\n超過 30% 製造過程中使用的電力來自再生電力\n碳排放在 Apple 設定的照常營運情境下減少了 40% 以上\n查看 Apple 的承諾\n物料\n機身與金屬機殼採用 100% 再生鋁金屬\n電池採用 100% 再生鈷金屬和超過 95% 再生鋰金屬\n多個印刷電路板採用 100% 再生銅金屬\n所有相機的線材均採用 100% 再生金線\n所有 Apple 設計的印刷電路板鍍層與所有連接器均採用 100% 再生金\n所有磁石均採用 100％ 再生稀土元素\n多個印刷電路板的焊料採用 100% 再生錫金屬\n標誌採用 80% 再生鋼\n表面玻璃採用 15% 再生玻璃\n11 項零組件採用至少 50% 再生塑膠\n採用 100% 纖維材質包裝\n纖維包裝材質採用 41% 再生成分\n能源\niPad 製造過程中使用的電力有超過 30% 來自再生電力\nENERGY STAR® 認證\n廢棄物\n作為 Apple 零廢棄物方案的一部分，既有的最終組裝廠區不會產生任何須送往掩埋場的廢棄物\n更高明的化學技術\n無砷的玻璃\n無汞、溴化阻燃劑 (BFR) 與聚氯乙烯 (PVC)"
+    }
+  ],
+  "llm_calls": 3,
+  "llm_ms": 104021,
+  "warnings": [
+    "未取得可驗證的 TWD 起售價；不使用分期、折抵或模型猜測",
+    "部分區塊未能唯一對應型號，保留於未分配規格；未複製到各型號"
+  ]
+}

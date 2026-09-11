@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-09-11T06:16:04.190966Z",
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 182,
+  "eval_duration": 8569871999,
+  "load_duration": 4283916,
+  "message": {
+    "content": "{\n  \"annotations\": [\n    {\n      \"block_id\": 32,\n      \"conditions\": null,\n      \"label\": \"影片播放格式\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 33,\n      \"conditions\": \"使用者可自行設定最大音量限制\",\n      \"label\": \"音訊播放格式\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 34,\n      \"conditions\": \"作業高度：目前測試最高可達 3,000 公尺 (10,000 呎)\",\n      \"label\": \"環境需求\",\n      \"model\": null\n    },\n    {\n      \"block_id\": 35,\n      \"conditions\": null,\n      \"label\": \"環境影響\",\n      \"model\": null\n    }\n  ]\n}",
+    "role": "assistant"
+  },
+  "model": "qwen2.5-coder:14b",
+  "prompt_eval_cached_count": 181,
+  "prompt_eval_count": 912,
+  "prompt_eval_duration": 4220777000,
+  "total_duration": 12957095666
+}
