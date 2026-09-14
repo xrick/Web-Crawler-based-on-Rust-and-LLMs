@@ -13,14 +13,17 @@ use std::{
 use tokio_util::sync::CancellationToken;
 
 struct FixtureDownloads {
+    prices: bool,
     calls: Arc<AtomicUsize>,
 }
 struct FixtureFetcher {
+    prices: bool,
     calls: Arc<AtomicUsize>,
 }
 impl DownloadFactory for FixtureDownloads {
     fn create(&self, _: CancellationToken) -> Result<Box<dyn Fetcher>, String> {
         Ok(Box::new(FixtureFetcher {
+            prices: self.prices,
             calls: self.calls.clone(),
         }))
     }
@@ -32,12 +35,21 @@ impl Fetcher for FixtureFetcher {
     fn get<'a>(&'a self, url: &'a str) -> IoFuture<'a, (String, String)> {
         Box::pin(async move {
             self.calls.fetch_add(1, Ordering::SeqCst);
-            let html = if url.ends_with("/iphone/") {
+            let html = if self.prices && url.contains("/shop/") {
+                include_str!("../tests/fixtures/iphone-pro-prices.html").into()
+            } else if url.ends_with("/iphone/") {
                 "<a href='/tw/iphone-a/'>A</a><a href='/tw/iphone-b/'>B</a><a href='/tw/iphone-c/'>C</a>".into()
             } else if url.ends_with("/specs/") {
                 include_str!("../tests/fixtures/specs.html").into()
             } else {
-                format!("<a href='{url}specs/'>Specs</a>")
+                format!(
+                    "<a href='{url}specs/'>Specs</a>{}",
+                    if self.prices {
+                        "<a class='cta buy' href='/tw/shop/buy-iphone/iphone-18-pro'>Buy</a>"
+                    } else {
+                        ""
+                    }
+                )
             };
             Ok((url.into(), html))
         })
@@ -82,6 +94,9 @@ struct Fixture {
 }
 impl Fixture {
     fn new(max_pages: usize, wait: bool, fail: bool) -> Self {
+        Self::with_prices(max_pages, wait, fail, false)
+    }
+    fn with_prices(max_pages: usize, wait: bool, fail: bool, prices: bool) -> Self {
         let root =
             std::env::temp_dir().join(format!("crawler-integration-{}", uuid::Uuid::new_v4()));
         let store = Store::open(&root).unwrap();
@@ -98,6 +113,7 @@ impl Fixture {
             store,
             Arc::new(AppleTaiwanCrawler),
             Arc::new(FixtureDownloads {
+                prices,
                 calls: calls.clone(),
             }),
             Arc::new(FixtureModel {
@@ -232,4 +248,38 @@ async fn artifact_write_failure_is_reported_and_releases_worker_slot() {
     let job = f.finished(&job.id).await;
     assert_eq!(job.status, "failed");
     assert!(!job.issues.is_empty());
+}
+
+#[actix_web::test]
+async fn pipeline_persists_all_purchase_page_prices() {
+    let f = Fixture::with_prices(20, false, false, true);
+    let job = f
+        .engine
+        .start(RunOptions {
+            products_per_category: 1,
+            discovery_only: false,
+        })
+        .unwrap();
+    let job = f.finished(&job.id).await;
+    assert_eq!(job.status, "completed");
+    let product = &job.products[0];
+    assert_eq!(product.model_prices.len(), 2);
+    assert_eq!(product.model_prices[1].source_name, "iPhone 18 Pro Max");
+    assert_eq!(product.starting_price.as_ref().unwrap().amount, 44900.0);
+    assert!(job.pages.iter().any(|p| p.kind == "price"));
+    let path = f
+        .engine
+        .store
+        .root
+        .join(format!("iphone/{}/product-1/result.json", job.id));
+    let saved: Product = serde_json::from_slice(&std::fs::read(path).unwrap()).unwrap();
+    assert_eq!(saved.model_prices[1].amount, 49900.0);
+    let mut legacy = serde_json::to_value(product).unwrap();
+    legacy.as_object_mut().unwrap().remove("model_prices");
+    assert!(
+        serde_json::from_value::<Product>(legacy)
+            .unwrap()
+            .model_prices
+            .is_empty()
+    );
 }

@@ -281,17 +281,25 @@ impl Engine {
             return Err("HTML 無可讀規格；可能需要瀏覽器或解析器更新".into());
         }
         let name = self.crawler.name(&html);
-        let mut starting_price = cache
+        let mut model_prices = cache
             .get(&c.url)
-            .and_then(|h| self.crawler.price(h, &c.url));
-        if starting_price.is_none()
-            && let Some(buy) = &c.buy_url
-        {
+            .map(|h| self.crawler.prices(h, &c.url))
+            .unwrap_or_default();
+        if let Some(buy) = &c.buy_url {
             match self.fetch(job, net, buy, "price", &c.category, cache).await {
-                Ok(h) => starting_price = self.crawler.price(&h, buy),
+                Ok(h) => {
+                    let prices = self.crawler.prices(&h, buy);
+                    if !prices.is_empty() {
+                        model_prices = prices;
+                    }
+                }
                 Err(e) => job.issue(buy, "售價", e),
             }
         }
+        let starting_price = model_prices
+            .iter()
+            .min_by(|a, b| a.amount.total_cmp(&b.amount))
+            .cloned();
         let mut product = Product {
             category: c.category.clone(),
             name,
@@ -301,6 +309,7 @@ impl Engine {
             model: job.settings.model.clone(),
             variants: vec![],
             starting_price,
+            model_prices,
             specs: vec![],
             blocks: blocks.clone(),
             llm_calls: 0,

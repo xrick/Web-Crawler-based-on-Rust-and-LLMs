@@ -326,3 +326,58 @@ async fn crawler_table_only_section_does_not_emit_header_only_fallback() {
         .replace("</main>", "</section></main>");
     assert_eq!(crate::apple::blocks(&fixture).len(), 3);
 }
+
+#[actix_web::test]
+async fn crawler_iphone_prices_preserve_each_model() {
+    let url = "https://www.apple.com/tw/shop/buy-iphone/iphone-18-pro";
+    let html = include_str!("../tests/fixtures/iphone-pro-prices.html");
+    let prices = crate::apple::prices(html, url);
+    assert_eq!(prices.len(), 2);
+    assert_eq!(prices[0].source_name, "iPhone 18 Pro");
+    assert_eq!(prices[0].amount, 44900.0);
+    assert_eq!(prices[1].source_name, "iPhone 18 Pro Max");
+    assert_eq!(prices[1].amount, 49900.0);
+    for price in &prices {
+        assert_eq!(price.source_url, url);
+        assert_eq!(price.currency, "TWD");
+        let evidence: serde_json::Value = serde_json::from_str(&price.evidence).unwrap();
+        assert_eq!(evidence["lowPrice"].as_f64(), Some(price.amount));
+    }
+    assert_eq!(crate::apple::price(html, url).unwrap().amount, 44900.0);
+    let duo = crate::apple::prices(
+        include_str!("../tests/fixtures/iphone-duo-prices.html"),
+        url,
+    );
+    assert_eq!(duo.len(), 1);
+    assert_eq!(duo[0].source_name, "iPhone Duo");
+    assert_eq!(duo[0].amount, 74900.0);
+    assert!(crate::apple::prices(&html.replace("TWD", "USD"), url).is_empty());
+    let values: Vec<serde_json::Value> = prices
+        .iter()
+        .map(|p| {
+            serde_json::json!({
+                "@type":"Product", "name":p.source_name,
+                "offers":serde_json::from_str::<serde_json::Value>(&p.evidence).unwrap()
+            })
+        })
+        .collect();
+    let graph = format!(
+        "<script type='application/ld+json'>{}</script>",
+        serde_json::json!({"@graph":values})
+    );
+    assert_eq!(crate::apple::prices(&graph, url).len(), 2);
+}
+
+#[actix_web::test]
+async fn crawler_modern_purchase_cta_ignores_other_products() {
+    for slug in ["iphone-18-pro", "iphone-duo"] {
+        let href = format!("/tw/shop/goto/buy_iphone/{}", slug.replace('-', "_"));
+        let html = format!(
+            "<a class='product-link' href='/tw/shop/goto/buy_iphone/iphone_16'>Other</a><a href='{href}' class='typography-caption cta buy'>查看價格</a>"
+        );
+        assert_eq!(
+            crate::apple::buy_link(&html, &format!("https://www.apple.com/tw/{slug}/")),
+            Some(format!("https://www.apple.com{href}"))
+        );
+    }
+}

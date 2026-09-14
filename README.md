@@ -301,7 +301,7 @@ crawler_data/apple/
 | `needs_review` | 模型提出無法確認的型號，或條件片段驗證不通過，需要人工確認 |
 | `llm_failed` | 分類失敗，仍以 fallback 保留來源區塊 |
 
-表格明確型號優先於模型建議，共用欄位不任意分配。價格只接受官方 Product JSON-LD 的 TWD `lowPrice`／`price`，找不到時為 null，不使用分期、折抵或模型推測。起售價屬於來源商品頁，不自動套用每個子型號。
+表格明確型號優先於模型建議，共用欄位不任意分配。價格只接受官方 Product JSON-LD 的 TWD `lowPrice`／`price`，找不到時為 null，不使用分期、折抵或模型推測。起售價屬於來源商品頁，不自動套用每個子型號。`model_prices` 保存頁面所有 Product JSON-LD 的具名起售價（例如 Pro 與 Pro Max），Dashboard 分別顯示；`starting_price` 保留最低起售價供摘要使用。購買連結支援舊版 `ac-ln-button` 與新版 `cta buy`。舊工作不會自動補抓價格，需重新建立工作。
 
 `target/`、`data/`、`crawler/`、`crawler_data/` 已由 `.gitignore` 排除；固定 fixtures 與 `output/verification/initial_run.json` 歷史範例保留。舊 `data/` 不自動搬移，可用 `CRAWLER_DATA_DIR=data cargo run --locked` 查看舊工作。既有報告為 `output/pdf/apple_tw_crawler_report.pdf`；原報告產生器 `scripts/build_report.py` 未包含於目前儲存庫。
 

@@ -14,6 +14,9 @@ pub trait Extraction: Send + Sync {
     fn blocks(&self, html: &str) -> Vec<Block>;
     fn name(&self, html: &str) -> String;
     fn price(&self, html: &str, url: &str) -> Option<Price>;
+    fn prices(&self, html: &str, url: &str) -> Vec<Price> {
+        self.price(html, url).into_iter().collect()
+    }
     fn plain(&self, html: &str) -> String;
 }
 pub trait Crawler: Discovery + Extraction {
@@ -55,6 +58,9 @@ impl Extraction for AppleTaiwanCrawler {
     }
     fn price(&self, html: &str, url: &str) -> Option<Price> {
         apple::price(html, url)
+    }
+    fn prices(&self, html: &str, url: &str) -> Vec<Price> {
+        apple::prices(html, url)
     }
     fn plain(&self, html: &str) -> String {
         apple::plain(html)

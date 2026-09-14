@@ -275,23 +275,43 @@ pub fn blocks(html: &str) -> Vec<Block> {
 }
 
 pub fn price(html: &str, url: &str) -> Option<Price> {
+    prices(html, url)
+        .into_iter()
+        .min_by(|a, b| a.amount.total_cmp(&b.amount))
+}
+
+pub fn prices(html: &str, url: &str) -> Vec<Price> {
     let doc = Html::parse_document(html);
+    let mut out = vec![];
     for script in doc.select(&sel("script[type='application/ld+json']")) {
-        let raw = script.inner_html();
-        if let Ok(value) = serde_json::from_str::<Value>(&raw)
-            && let Some(p) = product_price(&value, url)
-        {
-            return Some(p);
+        if let Ok(value) = serde_json::from_str::<Value>(&script.inner_html()) {
+            collect_prices(&value, url, &mut out);
         }
     }
-    None
+    out
 }
+fn collect_prices(value: &Value, url: &str, out: &mut Vec<Price>) {
+    if let Some(values) = value.as_array() {
+        for value in values {
+            collect_prices(value, url, out);
+        }
+        return;
+    }
+    if let Some(price) = product_price(value, url)
+        && !out
+            .iter()
+            .any(|p| p.source_name == price.source_name && p.amount == price.amount)
+    {
+        out.push(price);
+    }
+    if let Some(graph) = value.get("@graph") {
+        collect_prices(graph, url, out);
+    }
+}
+
 fn product_price(value: &Value, url: &str) -> Option<Price> {
     if let Some(a) = value.as_array() {
         return a.iter().find_map(|v| product_price(v, url));
-    }
-    if let Some(a) = value.get("@graph") {
-        return product_price(a, url);
     }
     let is_product = value["@type"] == "Product"
         || value["@type"]
@@ -332,7 +352,7 @@ fn product_price(value: &Value, url: &str) -> Option<Price> {
 // The local navigation CTA belongs to this product even when the purchase slug differs.
 pub fn buy_link(html: &str, base: &str) -> Option<String> {
     let doc = Html::parse_document(html);
-    doc.select(&sel("a.ac-ln-button[href]"))
+    doc.select(&sel("a.ac-ln-button[href], a.cta.buy[href]"))
         .filter_map(|a| canonical(base, a.value().attr("href")?))
         .find(|s| s.contains("/tw/shop/") && (s.contains("/buy-") || s.contains("/goto/buy_")))
 }

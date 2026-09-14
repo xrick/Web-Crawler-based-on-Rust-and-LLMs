@@ -111,6 +111,8 @@ pub struct Product {
     pub model: String,
     pub variants: Vec<String>,
     pub starting_price: Option<Price>,
+    #[serde(default)]
+    pub model_prices: Vec<Price>,
     pub specs: Vec<Specification>,
     pub blocks: Vec<Block>,
     pub llm_calls: usize,

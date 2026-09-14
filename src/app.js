@@ -37,6 +37,11 @@ if ($('start')) {
       const link=node('a','Apple 技術規格來源');link.href=p.specs_url;link.target='_blank';link.rel='noopener';detail.append(link);
       detail.append(node('p',`${p.category} / ${p.model} / LLM ${(p.llm_ms/1000).toFixed(1)} 秒`,'note'));
       if(p.starting_price){const a=node('a',`售價來源：${p.starting_price.source_name}`);a.href=p.starting_price.source_url;a.target='_blank';a.rel='noopener';detail.append(a);detail.append(node('p',p.starting_price.scope,'note'));}
+      for(const price of p.model_prices||[]){
+        const a=node('a',`${price.source_name}：NT$${price.amount.toLocaleString()} 起`);
+        a.href=price.source_url;a.target='_blank';a.rel='noopener';
+        const row=node('p');row.append(a);detail.append(row);
+      }
       p.warnings.forEach(w=>detail.append(node('p',w,'note')));
       const groups=new Map(); for(const s of p.specs){const key=s.model||'型號未唯一對應（未分配）';if(!groups.has(key))groups.set(key,[]);groups.get(key).push(s);}
       for(const [model,specs] of groups){
